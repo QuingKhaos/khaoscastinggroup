@@ -8,6 +8,7 @@ Adds a new Casting group to the crafting menu for all the intermediate molten/ca
 
 For the following mods, the recipes are sorted into the new group:
 
+- [Moshine](https://mods.factorio.com/mod/moshine)
 - [Muluna](https://mods.factorio.com/mod/planet-muluna)
 
 If you want to see another mod made compatible, please open a discussion thread on the mod portal, or an issue on GitHub, or join the Discord server and let me know.

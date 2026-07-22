@@ -12,6 +12,7 @@
 
     "khaoslib >= 1.17.2",
 
+    "? Moshine >= 1.1.4",
     "? planet-muluna >= 2.2.102"
   ],
   "package": {
