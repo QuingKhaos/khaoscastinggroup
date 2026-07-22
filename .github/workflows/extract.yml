@@ -1,0 +1,28 @@
+name: Extract
+
+on:
+  schedule:
+    - cron: '42 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch:
+    name: Dispatch Extraction
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        version: ["1.x", "2.x"]
+        configuration:
+          - base
+          - release
+
+    steps:
+      - name: Dispatch extraction workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: extract.yml
+          ref: data/${{ matrix.version}}/${{ matrix.configuration }}
