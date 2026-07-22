@@ -1,10 +1,11 @@
 mod_info:
   title: |
-    ###TITLE###
+    QuingKhaos' Casting Group
   summary: |
-    ###DESC###
+    Adds a new Casting group to the crafting menu for all the intermediate molten/casting recipes. For when you just have too much of that stuff.
   description_file: README.md
   attach_source_link: true
-  license: default_gnugplv3
-  category: internal
-  tags: []
+  license: default_gnulgplv3
+  category: utilities
+  tags:
+    - manufacturing
