@@ -3,3 +3,25 @@
 # QuingKhaos' Casting Group
 
 Adds a new Casting group to the crafting menu for all the intermediate molten/casting recipes. For when you just have too much of that stuff.
+
+## Compatible mods
+
+For the following mods, the recipes are sorted into the new group:
+
+t.b.d.
+
+If you want to see another mod made compatible, please open a discussion thread on the mod portal, or an issue on GitHub, or join the Discord server and let me know.
+
+## More, more, more
+
+You may also like these sorting companion mods:
+
+- [QuingKhaos' Ammo Group](https://mods.factorio.com/mod/khaosammogroup)
+- [Barrel Stages](https://mods.factorio.com/mod/barrel-stages)
+- [Barreling Group](https://mods.factorio.com/mod/barreling-group2)
+- [QuingKhaos' Bioprocessing Group](https://mods.factorio.com/mod/khaosbioprocessinggroup)
+- [Chemistry Group](https://mods.factorio.com/mod/chemistry-tab)
+- [QuingKhaos' Circuitry Group](https://mods.factorio.com/mod/khaoscircuitrygroup)
+- [QuingKhaos' Modules Group](https://mods.factorio.com/mod/khaosmodulesgroup)
+- [Science Group](https://mods.factorio.com/mod/science-tab)
+- [QuingKhaos' Transport Group](https://mods.factorio.com/mod/khaostransportgroup)

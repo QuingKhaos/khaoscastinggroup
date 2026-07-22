@@ -1,0 +1,12 @@
+local lib = require("__khaoscastinggroup__.prototypes.lib")
+
+lib.update_recipe_subgroup("molten-iron-from-lava", "vulcanus-casting")
+lib.update_recipe_subgroup("molten-copper-from-lava", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-iron", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-copper", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-steel", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-iron-gear-wheel", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-iron-stick", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-low-density-structure", "vulcanus-casting")
+lib.update_recipe_subgroup("concrete-from-molten-iron", "vulcanus-casting")
+lib.update_recipe_subgroup("casting-copper-cable", "vulcanus-casting")
