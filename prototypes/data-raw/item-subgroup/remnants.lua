@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "remnants",
+  order = "dz",
+  type = "item-subgroup"
+}

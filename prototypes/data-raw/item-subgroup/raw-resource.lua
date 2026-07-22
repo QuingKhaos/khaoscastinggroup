@@ -1,0 +1,6 @@
+return {
+  group = "intermediate-products",
+  name = "raw-resource",
+  order = "b",
+  type = "item-subgroup"
+}

@@ -1,0 +1,6 @@
+return {
+  group = "combat",
+  name = "equipment",
+  order = "e",
+  type = "item-subgroup"
+}

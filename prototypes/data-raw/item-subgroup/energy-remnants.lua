@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "energy-remnants",
+  order = "di",
+  type = "item-subgroup"
+}

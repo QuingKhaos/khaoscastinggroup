@@ -1,0 +1,9 @@
+return {
+  ammo_type = "atomic-bomb",
+  amount = 1,
+  icon = "__base__/graphics/achievement/destroyer-of-worlds.png",
+  icon_size = 128,
+  name = "destroyer-of-worlds",
+  order = "f[kill]-f[destroyer-of-worlds]",
+  type = "shoot-achievement"
+}

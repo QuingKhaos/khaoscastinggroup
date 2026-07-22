@@ -1,0 +1,34 @@
+return {
+  effects = {
+    {
+      recipe = "rocket-fuel",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/rocket-fuel.png",
+  icon_size = 256,
+  name = "rocket-fuel",
+  prerequisites = {
+    "flammables",
+    "advanced-oil-processing"
+  },
+  type = "technology",
+  unit = {
+    count = 300,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      },
+      {
+        "chemical-science-pack",
+        1
+      }
+    },
+    time = 45
+  }
+}

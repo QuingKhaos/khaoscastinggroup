@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "inserter-explosions",
+  order = "ac",
+  type = "item-subgroup"
+}

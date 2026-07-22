@@ -1,0 +1,6 @@
+return {
+  group = "production",
+  name = "tool",
+  order = "a",
+  type = "item-subgroup"
+}

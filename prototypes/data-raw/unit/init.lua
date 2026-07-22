@@ -1,0 +1,16 @@
+return {
+  ["behemoth-biter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.behemoth-biter"),
+  ["behemoth-spitter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.behemoth-spitter"),
+  ["big-biter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.big-biter"),
+  ["big-spitter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.big-spitter"),
+  ["big-wriggler-pentapod"] = require("___KHAOSDATA___.prototypes.data-raw.unit.big-wriggler-pentapod"),
+  ["big-wriggler-pentapod-premature"] = require("___KHAOSDATA___.prototypes.data-raw.unit.big-wriggler-pentapod-premature"),
+  ["medium-biter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.medium-biter"),
+  ["medium-spitter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.medium-spitter"),
+  ["medium-wriggler-pentapod"] = require("___KHAOSDATA___.prototypes.data-raw.unit.medium-wriggler-pentapod"),
+  ["medium-wriggler-pentapod-premature"] = require("___KHAOSDATA___.prototypes.data-raw.unit.medium-wriggler-pentapod-premature"),
+  ["small-biter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.small-biter"),
+  ["small-spitter"] = require("___KHAOSDATA___.prototypes.data-raw.unit.small-spitter"),
+  ["small-wriggler-pentapod"] = require("___KHAOSDATA___.prototypes.data-raw.unit.small-wriggler-pentapod"),
+  ["small-wriggler-pentapod-premature"] = require("___KHAOSDATA___.prototypes.data-raw.unit.small-wriggler-pentapod-premature"),
+}

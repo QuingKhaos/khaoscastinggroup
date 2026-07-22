@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "energy-pipe-distribution-remnants",
+  order = "dd",
+  type = "item-subgroup"
+}

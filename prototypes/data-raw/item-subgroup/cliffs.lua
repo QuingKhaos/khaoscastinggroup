@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "cliffs",
+  order = "a",
+  type = "item-subgroup"
+}

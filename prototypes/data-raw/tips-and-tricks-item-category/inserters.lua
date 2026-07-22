@@ -1,0 +1,5 @@
+return {
+  name = "inserters",
+  order = "b-[inserters]",
+  type = "tips-and-tricks-item-category"
+}

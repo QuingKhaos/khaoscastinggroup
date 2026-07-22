@@ -1,0 +1,24 @@
+return {
+  auto_barrel = false,
+  base_color = {
+    1,
+    1,
+    0
+  },
+  default_temperature = 25,
+  flow_color = {
+    1,
+    1,
+    0
+  },
+  icon = "__base__/graphics/icons/parameter/parameter-1.png",
+  localised_name = {
+    "parameter-x",
+    "1"
+  },
+  name = "parameter-1",
+  order = "a",
+  parameter = true,
+  subgroup = "parameters",
+  type = "fluid"
+}

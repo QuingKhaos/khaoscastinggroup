@@ -1,0 +1,7 @@
+return {
+  border = false,
+  from = "default-bold",
+  name = "technology-slot-level-font",
+  size = 11,
+  type = "font"
+}

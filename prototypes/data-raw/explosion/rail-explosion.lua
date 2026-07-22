@@ -1,0 +1,186 @@
+return {
+  animations = {
+    filename = "__core__/graphics/empty.png",
+    height = 1,
+    priority = "extra-high",
+    width = 1
+  },
+  created_effect = {
+    action_delivery = {
+      target_effects = {
+        {
+          frame_speed = 1,
+          frame_speed_deviation = 0.46299999999999999,
+          initial_height = 0.2,
+          initial_height_deviation = 0.1,
+          initial_vertical_speed = 0.050999999999999996,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.69139999999999997,
+              -0.69139999999999997
+            },
+            {
+              0.69139999999999997,
+              0.69139999999999997
+            }
+          },
+          particle_name = "rail-long-metal-particle-medium",
+          repeat_count = 4,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          frame_speed = 0.5,
+          frame_speed_deviation = 0.46299999999999999,
+          initial_height = 0.2,
+          initial_height_deviation = 0.1,
+          initial_vertical_speed = 0.050999999999999996,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.69139999999999997,
+              -0.69139999999999997
+            },
+            {
+              0.69139999999999997,
+              0.69139999999999997
+            }
+          },
+          particle_name = "rail-tie-particle",
+          repeat_count = 1,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          frame_speed = 1,
+          frame_speed_deviation = 0.46299999999999999,
+          initial_height = 0.2,
+          initial_height_deviation = 0.1,
+          initial_vertical_speed = 0.065,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.69139999999999997,
+              -0.29689999999999998
+            },
+            {
+              0.69139999999999997,
+              0.29689999999999998
+            }
+          },
+          particle_name = "rail-stone-particle-small",
+          repeat_count = 100,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          frame_speed = 1,
+          frame_speed_deviation = 0.46299999999999999,
+          initial_height = 0.2,
+          initial_height_deviation = 0.1,
+          initial_vertical_speed = 0.06,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.69139999999999997,
+              -0.29689999999999998
+            },
+            {
+              0.69139999999999997,
+              0.29689999999999998
+            }
+          },
+          particle_name = "rail-wooden-splinter-particle-medium",
+          repeat_count = 25,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        }
+      },
+      type = "instant"
+    },
+    type = "direct"
+  },
+  flags = {
+    "not-on-map"
+  },
+  height = 0,
+  hidden = true,
+  icon = "__base__/graphics/icons/rail.png",
+  localised_name = {
+    "dying-explosion-name",
+    {
+      "entity-name.straight-rail"
+    }
+  },
+  name = "rail-explosion",
+  order = "e-a-a",
+  smoke = "smoke-fast",
+  smoke_count = 1,
+  smoke_slow_down_factor = 1,
+  sound = {
+    aggregation = {
+      count_already_playing = true,
+      max_count = 3,
+      remove = true
+    },
+    audible_distance_modifier = 0.5,
+    switch_vibration_data = {
+      filename = "__base__/sound/fight/medium-explosion.bnvib",
+      gain = 0.4
+    },
+    variations = {
+      {
+        filename = "__base__/sound/fight/medium-explosion-1.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-2.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-3.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-4.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-5.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      }
+    }
+  },
+  subgroup = "train-transport-explosions",
+  type = "explosion"
+}

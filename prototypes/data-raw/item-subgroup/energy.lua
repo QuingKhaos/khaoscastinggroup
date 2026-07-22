@@ -1,0 +1,6 @@
+return {
+  group = "production",
+  name = "energy",
+  order = "b",
+  type = "item-subgroup"
+}

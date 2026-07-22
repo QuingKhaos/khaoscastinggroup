@@ -1,0 +1,39 @@
+return {
+  effects = {
+    {
+      recipe = "rocket-launcher",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "rocket",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/rocketry.png",
+  icon_size = 256,
+  name = "rocketry",
+  prerequisites = {
+    "explosives",
+    "flammables",
+    "military-science-pack"
+  },
+  type = "technology",
+  unit = {
+    count = 120,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      },
+      {
+        "military-science-pack",
+        1
+      }
+    },
+    time = 15
+  }
+}

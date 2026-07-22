@@ -1,0 +1,18 @@
+return {
+  ["big-carbonic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.big-carbonic-asteroid"),
+  ["big-metallic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.big-metallic-asteroid"),
+  ["big-oxide-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.big-oxide-asteroid"),
+  ["big-promethium-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.big-promethium-asteroid"),
+  ["huge-carbonic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.huge-carbonic-asteroid"),
+  ["huge-metallic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.huge-metallic-asteroid"),
+  ["huge-oxide-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.huge-oxide-asteroid"),
+  ["huge-promethium-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.huge-promethium-asteroid"),
+  ["medium-carbonic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.medium-carbonic-asteroid"),
+  ["medium-metallic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.medium-metallic-asteroid"),
+  ["medium-oxide-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.medium-oxide-asteroid"),
+  ["medium-promethium-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.medium-promethium-asteroid"),
+  ["small-carbonic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.small-carbonic-asteroid"),
+  ["small-metallic-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.small-metallic-asteroid"),
+  ["small-oxide-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.small-oxide-asteroid"),
+  ["small-promethium-asteroid"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid.small-promethium-asteroid"),
+}

@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "particles",
+  order = "e",
+  type = "item-subgroup"
+}

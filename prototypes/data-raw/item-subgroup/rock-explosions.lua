@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "rock-explosions",
+  order = "da",
+  type = "item-subgroup"
+}

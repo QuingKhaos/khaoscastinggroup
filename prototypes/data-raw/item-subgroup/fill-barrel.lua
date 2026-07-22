@@ -1,0 +1,6 @@
+return {
+  group = "intermediate-products",
+  name = "fill-barrel",
+  order = "e",
+  type = "item-subgroup"
+}

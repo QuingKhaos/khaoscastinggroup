@@ -1,0 +1,51 @@
+return {
+  effects = {
+    {
+      recipe = "uranium-rounds-magazine",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "uranium-cannon-shell",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "explosive-uranium-cannon-shell",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/uranium-ammo.png",
+  icon_size = 256,
+  name = "uranium-ammo",
+  prerequisites = {
+    "uranium-processing",
+    "military-4",
+    "tank"
+  },
+  type = "technology",
+  unit = {
+    count = 1000,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      },
+      {
+        "chemical-science-pack",
+        1
+      },
+      {
+        "military-science-pack",
+        1
+      },
+      {
+        "utility-science-pack",
+        1
+      }
+    },
+    time = 45
+  }
+}

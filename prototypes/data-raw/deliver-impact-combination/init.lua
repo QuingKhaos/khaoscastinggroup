@@ -1,0 +1,17 @@
+return {
+  ["bullet-default"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-default"),
+  ["bullet-glass"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-glass"),
+  ["bullet-metal"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-metal"),
+  ["bullet-metal-large"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-metal-large"),
+  ["bullet-organic"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-organic"),
+  ["bullet-stone"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-stone"),
+  ["bullet-tree"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-tree"),
+  ["bullet-wood"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.bullet-wood"),
+  ["vehicle-default"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-default"),
+  ["vehicle-glass"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-glass"),
+  ["vehicle-metal"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-metal"),
+  ["vehicle-metal-large"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-metal-large"),
+  ["vehicle-stone"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-stone"),
+  ["vehicle-tree"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-tree"),
+  ["vehicle-wood"] = require("___KHAOSDATA___.prototypes.data-raw.deliver-impact-combination.vehicle-wood"),
+}

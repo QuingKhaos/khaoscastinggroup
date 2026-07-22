@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "production-machine-remnants",
+  order = "dk",
+  type = "item-subgroup"
+}

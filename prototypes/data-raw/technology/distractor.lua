@@ -1,0 +1,39 @@
+return {
+  effects = {
+    {
+      recipe = "distractor-capsule",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/distractor.png",
+  icon_size = 256,
+  name = "distractor",
+  prerequisites = {
+    "defender",
+    "military-3",
+    "laser"
+  },
+  type = "technology",
+  unit = {
+    count = 200,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      },
+      {
+        "chemical-science-pack",
+        1
+      },
+      {
+        "military-science-pack",
+        1
+      }
+    },
+    time = 30
+  }
+}

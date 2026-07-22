@@ -1,0 +1,25 @@
+return {
+  allow_productivity = true,
+  categories = {
+    "crafting"
+  },
+  enabled = false,
+  energy_required = 1,
+  ingredients = {
+    {
+      amount = 1,
+      name = "steel-plate",
+      type = "item"
+    }
+  },
+  name = "barrel",
+  results = {
+    {
+      amount = 1,
+      name = "barrel",
+      type = "item"
+    }
+  },
+  subgroup = "intermediate-product",
+  type = "recipe"
+}

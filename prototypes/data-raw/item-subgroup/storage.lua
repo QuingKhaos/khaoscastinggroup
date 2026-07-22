@@ -1,0 +1,6 @@
+return {
+  group = "logistics",
+  name = "storage",
+  order = "a",
+  type = "item-subgroup"
+}

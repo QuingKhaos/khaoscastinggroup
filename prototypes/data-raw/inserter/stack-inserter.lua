@@ -1,0 +1,930 @@
+return {
+  bulk = true,
+  circuit_connector = {
+    {
+      points = {
+        shadow = {
+          green = {
+            0.6875,
+            0.484375
+          },
+          red = {
+            0.78125,
+            0.328125
+          }
+        },
+        wire = {
+          green = {
+            0.390625,
+            0.25
+          },
+          red = {
+            0.515625,
+            0.109375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 40,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.03125,
+            0.078125
+          },
+          width = 52,
+          x = 104,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 36,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.203125,
+            0.21875
+          },
+          width = 56,
+          x = 112,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-on-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 42,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 60,
+          x = 120,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-off-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 26,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 46,
+          x = 92,
+          y = 0
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-G-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 108,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-R-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 108,
+          y = 0
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.09375,
+            -0.03125
+          },
+          width = 62,
+          x = 124,
+          y = 0
+        },
+        wire_pins_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.375,
+            0.171875
+          },
+          width = 64,
+          x = 128,
+          y = 0
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            -0.09375,
+            -0.046875
+          },
+          red = {
+            0.140625,
+            -0.125
+          }
+        },
+        wire = {
+          green = {
+            -0.34375,
+            -0.28125
+          },
+          red = {
+            -0.171875,
+            -0.328125
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 40,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.03125,
+            0.078125
+          },
+          width = 52,
+          x = 156,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 36,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.203125,
+            0.21875
+          },
+          width = 56,
+          x = 168,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-on-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 42,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 60,
+          x = 180,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-off-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 26,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 46,
+          x = 138,
+          y = 0
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-G-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 162,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-R-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 162,
+          y = 0
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.09375,
+            -0.03125
+          },
+          width = 62,
+          x = 186,
+          y = 0
+        },
+        wire_pins_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.375,
+            0.171875
+          },
+          width = 64,
+          x = 192,
+          y = 0
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.78125,
+            0.15625
+          },
+          red = {
+            0.671875,
+            -0.015625
+          }
+        },
+        wire = {
+          green = {
+            0.5,
+            -0.078125
+          },
+          red = {
+            0.40625,
+            -0.25
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 40,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.03125,
+            0.078125
+          },
+          width = 52,
+          x = 0,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 36,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.203125,
+            0.21875
+          },
+          width = 56,
+          x = 0,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-on-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 42,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 60,
+          x = 0,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-off-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 26,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 46,
+          x = 0,
+          y = 0
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-G-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 0,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-R-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 0,
+          y = 0
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.09375,
+            -0.03125
+          },
+          width = 62,
+          x = 0,
+          y = 0
+        },
+        wire_pins_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.375,
+            0.171875
+          },
+          width = 64,
+          x = 0,
+          y = 0
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.671875,
+            -0.03125
+          },
+          red = {
+            0.46875,
+            -0.140625
+          }
+        },
+        wire = {
+          green = {
+            0.40625,
+            -0.25
+          },
+          red = {
+            0.234375,
+            -0.34375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 40,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.03125,
+            0.078125
+          },
+          width = 52,
+          x = 52,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-base-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 36,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.203125,
+            0.21875
+          },
+          width = 56,
+          x = 56,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-on-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 42,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 60,
+          x = 60,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-B-off-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 26,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            0.125
+          },
+          width = 46,
+          x = 46,
+          y = 0
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-G-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 54,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-LED-R-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 50,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -0.0625,
+            0.078125
+          },
+          width = 54,
+          x = 54,
+          y = 0
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.09375,
+            -0.03125
+          },
+          width = 62,
+          x = 62,
+          y = 0
+        },
+        wire_pins_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-shadow.png",
+          flags = {
+            "low-object"
+          },
+          height = 46,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            0.375,
+            0.171875
+          },
+          width = 64,
+          x = 64,
+          y = 0
+        }
+      }
+    }
+  },
+  circuit_wire_max_distance = 9,
+  close_sound = {
+    filename = "__base__/sound/open-close/inserter-close.ogg",
+    volume = 0.5
+  },
+  collision_box = {
+    {
+      -0.15,
+      -0.15
+    },
+    {
+      0.15,
+      0.15
+    }
+  },
+  corpse = "stack-inserter-remnants",
+  damaged_trigger_effect = {
+    damage_type_filters = "fire",
+    entity_name = "spark-explosion",
+    offset_deviation = {
+      {
+        -0.5,
+        -0.5
+      },
+      {
+        0.5,
+        0.5
+      }
+    },
+    offsets = {
+      {
+        0,
+        1
+      }
+    },
+    type = "create-entity"
+  },
+  default_stack_control_input_signal = {
+    name = "signal-S",
+    type = "virtual"
+  },
+  dying_explosion = "stack-inserter-explosion",
+  energy_per_movement = "40kJ",
+  energy_per_rotation = "40kJ",
+  energy_source = {
+    drain = "1kW",
+    type = "electric",
+    usage_priority = "secondary-input"
+  },
+  enter_drop_mode_if_held_stack_spoiled = true,
+  extension_speed = 0.1,
+  fast_replaceable_group = "inserter",
+  filter_count = 5,
+  flags = {
+    "placeable-neutral",
+    "placeable-player",
+    "player-creation"
+  },
+  grab_less_to_match_belt_stack = true,
+  hand_base_frozen = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-arm-frozen.png",
+    height = 136,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 134,
+    x = 268
+  },
+  hand_base_picture = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-base.png",
+    height = 136,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 32
+  },
+  hand_base_shadow = {
+    filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+    height = 132,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 32
+  },
+  hand_closed_frozen = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-arm-frozen.png",
+    height = 164,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 134,
+    x = 134
+  },
+  hand_closed_picture = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-closed.png",
+    height = 164,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 112
+  },
+  hand_closed_shadow = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-closed-shadow.png",
+    height = 164,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 112
+  },
+  hand_open_frozen = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-arm-frozen.png",
+    height = 164,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 134
+  },
+  hand_open_picture = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-open.png",
+    height = 164,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 134
+  },
+  hand_open_shadow = {
+    filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-hand-open-shadow.png",
+    height = 164,
+    priority = "extra-high",
+    scale = 0.25,
+    width = 134
+  },
+  heating_energy = "50kW",
+  icon = "__space-age__/graphics/icons/stack-inserter.png",
+  icon_draw_specification = {
+    scale = 0.5
+  },
+  insert_position = {
+    0,
+    1.2
+  },
+  max_belt_stack_size = 4,
+  max_health = 160,
+  minable = {
+    mining_time = 0.1,
+    result = "stack-inserter"
+  },
+  name = "stack-inserter",
+  open_sound = {
+    filename = "__base__/sound/open-close/inserter-open.ogg",
+    volume = 0.6
+  },
+  pickup_position = {
+    0,
+    -1
+  },
+  platform_frozen = {
+    sheet = {
+      filename = "__space-age__/graphics/entity/frozen/inserter/inserter-platform.png",
+      height = 79,
+      priority = "extra-high",
+      scale = 0.5,
+      shift = {
+        0.046875,
+        0.203125
+      },
+      width = 105
+    }
+  },
+  platform_picture = {
+    sheet = {
+      filename = "__space-age__/graphics/entity/stack-inserter/stack-inserter-platform.png",
+      height = 79,
+      priority = "extra-high",
+      scale = 0.5,
+      shift = {
+        0.046875,
+        0.203125
+      },
+      width = 105
+    }
+  },
+  resistances = {
+    {
+      percent = 90,
+      type = "fire"
+    }
+  },
+  rotation_speed = 0.04,
+  selection_box = {
+    {
+      -0.4,
+      -0.35
+    },
+    {
+      0.4,
+      0.45
+    }
+  },
+  stack_size_bonus = 4,
+  starting_distance = 0.85,
+  type = "inserter",
+  wait_for_full_hand = true,
+  working_sound = {
+    match_progress_to_activity = true,
+    sound = {
+      audible_distance_modifier = 0.3,
+      variations = {
+        {
+          filename = "__base__/sound/inserter-fast-1.ogg",
+          modifiers = {
+            {
+              type = "main-menu",
+              volume_multiplier = 1.6000000000000001
+            },
+            {
+              type = "tips-and-tricks",
+              volume_multiplier = 2
+            }
+          },
+          volume = 0.5
+        },
+        {
+          filename = "__base__/sound/inserter-fast-2.ogg",
+          modifiers = {
+            {
+              type = "main-menu",
+              volume_multiplier = 1.6000000000000001
+            },
+            {
+              type = "tips-and-tricks",
+              volume_multiplier = 2
+            }
+          },
+          volume = 0.5
+        },
+        {
+          filename = "__base__/sound/inserter-fast-3.ogg",
+          modifiers = {
+            {
+              type = "main-menu",
+              volume_multiplier = 1.6000000000000001
+            },
+            {
+              type = "tips-and-tricks",
+              volume_multiplier = 2
+            }
+          },
+          volume = 0.5
+        },
+        {
+          filename = "__base__/sound/inserter-fast-4.ogg",
+          modifiers = {
+            {
+              type = "main-menu",
+              volume_multiplier = 1.6000000000000001
+            },
+            {
+              type = "tips-and-tricks",
+              volume_multiplier = 2
+            }
+          },
+          volume = 0.5
+        },
+        {
+          filename = "__base__/sound/inserter-fast-5.ogg",
+          modifiers = {
+            {
+              type = "main-menu",
+              volume_multiplier = 1.6000000000000001
+            },
+            {
+              type = "tips-and-tricks",
+              volume_multiplier = 2
+            }
+          },
+          volume = 0.5
+        }
+      }
+    }
+  }
+}

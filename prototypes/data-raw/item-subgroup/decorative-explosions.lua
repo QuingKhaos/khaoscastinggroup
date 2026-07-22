@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "decorative-explosions",
+  order = "dc",
+  type = "item-subgroup"
+}

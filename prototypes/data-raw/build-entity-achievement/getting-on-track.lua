@@ -1,0 +1,8 @@
+return {
+  icon = "__base__/graphics/achievement/getting-on-track.png",
+  icon_size = 128,
+  name = "getting-on-track",
+  order = "a[progress]-b[getting-on-track]",
+  to_build = "locomotive",
+  type = "build-entity-achievement"
+}

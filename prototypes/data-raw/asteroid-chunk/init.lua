@@ -1,0 +1,17 @@
+return {
+  ["asteroid-chunk-unknown"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.asteroid-chunk-unknown"),
+  ["carbonic-asteroid-chunk"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.carbonic-asteroid-chunk"),
+  ["metallic-asteroid-chunk"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.metallic-asteroid-chunk"),
+  ["oxide-asteroid-chunk"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.oxide-asteroid-chunk"),
+  ["parameter-0"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-0"),
+  ["parameter-1"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-1"),
+  ["parameter-2"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-2"),
+  ["parameter-3"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-3"),
+  ["parameter-4"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-4"),
+  ["parameter-5"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-5"),
+  ["parameter-6"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-6"),
+  ["parameter-7"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-7"),
+  ["parameter-8"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-8"),
+  ["parameter-9"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.parameter-9"),
+  ["promethium-asteroid-chunk"] = require("___KHAOSDATA___.prototypes.data-raw.asteroid-chunk.promethium-asteroid-chunk"),
+}

@@ -1,0 +1,5 @@
+return {
+  movement_speed = 0.5,
+  name = "default",
+  type = "spectator-controller"
+}

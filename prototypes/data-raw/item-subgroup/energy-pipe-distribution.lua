@@ -1,0 +1,6 @@
+return {
+  group = "logistics",
+  name = "energy-pipe-distribution",
+  order = "d",
+  type = "item-subgroup"
+}

@@ -1,0 +1,49 @@
+return {
+  allow_productivity = true,
+  auto_recycle = false,
+  categories = {
+    "organic",
+    "crafting"
+  },
+  crafting_machine_tint = {
+    primary = {
+      a = 1,
+      b = 0.09,
+      g = 0.20499999999999998,
+      r = 0.44199999999999999
+    },
+    secondary = {
+      a = 1,
+      b = 0,
+      g = 0.5,
+      r = 1
+    }
+  },
+  enabled = false,
+  energy_required = 2,
+  ingredients = {
+    {
+      amount = 2,
+      name = "wood",
+      type = "item"
+    }
+  },
+  name = "tree-seed",
+  order = "a[seeds]-a[tree-seed]",
+  results = {
+    {
+      amount = 1,
+      name = "tree-seed",
+      type = "item"
+    }
+  },
+  subgroup = "nauvis-agriculture",
+  surface_conditions = {
+    {
+      max = 1000,
+      min = 1000,
+      property = "pressure"
+    }
+  },
+  type = "recipe"
+}

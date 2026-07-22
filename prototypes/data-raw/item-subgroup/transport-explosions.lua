@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "transport-explosions",
+  order = "af",
+  type = "item-subgroup"
+}

@@ -1,0 +1,157 @@
+return {
+  animations = {
+    filename = "__core__/graphics/empty.png",
+    height = 1,
+    priority = "extra-high",
+    width = 1
+  },
+  created_effect = {
+    action_delivery = {
+      target_effects = {
+        {
+          initial_height = 0.4,
+          initial_height_deviation = 0.5,
+          initial_vertical_speed = 0.125,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.69920000000000009,
+              -0.5
+            },
+            {
+              0.69920000000000009,
+              0.5
+            }
+          },
+          particle_name = "solar-panel-long-metal-particle-medium",
+          repeat_count = 28,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          initial_height = 0.3,
+          initial_height_deviation = 0.5,
+          initial_vertical_speed = 0.125,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.8984,
+              -0.79690000000000003
+            },
+            {
+              0.8984,
+              0.79690000000000003
+            }
+          },
+          particle_name = "solar-panel-metal-particle-small",
+          repeat_count = 32,
+          speed_from_center = 0.03,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          initial_height = 0.4,
+          initial_height_deviation = 0.49000000000000004,
+          initial_vertical_speed = 0.079000000000000004,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.3984,
+              -0.49610000000000003
+            },
+            {
+              0.3984,
+              0.49610000000000003
+            }
+          },
+          particle_name = "solar-panel-glass-particle-small",
+          repeat_count = 82,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        }
+      },
+      type = "instant"
+    },
+    type = "direct"
+  },
+  flags = {
+    "not-on-map"
+  },
+  height = 0,
+  hidden = true,
+  icon = "__base__/graphics/icons/solar-panel.png",
+  localised_name = {
+    "dying-explosion-name",
+    {
+      "entity-name.solar-panel"
+    }
+  },
+  name = "solar-panel-explosion",
+  order = "a-c-a",
+  smoke = "smoke-fast",
+  smoke_count = 2,
+  smoke_slow_down_factor = 1,
+  sound = {
+    aggregation = {
+      count_already_playing = true,
+      max_count = 3,
+      remove = true
+    },
+    audible_distance_modifier = 0.5,
+    switch_vibration_data = {
+      filename = "__base__/sound/fight/medium-explosion.bnvib",
+      gain = 0.4
+    },
+    variations = {
+      {
+        filename = "__base__/sound/fight/medium-explosion-1.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-2.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-3.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-4.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      },
+      {
+        filename = "__base__/sound/fight/medium-explosion-5.ogg",
+        max_volume = 0.4,
+        min_volume = 0.3,
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 1.2
+        }
+      }
+    }
+  },
+  subgroup = "energy-explosions",
+  type = "explosion"
+}

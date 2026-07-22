@@ -1,0 +1,20 @@
+return {
+  category = "game-interaction",
+  name = "entity-flip",
+  order = "k",
+  simulation = {
+    init = "    require(\"__core__/lualib/story\")\n    player = game.simulation.create_test_player{name = \"kovarex\"}\n    player.teleport{0, 3.5}\n    game.simulation.camera_player = player\n    game.simulation.camera_position = {0, 0.5}\n    game.simulation.camera_alt_info = true\n    game.forces.player.technologies[\"oil-processing\"].researched = true\n\n    game.surfaces[1].create_entities_from_blueprint_string\n    {\n      string = \"0eNqVkdFuhCAQRf9lnnGzrGKNv7LZGKSjmUTBAm5rjf/ekaamSX0pLzADnDtzZ4V2mHHyZCPUK5BxNkB9XyFQb/Ww5+IyIdRAEUcQYPW4R46GzGNHFv0CmwCyr/gBtdweAtBGioTfnBQsjZ3HFj0/OAhhbkPUkZxl6uQCpSPrMSaTLwIW3ottE38Yt4OBA5royWTIdfRLxl2g77TBE+TtmpA5F9vOXYe+CfTJEHk91olWft7xCV5eVBKoLoolPBpKtrU6cH3758k7gyGQ7eHnvnmb9cBy/M46P7LfJyUU/7Ks2vYRvJNP/t+lUKIQ6sG5NMD617wFPNGHhLhVsqhyVZZloVTFrn8BKpywJg==\",\n      position = {-3, -7}\n    }\n    refinery1 = game.surfaces[1].find_entities_filtered{name = \"oil-refinery\"}[1]\n    refinery2 = nil\n\n    local story_table =\n    {\n      {\n        {\n          name = \"start\",\n          condition = story_elapsed_check(0.5)\n        },\n        {\n          condition = function() return game.simulation.move_cursor({position = refinery1.position}) end,\n          action = function() player.update_selected_entity(game.simulation.camera_player_cursor_position) end\n        },\n        {\n          condition = story_elapsed_check(0.5),\n          action = function() game.simulation.control_press{control = \"flip-horizontal\", notify = true} end\n        },\n        {\n          condition = story_elapsed_check(0.5),\n          action = function() game.simulation.control_press{control = \"flip-horizontal\", notify = true} end\n        },\n        {\n          condition = story_elapsed_check(1),\n          action = function() player.cursor_stack.set_stack{name = \"oil-refinery\", count = 1} end\n        },\n        {\n          condition = function() return game.simulation.move_cursor({position = {refinery1.position.x + 9, refinery1.position.y}}) end,\n          action = function() player.update_selected_entity(game.simulation.camera_player_cursor_position) end\n        },\n        {\n          condition = story_elapsed_check(0.5),\n          action = function() game.simulation.control_press{control = \"flip-vertical\", notify = true} end\n        },\n        {\n          condition = story_elapsed_check(0.5),\n          action = function() game.simulation.control_press{control = \"flip-vertical\", notify = true} end\n        },\n        {\n          condition = story_elapsed_check(0.5),\n          action = function()\n            player.build_from_cursor{position = game.simulation.camera_player_cursor_position}\n            player.clear_cursor()\n          end\n        },\n        {\n          condition = story_elapsed_check(1.0),\n          action = function()\n            refinery2 = game.surfaces[1].find_entities_filtered{name = \"oil-refinery\"}[2]\n            refinery2.set_recipe(\"basic-oil-processing\")\n            player.update_selected_entity(game.simulation.camera_player_cursor_position)\n          end\n        },\n        {\n          condition = story_elapsed_check(0.75),\n          action = function() game.simulation.control_press{control = \"flip-vertical\", notify = true} end\n        },\n        { condition = story_elapsed_check(0.5) },\n        { condition = function() return game.simulation.move_cursor({position = player.position}) end },\n        {\n          condition = story_elapsed_check(2),\n          action = function()\n            refinery2.destroy()\n            story_jump_to(storage.story, \"start\")\n          end\n        }\n      }\n    }\n    tip_story_init(story_table)\n  "
+  },
+  skip_trigger = {
+    count = 3,
+    type = "flip-entity"
+  },
+  tag = "",
+  trigger = {
+    count = 5,
+    machine = "oil-refinery",
+    recipe = "advanced-oil-processing",
+    type = "set-recipe"
+  },
+  type = "tips-and-tricks-item"
+}

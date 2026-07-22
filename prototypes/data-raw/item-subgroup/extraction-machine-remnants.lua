@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "extraction-machine-remnants",
+  order = "di",
+  type = "item-subgroup"
+}

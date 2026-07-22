@@ -1,0 +1,4 @@
+return {
+  name = "crafting-with-fluid",
+  type = "recipe-category"
+}

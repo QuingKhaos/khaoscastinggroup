@@ -1,0 +1,5 @@
+return {
+  name = "stack-transfers",
+  scenario = "stack-transfers",
+  type = "tutorial"
+}

@@ -1,0 +1,5 @@
+return {
+  name = "trains-stations",
+  scenario = "trains-stations",
+  type = "tutorial"
+}

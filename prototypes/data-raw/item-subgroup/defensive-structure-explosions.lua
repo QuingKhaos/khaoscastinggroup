@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "defensive-structure-explosions",
+  order = "cb",
+  type = "item-subgroup"
+}

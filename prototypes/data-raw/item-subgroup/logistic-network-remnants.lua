@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "logistic-network-remnants",
+  order = "dg",
+  type = "item-subgroup"
+}

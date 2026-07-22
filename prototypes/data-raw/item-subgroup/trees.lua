@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "trees",
+  order = "aa",
+  type = "item-subgroup"
+}

@@ -1,0 +1,6 @@
+return {
+  group = "enemies",
+  name = "enemies",
+  order = "a",
+  type = "item-subgroup"
+}

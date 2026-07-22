@@ -1,0 +1,6 @@
+return {
+  group = "combat",
+  name = "capsule",
+  order = "c",
+  type = "item-subgroup"
+}

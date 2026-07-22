@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "belt-explosions",
+  order = "ab",
+  type = "item-subgroup"
+}

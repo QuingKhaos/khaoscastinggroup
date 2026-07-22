@@ -1,0 +1,6 @@
+return {
+  from = "default-bold",
+  name = "heading-1",
+  size = 18,
+  type = "font"
+}

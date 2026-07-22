@@ -1,0 +1,6 @@
+return {
+  group = "signals",
+  name = "virtual-signal-color",
+  order = "d",
+  type = "item-subgroup"
+}

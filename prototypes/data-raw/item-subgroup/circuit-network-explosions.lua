@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "circuit-network-explosions",
+  order = "ah",
+  type = "item-subgroup"
+}

@@ -1,0 +1,6 @@
+return {
+  from = "default",
+  name = "default-listbox",
+  size = 14,
+  type = "font"
+}

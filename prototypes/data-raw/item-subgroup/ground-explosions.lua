@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "ground-explosions",
+  order = "db",
+  type = "item-subgroup"
+}

@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "defensive-structure-remnants",
+  order = "dl",
+  type = "item-subgroup"
+}

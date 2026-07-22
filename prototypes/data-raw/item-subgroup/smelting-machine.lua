@@ -1,0 +1,6 @@
+return {
+  group = "production",
+  name = "smelting-machine",
+  order = "d",
+  type = "item-subgroup"
+}

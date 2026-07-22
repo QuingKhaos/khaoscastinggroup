@@ -1,0 +1,8 @@
+return {
+  amount = 1,
+  icon = "__space-age__/graphics/achievement/reach-for-the-stars.png",
+  icon_size = 128,
+  name = "reach-for-the-stars",
+  order = "a[progress]-f[reach-for-the-stars]",
+  type = "create-platform-achievement"
+}

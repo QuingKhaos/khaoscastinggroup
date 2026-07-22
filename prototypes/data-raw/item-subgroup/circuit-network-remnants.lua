@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "circuit-network-remnants",
+  order = "dh",
+  type = "item-subgroup"
+}

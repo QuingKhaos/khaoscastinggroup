@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "module-explosions",
+  order = "be",
+  type = "item-subgroup"
+}

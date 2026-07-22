@@ -1,0 +1,16 @@
+return {
+  ["big-stomper-pentapod-leg"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.big-stomper-pentapod-leg"),
+  ["big-strafer-pentapod-leg"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.big-strafer-pentapod-leg"),
+  ["medium-stomper-pentapod-leg"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.medium-stomper-pentapod-leg"),
+  ["medium-strafer-pentapod-leg"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.medium-strafer-pentapod-leg"),
+  ["small-stomper-pentapod-leg"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.small-stomper-pentapod-leg"),
+  ["small-strafer-pentapod-leg"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.small-strafer-pentapod-leg"),
+  ["spidertron-leg-1"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-1"),
+  ["spidertron-leg-2"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-2"),
+  ["spidertron-leg-3"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-3"),
+  ["spidertron-leg-4"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-4"),
+  ["spidertron-leg-5"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-5"),
+  ["spidertron-leg-6"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-6"),
+  ["spidertron-leg-7"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-7"),
+  ["spidertron-leg-8"] = require("___KHAOSDATA___.prototypes.data-raw.spider-leg.spidertron-leg-8"),
+}
