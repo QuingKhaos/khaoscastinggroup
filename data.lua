@@ -9,3 +9,4 @@ khaoslib_item_group:load {
   :commit()
 
 khaoslib_item_subgroup:load {type = "item-subgroup", name = "vulcanus-casting", group = "casting", order = "k[vulcanus-casting]"} :commit()
+khaoslib_item_subgroup:load {type = "item-subgroup", name = "fulgora-casting", group = "casting", order = "l[fulgora-casting]"} :commit()

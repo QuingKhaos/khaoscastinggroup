@@ -8,6 +8,7 @@ Adds a new Casting group to the crafting menu for all the intermediate molten/ca
 
 For the following mods, the recipes are sorted into the new group:
 
+- [Molten Holmium](https://mods.factorio.com/mod/molten-holmium) / [Molten Holmium Fork](https://mods.factorio.com/mod/molten-holmium_fork)
 - [Moshine](https://mods.factorio.com/mod/moshine)
 - [Muluna](https://mods.factorio.com/mod/planet-muluna)
 

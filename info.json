@@ -12,6 +12,8 @@
 
     "khaoslib >= 1.17.2",
 
+    "? molten-holmium >= 1.0.2",
+    "? molten-holmium_fork >= 1.0.5",
     "? Moshine >= 1.1.4",
     "? planet-muluna >= 2.2.102"
   ],
