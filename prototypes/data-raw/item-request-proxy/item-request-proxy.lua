@@ -1,0 +1,37 @@
+return {
+  collision_box = {
+    {
+      0,
+      0
+    },
+    {
+      0,
+      0
+    }
+  },
+  factoriopedia_simulation = {
+    init = "    game.simulation.camera_position = {0.5, 0.5}\n    game.simulation.camera_alt_info = true\n    local assembler = game.surfaces[1].create_entity{name = \"assembling-machine-3\", position = {0, 0}}\n    assembler.set_recipe(\"iron-gear-wheel\")\n    game.surfaces[1].create_entity { name = \"item-request-proxy\", position = assembler.position, target = assembler, modules = {{id={name = \"speed-module\"}, items = {in_inventory={{inventory = 4, stack = 0}}}}}}\n    game.surfaces[1].create_entity { name = \"item-request-proxy\", position = assembler.position, target = assembler, modules = {{id={name = \"efficiency-module\"}, items = {in_inventory={{inventory = 4, stack = 1}}}}}}\n    game.surfaces[1].create_entity { name = \"item-request-proxy\", position = assembler.position, target = assembler, modules = {{id={name = \"productivity-module\"}, items = {in_inventory={{inventory = 4, stack = 2}}}}}}\n  "
+  },
+  flags = {
+    "not-on-map",
+    "placeable-off-grid"
+  },
+  icon = "__core__/graphics/icons/mip/item-request-slot.png",
+  minable = {
+    mining_time = 0,
+    results = {}
+  },
+  name = "item-request-proxy",
+  selection_box = {
+    {
+      0,
+      0
+    },
+    {
+      0,
+      0
+    }
+  },
+  type = "item-request-proxy",
+  use_target_entity_alert_icon_shift = true
+}

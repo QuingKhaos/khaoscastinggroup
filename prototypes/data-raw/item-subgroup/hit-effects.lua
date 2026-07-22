@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "hit-effects",
+  order = "e",
+  type = "item-subgroup"
+}

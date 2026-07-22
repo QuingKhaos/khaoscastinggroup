@@ -1,0 +1,30 @@
+return {
+  effects = {
+    {
+      recipe = "steel-furnace",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/advanced-material-processing.png",
+  icon_size = 256,
+  name = "advanced-material-processing",
+  prerequisites = {
+    "steel-processing",
+    "logistic-science-pack"
+  },
+  type = "technology",
+  unit = {
+    count = 75,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      }
+    },
+    time = 30
+  }
+}

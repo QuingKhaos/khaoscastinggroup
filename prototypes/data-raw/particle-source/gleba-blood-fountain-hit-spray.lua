@@ -1,0 +1,32 @@
+return {
+  flags = {
+    "not-on-map"
+  },
+  height = 0.3,
+  height_deviation = 0.1,
+  hidden = true,
+  horizontal_speed = 0.070000000000000009,
+  horizontal_speed_deviation = 0.04,
+  icons = {
+    {
+      icon = "__base__/graphics/icons/fluid/light-oil.png",
+      tint = {
+        1,
+        0.8,
+        0.4,
+        1
+      }
+    }
+  },
+  name = "gleba-blood-fountain-hit-spray",
+  order = "e-a",
+  particle = "gleba-blood-particle",
+  subgroup = "particles",
+  time_before_start = 0,
+  time_before_start_deviation = 0,
+  time_to_live = 10,
+  time_to_live_deviation = 5,
+  type = "particle-source",
+  vertical_speed = 0.02,
+  vertical_speed_deviation = 0.08
+}

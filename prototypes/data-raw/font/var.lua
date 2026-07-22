@@ -1,0 +1,7 @@
+return {
+  border = false,
+  from = "default-bold",
+  name = "var",
+  size = 14,
+  type = "font"
+}

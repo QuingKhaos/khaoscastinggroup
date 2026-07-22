@@ -1,0 +1,6 @@
+return {
+  from = "locale-pick",
+  name = "locale-pick",
+  size = 14,
+  type = "font"
+}

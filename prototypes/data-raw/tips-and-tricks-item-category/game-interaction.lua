@@ -1,0 +1,5 @@
+return {
+  name = "game-interaction",
+  order = "a-[game-interaction]",
+  type = "tips-and-tricks-item-category"
+}

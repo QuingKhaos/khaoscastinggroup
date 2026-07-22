@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "storage-explosions",
+  order = "aa",
+  type = "item-subgroup"
+}

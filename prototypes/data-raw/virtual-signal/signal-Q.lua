@@ -1,0 +1,7 @@
+return {
+  icon = "__base__/graphics/icons/signal/signal_Q.png",
+  name = "signal-Q",
+  order = "c[letters]-[Q]",
+  subgroup = "virtual-signal-letter",
+  type = "virtual-signal"
+}

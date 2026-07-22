@@ -1,0 +1,4 @@
+return {
+  name = "oil-processing",
+  type = "recipe-category"
+}

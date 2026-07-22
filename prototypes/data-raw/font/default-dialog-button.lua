@@ -1,0 +1,6 @@
+return {
+  from = "default-bold",
+  name = "default-dialog-button",
+  size = 18,
+  type = "font"
+}

@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "inserter-remnants",
+  order = "dc",
+  type = "item-subgroup"
+}

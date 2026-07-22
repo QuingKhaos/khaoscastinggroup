@@ -1,0 +1,4 @@
+return {
+  name = "basic-fluid",
+  type = "resource-category"
+}

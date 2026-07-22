@@ -1,0 +1,5 @@
+return {
+  name = "trains-basic-signals",
+  scenario = "trains-basic-signals",
+  type = "tutorial"
+}

@@ -1,0 +1,12 @@
+return {
+  ["default-a"] = require("___KHAOSDATA___.prototypes.data-raw.procession.default-a"),
+  ["default-b"] = require("___KHAOSDATA___.prototypes.data-raw.procession.default-b"),
+  ["default-intermezzo"] = require("___KHAOSDATA___.prototypes.data-raw.procession.default-intermezzo"),
+  ["default-rocket-a"] = require("___KHAOSDATA___.prototypes.data-raw.procession.default-rocket-a"),
+  ["planet-to-platform-a"] = require("___KHAOSDATA___.prototypes.data-raw.procession.planet-to-platform-a"),
+  ["planet-to-platform-b"] = require("___KHAOSDATA___.prototypes.data-raw.procession.planet-to-platform-b"),
+  ["planet-to-platform-intermezzo"] = require("___KHAOSDATA___.prototypes.data-raw.procession.planet-to-platform-intermezzo"),
+  ["platform-to-planet-a"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-planet-a"),
+  ["platform-to-planet-b"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-planet-b"),
+  ["platform-to-planet-intermezzo"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-planet-intermezzo"),
+}

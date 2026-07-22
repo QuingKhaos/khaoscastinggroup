@@ -1,0 +1,24 @@
+{
+  "mods": [
+    {
+      "enabled": true,
+      "name": "elevated-rails"
+    },
+    {
+      "enabled": true,
+      "name": "khaosdata-extractor"
+    },
+    {
+      "enabled": true,
+      "name": "khaoslib"
+    },
+    {
+      "enabled": true,
+      "name": "quality"
+    },
+    {
+      "enabled": true,
+      "name": "space-age"
+    }
+  ]
+}

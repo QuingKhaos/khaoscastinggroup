@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "wrecks",
+  order = "e",
+  type = "item-subgroup"
+}

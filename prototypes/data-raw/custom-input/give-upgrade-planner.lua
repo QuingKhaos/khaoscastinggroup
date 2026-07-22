@@ -1,0 +1,8 @@
+return {
+  action = "spawn-item",
+  consuming = "game-only",
+  item_to_spawn = "upgrade-planner",
+  key_sequence = "ALT + U",
+  name = "give-upgrade-planner",
+  type = "custom-input"
+}

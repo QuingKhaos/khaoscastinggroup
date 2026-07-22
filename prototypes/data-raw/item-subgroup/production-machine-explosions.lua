@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "production-machine-explosions",
+  order = "bd",
+  type = "item-subgroup"
+}

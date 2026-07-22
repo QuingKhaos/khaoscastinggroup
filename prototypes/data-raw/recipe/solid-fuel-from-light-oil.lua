@@ -1,0 +1,51 @@
+return {
+  allow_productivity = true,
+  category = "chemistry",
+  crafting_machine_tint = {
+    primary = {
+      a = 1,
+      b = 0.48200000000000003,
+      g = 0.63300000000000001,
+      r = 0.70999999999999996
+    },
+    quaternary = {
+      a = 1,
+      b = 0.202,
+      g = 0.58300000000000001,
+      r = 0.8120000000000001
+    },
+    secondary = {
+      a = 1,
+      b = 0.52700000000000005,
+      g = 0.67200000000000006,
+      r = 0.74500000000000002
+    },
+    tertiary = {
+      a = 1,
+      b = 0.596,
+      g = 0.77300000000000004,
+      r = 0.89399999999999995
+    }
+  },
+  enabled = false,
+  energy_required = 1,
+  icon = "__base__/graphics/icons/solid-fuel-from-light-oil.png",
+  ingredients = {
+    {
+      amount = 10,
+      name = "light-oil",
+      type = "fluid"
+    }
+  },
+  name = "solid-fuel-from-light-oil",
+  order = "b[fluid-chemistry]-d[solid-fuel-from-light-oil]",
+  results = {
+    {
+      amount = 1,
+      name = "solid-fuel",
+      type = "item"
+    }
+  },
+  subgroup = "fluid-recipes",
+  type = "recipe"
+}

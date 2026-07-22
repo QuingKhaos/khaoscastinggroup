@@ -1,0 +1,6 @@
+return {
+  from = "default",
+  name = "default",
+  size = 14,
+  type = "font"
+}

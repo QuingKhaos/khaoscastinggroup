@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "capsule-explosions",
+  order = "cc",
+  type = "item-subgroup"
+}

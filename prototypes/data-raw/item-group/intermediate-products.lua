@@ -1,0 +1,8 @@
+return {
+  icon = "__base__/graphics/item-group/intermediate-products.png",
+  icon_size = 128,
+  name = "intermediate-products",
+  order = "c",
+  order_in_recipe = "0",
+  type = "item-group"
+}

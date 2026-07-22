@@ -1,0 +1,6 @@
+return {
+  group = "signals",
+  name = "virtual-signal-number",
+  order = "b",
+  type = "item-subgroup"
+}

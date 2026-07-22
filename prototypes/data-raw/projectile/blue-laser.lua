@@ -1,0 +1,35 @@
+return {
+  acceleration = 0.02,
+  action = {
+    action_delivery = {
+      target_effects = {
+        {
+          entity_name = "laser-bubble",
+          type = "create-entity"
+        },
+        {
+          damage = {
+            amount = 10,
+            type = "laser"
+          },
+          type = "damage"
+        }
+      },
+      type = "instant"
+    },
+    type = "direct"
+  },
+  animation = {
+    draw_as_glow = true,
+    filename = "__base__/graphics/entity/blue-laser/blue-laser.png",
+    height = 14,
+    priority = "high",
+    width = 7
+  },
+  flags = {
+    "not-on-map"
+  },
+  hidden = true,
+  name = "blue-laser",
+  type = "projectile"
+}

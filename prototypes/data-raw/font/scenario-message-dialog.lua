@@ -1,0 +1,6 @@
+return {
+  from = "default",
+  name = "scenario-message-dialog",
+  size = 16,
+  type = "font"
+}

@@ -1,0 +1,6 @@
+return {
+  group = "logistics",
+  name = "inserter",
+  order = "c",
+  type = "item-subgroup"
+}

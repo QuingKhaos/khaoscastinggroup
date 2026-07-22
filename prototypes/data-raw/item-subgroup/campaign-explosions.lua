@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "campaign-explosions",
+  order = "bf",
+  type = "item-subgroup"
+}

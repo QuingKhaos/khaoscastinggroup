@@ -1,0 +1,6 @@
+return {
+  group = "intermediate-products",
+  name = "fluid-recipes",
+  order = "a",
+  type = "item-subgroup"
+}

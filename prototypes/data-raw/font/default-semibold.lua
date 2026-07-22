@@ -1,0 +1,6 @@
+return {
+  from = "default-semibold",
+  name = "default-semibold",
+  size = 14,
+  type = "font"
+}

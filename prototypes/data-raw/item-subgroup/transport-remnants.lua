@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "transport-remnants",
+  order = "df",
+  type = "item-subgroup"
+}

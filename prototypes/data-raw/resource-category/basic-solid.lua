@@ -1,0 +1,4 @@
+return {
+  name = "basic-solid",
+  type = "resource-category"
+}

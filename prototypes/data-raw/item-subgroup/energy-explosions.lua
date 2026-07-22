@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "energy-explosions",
+  order = "ba",
+  type = "item-subgroup"
+}

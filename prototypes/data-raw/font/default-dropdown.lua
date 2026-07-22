@@ -1,0 +1,6 @@
+return {
+  from = "default-semibold",
+  name = "default-dropdown",
+  size = 14,
+  type = "font"
+}

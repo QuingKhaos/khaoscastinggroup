@@ -1,0 +1,8 @@
+return {
+  border = true,
+  border_color = {},
+  from = "default-bold",
+  name = "count-font",
+  size = 13,
+  type = "font"
+}

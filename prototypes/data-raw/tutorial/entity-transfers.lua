@@ -1,0 +1,5 @@
+return {
+  name = "entity-transfers",
+  scenario = "entity-transfers",
+  type = "tutorial"
+}

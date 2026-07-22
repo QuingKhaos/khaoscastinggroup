@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "smelting-machine-explosions",
+  order = "bc",
+  type = "item-subgroup"
+}

@@ -1,0 +1,16 @@
+return {
+  ["brash-ice-2"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.brash-ice-2"),
+  ["lava"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.lava"),
+  ["lava-2"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.lava-2"),
+  ["oil-deep"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.oil-deep"),
+  ["space"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.space"),
+  ["water"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.water"),
+  ["wetland-blue-slime"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-blue-slime"),
+  ["wetland-green"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-green"),
+  ["wetland-green-puddle"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-green-puddle"),
+  ["wetland-grey"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-grey"),
+  ["wetland-grey-puddle"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-grey-puddle"),
+  ["wetland-pink"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-pink"),
+  ["wetland-pink-puddle"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-pink-puddle"),
+  ["wetland-purple"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.wetland-purple"),
+}

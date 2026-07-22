@@ -1,0 +1,6 @@
+return {
+  group = "logistics",
+  name = "transport",
+  order = "f",
+  type = "item-subgroup"
+}

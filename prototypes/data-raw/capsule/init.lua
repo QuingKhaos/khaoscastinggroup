@@ -1,0 +1,18 @@
+return {
+  ["artillery-targeting-remote"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.artillery-targeting-remote"),
+  ["bioflux"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.bioflux"),
+  ["cliff-explosives"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.cliff-explosives"),
+  ["cluster-grenade"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.cluster-grenade"),
+  ["defender-capsule"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.defender-capsule"),
+  ["destroyer-capsule"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.destroyer-capsule"),
+  ["discharge-defense-remote"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.discharge-defense-remote"),
+  ["distractor-capsule"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.distractor-capsule"),
+  ["grenade"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.grenade"),
+  ["jelly"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.jelly"),
+  ["jellynut"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.jellynut"),
+  ["poison-capsule"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.poison-capsule"),
+  ["raw-fish"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.raw-fish"),
+  ["slowdown-capsule"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.slowdown-capsule"),
+  ["yumako"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.yumako"),
+  ["yumako-mash"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.yumako-mash"),
+}

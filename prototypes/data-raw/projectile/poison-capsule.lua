@@ -1,0 +1,91 @@
+return {
+  acceleration = 0.005,
+  action = {
+    {
+      action_delivery = {
+        target_effects = {
+          {
+            entity_name = "poison-cloud",
+            initial_height = 0,
+            show_in_tooltip = true,
+            type = "create-smoke"
+          },
+          {
+            initial_height = 1,
+            initial_vertical_speed = 0.1,
+            initial_vertical_speed_deviation = 0.05,
+            offset_deviation = {
+              {
+                -0.1,
+                -0.1
+              },
+              {
+                0.1,
+                0.1
+              }
+            },
+            particle_name = "poison-capsule-metal-particle",
+            repeat_count = 8,
+            speed_from_center = 0.05,
+            speed_from_center_deviation = 0.01,
+            type = "create-particle"
+          }
+        },
+        type = "instant"
+      },
+      type = "direct"
+    }
+  },
+  animation = {
+    animation_speed = 0.25,
+    draw_as_glow = true,
+    filename = "__base__/graphics/entity/poison-capsule/poison-capsule.png",
+    frame_count = 16,
+    height = 59,
+    line_length = 8,
+    priority = "high",
+    scale = 0.5,
+    shift = {
+      0.03125,
+      0.015625
+    },
+    width = 58
+  },
+  flags = {
+    "not-on-map"
+  },
+  hidden = true,
+  name = "poison-capsule",
+  shadow = {
+    animation_speed = 0.25,
+    draw_as_shadow = true,
+    filename = "__base__/graphics/entity/poison-capsule/poison-capsule-shadow.png",
+    frame_count = 16,
+    height = 42,
+    line_length = 8,
+    priority = "high",
+    scale = 0.5,
+    shift = {
+      0.03125,
+      0.0625
+    },
+    width = 54
+  },
+  smoke = {
+    {
+      deviation = {
+        0.15,
+        0.15
+      },
+      frequency = 1,
+      name = "poison-capsule-smoke",
+      position = {
+        0,
+        0
+      },
+      starting_frame = 3,
+      starting_frame_deviation = 5
+    }
+  },
+  type = "projectile"
+}

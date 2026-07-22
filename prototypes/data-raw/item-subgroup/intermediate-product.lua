@@ -1,0 +1,6 @@
+return {
+  group = "intermediate-products",
+  name = "intermediate-product",
+  order = "g",
+  type = "item-subgroup"
+}

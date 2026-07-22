@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "energy-pipe-distribution-explosions",
+  order = "ad",
+  type = "item-subgroup"
+}

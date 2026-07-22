@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "train-transport-remnants",
+  order = "de",
+  type = "item-subgroup"
+}

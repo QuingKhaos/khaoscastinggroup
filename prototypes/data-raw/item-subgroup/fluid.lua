@@ -1,0 +1,6 @@
+return {
+  group = "fluids",
+  name = "fluid",
+  order = "a",
+  type = "item-subgroup"
+}

@@ -1,0 +1,42 @@
+return {
+  effects = {
+    {
+      recipe = "flamethrower",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "flamethrower-ammo",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "flamethrower-turret",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/flamethrower.png",
+  icon_size = 256,
+  name = "flamethrower",
+  prerequisites = {
+    "flammables",
+    "military-science-pack"
+  },
+  type = "technology",
+  unit = {
+    count = 50,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      },
+      {
+        "military-science-pack",
+        1
+      }
+    },
+    time = 30
+  }
+}

@@ -1,0 +1,13 @@
+return {
+  amount = 10,
+  damage_type = "impact",
+  icon = "__base__/graphics/achievement/steamrolled.png",
+  icon_size = 128,
+  in_vehicle = true,
+  name = "steamrolled",
+  order = "f[kill]-b[steamrolled]",
+  personally = true,
+  steam_stats_name = "spawners-killed-by-impact",
+  type = "kill-achievement",
+  type_to_kill = "unit-spawner"
+}

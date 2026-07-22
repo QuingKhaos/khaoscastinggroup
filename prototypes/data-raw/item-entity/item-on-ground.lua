@@ -1,0 +1,36 @@
+return {
+  collision_box = {
+    {
+      -0.14000000000000002,
+      -0.14000000000000002
+    },
+    {
+      0.14000000000000002,
+      0.14000000000000002
+    }
+  },
+  factoriopedia_simulation = {
+    init = "    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"blueprint-book\", count=1}, position={0.8, 1.2} }\n    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"blueprint\", count=1}, position={1.9, 1.6} }\n    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"repair-pack\", count=1}, position={0, -1.5} }\n    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"deconstruction-planner\", count=1}, position={1.2, -0.1} }\n    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"upgrade-planner\", count=1}, position={-0.9, 0.7} }\n    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"submachine-gun\", count=1}, position={-2, 1.3} }\n    game.surfaces[1].create_entity{name=\"item-on-ground\", stack={name=\"exoskeleton-equipment\", count=1}, position={0, -0.5} }\n  "
+  },
+  flags = {
+    "placeable-off-grid",
+    "not-on-map"
+  },
+  icon = "__core__/graphics/item-on-ground.png",
+  minable = {
+    mining_time = 0.025
+  },
+  name = "item-on-ground",
+  selection_box = {
+    {
+      -0.17000000000000002,
+      -0.17000000000000002
+    },
+    {
+      0.17000000000000002,
+      0.17000000000000002
+    }
+  },
+  selection_priority = 44,
+  type = "item-entity"
+}

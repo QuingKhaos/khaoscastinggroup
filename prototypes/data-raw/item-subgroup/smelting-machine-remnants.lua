@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "smelting-machine-remnants",
+  order = "dj",
+  type = "item-subgroup"
+}

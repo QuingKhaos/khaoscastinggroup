@@ -1,0 +1,32 @@
+return {
+  flags = {
+    "not-on-map"
+  },
+  height = 0.4,
+  height_deviation = 0.1,
+  hidden = true,
+  horizontal_speed = 0.025,
+  horizontal_speed_deviation = 0.025,
+  icons = {
+    {
+      icon = "__base__/graphics/icons/fluid/water.png",
+      tint = {
+        1,
+        0.4,
+        1,
+        1
+      }
+    }
+  },
+  name = "blood-fountain",
+  order = "d-b",
+  particle = "blood-particle",
+  subgroup = "particles",
+  time_before_start = 0.75,
+  time_before_start_deviation = 1.5,
+  time_to_live = 10,
+  time_to_live_deviation = 5,
+  type = "particle-source",
+  vertical_speed = 0.05,
+  vertical_speed_deviation = 0.03
+}

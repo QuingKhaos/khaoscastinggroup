@@ -1,0 +1,22 @@
+return {
+  arrow_picture = {
+    filename = "__core__/graphics/empty.png",
+    height = 1,
+    priority = "low",
+    width = 1
+  },
+  circle_picture = {
+    filename = "__core__/graphics/arrows/fake-selection-box-2x2.png",
+    height = 128,
+    priority = "low",
+    scale = 0.5,
+    width = 128
+  },
+  flags = {
+    "placeable-off-grid",
+    "not-on-map"
+  },
+  hidden = true,
+  name = "fake-selection-box-2x2",
+  type = "arrow"
+}

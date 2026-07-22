@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "belt-remnants",
+  order = "db",
+  type = "item-subgroup"
+}

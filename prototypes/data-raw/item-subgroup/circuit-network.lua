@@ -1,0 +1,6 @@
+return {
+  group = "logistics",
+  name = "circuit-network",
+  order = "h",
+  type = "item-subgroup"
+}

@@ -1,0 +1,16 @@
+return {
+  ["crash-site-skip-cutscene"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.crash-site-skip-cutscene"),
+  ["give-artillery-targeting-remote"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-artillery-targeting-remote"),
+  ["give-blueprint"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-blueprint"),
+  ["give-blueprint-book"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-blueprint-book"),
+  ["give-copper-wire"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-copper-wire"),
+  ["give-deconstruction-planner"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-deconstruction-planner"),
+  ["give-discharge-defense-remote"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-discharge-defense-remote"),
+  ["give-green-wire"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-green-wire"),
+  ["give-red-wire"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-red-wire"),
+  ["give-spidertron-remote"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-spidertron-remote"),
+  ["give-upgrade-planner"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.give-upgrade-planner"),
+  ["toggle-equipment-movement-bonus"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.toggle-equipment-movement-bonus"),
+  ["toggle-personal-logistic-requests"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.toggle-personal-logistic-requests"),
+  ["toggle-personal-roboport"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.toggle-personal-roboport"),
+}

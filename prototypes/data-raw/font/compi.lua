@@ -1,0 +1,6 @@
+return {
+  from = "default",
+  name = "compi",
+  size = 20,
+  type = "font"
+}

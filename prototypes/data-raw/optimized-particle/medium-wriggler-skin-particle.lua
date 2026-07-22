@@ -1,0 +1,156 @@
+return {
+  ended_in_water_trigger_effect = {
+    {
+      affects_target = false,
+      apply_tile_tint = "secondary",
+      frame_speed = 1,
+      frame_speed_deviation = 0,
+      initial_height = 0,
+      initial_height_deviation = 0.02,
+      initial_vertical_speed = 0.05,
+      initial_vertical_speed_deviation = 0.05,
+      offset_deviation = {
+        {
+          -0.05,
+          -0.05
+        },
+        {
+          0.05,
+          0.05
+        }
+      },
+      particle_name = "tintable-water-particle",
+      probability = 1,
+      show_in_tooltip = false,
+      speed_from_center = 0.01,
+      speed_from_center_deviation = 0.006,
+      tail_length = 2,
+      tail_length_deviation = 1,
+      tail_width = 3,
+      type = "create-particle"
+    },
+    {
+      affects_target = false,
+      apply_tile_tint = "primary",
+      frame_speed = 1,
+      frame_speed_deviation = 0,
+      initial_height = 0,
+      initial_height_deviation = 0.02,
+      initial_vertical_speed = 0.053000000000000007,
+      initial_vertical_speed_deviation = 0.005,
+      offset_deviation = {
+        {
+          -0.29689999999999998,
+          -0.1992
+        },
+        {
+          0.29689999999999998,
+          0.1992
+        }
+      },
+      offsets = {
+        {
+          0,
+          0
+        },
+        {
+          0.015630000000000002,
+          -0.09375
+        },
+        {
+          0.0625,
+          0.09375
+        },
+        {
+          -0.10939999999999999,
+          0.0625
+        }
+      },
+      particle_name = "tintable-water-particle",
+      probability = 0.03,
+      repeat_count = 10,
+      repeat_count_deviation = 6,
+      show_in_tooltip = false,
+      speed_from_center = 0.02,
+      speed_from_center_deviation = 0.006,
+      tail_length = 9,
+      tail_length_deviation = 0,
+      tail_width = 1,
+      type = "create-particle"
+    },
+    {
+      sound = {
+        {
+          filename = "__base__/sound/particles/small-splash-1.ogg",
+          volume = 0.7
+        },
+        {
+          filename = "__base__/sound/particles/small-splash-2.ogg",
+          volume = 0.7
+        },
+        {
+          filename = "__base__/sound/particles/small-splash-3.ogg",
+          volume = 0.7
+        },
+        {
+          filename = "__base__/sound/particles/small-splash-4.ogg",
+          volume = 0.7
+        },
+        {
+          filename = "__base__/sound/particles/small-splash-5.ogg",
+          volume = 0.7
+        }
+      },
+      type = "play-sound"
+    }
+  },
+  life_time = 300,
+  name = "medium-wriggler-skin-particle",
+  pictures = {
+    sheet = {
+      animation_speed = 0.8,
+      filename = "__space-age__/graphics/particle/pentapod-particle/pentapod-skin-particles-small.png",
+      frame_count = 12,
+      height = 26,
+      priority = "extra-high",
+      scale = 0.4,
+      shift = {
+        0,
+        0
+      },
+      tint = {
+        231.09,
+        203.37,
+        178.59,
+        232.23000000000002
+      },
+      variation_count = 6,
+      width = 24
+    }
+  },
+  regular_trigger_effect_frequency = 2,
+  render_layer = "projectile",
+  render_layer_when_on_ground = "lower-object-above-shadow",
+  shadows = {
+    sheet = {
+      animation_speed = 0.8,
+      filename = "__space-age__/graphics/particle/pentapod-particle/pentapod-skin-particles-small.png",
+      frame_count = 12,
+      height = 26,
+      priority = "extra-high",
+      scale = 0.4,
+      shift = {
+        0.03125,
+        0
+      },
+      tint = {
+        b = 0,
+        g = 0,
+        r = 0
+      },
+      variation_count = 6,
+      width = 24
+    }
+  },
+  type = "optimized-particle"
+}

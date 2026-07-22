@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "logistic-network-explosions",
+  order = "ag",
+  type = "item-subgroup"
+}

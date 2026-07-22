@@ -1,0 +1,35 @@
+return {
+  effects = {
+    {
+      recipe = "piercing-rounds-magazine",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "grenade",
+      type = "unlock-recipe"
+    }
+  },
+  icon = "__base__/graphics/technology/military.png",
+  icon_size = 256,
+  name = "military-2",
+  prerequisites = {
+    "military",
+    "steel-processing",
+    "logistic-science-pack"
+  },
+  type = "technology",
+  unit = {
+    count = 20,
+    ingredients = {
+      {
+        "automation-science-pack",
+        1
+      },
+      {
+        "logistic-science-pack",
+        1
+      }
+    },
+    time = 15
+  }
+}

@@ -1,0 +1,13 @@
+return {
+  icon = "__base__/graphics/icons/parameter/parameter-0.png",
+  localised_name = {
+    "parameter-x",
+    "0"
+  },
+  name = "parameter-0",
+  order = "a",
+  parameter = true,
+  stack_size = 1,
+  subgroup = "parameters",
+  type = "item"
+}

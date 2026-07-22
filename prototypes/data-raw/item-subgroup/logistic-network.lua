@@ -1,0 +1,6 @@
+return {
+  group = "logistics",
+  name = "logistic-network",
+  order = "g",
+  type = "item-subgroup"
+}

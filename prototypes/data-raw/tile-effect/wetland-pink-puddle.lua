@@ -1,0 +1,12 @@
+return {
+  name = "wetland-pink-puddle",
+  puddle = {
+    puddle_noise_texture = {
+      filename = "__space-age__/graphics/terrain/gleba/puddle-noise.png",
+      size = 512
+    },
+    water_effect = "wetland-purple"
+  },
+  shader = "puddle",
+  type = "tile-effect"
+}

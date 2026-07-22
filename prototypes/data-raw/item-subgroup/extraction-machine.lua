@@ -1,0 +1,6 @@
+return {
+  group = "production",
+  name = "extraction-machine",
+  order = "c",
+  type = "item-subgroup"
+}

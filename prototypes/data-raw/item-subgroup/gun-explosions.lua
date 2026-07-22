@@ -1,0 +1,6 @@
+return {
+  group = "effects",
+  name = "gun-explosions",
+  order = "ca",
+  type = "item-subgroup"
+}

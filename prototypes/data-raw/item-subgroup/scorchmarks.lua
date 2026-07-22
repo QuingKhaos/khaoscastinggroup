@@ -1,0 +1,6 @@
+return {
+  group = "environment",
+  name = "scorchmarks",
+  order = "dm",
+  type = "item-subgroup"
+}
