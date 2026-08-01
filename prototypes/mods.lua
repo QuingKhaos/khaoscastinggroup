@@ -3,7 +3,7 @@ return {
   base = "2.0.77",
   ["elevated-rails"] = "2.0.77",
   ["khaosdata-extractor"] = "12026.725.432",
-  khaoslib = "1.18.0",
+  khaoslib = "1.19.0",
   quality = "2.0.77",
   ["space-age"] = "2.0.77"
 }
