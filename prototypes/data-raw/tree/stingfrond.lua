@@ -691,12 +691,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -732,9 +736,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -853,12 +861,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -894,9 +906,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1015,12 +1031,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -1056,9 +1076,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1177,12 +1201,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -1218,9 +1246,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1339,12 +1371,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -1380,9 +1416,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1501,12 +1541,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -1542,9 +1586,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1663,12 +1711,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -1704,9 +1756,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1825,12 +1881,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -1866,9 +1926,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -1987,12 +2051,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -2028,9 +2096,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,
@@ -2149,12 +2221,16 @@ return {
       leaves = {
         layers = {
           {
-            filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png",
+            filenames = {
+              "__space-age__/graphics/entity/plant/stingfrond/stingfrond-harvest.png"
+            },
             flags = {
               "mipmap"
             },
             frame_count = 1,
             height = 560,
+            line_length = 1,
+            lines_per_file = 1,
             scale = 0.36300000000000003,
             shift = {
               1.625,
@@ -2190,9 +2266,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/stingfrond/stingfrond-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.36300000000000003,
         shift = {
           1.625,

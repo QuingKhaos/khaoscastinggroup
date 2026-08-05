@@ -1,6 +1,8 @@
 return {
   name = "fulgora-4",
-  planet = "fulgora",
+  planets = {
+    "fulgora"
+  },
   sound = {
     filename = "__space-age__/sound/ambient/fulgora/fulgora-4.ogg",
     volume = 0.7

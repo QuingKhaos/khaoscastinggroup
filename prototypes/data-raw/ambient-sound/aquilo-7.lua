@@ -1,6 +1,8 @@
 return {
   name = "aquilo-7",
-  planet = "aquilo",
+  planets = {
+    "aquilo"
+  },
   title = "Aquilo 7 - Drift Ice",
   track_type = "main-track",
   type = "ambient-sound",

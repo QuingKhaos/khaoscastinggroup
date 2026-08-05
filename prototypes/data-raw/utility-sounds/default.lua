@@ -19,6 +19,14 @@ return {
     filename = "__core__/sound/alert-destroyed.ogg",
     volume = 0.5
   },
+  alert_expansion_base_built = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/alert-expansion-base-built.ogg",
+    volume = 0.5
+  },
   armor_insert = {
     aggregation = {
       max_count = 3,
@@ -796,6 +804,14 @@ return {
       remove = true
     },
     filename = "__core__/sound/list-box-click.ogg"
+  },
+  machine_gui_close = {
+    filename = "__core__/sound/machine-gui-close.ogg",
+    volume = 0.29
+  },
+  machine_gui_open = {
+    filename = "__core__/sound/machine-gui-open.ogg",
+    volume = 0.5
   },
   metal_walking_sound = {
     {

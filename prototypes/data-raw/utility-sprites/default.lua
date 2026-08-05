@@ -4341,6 +4341,15 @@ return {
     priority = "extra-high-no-scale",
     width = 8
   },
+  expansion_base_built_icon = {
+    filename = "__core__/graphics/icons/alerts/biter-base-icon.png",
+    flags = {
+      "icon"
+    },
+    height = 64,
+    priority = "extra-high-no-scale",
+    width = 64
+  },
   explosion_chart_visualization = {
     blend_mode = "additive",
     filename = "__core__/graphics/artillery-impact-map-visualization.png",

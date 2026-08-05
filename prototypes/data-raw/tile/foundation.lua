@@ -460,6 +460,9 @@ return {
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
+      lightmap_layout = {
+        spritesheet = "__space-age__/graphics/terrain/lava-transitions/foundation-transitions-lightmap.png"
+      },
       spritesheet = "__space-age__/graphics/terrain/lava-transitions/foundation-transitions-lava.png",
       transition_group1 = 0,
       transition_group2 = 3

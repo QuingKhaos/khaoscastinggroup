@@ -1,6 +1,8 @@
 return {
   name = "aquilo-10",
-  planet = "aquilo",
+  planets = {
+    "aquilo"
+  },
   title = "Aquilo 10 - Endless Ocean",
   track_type = "main-track",
   type = "ambient-sound",

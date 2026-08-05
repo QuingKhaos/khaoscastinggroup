@@ -310,12 +310,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -331,9 +335,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -450,12 +458,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -471,9 +483,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -590,12 +606,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -611,9 +631,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -730,12 +754,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -751,9 +779,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -870,12 +902,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,
@@ -891,9 +927,13 @@ return {
       leaves_when_mined_automatically = 20,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/funneltrunk/funneltrunk-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           1.625,

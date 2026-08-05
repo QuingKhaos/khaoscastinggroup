@@ -1,6 +1,8 @@
 return {
   name = "aquilo-8",
-  planet = "aquilo",
+  planets = {
+    "aquilo"
+  },
   sound = {
     filename = "__space-age__/sound/ambient/aquilo/aquilo-8.ogg",
     volume = 0.7

@@ -119,6 +119,10 @@ return {
     }
   },
   circuit_wire_max_distance = 9,
+  close_sound = {
+    filename = "__base__/sound/machine-close.ogg",
+    volume = 0.29
+  },
   collision_box = {
     {
       -1.2,
@@ -198,6 +202,10 @@ return {
     result = "radar"
   },
   name = "radar",
+  open_sound = {
+    filename = "__base__/sound/machine-open.ogg",
+    volume = 0.5
+  },
   pictures = {
     layers = {
       {

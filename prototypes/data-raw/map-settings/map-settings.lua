@@ -13,10 +13,11 @@ return {
     time_factor = 4e-06
   },
   enemy_expansion = {
+    build_base_unit_dispatch_cooldown = 1800,
     building_coefficient = 0.5,
     enabled = true,
     enemy_building_influence_radius = 3,
-    evolution_group_size_factor = 4,
+    evolution_group_size_factor = 8,
     friendly_base_influence_radius = 6,
     max_colliding_tiles_coefficient = 0.8,
     max_expansion_cooldown = 216000,
@@ -26,7 +27,7 @@ return {
     neighbouring_base_chunk_coefficient = 0.5,
     neighbouring_chunk_coefficient = 0.5,
     other_base_coefficient = 3,
-    settler_group_max_size = 20,
+    settler_group_max_size = 10,
     settler_group_min_size = 5
   },
   max_failed_behavior_count = 3,

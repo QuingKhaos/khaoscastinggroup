@@ -34,8 +34,7 @@ return {
           "__space-age__/graphics/decorative/vulcanus-rocks/vulcanus-rock-medium-13.png",
           "__space-age__/graphics/decorative/vulcanus-rocks/vulcanus-rock-medium-14.png",
           "__space-age__/graphics/decorative/vulcanus-rocks/vulcanus-rock-medium-15.png",
-          "__space-age__/graphics/decorative/vulcanus-rocks/vulcanus-rock-medium-16.png",
-          "__space-age__/graphics/decorative/vulcanus-rocks/vulcanus-rock-medium-17.png"
+          "__space-age__/graphics/decorative/vulcanus-rocks/vulcanus-rock-medium-16.png"
         },
         height = 70,
         line_length = 1,
@@ -45,7 +44,7 @@ return {
           0.078125,
           0.0625
         },
-        variation_count = 14,
+        variation_count = 16,
         width = 102
       }
     }

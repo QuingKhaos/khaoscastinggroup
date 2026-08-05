@@ -1,6 +1,8 @@
 return {
   name = "fulgora-interlude-2",
-  planet = "fulgora",
+  planets = {
+    "fulgora"
+  },
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

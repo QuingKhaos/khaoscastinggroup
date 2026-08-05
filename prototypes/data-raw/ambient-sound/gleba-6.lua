@@ -1,6 +1,8 @@
 return {
   name = "gleba-6",
-  planet = "gleba",
+  planets = {
+    "gleba"
+  },
   sound = {
     filename = "__space-age__/sound/ambient/gleba/gleba-6.ogg",
     volume = 0.7

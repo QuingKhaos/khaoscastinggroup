@@ -1,6 +1,8 @@
 return {
   name = "gleba-10",
-  planet = "gleba",
+  planets = {
+    "gleba"
+  },
   sound = {
     variations = {
       {

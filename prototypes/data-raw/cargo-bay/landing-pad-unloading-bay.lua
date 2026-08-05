@@ -3253,6 +3253,22 @@ return {
         {
           layers = {
             {
+              filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-e-2.png",
+              height = 276,
+              line_length = 1,
+              scale = 0.5,
+              shift = {
+                0.796875,
+                -0.125
+              },
+              width = 280
+            }
+          },
+          render_layer = "lower-object-overlay"
+        },
+        {
+          layers = {
+            {
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-e-3.png",
               height = 296,
               line_length = 1,
@@ -3274,22 +3290,22 @@ return {
               line_length = 1,
               scale = 0.5,
               shift = {
-                0.8125,
+                0.734375,
                 -0.484375
               },
-              width = 300
+              width = 290
             },
             {
               draw_as_shadow = true,
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-e-shadow.png",
-              height = 278,
+              height = 176,
               line_length = 1,
               scale = 0.5,
               shift = {
-                1.53125,
-                -0.140625
+                3.390625,
+                0.625
               },
-              width = 376
+              width = 138
             }
           },
           render_layer = "object"
@@ -3300,12 +3316,12 @@ return {
           layers = {
             {
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-n-1.png",
-              height = 242,
+              height = 264,
               line_length = 1,
               scale = 0.5,
               shift = {
                 -0.0625,
-                -1.5625
+                -1.390625
               },
               width = 256
             }
@@ -3316,26 +3332,26 @@ return {
           layers = {
             {
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-n-4.png",
-              height = 242,
+              height = 252,
               line_length = 1,
               scale = 0.5,
               shift = {
                 -0.046875,
-                -1.328125
+                -1.25
               },
               width = 226
             },
             {
               draw_as_shadow = true,
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-n-shadow.png",
-              height = 304,
+              height = 256,
               line_length = 1,
               scale = 0.5,
               shift = {
-                0.953125,
-                -0.84375
+                1.59375,
+                -0.453125
               },
-              width = 358
+              width = 278
             }
           },
           render_layer = "object"
@@ -3363,14 +3379,14 @@ return {
             {
               draw_as_shadow = true,
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-s-shadow.png",
-              height = 352,
+              height = 244,
               line_length = 1,
               scale = 0.5,
               shift = {
-                1.046875,
-                0.34375
+                1.140625,
+                1.1875
               },
-              width = 372
+              width = 358
             }
           },
           render_layer = "object"
@@ -3389,22 +3405,38 @@ return {
               width = 264
             }
           },
-          render_layer = "cargo-hatch"
+          render_layer = "object"
         }
       },
       west = {
         {
           layers = {
             {
-              filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-w-3.png",
-              height = 286,
+              filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-w-1.png",
+              height = 290,
               line_length = 1,
               scale = 0.5,
               shift = {
                 -0.984375,
-                -0.09375
+                -0.140625
               },
               width = 316
+            }
+          },
+          render_layer = "lower-object-above-shadow"
+        },
+        {
+          layers = {
+            {
+              filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-w-3.png",
+              height = 280,
+              line_length = 1,
+              scale = 0.5,
+              shift = {
+                -0.734375,
+                -0.140625
+              },
+              width = 284
             }
           },
           render_layer = "object-under"
@@ -3425,14 +3457,14 @@ return {
             {
               draw_as_shadow = true,
               filename = "__space-age__/graphics/entity/cargo-hubs/extractor/extractor-w-shadow.png",
-              height = 284,
+              height = 178,
               line_length = 1,
               scale = 0.5,
               shift = {
-                0.390625,
-                -0.15625
+                0.59375,
+                0.65625
               },
-              width = 432
+              width = 406
             }
           },
           render_layer = "object"

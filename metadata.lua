@@ -1,4 +1,4 @@
 return {
-  factorio_version = "2.1.12",
+  factorio_version = "2.1.13",
   generator_version = "22026.803.1427"
 }

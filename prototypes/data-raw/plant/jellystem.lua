@@ -1104,12 +1104,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1125,9 +1129,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1249,12 +1257,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1270,9 +1282,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1394,12 +1410,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1415,9 +1435,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1539,12 +1563,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1560,9 +1588,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1684,12 +1716,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1705,9 +1741,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1829,12 +1869,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1850,9 +1894,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1974,12 +2022,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -1995,9 +2047,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -2119,12 +2175,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,
@@ -2140,9 +2200,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/jellystem/jellystem-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           1.625,

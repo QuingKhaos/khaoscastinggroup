@@ -261,12 +261,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -282,9 +286,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -386,12 +394,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -407,9 +419,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -511,12 +527,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -532,9 +552,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -636,12 +660,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -657,9 +685,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -761,12 +793,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -782,9 +818,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -886,12 +926,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -907,9 +951,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1011,12 +1059,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1032,9 +1084,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1136,12 +1192,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1157,9 +1217,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1261,12 +1325,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1282,9 +1350,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1386,12 +1458,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1407,9 +1483,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1511,12 +1591,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1532,9 +1616,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1636,12 +1724,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1657,9 +1749,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1761,12 +1857,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1782,9 +1882,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1886,12 +1990,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -1907,9 +2015,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -2011,12 +2123,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -2032,9 +2148,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -2136,12 +2256,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,
@@ -2157,9 +2281,13 @@ return {
       leaves_when_mined_automatically = 1,
       leaves_when_mined_manually = 2,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/water-cane/water-cane-normal.png"
+        },
         frame_count = 1,
         height = 290,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
           0.9375,

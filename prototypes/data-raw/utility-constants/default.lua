@@ -17,6 +17,7 @@ return {
   asteroid_collector_static_head_swing_segment_count = 12,
   asteroid_collector_static_head_swing_strength_scale = 1,
   asteroid_fading_range = 16,
+  asteroid_min_damage_modifier = 0.1,
   asteroid_position_offset_to_speed_coefficient = 0.0083333333333333321,
   asteroid_spawning_offset = {
     {

@@ -1,6 +1,8 @@
 return {
   name = "aquilo-interlude-1",
-  planet = "aquilo",
+  planets = {
+    "aquilo"
+  },
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

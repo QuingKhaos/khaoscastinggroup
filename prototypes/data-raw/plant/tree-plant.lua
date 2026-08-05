@@ -1029,18 +1029,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 0,
         y = 0
@@ -1050,29 +1056,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 0,
-        y = 0
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1081,7 +1070,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 0,
         y = 0
@@ -1112,7 +1126,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 0,
           y = 0
@@ -1167,18 +1181,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 640,
         y = 0
@@ -1188,29 +1208,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 640,
-        y = 0
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1219,7 +1222,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 640,
         y = 0
@@ -1250,7 +1278,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 640,
           y = 0
@@ -1305,18 +1333,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 1280,
         y = 0
@@ -1326,29 +1360,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 1280,
-        y = 0
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1357,7 +1374,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 1280,
         y = 0
@@ -1388,7 +1430,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 1280,
           y = 0
@@ -1443,18 +1485,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 1920,
         y = 0
@@ -1464,29 +1512,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 1920,
-        y = 0
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1495,7 +1526,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 1920,
         y = 0
@@ -1526,7 +1582,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 1920,
           y = 0
@@ -1581,18 +1637,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 0,
         y = 560
@@ -1602,29 +1664,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 0,
-        y = 560
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1633,7 +1678,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 0,
         y = 560
@@ -1664,7 +1734,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 0,
           y = 560
@@ -1719,18 +1789,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 640,
         y = 560
@@ -1740,29 +1816,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 640,
-        y = 560
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1771,7 +1830,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 640,
         y = 560
@@ -1802,7 +1886,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 640,
           y = 560
@@ -1857,18 +1941,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 1280,
         y = 560
@@ -1878,29 +1968,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 1280,
-        y = 560
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -1909,7 +1982,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 1280,
         y = 560
@@ -1940,7 +2038,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 1280,
           y = 560
@@ -1995,18 +2093,24 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
-        frame_count = 1,
+        frame_count = 3,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.42900000000000009,
         shift = {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
         width = 640,
         x = 1920,
         y = 560
@@ -2016,29 +2120,12 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
-        frame_count = 1,
-        height = 560,
-        scale = 0.42900000000000009,
-        shift = {
-          2.1875,
-          -1.25
-        },
-        surface = "gleba",
-        width = 640,
-        x = 1920,
-        y = 560
-      },
-      shadow = {
         filenames = {
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
-          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 2,
+        frame_count = 3,
         height = 560,
         line_length = 1,
         lines_per_file = 1,
@@ -2047,7 +2134,32 @@ return {
           2.1875,
           -1.25
         },
-        surface = "gleba",
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      shadow = {
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
+        flags = {
+          "mipmap",
+          "shadow"
+        },
+        frame_count = 4,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
         width = 640,
         x = 1920,
         y = 560
@@ -2078,7 +2190,7 @@ return {
             1.5625,
             0
           },
-          surface = "gleba",
+          surface = "nauvis",
           width = 640,
           x = 1920,
           y = 560

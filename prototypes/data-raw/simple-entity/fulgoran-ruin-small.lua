@@ -13,6 +13,7 @@ return {
       0.68000000000000007
     }
   },
+  count_as_rock_for_filtered_deconstruction = true,
   damaged_trigger_effect = {
     damage_type_filters = "fire",
     entity_name = "rock-damaged-explosion",
@@ -222,6 +223,9 @@ return {
         type = "item"
       }
     }
+  },
+  mined_sound = {
+    filename = "__base__/sound/deconstruct-bricks.ogg"
   },
   name = "fulgoran-ruin-small",
   order = "b[decorative]-l[rock]-d[fulgora]-e[ruin]-b[decorative]-l[rock]-d[fulgora]-e[ruin]-b[small]",

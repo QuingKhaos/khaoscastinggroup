@@ -17951,12 +17951,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17973,12 +17973,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17995,12 +17995,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -18017,12 +18017,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -18041,12 +18041,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -18063,12 +18063,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -18085,12 +18085,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4

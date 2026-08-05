@@ -1,6 +1,8 @@
 return {
   name = "vulcanus-1",
-  planet = "vulcanus",
+  planets = {
+    "vulcanus"
+  },
   sound = {
     filename = "__space-age__/sound/ambient/vulcanus/vulcanus-1.ogg",
     volume = 0.7

@@ -1,6 +1,8 @@
 return {
   name = "vulcanus-9",
-  planet = "vulcanus",
+  planets = {
+    "vulcanus"
+  },
   title = "Vulcanus 9 - Molten Dreams",
   track_type = "main-track",
   type = "ambient-sound",
