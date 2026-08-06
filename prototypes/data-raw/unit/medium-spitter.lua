@@ -345,6 +345,8 @@ return {
     warmup = 30
   },
   buildable_entities = {
+    "biter-spawner",
+    "spitter-spawner",
     "small-worm-turret",
     "medium-worm-turret"
   },

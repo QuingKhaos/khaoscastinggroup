@@ -206,6 +206,7 @@ return {
   buildable_entities = {
     "biter-spawner",
     "spitter-spawner",
+    "small-worm-turret",
     "small-worm-turret"
   },
   collision_box = {

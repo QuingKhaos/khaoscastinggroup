@@ -365,8 +365,11 @@ return {
     warmup = 30
   },
   buildable_entities = {
+    "biter-spawner",
+    "spitter-spawner",
+    "big-worm-turret",
     "medium-worm-turret",
-    "big-worm-turret"
+    "medium-worm-turret"
   },
   collision_box = {
     {
