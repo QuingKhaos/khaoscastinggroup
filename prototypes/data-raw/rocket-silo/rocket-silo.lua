@@ -236,6 +236,7 @@ return {
           4.328125,
           1.78125
         },
+        secondary_draw_order = 70,
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,

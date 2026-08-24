@@ -169,6 +169,7 @@ return {
             -0.1875,
             -0.03125
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -316,6 +317,7 @@ return {
             -0.53125,
             -0.34375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -463,6 +465,7 @@ return {
             -0.6875,
             -0.5
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -610,6 +613,7 @@ return {
             -0.34375,
             -0.09375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -757,6 +761,7 @@ return {
             -0.4375,
             -0.4375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -904,6 +909,7 @@ return {
             -0.75,
             -0.5625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1051,6 +1057,7 @@ return {
             -0.09375,
             -0.1875
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1198,6 +1205,7 @@ return {
             0.25,
             -0.5625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1345,6 +1353,7 @@ return {
             0.59375,
             -0.65625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1492,6 +1501,7 @@ return {
             0.25,
             -0.25
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1639,6 +1649,7 @@ return {
             0.59375,
             -0.28125
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1786,6 +1797,7 @@ return {
             0.59375,
             -0.59375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -1933,6 +1945,7 @@ return {
             0.1875,
             -0.15625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2080,6 +2093,7 @@ return {
             0.40625,
             0.03125
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2227,6 +2241,7 @@ return {
             0.625,
             -0.125
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2374,6 +2389,7 @@ return {
             0.59375,
             0.09375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2521,6 +2537,7 @@ return {
             0.15625,
             -0.0625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2668,6 +2685,7 @@ return {
             0.28125,
             0.09375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2815,6 +2833,7 @@ return {
             0.53125,
             0.25
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -2962,6 +2981,7 @@ return {
             0.09375,
             -0.0625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -3109,6 +3129,7 @@ return {
             -0.0625,
             0.1875
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -3256,6 +3277,7 @@ return {
             -0.375,
             0.375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -3403,6 +3425,7 @@ return {
             -0.0625,
             -0.0625
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -3550,6 +3573,7 @@ return {
             -0.5,
             0.09375
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -3697,6 +3721,7 @@ return {
             -0.40625,
             0.3125
           },
+          render_layer = "elevated-rail-stone-path-lower",
           wire_pins = {
             filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
             height = 58,
@@ -3727,7 +3752,6 @@ return {
         }
       }
     },
-    circuit_connector_render_layer = "elevated-rail-stone-path-lower",
     lights = {
       green = {
         light = {

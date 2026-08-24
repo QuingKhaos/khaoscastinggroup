@@ -5262,6 +5262,11 @@ return {
   deep_frame_in_shallow_frame_for_description_with_fixed_width = {
     parent = "deep_frame_in_shallow_frame_for_description",
     type = "frame_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 4,
+      width = 484
+    },
     width = 500
   },
   deep_frame_in_tabbed_pane = {
@@ -8033,7 +8038,7 @@ return {
     type = "tabbed_pane_style"
   },
   finished_game_label = {
-    maximal_width = 420,
+    maximal_width = 484,
     parent = "label",
     single_line = false,
     type = "label_style"

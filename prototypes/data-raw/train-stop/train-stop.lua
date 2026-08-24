@@ -253,6 +253,7 @@ return {
           0.328125,
           -1.671875
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -400,6 +401,7 @@ return {
           -0.671875,
           -1.578125
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -547,6 +549,7 @@ return {
           -0.34375,
           -2.75
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -694,6 +697,7 @@ return {
           0.171875,
           -1.28125
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,

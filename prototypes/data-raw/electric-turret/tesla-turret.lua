@@ -220,6 +220,7 @@ return {
     },
     type = "create-entity"
   },
+  drawing_box_vertical_extension = 1,
   dying_explosion = "tesla-turret-explosion",
   ending_attack_animation = {
     layers = {

@@ -30,7 +30,8 @@ return {
   },
   name = "transport-belt-capacity-2",
   prerequisites = {
-    "transport-belt-capacity-1"
+    "transport-belt-capacity-1",
+    "inserter-capacity-bonus-7"
   },
   type = "technology",
   unit = {

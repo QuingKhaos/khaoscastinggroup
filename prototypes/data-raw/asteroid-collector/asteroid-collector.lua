@@ -314,6 +314,7 @@ return {
           0.0625,
           -1.265625
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -433,6 +434,7 @@ return {
           0.578125,
           -0.78125
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -552,6 +554,7 @@ return {
           -0.0625,
           -0.46875
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -671,6 +674,7 @@ return {
           -0.59375,
           -0.890625
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
