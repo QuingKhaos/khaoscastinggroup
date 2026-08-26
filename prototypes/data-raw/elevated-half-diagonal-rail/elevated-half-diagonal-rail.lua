@@ -3147,6 +3147,8 @@ return {
       }
     },
     render_layers = {
+      back_end = "elevated-rail-above-metal",
+      front_end = "elevated-rail-above-metal",
       metal = "elevated-rail-metal",
       screw = "elevated-rail-screw",
       stone_path = "elevated-rail-stone-path",
