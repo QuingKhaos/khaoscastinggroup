@@ -193,6 +193,84 @@ return {
   subgroup = "fulgora-tiles",
   transitions = {
     {
+      background_enabled = false,
+      background_layer_group = "water",
+      background_layer_offset = -5,
+      background_mask_layout = {
+        count = 1,
+        scale = 32,
+        spritesheet = "__core__/graphics/white-square.png",
+        x = 0,
+        y = 0
+      },
+      layout = {
+        background = {
+          x_offset = 1088
+        },
+        inner_corner_count = 16,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2176
+        },
+        o_transition_count = 8,
+        o_transition_y = 2304,
+        outer_corner_count = 16,
+        outer_corner_y = 576,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 16,
+        side_y = 1152,
+        u_transition_count = 4,
+        u_transition_y = 1728
+      },
+      masked_background_layer_offset = 1,
+      offset_background_layer_by_tile_layer = false,
+      spritesheet = "__space-age__/graphics/terrain/water-transitions/fulgora-oil-sand.png",
+      to_tiles = {
+        "water",
+        "deepwater",
+        "water-green",
+        "deepwater-green",
+        "water-shallow",
+        "water-mud",
+        "water-wube",
+        "oil-ocean-shallow",
+        "oil-ocean-deep",
+        "wetland-yumako",
+        "wetland-jellynut",
+        "wetland-light-green-slime",
+        "wetland-green-slime",
+        "wetland-light-dead-skin",
+        "wetland-dead-skin",
+        "wetland-pink-tentacle",
+        "wetland-red-tentacle",
+        "oil-ocean-shallow",
+        "oil-ocean-deep",
+        "ammoniacal-ocean",
+        "ammoniacal-ocean-2",
+        "brash-ice",
+        "lava-hot",
+        "lava",
+        "wetland-light-dead-skin",
+        "wetland-dead-skin",
+        "wetland-light-green-slime",
+        "wetland-green-slime",
+        "wetland-pink-tentacle",
+        "wetland-red-tentacle",
+        "wetland-blue-slime",
+        "wetland-yumako",
+        "wetland-jellynut",
+        "gleba-deep-lake",
+        "oil-ocean-shallow",
+        "oil-ocean-deep",
+        "oil-ocean-shallow-2",
+        "oil-ocean-deep-2"
+      },
+      transition_group = 1
+    },
+    {
       background_layer_group = "zero",
       background_layer_offset = 1,
       layout = {
@@ -223,7 +301,7 @@ return {
       },
       offset_background_layer_by_tile_layer = true,
       overlay_enabled = false,
-      spritesheet = "__base__/graphics/terrain/out-of-map-transition/water-shallow-out-of-map-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/oil-out-of-map-transition.png",
       to_tiles = {
         "out-of-map",
         "empty-space"
@@ -278,8 +356,26 @@ return {
   },
   transitions_between_transitions = {
     {
+      background_enabled = true,
       background_layer_group = "zero",
       background_layer_offset = 1,
+      background_mask_layout = {
+        count = 0,
+        inner_corner_count = 3,
+        inner_corner_y = 0,
+        o_transition_count = 0,
+        o_transition_y = 2304,
+        outer_corner_count = 3,
+        outer_corner_y = 576,
+        scale = 0.5,
+        side_count = 3,
+        side_y = 1152,
+        spritesheet = "__base__/graphics/terrain/masks/sand-water-edge-3-way-transition.png",
+        tile_height = 1,
+        u_transition_count = 1,
+        u_transition_y = 1728,
+        x = 0
+      },
       layout = {
         background = {
           x_offset = 1088
@@ -307,9 +403,8 @@ return {
         u_transition_y = 1728
       },
       offset_background_layer_by_tile_layer = true,
-      overlay_enabled = false,
-      spritesheet = "__base__/graphics/terrain/out-of-map-transition/water-shallow-out-of-map-transition-to-water.png",
-      transition_group1 = 0,
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/oil-out-of-map-transition-b.png",
+      transition_group1 = 1,
       transition_group2 = 2
     },
     {

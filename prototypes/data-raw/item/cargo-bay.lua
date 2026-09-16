@@ -18,7 +18,7 @@ return {
     volume = 0.7
   },
   name = "cargo-bay",
-  order = "c[cargo-bay]",
+  order = "c-b[cargo-bay]",
   pick_sound = {
     aggregation = {
       max_count = 1,
@@ -30,7 +30,7 @@ return {
   place_result = "cargo-bay",
   space_platform_request_priority = true,
   stack_size = 10,
-  subgroup = "space-platform",
+  subgroup = "space-interactors",
   type = "item",
   weight = 100000
 }

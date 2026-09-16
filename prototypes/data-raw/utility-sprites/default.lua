@@ -6312,6 +6312,16 @@ return {
     size = 64,
     y = 320
   },
+  side_menu_alerts_config_icon = {
+    filename = "__core__/graphics/side-menu-buttons.png",
+    flags = {
+      "gui-icon"
+    },
+    mipmap_count = 2,
+    priority = "high",
+    size = 64,
+    y = 832
+  },
   side_menu_blueprint_library_icon = {
     filename = "__core__/graphics/side-menu-buttons.png",
     flags = {

@@ -18,7 +18,7 @@ return {
     volume = 0.7
   },
   name = "landing-pad-unloading-bay",
-  order = "c[landing-pad-unloading-bay]",
+  order = "c-c[landing-pad-unloading-bay]",
   pick_sound = {
     aggregation = {
       max_count = 1,
@@ -29,7 +29,7 @@ return {
   },
   place_result = "landing-pad-unloading-bay",
   stack_size = 10,
-  subgroup = "space-platform",
+  subgroup = "space-interactors",
   type = "item",
   weight = 200000
 }

@@ -399,13 +399,6 @@ return {
     {
       background_layer_group = "water",
       background_layer_offset = -5,
-      background_mask_layout = {
-        count = 1,
-        scale = 32,
-        spritesheet = "__core__/graphics/white-square.png",
-        x = 0,
-        y = 0
-      },
       effect_map_layout = {
         o_transition_count = 0,
         spritesheet = "__space-age__/graphics/terrain/effect-maps/water-fulgora-sand-to-out-of-map-mask.png"
@@ -438,7 +431,7 @@ return {
       },
       masked_background_layer_offset = 1,
       offset_background_layer_by_tile_layer = false,
-      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/fulgora-shore-out-of-map-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/oil-out-of-map-transition.png",
       transition_group1 = 1,
       transition_group2 = 2
     },

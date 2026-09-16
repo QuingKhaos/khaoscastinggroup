@@ -600,6 +600,10 @@ return {
     filename = "__base__/sound/machine-open.ogg",
     volume = 0.5
   },
+  perceived_performance = {
+    maximum = 2.5,
+    minimum = 0.125
+  },
   resistances = {
     {
       percent = 70,
@@ -637,9 +641,233 @@ return {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
     sound = {
+      advanced_volume_control = {
+        fades = {
+          fade_in = {
+            curve_type = "cosine",
+            from = {
+              control = 0.3,
+              volume_percentage = 0
+            },
+            to = {
+              control = 1.5,
+              volume_percentage = 100
+            }
+          }
+        }
+      },
       audible_distance_modifier = 0.5,
       filename = "__base__/sound/assembling-machine-t1-1.ogg",
-      volume = 0.5
+      volume = 0.7
+    },
+    sound_accents = {
+      {
+        frame = 4,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-1.ogg",
+              volume = 0.5
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-2.ogg",
+              volume = 0.5
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-3.ogg",
+              volume = 0.5
+            }
+          }
+        }
+      },
+      {
+        frame = 13,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
+              volume = 0.3
+            }
+          }
+        }
+      },
+      {
+        frame = 38,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-1.ogg",
+              volume = 0.5
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-2.ogg",
+              volume = 0.5
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-3.ogg",
+              volume = 0.5
+            }
+          }
+        }
+      },
+      {
+        frame = 43,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
+              volume = 0.3
+            }
+          }
+        }
+      },
+      {
+        frame = 62,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-1.ogg",
+              volume = 0.5
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-2.ogg",
+              volume = 0.5
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-3.ogg",
+              volume = 0.5
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -81,7 +81,6 @@ return {
     enabled = true,
     enemy_attack_pollution_consumption_modifier = 1,
     expected_max_per_chunk = 150,
-    max_pollution_to_restore_trees = 20,
     min_pollution_to_damage_trees = 60,
     min_to_diffuse = 15,
     min_to_show_per_chunk = 50,

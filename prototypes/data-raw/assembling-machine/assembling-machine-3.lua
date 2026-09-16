@@ -1051,6 +1051,10 @@ return {
     filename = "__base__/sound/machine-open.ogg",
     volume = 0.5
   },
+  perceived_performance = {
+    maximum = 5,
+    minimum = 0.25
+  },
   resistances = {
     {
       percent = 70,
@@ -1088,9 +1092,128 @@ return {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
     sound = {
+      advanced_volume_control = {
+        fades = {
+          fade_in = {
+            curve_type = "cosine",
+            from = {
+              control = 0.3,
+              volume_percentage = 0
+            },
+            to = {
+              control = 1.5,
+              volume_percentage = 100
+            }
+          }
+        }
+      },
       audible_distance_modifier = 0.5,
       filename = "__base__/sound/assembling-machine-t3-1.ogg",
       volume = 0.45
+    },
+    sound_accents = {
+      {
+        frame = 15,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
+              volume = 0.45
+            }
+          }
+        }
+      },
+      {
+        frame = 47,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
+              volume = 0.45
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
+              volume = 0.45
+            }
+          }
+        }
+      }
     }
   }
 }

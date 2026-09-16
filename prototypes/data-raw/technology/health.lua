@@ -11,8 +11,7 @@ return {
   name = "health",
   prerequisites = {
     "agricultural-science-pack",
-    "utility-science-pack",
-    "military-science-pack"
+    "utility-science-pack"
   },
   type = "technology",
   unit = {

@@ -202,14 +202,6 @@ return {
         x = 0,
         y = 0
       },
-      effect_map_layout = {
-        inner_corner_tile_height = 2,
-        o_transition_count = 1,
-        outer_corner_tile_height = 2,
-        side_tile_height = 2,
-        spritesheet = "__space-age__/graphics/terrain/effect-maps/water-fulgora-sand-mask.png",
-        u_transition_tile_height = 2
-      },
       layout = {
         background = {
           x_offset = 1088
