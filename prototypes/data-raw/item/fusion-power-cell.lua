@@ -8,7 +8,9 @@ return {
     filename = "__base__/sound/item/reactor-inventory-move.ogg",
     volume = 0.7
   },
-  fuel_category = "fusion",
+  fuel_categories = {
+    "fusion"
+  },
   fuel_value = "40GJ",
   icon = "__space-age__/graphics/icons/fusion-power-cell.png",
   inventory_move_sound = {

@@ -8,7 +8,9 @@ return {
     volume = 0.5
   },
   fuel_acceleration_multiplier = 0.5,
-  fuel_category = "chemical",
+  fuel_categories = {
+    "chemical"
+  },
   fuel_top_speed_multiplier = 0.5,
   fuel_value = "250kJ",
   icon = "__space-age__/graphics/icons/spoilage.png",

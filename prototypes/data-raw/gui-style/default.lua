@@ -11062,6 +11062,7 @@ return {
     },
     padding = -8,
     type = "button_style",
+    vertically_stretchable = "off",
     width = 400
   },
   label = {

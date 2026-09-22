@@ -8,7 +8,9 @@ return {
     filename = "__base__/sound/item/nuclear-inventory-move.ogg",
     volume = 0.6
   },
-  fuel_category = "nuclear",
+  fuel_categories = {
+    "nuclear"
+  },
   fuel_value = "8GJ",
   icon = "__base__/graphics/icons/uranium-fuel-cell.png",
   inventory_move_sound = {

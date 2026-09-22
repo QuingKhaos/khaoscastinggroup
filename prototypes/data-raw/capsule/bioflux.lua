@@ -71,7 +71,9 @@ return {
     filename = "__space-age__/sound/item/agriculture-inventory-move.ogg",
     volume = 0.5
   },
-  fuel_category = "food",
+  fuel_categories = {
+    "food"
+  },
   fuel_value = "6MJ",
   icon = "__space-age__/graphics/icons/bioflux.png",
   inventory_move_sound = {

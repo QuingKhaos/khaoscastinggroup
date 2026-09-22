@@ -8,7 +8,9 @@ return {
     volume = 0.6
   },
   fuel_acceleration_multiplier = 1.8,
-  fuel_category = "chemical",
+  fuel_categories = {
+    "chemical"
+  },
   fuel_top_speed_multiplier = 1.1499999999999999,
   fuel_value = "100MJ",
   icon = "__base__/graphics/icons/rocket-fuel.png",

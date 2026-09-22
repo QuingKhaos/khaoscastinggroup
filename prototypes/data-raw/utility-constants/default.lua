@@ -3242,25 +3242,5 @@ return {
     255,
     255,
     64
-  },
-  zoom_to_world_can_use_nightvision = false,
-  zoom_to_world_daytime_color_lookup = {
-    {
-      0.25,
-      "identity"
-    },
-    {
-      0.45,
-      "__core__/graphics/color_luts/night.png"
-    },
-    {
-      0.55,
-      "__core__/graphics/color_luts/night.png"
-    },
-    {
-      0.75,
-      "identity"
-    }
-  },
-  zoom_to_world_effect_strength = 1
+  }
 }
