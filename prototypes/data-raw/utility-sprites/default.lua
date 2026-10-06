@@ -6372,6 +6372,26 @@ return {
     size = 64,
     y = 448
   },
+  side_menu_master_mute_muted_icon = {
+    filename = "__core__/graphics/side-menu-buttons.png",
+    flags = {
+      "gui-icon"
+    },
+    mipmap_count = 2,
+    priority = "high",
+    size = 64,
+    y = 896
+  },
+  side_menu_master_mute_unmuted_icon = {
+    filename = "__core__/graphics/side-menu-buttons.png",
+    flags = {
+      "gui-icon"
+    },
+    mipmap_count = 2,
+    priority = "high",
+    size = 64,
+    y = 960
+  },
   side_menu_menu_icon = {
     filename = "__core__/graphics/side-menu-buttons.png",
     flags = {

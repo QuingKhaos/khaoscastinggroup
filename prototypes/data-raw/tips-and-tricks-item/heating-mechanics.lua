@@ -12,6 +12,10 @@ return {
   skip_trigger = {
     triggers = {
       {
+        surface = "aquilo",
+        type = "change-surface"
+      },
+      {
         count = 1,
         entity = "heating-tower",
         match_type_only = true,

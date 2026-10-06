@@ -998,7 +998,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1023,7 +1023,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -1150,7 +1150,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1175,7 +1175,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -1302,7 +1302,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1327,7 +1327,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -1454,7 +1454,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1479,7 +1479,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -1606,7 +1606,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1631,7 +1631,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -1758,7 +1758,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1783,7 +1783,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -1910,7 +1910,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -1935,7 +1935,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"
@@ -2062,7 +2062,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-branch-particle",
+        particle_name = "branch-particle",
         speed_from_center = 0.035000000000000004,
         speed_from_center_deviation = 0.02,
         type = "create-particle"
@@ -2087,7 +2087,7 @@ return {
           }
         },
         only_when_visible = true,
-        particle_name = "yumako-leaf-particle",
+        particle_name = "leaf-particle",
         speed_from_center = 0.03,
         speed_from_center_deviation = 0.045,
         type = "create-particle"

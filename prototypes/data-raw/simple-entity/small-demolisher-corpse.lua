@@ -210,31 +210,31 @@ return {
     variations = {
       {
         filename = "__core__/sound/axe-mining-stone-1.ogg",
-        volume = 0.4
+        volume = 0.55
       },
       {
         filename = "__core__/sound/axe-mining-stone-2.ogg",
-        volume = 0.4
+        volume = 0.55
       },
       {
         filename = "__core__/sound/axe-mining-stone-3.ogg",
-        volume = 0.4
+        volume = 0.55
       },
       {
         filename = "__core__/sound/axe-mining-stone-4.ogg",
-        volume = 0.4
+        volume = 0.55
       },
       {
         filename = "__core__/sound/axe-mining-stone-5.ogg",
-        volume = 0.4
+        volume = 0.55
       },
       {
         filename = "__core__/sound/axe-mining-stone-6.ogg",
-        volume = 0.4
+        volume = 0.55
       },
       {
         filename = "__core__/sound/axe-mining-stone-7.ogg",
-        volume = 0.4
+        volume = 0.55
       }
     }
   },

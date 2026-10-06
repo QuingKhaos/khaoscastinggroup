@@ -767,6 +767,10 @@ return {
     },
     type = "create-entity"
   },
+  default_launched_signal = {
+    name = "signal-R",
+    type = "virtual"
+  },
   door_back_frozen = {
     filename = "__space-age__/graphics/entity/frozen/rocket-silo/04-door-back-frozen.png",
     height = 286,

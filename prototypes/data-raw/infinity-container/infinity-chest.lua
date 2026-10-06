@@ -185,6 +185,10 @@ return {
     },
     type = "create-entity"
   },
+  default_empty_slots_signal = {
+    name = "signal-E",
+    type = "virtual"
+  },
   dying_explosion = "storage-chest-explosion",
   erase_contents_when_mined = true,
   fast_replaceable_group = "container",

@@ -17,7 +17,7 @@ return {
     }
   },
   enabled = false,
-  energy_required = 1.5,
+  energy_required = 0.75,
   hidden = true,
   icons = {
     {

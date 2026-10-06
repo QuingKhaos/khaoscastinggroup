@@ -27,7 +27,7 @@ return {
       aggregation = {
         count_already_playing = true,
         max_count = 8,
-        priority = "newest",
+        progress_threshold = 0.175,
         remove = true
       },
       variations = {

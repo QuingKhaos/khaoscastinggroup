@@ -15,7 +15,7 @@ return {
     },
     not_colliding_with_itself = true
   },
-  damage_per_hp = 15,
+  damage_per_hp = 50,
   dying_trigger_effect = {
     {
       entity_name = "carbonic-asteroid-explosion-5",

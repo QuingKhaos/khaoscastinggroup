@@ -318,6 +318,7 @@ return {
     {
       index = 6,
       sprite = {
+        draw_as_shadow = true,
         filename = "__base__/graphics/entity/cargo-pod/pod-static-shadow.png",
         height = 56,
         line_length = 1,

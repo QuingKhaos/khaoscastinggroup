@@ -94,7 +94,7 @@ return {
         usage = "both"
       }
     },
-    draw_switch_tick = 400,
+    draw_switch_tick = 370,
     duration = 1200,
     layers = {
       {
@@ -244,7 +244,7 @@ return {
           {
             offset_rate = 0,
             offset_rate_t = 0,
-            timestamp = 400
+            timestamp = 370
           },
           {
             offset_rate = 0.9,
@@ -358,19 +358,19 @@ return {
         frames = {
           {
             lut_blend = 0,
-            timestamp = 400
+            timestamp = 370
           },
           {
             lut_blend = 1,
-            timestamp = 700
+            timestamp = 670
           },
           {
             outside_opacity = 1,
-            timestamp = 350
+            timestamp = 320
           },
           {
             outside_opacity = 0,
-            timestamp = 400
+            timestamp = 370
           },
           {
             environment_volume = 1,
@@ -386,7 +386,7 @@ return {
           },
           {
             environment_muffle_intensity = 0.5,
-            timestamp = 450
+            timestamp = 420
           },
           {
             environment_muffle_intensity = 1,
@@ -3828,7 +3828,7 @@ return {
         render_layer = "elevated-rail-stone-path",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -3908,7 +3908,7 @@ return {
         render_layer = "elevated-higher-object",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -3988,7 +3988,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4068,7 +4068,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4148,7 +4148,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4228,7 +4228,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4308,7 +4308,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4388,7 +4388,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4468,7 +4468,7 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4548,7 +4548,7 @@ return {
         render_layer = "elevated-rail-stone-path-lower",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4628,7 +4628,7 @@ return {
         render_layer = "elevated-rail-stone-path-lower",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4760,7 +4760,7 @@ return {
         render_layer = "elevated-higher-object",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       },
       {
@@ -4864,11 +4864,11 @@ return {
         render_layer = "light-effect",
         rotates_with_pod = false,
         shift_rotates_with_pod = false,
-        start_time = 400,
+        start_time = 370,
         type = "single-graphic"
       }
     },
-    special_action_tick = 399
+    special_action_tick = 369
   },
   type = "procession",
   usage = "departure"

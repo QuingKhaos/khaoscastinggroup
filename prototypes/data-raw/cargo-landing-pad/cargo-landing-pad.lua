@@ -265,6 +265,10 @@ return {
     }
   },
   corpse = "cargo-landing-pad-remnants",
+  default_empty_slots_signal = {
+    name = "signal-E",
+    type = "virtual"
+  },
   dying_explosion = "rocket-silo-explosion",
   flags = {
     "placeable-player",

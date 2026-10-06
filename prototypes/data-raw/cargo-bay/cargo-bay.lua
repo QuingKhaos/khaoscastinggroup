@@ -3468,8 +3468,8 @@ return {
         }
       },
       pod_shadow_offset = {
-        2,
-        2.5
+        1,
+        1.3
       },
       receiving_cargo_units = {
         "cargo-pod"

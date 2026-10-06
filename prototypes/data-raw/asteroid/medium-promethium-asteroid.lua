@@ -15,7 +15,7 @@ return {
     },
     not_colliding_with_itself = true
   },
-  damage_per_hp = 16,
+  damage_per_hp = 10,
   dying_trigger_effect = {
     {
       entity_name = "promethium-asteroid-explosion-3",

@@ -10,6 +10,7 @@ return {
     "pollution",
     "quality"
   },
+  animation_random_start_frame = true,
   circuit_connector = {
     {
       points = {
@@ -1090,6 +1091,7 @@ return {
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
+    max_sounds_per_prototype = 7,
     sound = {
       advanced_volume_control = {
         fades = {
@@ -1106,7 +1108,6 @@ return {
           }
         }
       },
-      audible_distance_modifier = 0.5,
       filename = "__base__/sound/assembling-machine-t2-1.ogg",
       volume = 0.45
     },
@@ -1133,31 +1134,31 @@ return {
           variations = {
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
-              volume = 0.45
+              volume = 0.15
             }
           }
         }
@@ -1184,31 +1185,31 @@ return {
           variations = {
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
-              volume = 0.45
+              volume = 0.15
             },
             {
               filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
-              volume = 0.45
+              volume = 0.15
             }
           }
         }

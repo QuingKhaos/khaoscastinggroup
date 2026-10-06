@@ -436,6 +436,10 @@ return {
     name = "signal-D",
     type = "virtual"
   },
+  default_empty_slots_signal = {
+    name = "signal-E",
+    type = "virtual"
+  },
   default_speed_signal = {
     name = "signal-V",
     type = "virtual"
