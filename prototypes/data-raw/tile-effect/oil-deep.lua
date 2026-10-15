@@ -19,13 +19,32 @@ return {
       60
     },
     foam_color_multiplier = 0.1,
+    image_textures = {
+      {
+        filename = "__space-age__/graphics/terrain/oil-ocean-deep-shader.png"
+      },
+      {
+        filename = "__space-age__/graphics/terrain/oil-ocean-deep-spec.png"
+      }
+    },
     near_zoom = 0.062999999999999998,
+    noise_textures = {
+      {
+        color_channels = 3,
+        filename = "__space-age__/graphics/terrain/oilNoise.png",
+        size = 512
+      },
+      {
+        color_channels = 3,
+        filename = "__space-age__/graphics/terrain/oilGradient.png",
+        height = 32,
+        width = 512
+      }
+    },
     reflection_threshold = {
       5,
       5
     },
-    secondary_texture_variations_columns = 4,
-    secondary_texture_variations_rows = 2,
     shader_variation = "oil",
     specular_lightness = {
       3,
@@ -35,22 +54,6 @@ return {
     specular_threshold = {
       0,
       0
-    },
-    texture_variations_columns = 1,
-    texture_variations_rows = 1,
-    textures = {
-      {
-        filename = "__space-age__/graphics/terrain/oilNoise.png"
-      },
-      {
-        filename = "__space-age__/graphics/terrain/oil-ocean-deep-shader.png"
-      },
-      {
-        filename = "__space-age__/graphics/terrain/oilGradient.png"
-      },
-      {
-        filename = "__space-age__/graphics/terrain/oil-ocean-deep-spec.png"
-      }
     },
     tick_scale = 1
   }

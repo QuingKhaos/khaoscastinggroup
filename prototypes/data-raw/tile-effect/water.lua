@@ -19,6 +19,13 @@ return {
     },
     foam_color_multiplier = 2.4700000000000002,
     near_zoom = 2,
+    noise_textures = {
+      {
+        color_channels = 1,
+        filename = "__base__/graphics/terrain/effects/water-noise.png",
+        size = 512
+      }
+    },
     reflection_threshold = {
       0.27000000000000002,
       0.3
@@ -31,11 +38,6 @@ return {
     specular_threshold = {
       0.35,
       0.32200000000000002
-    },
-    textures = {
-      {
-        filename = "__base__/graphics/terrain/effects/water-noise.png"
-      }
     },
     tick_scale = 0.09
   }

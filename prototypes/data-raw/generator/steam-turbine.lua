@@ -53,7 +53,6 @@ return {
   },
   fluid_box = {
     filter = "steam",
-    minimum_temperature = 100,
     pipe_connections = {
       {
         direction = 8,
@@ -163,6 +162,7 @@ return {
     mining_time = 0.3,
     result = "steam-turbine"
   },
+  minimum_input_temperature = 100,
   name = "steam-turbine",
   open_sound = {
     filename = "__base__/sound/machine-open.ogg",

@@ -60,17 +60,94 @@ return {
     turret_attack = "i",
     worker_robots = "h"
   },
-  building_buildable_tint = {
-    0.4,
-    1,
-    0.4,
-    1
-  },
-  building_buildable_too_far_tint = {
-    0.6,
-    0.6,
-    0.3,
-    0.1
+  build_preview_tints = {
+    entity = {
+      buildable = {
+        0.4,
+        1,
+        0.4,
+        1
+      },
+      buildable_too_far = {
+        0.6,
+        0.6,
+        0.3,
+        0.1
+      },
+      ignorable = {
+        0.4,
+        0.4,
+        1,
+        1
+      },
+      not_buildable = {
+        1,
+        0.4,
+        0.4,
+        1
+      }
+    },
+    entity_chart = {
+      buildable = {
+        0,
+        1,
+        0
+      },
+      ignorable = {
+        0,
+        0,
+        1
+      },
+      not_buildable = {
+        1,
+        0,
+        0
+      }
+    },
+    tile = {
+      buildable = {
+        0.5,
+        1,
+        0.5,
+        0.5
+      },
+      buildable_too_far = {
+        1,
+        1,
+        0.5,
+        0.5
+      },
+      ignorable = {
+        0.4,
+        0.5,
+        1,
+        0.5
+      },
+      not_buildable = {
+        1,
+        0.5,
+        0.5,
+        0.5
+      }
+    },
+    tile_chart = {
+      buildable = {
+        0,
+        0,
+        1
+      },
+      ignorable = {
+        0,
+        0,
+        0,
+        0
+      },
+      not_buildable = {
+        1,
+        0,
+        0
+      }
+    }
   },
   building_collision_mask = {
     layers = {
@@ -81,22 +158,10 @@ return {
       water_tile = true
     }
   },
-  building_ignorable_tint = {
-    0.4,
-    0.4,
-    1,
-    1
-  },
   building_no_tint = {
     1,
     1,
     1,
-    1
-  },
-  building_not_buildable_tint = {
-    1,
-    0.4,
-    0.4,
     1
   },
   capsule_range_visualization_color = {
