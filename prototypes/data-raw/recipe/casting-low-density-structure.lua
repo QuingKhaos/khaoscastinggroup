@@ -2,7 +2,9 @@ return {
   allow_decomposition = false,
   allow_productivity = true,
   auto_recycle = false,
-  category = "metallurgy",
+  categories = {
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 15,
   icon = "__space-age__/graphics/icons/casting-low-density-structure.png",

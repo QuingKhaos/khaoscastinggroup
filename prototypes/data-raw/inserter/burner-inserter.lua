@@ -128,6 +128,7 @@ return {
           x = 108,
           y = 0
         },
+        render_layer = "floor",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
           flags = {
@@ -291,6 +292,7 @@ return {
           x = 162,
           y = 0
         },
+        render_layer = "floor",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
           flags = {
@@ -454,6 +456,7 @@ return {
           x = 0,
           y = 0
         },
+        render_layer = "floor",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
           flags = {
@@ -617,6 +620,7 @@ return {
           x = 54,
           y = 0
         },
+        render_layer = "floor",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-inserter-01-wire-sequence.png",
           flags = {

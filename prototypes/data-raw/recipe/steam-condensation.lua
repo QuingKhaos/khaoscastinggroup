@@ -1,9 +1,11 @@
 return {
   allow_decomposition = false,
   allow_quality = false,
-  always_show_products = true,
   auto_recycle = false,
-  category = "chemistry-or-cryogenics",
+  categories = {
+    "chemistry",
+    "cryogenics"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -52,7 +54,6 @@ return {
       type = "fluid"
     }
   },
-  show_amount_in_title = false,
   subgroup = "fluid-recipes",
   type = "recipe"
 }

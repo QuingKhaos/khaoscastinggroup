@@ -2,7 +2,9 @@ return {
   allow_decomposition = false,
   allow_productivity = true,
   auto_recycle = false,
-  category = "centrifuging",
+  categories = {
+    "centrifuging"
+  },
   enabled = false,
   energy_required = 60,
   icon = "__base__/graphics/icons/nuclear-fuel-reprocessing.png",

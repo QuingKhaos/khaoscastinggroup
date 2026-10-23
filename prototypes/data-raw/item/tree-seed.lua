@@ -7,7 +7,9 @@ return {
     filename = "__base__/sound/item/wood-inventory-move.ogg",
     volume = 0.7
   },
-  fuel_category = "chemical",
+  fuel_categories = {
+    "chemical"
+  },
   fuel_value = "100kJ",
   icon = "__space-age__/graphics/icons/tree-seed.png",
   inventory_move_sound = {

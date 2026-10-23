@@ -1147,8 +1147,7 @@ return {
   },
   corpse = "recycler-remnants",
   crafting_categories = {
-    "recycling",
-    "recycling-or-hand-crafting"
+    "recycling"
   },
   crafting_speed = 0.5,
   custom_input_slot_tooltip_key = "recycler-input-slot-tooltip",
@@ -1174,7 +1173,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-E.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-E.png",
             frame_count = 64,
             height = 204,
             line_length = 8,
@@ -1189,7 +1188,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-E-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-E-shadow.png",
             frame_count = 64,
             height = 114,
             line_length = 8,
@@ -1207,7 +1206,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-N.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-N.png",
             frame_count = 64,
             height = 304,
             line_length = 8,
@@ -1222,7 +1221,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-N-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-N-shadow.png",
             frame_count = 64,
             height = 252,
             line_length = 8,
@@ -1240,7 +1239,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-S.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-S.png",
             frame_count = 64,
             height = 290,
             line_length = 8,
@@ -1255,7 +1254,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-S-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-S-shadow.png",
             frame_count = 64,
             height = 238,
             line_length = 8,
@@ -1273,7 +1272,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-W.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-W.png",
             frame_count = 64,
             height = 186,
             line_length = 8,
@@ -1288,7 +1287,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-W-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-W-shadow.png",
             frame_count = 64,
             height = 112,
             line_length = 8,
@@ -1305,7 +1304,7 @@ return {
     },
     frozen_patch = {
       east = {
-        filename = "__quality__/graphics/entity/recycler/recycler-E-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-E-frozen.png",
         height = 170,
         line_length = 1,
         priority = "high",
@@ -1317,7 +1316,7 @@ return {
         width = 250
       },
       north = {
-        filename = "__quality__/graphics/entity/recycler/recycler-N-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-N-frozen.png",
         height = 288,
         line_length = 1,
         priority = "high",
@@ -1329,7 +1328,7 @@ return {
         width = 140
       },
       south = {
-        filename = "__quality__/graphics/entity/recycler/recycler-S-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-S-frozen.png",
         height = 258,
         line_length = 1,
         priority = "high",
@@ -1341,7 +1340,7 @@ return {
         width = 134
       },
       west = {
-        filename = "__quality__/graphics/entity/recycler/recycler-W-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-W-frozen.png",
         height = 162,
         line_length = 1,
         priority = "high",
@@ -1359,7 +1358,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-E-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-E-lights.png",
           frame_count = 64,
           height = 108,
           line_length = 8,
@@ -1375,7 +1374,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-N-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-N-lights.png",
           frame_count = 64,
           height = 184,
           line_length = 8,
@@ -1391,7 +1390,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-S-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-S-lights.png",
           frame_count = 64,
           height = 202,
           line_length = 8,
@@ -1407,7 +1406,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-W-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-W-lights.png",
           frame_count = 64,
           height = 148,
           line_length = 8,
@@ -1423,7 +1422,7 @@ return {
       {
         animation = {
           animation_speed = 0.5,
-          filename = "__quality__/graphics/entity/recycler/recycler-smoke-outer.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-smoke-outer.png",
           frame_count = 47,
           height = 188,
           line_length = 16,
@@ -1458,7 +1457,7 @@ return {
       {
         animation = {
           animation_speed = 0.5,
-          filename = "__quality__/graphics/entity/recycler/recycler-smoke-inner.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-smoke-inner.png",
           frame_count = 47,
           height = 84,
           line_length = 16,
@@ -1498,7 +1497,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-E.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-E.png",
             frame_count = 64,
             height = 184,
             line_length = 8,
@@ -1513,7 +1512,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-E-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-E-shadow.png",
             frame_count = 64,
             height = 112,
             line_length = 8,
@@ -1531,7 +1530,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-N.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-N.png",
             frame_count = 64,
             height = 300,
             line_length = 8,
@@ -1546,7 +1545,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-N-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-N-shadow.png",
             frame_count = 64,
             height = 252,
             line_length = 8,
@@ -1564,7 +1563,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-S.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-S.png",
             frame_count = 64,
             height = 288,
             line_length = 8,
@@ -1579,7 +1578,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-S-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-S-shadow.png",
             frame_count = 64,
             height = 238,
             line_length = 8,
@@ -1597,7 +1596,7 @@ return {
         layers = {
           {
             animation_speed = 4,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-W.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-W.png",
             frame_count = 64,
             height = 202,
             line_length = 8,
@@ -1612,7 +1611,7 @@ return {
           {
             animation_speed = 4,
             draw_as_shadow = true,
-            filename = "__quality__/graphics/entity/recycler/recycler-flipped-W-shadow.png",
+            filename = "__recycler__/graphics/entity/recycler/recycler-flipped-W-shadow.png",
             frame_count = 64,
             height = 114,
             line_length = 8,
@@ -1629,7 +1628,7 @@ return {
     },
     frozen_patch = {
       east = {
-        filename = "__quality__/graphics/entity/recycler/recycler-flipped-E-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-flipped-E-frozen.png",
         height = 162,
         line_length = 1,
         priority = "high",
@@ -1641,7 +1640,7 @@ return {
         width = 250
       },
       north = {
-        filename = "__quality__/graphics/entity/recycler/recycler-flipped-N-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-flipped-N-frozen.png",
         height = 288,
         line_length = 1,
         priority = "high",
@@ -1653,7 +1652,7 @@ return {
         width = 140
       },
       south = {
-        filename = "__quality__/graphics/entity/recycler/recycler-flipped-S-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-flipped-S-frozen.png",
         height = 258,
         line_length = 1,
         priority = "high",
@@ -1665,7 +1664,7 @@ return {
         width = 134
       },
       west = {
-        filename = "__quality__/graphics/entity/recycler/recycler-flipped-W-frozen.png",
+        filename = "__recycler__/graphics/entity/recycler/recycler-flipped-W-frozen.png",
         height = 170,
         line_length = 1,
         priority = "high",
@@ -1683,7 +1682,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-flipped-E-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-flipped-E-lights.png",
           frame_count = 64,
           height = 146,
           line_length = 8,
@@ -1699,7 +1698,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-flipped-N-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-flipped-N-lights.png",
           frame_count = 64,
           height = 202,
           line_length = 8,
@@ -1715,7 +1714,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-flipped-S-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-flipped-S-lights.png",
           frame_count = 64,
           height = 202,
           line_length = 8,
@@ -1731,7 +1730,7 @@ return {
           animation_speed = 4,
           blend_mode = "additive",
           draw_as_glow = true,
-          filename = "__quality__/graphics/entity/recycler/recycler-flipped-W-lights.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-flipped-W-lights.png",
           frame_count = 64,
           height = 128,
           line_length = 8,
@@ -1747,7 +1746,7 @@ return {
       {
         animation = {
           animation_speed = 0.5,
-          filename = "__quality__/graphics/entity/recycler/recycler-smoke-outer.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-smoke-outer.png",
           frame_count = 47,
           height = 188,
           line_length = 16,
@@ -1782,7 +1781,7 @@ return {
       {
         animation = {
           animation_speed = 0.5,
-          filename = "__quality__/graphics/entity/recycler/recycler-smoke-inner.png",
+          filename = "__recycler__/graphics/entity/recycler/recycler-smoke-inner.png",
           frame_count = 47,
           height = 84,
           line_length = 16,
@@ -1817,7 +1816,7 @@ return {
     }
   },
   heating_energy = "100kW",
-  icon = "__quality__/graphics/icons/recycler.png",
+  icon = "__recycler__/graphics/icons/recycler.png",
   icon_draw_specification = {
     shift = {
       0,
@@ -1867,16 +1866,30 @@ return {
   },
   source_inventory_size = 1,
   type = "furnace",
+  use_mirroring = true,
   vector_to_place_result = {
-    -0.5,
+    -0.35,
     -2.2999999999999998
+  },
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__recycler__/graphics/entity/recycler/recycler-reflection.png",
+      height = 48,
+      priority = "extra-high",
+      repeat_count = 2,
+      scale = 5,
+      variation_count = 2,
+      width = 48
+    },
+    rotate = false
   },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
     max_sounds_per_prototype = 2,
     sound = {
-      filename = "__quality__/sound/recycler/recycler-loop.ogg",
+      filename = "__recycler__/sound/recycler/recycler-loop.ogg",
       volume = 0.7
     },
     sound_accents = {
@@ -1886,23 +1899,23 @@ return {
           audible_distance_modifier = 0.2,
           variations = {
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-1.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-1.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-2.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-2.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-3.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-3.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-4.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-4.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-5.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-5.ogg",
               volume = 0.45
             }
           }
@@ -1914,23 +1927,23 @@ return {
           audible_distance_modifier = 0.3,
           variations = {
             {
-              filename = "__quality__/sound/recycler/recycler-vox-1.ogg",
+              filename = "__recycler__/sound/recycler/recycler-vox-1.ogg",
               volume = 0.2
             },
             {
-              filename = "__quality__/sound/recycler/recycler-vox-2.ogg",
+              filename = "__recycler__/sound/recycler/recycler-vox-2.ogg",
               volume = 0.2
             },
             {
-              filename = "__quality__/sound/recycler/recycler-vox-3.ogg",
+              filename = "__recycler__/sound/recycler/recycler-vox-3.ogg",
               volume = 0.2
             },
             {
-              filename = "__quality__/sound/recycler/recycler-vox-4.ogg",
+              filename = "__recycler__/sound/recycler/recycler-vox-4.ogg",
               volume = 0.2
             },
             {
-              filename = "__quality__/sound/recycler/recycler-vox-5.ogg",
+              filename = "__recycler__/sound/recycler/recycler-vox-5.ogg",
               volume = 0.2
             }
           }
@@ -1942,15 +1955,15 @@ return {
           audible_distance_modifier = 0.3,
           variations = {
             {
-              filename = "__quality__/sound/recycler/recycler-mechanic-1.ogg",
+              filename = "__recycler__/sound/recycler/recycler-mechanic-1.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-mechanic-2.ogg",
+              filename = "__recycler__/sound/recycler/recycler-mechanic-2.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-mechanic-3.ogg",
+              filename = "__recycler__/sound/recycler/recycler-mechanic-3.ogg",
               volume = 0.3
             }
           }
@@ -1962,23 +1975,23 @@ return {
           audible_distance_modifier = 0.2,
           variations = {
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-1.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-1.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-2.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-2.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-3.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-3.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-4.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-4.ogg",
               volume = 0.45
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-move-5.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-move-5.ogg",
               volume = 0.45
             }
           }
@@ -1990,23 +2003,23 @@ return {
           audible_distance_modifier = 0.3,
           variations = {
             {
-              filename = "__quality__/sound/recycler/recycler-trash-1.ogg",
+              filename = "__recycler__/sound/recycler/recycler-trash-1.ogg",
               volume = 0.6
             },
             {
-              filename = "__quality__/sound/recycler/recycler-trash-2.ogg",
+              filename = "__recycler__/sound/recycler/recycler-trash-2.ogg",
               volume = 0.6
             },
             {
-              filename = "__quality__/sound/recycler/recycler-trash-3.ogg",
+              filename = "__recycler__/sound/recycler/recycler-trash-3.ogg",
               volume = 0.6
             },
             {
-              filename = "__quality__/sound/recycler/recycler-trash-4.ogg",
+              filename = "__recycler__/sound/recycler/recycler-trash-4.ogg",
               volume = 0.6
             },
             {
-              filename = "__quality__/sound/recycler/recycler-trash-5.ogg",
+              filename = "__recycler__/sound/recycler/recycler-trash-5.ogg",
               volume = 0.6
             }
           }
@@ -2018,27 +2031,27 @@ return {
           audible_distance_modifier = 0.6,
           variations = {
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-shut-1.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-shut-1.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-shut-2.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-shut-2.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-shut-3.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-shut-3.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-shut-4.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-shut-4.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-shut-5.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-shut-5.ogg",
               volume = 0.3
             },
             {
-              filename = "__quality__/sound/recycler/recycler-jaw-shut-6.ogg",
+              filename = "__recycler__/sound/recycler/recycler-jaw-shut-6.ogg",
               volume = 0.3
             }
           }

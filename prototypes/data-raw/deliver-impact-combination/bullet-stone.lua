@@ -13,23 +13,23 @@ return {
       variations = {
         {
           filename = "__base__/sound/bullets/bullet-impact-stone-1.ogg",
-          volume = 0.5
+          volume = 0.4
         },
         {
           filename = "__base__/sound/bullets/bullet-impact-stone-2.ogg",
-          volume = 0.5
+          volume = 0.4
         },
         {
           filename = "__base__/sound/bullets/bullet-impact-stone-3.ogg",
-          volume = 0.5
+          volume = 0.4
         },
         {
           filename = "__base__/sound/bullets/bullet-impact-stone-4.ogg",
-          volume = 0.5
+          volume = 0.4
         },
         {
           filename = "__base__/sound/bullets/bullet-impact-stone-5.ogg",
-          volume = 0.5
+          volume = 0.4
         }
       }
     },

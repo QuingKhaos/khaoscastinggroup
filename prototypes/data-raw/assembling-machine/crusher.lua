@@ -590,6 +590,10 @@ return {
     usage_priority = "secondary-input"
   },
   energy_usage = "540kW",
+  factoriopedia_simulation = {
+    hide_factoriopedia_gradient = true,
+    init = "    game.simulation.camera_zoom = 3\n    game.simulation.camera_position = {0, 0}\n    for x = -8, 8, 1 do\n      for y = -3, 3 do\n        game.surfaces[1].set_tiles{{position = {x, y}, name = \"empty-space\"}}\n      end\n    end\n    game.surfaces[1].create_entities_from_blueprint_string\n    {\n      string = \"0eNql1LEOgyAQxvF3uRkTBTTqqzQdqGJLomAAmzaGd6/WNF06NPlWuP8Nv+FWuoyLnr2xkdqVTOdsoPa0UjBXq8b9zapJU0udX8JNe0qMjO31g9oinRlFM+qjmF0w0Ti7N9tvVlSMnvsU+6wIs+p0No8qDs5P2eAW26t3ktiPvgR7CfYC7DnYH34c9OOgHwf9OOjHQT8B+gnQT4B+AvQToJ8E/SToJ0E/Cfr912+X0EQ9bUPfe8rorn14bywr3simKWuZ81zWKb0AR1TVRQ==\",\n      position = {0, 0}\n    }\n    game.surfaces[1].create_entity{name = \"crusher\", position = {0, 0}, direction = defines.direction.east}\n  "
+  },
   fast_replaceable_group = "crusher",
   flags = {
     "placeable-neutral",

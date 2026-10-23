@@ -36,6 +36,7 @@ return {
     invert = true,
     result = "space-platform-foundation"
   },
+  space_platform_request_priority = true,
   stack_size = 100,
   subgroup = "space-platform",
   type = "item",

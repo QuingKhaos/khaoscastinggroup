@@ -63,7 +63,9 @@ return {
     filename = "__space-age__/sound/item/agriculture-inventory-move.ogg",
     volume = 0.5
   },
-  fuel_category = "chemical",
+  fuel_categories = {
+    "chemical"
+  },
   fuel_value = "10MJ",
   icon = "__space-age__/graphics/icons/jellynut.png",
   inventory_move_sound = {

@@ -120,61 +120,51 @@ return {
   smoke_count = 1,
   smoke_slow_down_factor = 1,
   sound = {
+    advanced_volume_control = {
+      fades = {
+        fade_in = {
+          curve_type = "S-curve",
+          from = {
+            control = 0.5,
+            volume_percentage = 20
+          },
+          to = {
+            1,
+            100
+          }
+        }
+      }
+    },
     aggregation = {
       count_already_playing = true,
-      max_count = 3,
+      max_count = 2,
       remove = true
-    },
-    audible_distance_modifier = 0.5,
-    switch_vibration_data = {
-      filename = "__base__/sound/fight/medium-explosion.bnvib",
-      gain = 0.4
     },
     variations = {
       {
-        filename = "__base__/sound/fight/medium-explosion-1.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-1.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-2.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-2.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-3.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-3.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-4.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-4.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-5.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-5.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       }
     }
   },

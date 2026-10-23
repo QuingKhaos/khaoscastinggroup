@@ -17,6 +17,7 @@ return {
   asteroid_collector_static_head_swing_segment_count = 12,
   asteroid_collector_static_head_swing_strength_scale = 1,
   asteroid_fading_range = 16,
+  asteroid_min_damage_modifier = 0.05,
   asteroid_position_offset_to_speed_coefficient = 0.0083333333333333321,
   asteroid_spawning_offset = {
     {
@@ -59,17 +60,94 @@ return {
     turret_attack = "i",
     worker_robots = "h"
   },
-  building_buildable_tint = {
-    0.4,
-    1,
-    0.4,
-    1
-  },
-  building_buildable_too_far_tint = {
-    0.6,
-    0.6,
-    0.3,
-    0.1
+  build_preview_tints = {
+    entity = {
+      buildable = {
+        0.4,
+        1,
+        0.4,
+        1
+      },
+      buildable_too_far = {
+        0.6,
+        0.6,
+        0.3,
+        0.1
+      },
+      ignorable = {
+        0.4,
+        0.4,
+        1,
+        1
+      },
+      not_buildable = {
+        1,
+        0.4,
+        0.4,
+        1
+      }
+    },
+    entity_chart = {
+      buildable = {
+        0,
+        1,
+        0
+      },
+      ignorable = {
+        0,
+        0,
+        1
+      },
+      not_buildable = {
+        1,
+        0,
+        0
+      }
+    },
+    tile = {
+      buildable = {
+        0.5,
+        1,
+        0.5,
+        0.5
+      },
+      buildable_too_far = {
+        1,
+        1,
+        0.5,
+        0.5
+      },
+      ignorable = {
+        0.4,
+        0.5,
+        1,
+        0.5
+      },
+      not_buildable = {
+        1,
+        0.5,
+        0.5,
+        0.5
+      }
+    },
+    tile_chart = {
+      buildable = {
+        0,
+        0,
+        1
+      },
+      ignorable = {
+        0,
+        0,
+        0,
+        0
+      },
+      not_buildable = {
+        1,
+        0,
+        0
+      }
+    }
   },
   building_collision_mask = {
     layers = {
@@ -80,22 +158,10 @@ return {
       water_tile = true
     }
   },
-  building_ignorable_tint = {
-    0.4,
-    0.4,
-    1,
-    1
-  },
   building_no_tint = {
     1,
     1,
     1,
-    1
-  },
-  building_not_buildable_tint = {
-    1,
-    0.4,
-    0.4,
     1
   },
   capsule_range_visualization_color = {
@@ -783,7 +849,6 @@ return {
     },
     ["cargo-bay"] = {
       layers = {
-        elevated_rail = true,
         is_lower_object = true,
         is_object = true,
         item = true,
@@ -1909,12 +1974,48 @@ return {
       "default-a"
     }
   },
+  default_platform_surface_render_parameters = {
+    shadow_opacity = 0.5,
+    space_dust_background = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    },
+    space_dust_foreground = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    }
+  },
   default_player_force_color = {
     0.86899999999999995,
     0.5,
     0.13,
     0.5
   },
+  default_rocket_lift_weight = 1000000,
   default_scorch_mark_color = {
     0.373,
     0.30699999999999998,
@@ -2005,11 +2106,23 @@ return {
     g = 0.3,
     r = 0.3
   },
+  equipment_disabled_background_tint = {
+    0.5,
+    0.5,
+    0.5,
+    1
+  },
+  equipment_disabled_tint = {
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  },
   explosions_in_simulation_volume_modifier = 0.5,
   factoriopedia_recycling_recipe_categories = {
-    "recycling",
-    "recycling-or-hand-crafting"
+    "recycling"
   },
+  far_away_chunk_generation_radius = 20,
   feedback_screenshot_file_name = "feedback_screenshot",
   feedback_screenshot_subfolder_name = "feedback",
   filter_outline_color = {
@@ -2028,29 +2141,35 @@ return {
   freezing_temperature = 30,
   frozen_color_lookup = "__core__/graphics/color_luts/frozen.png",
   ghost_layer = "ghost",
+  ghost_product_count_tint = {
+    170,
+    222,
+    255,
+    200
+  },
   ghost_shader_tint = {
     ghost_delivery_tint = {
-      168,
-      214,
-      196,
+      210,
+      250,
+      245,
       77
     },
     ghost_tint = {
-      118,
-      135,
-      209,
+      147,
+      168,
+      255,
       77
     },
     tile_ghost_delivery_tint = {
-      174,
-      221,
-      242,
+      217,
+      255,
+      255,
       255
     },
     tile_ghost_tint = {
-      37,
-      123,
-      194,
+      46,
+      153,
+      242,
       255
     },
     wire_tint = {
@@ -2241,6 +2360,7 @@ return {
     230,
     192
   },
+  huge_area_size = 26,
   huge_platform_animation_sound_area = 81,
   icon_shadow_color = {
     a = 1
@@ -2414,7 +2534,7 @@ return {
     },
     nauvis_big_defense = {
       checkboard = false,
-      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    logo.destructible = false\n    local center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_position = center\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.surfaces.nauvis.daytime = 1\n    game.map_settings.steering.moving.force_unit_fuzzy_goto_behavior = true\n    game.map_settings.steering.moving.radius = 3\n\n    local bop = function()\n      local surface = game.surfaces[1]\n      local target = surface.find_entities_filtered{name = \"flamethrower-turret\", position = {33.5, -12}}[1]\n      local names = {\"medium-biter\", \"medium-biter\", \"big-biter\", \"big-biter\", \"big-spitter\", \"medium-spitter\"}\n      for k = 1, 100 do\n        local spawn_position = {center[1] - 60 + math.random(-35, 5), center[2] + math.random(-10, 10)}\n        local name = names[math.random(#names)]\n        local biter = surface.create_entity{name = name, position = spawn_position}\n        biter.commandable.set_command({type = defines.command.attack, target = target})\n        biter.speed = 0.24 + (math.random() / 20)\n      end\n    end\n\n    bop()\n  ",
+      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    logo.destructible = false\n    local center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_position = center\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.surfaces.nauvis.daytime = 1\n\n    local bop = function()\n      local surface = game.surfaces[1]\n      local target = surface.find_entities_filtered{name = \"flamethrower-turret\", position = {33.5, -12}}[1]\n      local names = {\"medium-biter\", \"medium-biter\", \"big-biter\", \"big-biter\", \"big-spitter\", \"medium-spitter\"}\n      for k = 1, 100 do\n        local spawn_position = {center[1] - 60 + math.random(-35, 5), center[2] + math.random(-10, 10)}\n        local name = names[math.random(#names)]\n        local biter = surface.create_entity{name = name, position = spawn_position}\n        biter.commandable.set_command({type = defines.command.attack, target = target})\n        biter.speed = 0.24 + (math.random() / 20)\n      end\n    end\n\n    bop()\n  ",
       length = 720,
       save = "__base__/menu-simulations/menu-simulation-big-defense.zip"
     },
@@ -2432,7 +2552,7 @@ return {
     },
     nauvis_biter_base_laser_defense = {
       checkboard = false,
-      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    logo.destructible = false\n    game.simulation.camera_position = {logo.position.x, logo.position.y+9.75}\n    center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.forces.enemy.set_evolution_factor(0.7)\n    game.surfaces[1].peaceful_mode = true\n    game.forces.player.research_all_technologies()\n    game.surfaces.nauvis.daytime = 0\n\n    local character = game.surfaces[1].create_entity{name = \"character\", position = {center[1] - 40, center[2] + 20}, force = \"player\"}\n    character.insert{name = \"power-armor-mk2\"}\n    local grid = character.get_inventory(defines.inventory.character_armor)[1].grid\n    grid.put{name = \"exoskeleton-equipment\"}\n    grid.put{name = \"exoskeleton-equipment\"}\n    for k = 1, 10 do\n      grid.put{name = \"personal-laser-defense-equipment\"}\n      grid.put{name = \"energy-shield-mk2-equipment\"}\n      grid.put{name = \"battery-mk2-equipment\"}\n      grid.put{name = \"battery-mk2-equipment\"}\n    end\n\n    for k, equipment in pairs(grid.equipment) do\n      if equipment.max_shield > 0 then equipment.shield = equipment.max_shield end\n      equipment.energy = equipment.max_energy\n    end\n\n    character.insert{name = \"submachine-gun\"}\n    character.insert{name = \"uranium-rounds-magazine\", count = 50}\n\n    points =\n    {\n      {-16, -8},\n      {0, -12},\n      {16, -8},\n      {16, 0},\n      {8, 8},\n      {60, 8},\n    }\n\n    local distance = function(p_1, p_2)\n      local dx = (p_1[1] or p_1.x) - (p_2[1] or p_2.x)\n      local dy = (p_1[2] or p_1.y) - (p_2[2] or p_2.y)\n      return ((dx * dx) + (dy * dy)) ^ 0.5\n    end\n\n    local direction = function(p_1, p_2)\n\n      local d_x = (p_2[1] or p_2.x) - (p_1[1] or p_1.x)\n      local d_y = (p_2[2] or p_2.y) - (p_1[2] or p_1.y)\n      local angle = math.atan2(d_y, d_x)\n\n      local orientation =  (angle / (2 * math.pi)) - 0.25\n      if orientation < 0 then orientation = orientation + 1 end\n\n      local direction = math.floor((orientation * 16) + 0.5)\n      if direction == 16 then direction = defines.direction.north end\n      return direction\n    end\n\n    local get_shoot_target = function(entity)\n      local enemies = entity.surface.find_enemy_units(entity.position, 10)\n      local closest = entity.surface.get_closest(entity.position, enemies)\n      return closest\n    end\n\n    script.on_event(defines.events.on_tick, function()\n      local k, destination = next(points)\n      if not k then return end\n      local target = {center[1] + destination[1], center[2] + destination[2]}\n      if distance(character.position, target) < 1 then\n        points[k] = nil\n        return\n      end\n\n      if game.tick % 17 == 0 then\n        local walking_direction = direction(target, character.position)\n        character.walking_state = {walking = true, direction = walking_direction}\n      end\n\n      if not (shoot_target and shoot_target.valid) then\n        shoot_target = get_shoot_target(character)\n      end\n\n      if shoot_target then\n        character.shooting_state = {state = defines.shooting.shooting_enemies, position = shoot_target.position}\n      else\n        character.shooting_state = {state = defines.shooting.not_shooting}\n      end\n\n    end)\n\n  ",
+      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    logo.destructible = false\n    game.simulation.camera_position = {logo.position.x, logo.position.y+9.75}\n    center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.forces.enemy.set_evolution_factor(0.7)\n    game.surfaces[1].peaceful_mode = true\n    game.forces.player.research_all_technologies()\n    game.surfaces.nauvis.daytime = 0\n\n    local character = game.surfaces[1].create_entity{name = \"character\", position = {center[1] - 40, center[2] + 20}, force = \"player\"}\n    character.insert{name = \"power-armor-mk2\"}\n    local grid = character.get_inventory(defines.inventory.character_armor)[1].grid\n    grid.put{name = \"exoskeleton-equipment\"}\n    grid.put{name = \"exoskeleton-equipment\"}\n    for k = 1, 10 do\n      grid.put{name = \"personal-laser-defense-equipment\"}\n      grid.put{name = \"energy-shield-mk2-equipment\"}\n      grid.put{name = \"battery-mk2-equipment\"}\n      grid.put{name = \"battery-mk2-equipment\"}\n    end\n\n    for k, equipment in pairs(grid.equipment) do\n      if equipment.max_shield > 0 then equipment.shield = equipment.max_shield end\n      equipment.energy = equipment.max_energy\n    end\n\n    character.insert{name = \"submachine-gun\"}\n    character.insert{name = \"uranium-rounds-magazine\", count = 50}\n\n    points =\n    {\n      {-16, -8},\n      {0, -12},\n      {16, -8},\n      {16, 0},\n      {8, 8},\n      {60, 8},\n    }\n\n    local distance = function(p_1, p_2)\n      local dx = (p_1[1] or p_1.x) - (p_2[1] or p_2.x)\n      local dy = (p_1[2] or p_1.y) - (p_2[2] or p_2.y)\n      return ((dx * dx) + (dy * dy)) ^ 0.5\n    end\n\n    local direction = function(p_1, p_2)\n\n      local d_x = (p_2[1] or p_2.x) - (p_1[1] or p_1.x)\n      local d_y = (p_2[2] or p_2.y) - (p_1[2] or p_1.y)\n      local angle = math.atan2(d_y, d_x)\n\n      local orientation =  (angle / (2 * math.pi)) - 0.25\n      if orientation < 0 then orientation = orientation + 1 end\n\n      local direction = math.floor((orientation * 16) + 0.5)\n      if direction == 16 then direction = defines.direction.north end\n      return direction\n    end\n\n    local get_shoot_target = function(entity)\n      local enemies = entity.surface.find_enemy_units(entity.position, 10)\n      local closest = entity.surface.get_closest(entity.position, enemies)\n      return closest\n    end\n\n    script.on_event(defines.events.on_tick, function()\n      if not character.valid then return end\n      local k, destination = next(points)\n      if not k then return end\n      local target = {center[1] + destination[1], center[2] + destination[2]}\n      if distance(character.position, target) < 1 then\n        points[k] = nil\n        return\n      end\n\n      if game.tick % 17 == 0 then\n        local walking_direction = direction(target, character.position)\n        character.walking_state = {walking = true, direction = walking_direction}\n      end\n\n      if not (shoot_target and shoot_target.valid) then\n        shoot_target = get_shoot_target(character)\n      end\n\n      if shoot_target then\n        character.shooting_state = {state = defines.shooting.shooting_enemies, position = shoot_target.position}\n      else\n        character.shooting_state = {state = defines.shooting.not_shooting}\n      end\n\n    end)\n\n  ",
       length = 720,
       save = "__base__/menu-simulations/menu-simulation-biter-base.zip"
     },
@@ -2456,7 +2576,7 @@ return {
     },
     nauvis_brutal_defeat = {
       checkboard = false,
-      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    logo.destructible = false\n    local center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_position = center\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.map_settings.steering.moving.force_unit_fuzzy_goto_behavior = true\n    game.map_settings.steering.moving.radius = 2\n\n    game.forces.enemy.set_ammo_damage_modifier(\"melee\", 10)\n    game.forces.enemy.set_ammo_damage_modifier(\"biological\", 10)\n    game.forces.enemy.set_gun_speed_modifier(\"melee\", 0.5)\n    game.forces.enemy.set_gun_speed_modifier(\"biological\", 0.5)\n\n    local bop = function()\n      local surface = game.surfaces[1]\n      local targets = surface.find_entities_filtered{force = \"player\", position = {center[1] + 25, center[2]}, radius = 10}\n      local count = #targets\n      local names = {\"medium-biter\", \"small-biter\", \"small-biter\", \"small-biter\", \"small-biter\", \"small-biter\", \"small-spitter\"}\n      for k = 1, 350 do\n        local spawn_position = {center[1] - 40 + math.random(-55, 5), center[2] + 10 + math.random(-5, 5)}\n        local name = names[math.random(#names)]\n        local biter = surface.create_entity{name = name, position = spawn_position}\n        biter.commandable.set_command\n        {\n          type = defines.command.compound,\n          structure_type = defines.compound_command.return_last,\n          commands =\n          {\n            {type = defines.command.attack, target = targets[math.random(count)]},\n            {type = defines.command.attack_area, destination = {center[1] + 20, center[2]}, radius = math.random(5, 10)},\n            {type = defines.command.attack_area, destination = {center[1] + 35, center[2]}, radius = math.random(2, 5)},\n            {type = defines.command.go_to_location, destination = {center[1] + 120, center[2]}}\n          }\n        }\n        biter.speed = 0.24 + (math.random() / 20)\n      end\n    end\n\n    bop()\n  ",
+      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    logo.destructible = false\n    local center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_position = center\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n\n    game.forces.enemy.set_ammo_damage_modifier(\"melee\", 10)\n    game.forces.enemy.set_ammo_damage_modifier(\"biological\", 10)\n    game.forces.enemy.set_gun_speed_modifier(\"melee\", 0.5)\n    game.forces.enemy.set_gun_speed_modifier(\"biological\", 0.5)\n\n    local bop = function()\n      local surface = game.surfaces[1]\n      local targets = surface.find_entities_filtered{force = \"player\", position = {center[1] + 25, center[2]}, radius = 10}\n      local count = #targets\n      local names = {\"medium-biter\", \"small-biter\", \"small-biter\", \"small-biter\", \"small-biter\", \"small-biter\", \"small-spitter\"}\n      for k = 1, 350 do\n        local spawn_position = {center[1] - 40 + math.random(-55, 5), center[2] + 10 + math.random(-5, 5)}\n        local name = names[math.random(#names)]\n        local biter = surface.create_entity{name = name, position = spawn_position}\n        biter.commandable.set_command\n        {\n          type = defines.command.compound,\n          structure_type = defines.compound_command.return_last,\n          commands =\n          {\n            {type = defines.command.attack, target = targets[math.random(count)]},\n            {type = defines.command.attack_area, destination = {center[1] + 20, center[2]}, radius = math.random(5, 10)},\n            {type = defines.command.attack_area, destination = {center[1] + 35, center[2]}, radius = math.random(2, 5)},\n            {type = defines.command.go_to_location, destination = {center[1] + 120, center[2]}}\n          }\n        }\n        biter.speed = 0.24 + (math.random() / 20)\n      end\n    end\n\n    bop()\n  ",
       length = 1080,
       save = "__base__/menu-simulations/menu-simulation-brutal-defeat.zip"
     },
@@ -2475,7 +2595,7 @@ return {
     },
     nauvis_chase_player = {
       checkboard = false,
-      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    local center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_position = center\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.surfaces.nauvis.daytime = 0\n    game.map_settings.steering.moving.force_unit_fuzzy_goto_behavior = true\n    game.map_settings.steering.moving.radius = 1\n\n    local character = game.surfaces[1].create_entity{name = \"character\", position = {center[1] - 55, center[2] + 4.5}, force = \"player\"}\n    character.walking_state = {walking = true, direction = defines.direction.east}\n    character.character_running_speed_modifier = 0.2\n    character.tick_of_last_attack = game.tick\n\n    local biter = game.surfaces[1].create_entity{name = \"small-biter\", position = {center[1] - 40, center[2] + 4.5}}\n    biter.speed = character.character_running_speed\n    biter.commandable.set_command{type = defines.command.go_to_location, destination = {center[1] + 60, center[2] + 4.5}, distraction = defines.distraction.none}\n\n    script.on_nth_tick(10, function()\n      if biter.position.x < (center[1] + 50) then return end\n      character.walking_state = {walking = true, direction = defines.direction.west}\n      character.tick_of_last_attack = 0\n      character.character_running_speed_modifier = 0.6\n      local command = {type = defines.command.go_to_location, destination_entity = character, distraction = defines.distraction.none}\n      biter.commandable.set_command(command)\n      biter.speed = character.character_running_speed\n      local position = biter.position\n      local surface = game.surfaces[1]\n      local names = {\"medium-biter\", \"small-biter\", \"small-biter\", \"small-biter\"}\n      for k = 1, 25 do\n        local spawn_position = {position.x + math.random(-5, 5), position.y + math.random(-10, 10)}\n        local name = names[math.random(#names)]\n        local biter = surface.create_entity{name = name, position = position}\n        biter.commandable.set_command(command)\n        biter.speed = character.character_running_speed\n      end\n      script.on_nth_tick(10, nil)\n    end)\n  ",
+      init = "    local logo = game.surfaces.nauvis.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n    local center = {logo.position.x, logo.position.y+9.75}\n    game.simulation.camera_position = center\n    game.simulation.camera_zoom = 1\n    game.tick_paused = false\n    game.surfaces.nauvis.daytime = 0\n\n    local character = game.surfaces[1].create_entity{name = \"character\", position = {center[1] - 55, center[2] + 4.5}, force = \"player\"}\n    character.walking_state = {walking = true, direction = defines.direction.east}\n    character.character_running_speed_modifier = 0.2\n    character.tick_of_last_attack = game.tick\n\n    local biter = game.surfaces[1].create_entity{name = \"small-biter\", position = {center[1] - 40, center[2] + 4.5}}\n    biter.speed = character.character_running_speed\n    biter.commandable.set_command{type = defines.command.go_to_location, destination = {center[1] + 60, center[2] + 4.5}, distraction = defines.distraction.none}\n\n    script.on_nth_tick(10, function()\n      if biter.position.x < (center[1] + 50) then return end\n      character.walking_state = {walking = true, direction = defines.direction.west}\n      character.tick_of_last_attack = 0\n      character.character_running_speed_modifier = 0.6\n      local command = {type = defines.command.go_to_location, destination_entity = character, distraction = defines.distraction.none}\n      biter.commandable.set_command(command)\n      biter.speed = character.character_running_speed\n      local position = biter.position\n      local surface = game.surfaces[1]\n      local names = {\"medium-biter\", \"small-biter\", \"small-biter\", \"small-biter\"}\n      for k = 1, 25 do\n        local spawn_position = {position.x + math.random(-5, 5), position.y + math.random(-10, 10)}\n        local name = names[math.random(#names)]\n        local biter = surface.create_entity{name = name, position = position}\n        biter.commandable.set_command(command)\n        biter.speed = character.character_running_speed\n      end\n      script.on_nth_tick(10, nil)\n    end)\n  ",
       length = 960,
       save = "__base__/menu-simulations/menu-simulation-chase-player.zip"
     },
@@ -2580,7 +2700,7 @@ return {
     },
     nauvis_tank_building = {
       checkboard = false,
-      init = "      local sim_planet = game.surfaces[\"nauvis\"]\n      local logo = sim_planet.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n      logo.destructible = false\n      local center = {logo.position.x, logo.position.y+9.75}\n      game.simulation.camera_surface_index = sim_planet.index\n      game.simulation.camera_position = center\n      game.simulation.camera_zoom = 1\n      game.tick_paused = false\n        local tick = 0\n    local on_tick = function() end\n    script.on_nth_tick(1,\n      function()\n        tick = tick + 1\n        on_tick()\n      end)\n    local tank = game.get_entity_by_tag(\"tank1\")\n  tank.color = {0.5, 0, 0, 0.5}\n\n  local character = game.surfaces.nauvis.create_entity{name = \"character\", position = tank.position, force = \"player\"}\n  character.color = tank.color\n  tank.set_passenger(character)\n\n  local radar_blueprint = {\n    -- Solar panels\n    {name = \"solar-panel\", position = {x = 1040.5, y = -45.5}},\n    {name = \"solar-panel\", position = {x = 1043.5, y = -45.5}},\n    {name = \"solar-panel\", position = {x = 1046.5, y = -45.5}},\n    {name = \"solar-panel\", position = {x = 1040.5, y = -42.5}},\n    {name = \"solar-panel\", position = {x = 1046.5, y = -42.5}},\n    {name = \"solar-panel\", position = {x = 1040.5, y = -39.5}},\n    {name = \"solar-panel\", position = {x = 1043.5, y = -39.5}},\n    {name = \"solar-panel\", position = {x = 1046.5, y = -39.5}},\n\n    -- Radar\n    {name = \"radar\", position = {x = 1043.5, y = -42.5}},\n\n    -- Substation\n    {name = \"substation\", position = {x = 1044, y = -37}},\n\n    -- Accumulators\n    {name = \"accumulator\", position = {x = 1040, y = -37}},\n    {name = \"accumulator\", position = {x = 1042, y = -37}},\n    {name = \"accumulator\", position = {x = 1046, y = -37}},\n    {name = \"accumulator\", position = {x = 1048, y = -37}},\n    {name = \"accumulator\", position = {x = 1042, y = -35}},\n    {name = \"accumulator\", position = {x = 1046, y = -35}},\n  }\n\n  local build_blueprint = function(blueprint)\n    for _, entity in pairs(blueprint) do\n        tank.surface.create_entity{\n            name = \"entity-ghost\",\n            inner_name = entity.name,\n            position = entity.position,\n            force = game.forces.player,\n            expires = false\n        }\n    end\n  end\n\n  on_tick = function()\n    if not tank.valid then return end\n    if tick==10 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.left}\n    end\n    if tick == 22 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.straight}\n    end\n    if tick == 92 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.right}\n    end\n    if tick == 107 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.straight}\n    end\n    if tick == 220 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.nothing, direction = defines.riding.direction.left}\n    end\n    if tick == 350 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.braking, direction = defines.riding.direction.left}\n    end\n    if tick == 410 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.braking, direction = defines.riding.direction.straight}\n    end\n    if tick == 430 then\n      build_blueprint(radar_blueprint)\n    end\n  end\n",
+      init = "      local sim_planet = game.surfaces[\"nauvis\"]\n      local logo = sim_planet.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n      logo.destructible = false\n      local center = {logo.position.x, logo.position.y+9.75}\n      game.simulation.camera_surface_index = sim_planet.index\n      game.simulation.camera_position = center\n      game.simulation.camera_zoom = 1\n      game.tick_paused = false\n        local tick = 0\n    local on_tick = function() end\n    script.on_nth_tick(1,\n      function()\n        tick = tick + 1\n        on_tick()\n      end)\n    local tank = game.get_entity_by_tag(\"tank1\")\n  tank.color = {0.5, 0, 0, 0.5}\n\n  local character = game.surfaces.nauvis.create_entity{name = \"character\", position = tank.position, force = \"player\"}\n  character.color = tank.color\n  tank.set_passenger(character)\n\n  local radar_blueprint = {\n    -- Solar panels\n    {name = \"solar-panel\", position = {x = 1040.5, y = -45.5}},\n    {name = \"solar-panel\", position = {x = 1043.5, y = -45.5}},\n    {name = \"solar-panel\", position = {x = 1046.5, y = -45.5}},\n    {name = \"solar-panel\", position = {x = 1040.5, y = -42.5}},\n    {name = \"solar-panel\", position = {x = 1046.5, y = -42.5}},\n    {name = \"solar-panel\", position = {x = 1040.5, y = -39.5}},\n    {name = \"solar-panel\", position = {x = 1043.5, y = -39.5}},\n    {name = \"solar-panel\", position = {x = 1046.5, y = -39.5}},\n\n    -- Radar\n    {name = \"radar\", position = {x = 1043.5, y = -42.5}},\n\n    -- Substation\n    {name = \"substation\", position = {x = 1044, y = -37}},\n\n    -- Accumulators\n    {name = \"accumulator\", position = {x = 1040, y = -37}},\n    {name = \"accumulator\", position = {x = 1042, y = -37}},\n    {name = \"accumulator\", position = {x = 1046, y = -37}},\n    {name = \"accumulator\", position = {x = 1048, y = -37}},\n    {name = \"accumulator\", position = {x = 1042, y = -35}},\n    {name = \"accumulator\", position = {x = 1046, y = -35}},\n  }\n\n  local build_blueprint = function(blueprint)\n    for _, entity in pairs(blueprint) do\n        tank.surface.create_entity{\n            name = \"entity-ghost\",\n            inner_name = entity.name,\n            position = entity.position,\n            force = game.forces.player,\n            expires = false\n        }\n    end\n  end\n\n  on_tick = function()\n    if not tank.valid then return end\n    if tick==10 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.left}\n    end\n    if tick == 22 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.straight}\n    end\n    if tick == 92 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.right}\n    end\n    if tick == 107 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.straight}\n    end\n    if tick == 220 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.nothing, direction = defines.riding.direction.left}\n    end\n    if tick == 325 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.braking, direction = defines.riding.direction.straight}\n    end\n    if tick == 350 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.braking, direction = defines.riding.direction.left}\n    end\n    if tick == 410 then\n      tank.riding_state = {acceleration = defines.riding.acceleration.braking, direction = defines.riding.direction.straight}\n    end\n    if tick == 430 then\n      build_blueprint(radar_blueprint)\n    end\n  end\n",
       length = 660,
       save = "__space-age__/menu-simulations/menu-simulation-nauvis-tank-building.zip"
     },
@@ -2634,9 +2754,9 @@ return {
       length = 720,
       save = "__space-age__/menu-simulations/menu-simulation-vulcanus-lava-forge.zip"
     },
-    vulcanus_punishmnent = {
+    vulcanus_punishment = {
       checkboard = false,
-      init = "      local sim_planet = game.surfaces[\"vulcanus\"]\n      local logo = sim_planet.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n      logo.destructible = false\n      local center = {logo.position.x, logo.position.y+9.75}\n      game.simulation.camera_surface_index = sim_planet.index\n      game.simulation.camera_position = center\n      game.simulation.camera_zoom = 1\n      game.tick_paused = false\n        local tick = 0\n    local on_tick = function() end\n    script.on_nth_tick(1,\n      function()\n        tick = tick + 1\n        on_tick()\n      end)\n      local rail_turn_string = \"0eNqd09tqhDAQANB/mecI3jV+RR/2rZQSddgGNEpMpIvk3xsvpd01u+36FHKZMwOTmaBsNPaSCwXFBLzqxADF6wQDPwvWzGeCtQgFSMYbT7K2B0OAixo/oQgMufPy16PQvBFAobjiuNrL5vIudFuitAr5jsQGR6aw9gZlkfOH8haLQN8NNrwTc5Y5LyVwsbKfmbmCGy887lGXFx32gsDlxce9yOUle6/ScrTL0jP2wEttm2ousVovA9/Bp+TqCwy67zupHGi+ofQGdZjZ45JLh56tehj8o+T8eT7a+OSajx06JfuZ2IFeuIHZ32DgP93B/J5uZ40rbC31M9gEGlaiHVF40eKkpbAnI8phCUnSkMaUJlGe+34aG/MFO3BZFQ==\"\n    local rail_piece_string = \"0eNpFjt0KgzAMRt8l1x2oU6d9lTFG1eACNUpbx0T67kuVsbv8fOckO3R2xcURB9A7UD+zB33fwdPIxqYZmwlBgzNkISogHvADOo8PBciBAuFJHM325HXq0ElA/UgfhB1f4XIoFCyzF2rmJBfTJZfoBroobqIfyGF/bst0ggJO4vh/qcCaDm36SOo3On+Eq7poy7atrk2TZXUZ4xd6rUbW\"\n    local powerpole_string = \"0eNp1jsEKgzAQRP9lzhE0VdH8SilF7VIW4kaSWCrivzex0FuPs8x7OztGu9LiWSLMDp6cBJjrjsBPGWy+yTATDEZ+FmRpip6nYnGWcCiwPOgNUx03BZLIkemLn2G7yzqP5FNB/dcoLC4k0kn+lmxFpRU2GK3rI4s50pzJ31CFF/lwAk2r+7rvm0vXlWWb+h9mUkUA\"\n    local substation_string = \"0eNptjs0KwjAQhN9lzhFq/0jyKiKS6CIL7bY0qVhK3t00Hrx42xnm+9gdflhpXlgi7A6+TxJgLzsCP8UNRyduJFiE1YfoIk+CpMDyoDfsOV0VSCJHpi9XwnaTdfS05IH6wyvMU+ByZn/WnLTCBls3dTqEHGnMxO8zhRctoey7vjatMV2jdVX1bUofg9RAXg==\"\n    local belt_up_string = \"0eNp9jkEOgjAQRe8y60IQKKG9ijGm6GgmgSlpByMhvbsFF+5czs9/788Gw7jgHIgF7AZ08xzBnjeI9GQ37hm7CcHCw0UpJDiOsw9SDDgKJAXEd3yDPaWLAmQhIfwKjmO98jINGHJB/RMpmH3MrOd9MfsKU2oFK9i66UuddjsJThn//avghSEejO5q0xqjm76vqq5N6QO2tUfL\"\n    local belt_left_string = \"0eNp9jt0KgzAMRt8l13VYf4b2VcYYVbMR0FTaOCbSd1/Vi93tLglfzvk26MYFZ08sYDag3nEAc9sg0IvtuN/YTggGnjZIJt5ymJ2XrMNRICogHvADRse7AmQhITwBx7I+eJk69Cmg/oEUzC6kX8e7MfEyrS+1ghVMUaYpiQby2J8JXew2EpwS7tdfwRt9OBL1tWirtq3LpsnzaxXjF11BTLs=\"\n    local belt_right_string = \"0eNp9jtsKgzAMQP8lz1WctjL7K2MML9kIaCptHBPpv6/qw972mHByTjboxgVnTyxgN6DecQB72yDQi9tx33E7IVh4tkEy8S2H2XnJOhwFogLiAT9gL/GuAFlICE/BMawPXqYOfQLUP5GC2YV063gvJl9W6twoWMGWVZGbFBrIY38Seo+R4JRsv/cVvNGHAzB12eimMdX1WhS1jvELF5BMjw==\"\n    local inserter_string = \"0eNptjssKgzAQRf9l1lE0NRLzK0WKj6EM1VGSWCqSf2+i0FWXc7n3nDmgnzZcLbEHcwANCzsw9wMcPbmbUsbdjGCg36ZXRuzQerQQBBCP+AFThlYAsidPeE3PY3/wNvexaUrxHyFgXVxcLZwskZTJMlcCdjBS6lxFxUgWh6uhk4Y8zonze1nAG607C6qWTdU06qZ1UdRVCF8iNEft\"\n    local miner_left = \"0eNp1jssKgzAQRf9l1lF8RTS/UkrxMchAMkoSS0Xy700UuutyLveeMyeMesfNEntQJ9C0sgP1OMHRwoNOGQ8GQcFIS2aIiZdstqQ1BAHEM35AleEpANmTJ7zX13G8eDcj2lgQfykCttXF4crJFWFZ1eZSwAGqqptcRstMFqe7UVZJRR5NYv0+F/BG666GbKu+6XtZd11RtE0IXwWUSdY=\"\n    local miner_right = \"0eNp1jssKgzAQRf9l1lGsMaL5lVKKj0EGkrEksVQk/95Eobsu53LvOXPAaDZ8OeIA+gCaVvag7wd4WngwOePBImgYaSksMfFSzI6MgSiAeMYP6Ft8CEAOFAiv9XnsT97siC4VxF+KgNfq03Dl7EqwQtalErCDrqUsVbLM5HC6Gk02UUCbUb/HBbzR+bOg2rpv+l7JrquqtonxC8CeSaM=\"\n\n    local bp_dictionary = {}\n    bp_dictionary[\"rail\"] = rail_piece_string\n    bp_dictionary[\"up\"] = belt_up_string\n    bp_dictionary[\"left\"] = belt_left_string\n    bp_dictionary[\"right\"] = belt_right_string\n    bp_dictionary[\"pp\"] = powerpole_string\n    bp_dictionary[\"subpp\"] = substation_string\n    bp_dictionary[\"inserter\"] = inserter_string\n    bp_dictionary[\"miner_l\"] = miner_left\n    bp_dictionary[\"miner_r\"] = miner_right\n\n    local inventory = game.create_inventory(1)\n    local stack = inventory[1]\n\n    local build_id = 1\n    local build_list =\n      {\n        {{-11, 227}, \"rail\"},\n        {{-13, 227}, \"rail\"},\n        {{-15, 227}, \"rail\"},\n        {{-17, 227}, \"rail\"},\n        {{-19, 227}, \"rail\"},\n        {{-21, 227}, \"rail\"},\n        {{-23, 227}, \"rail\"},\n        {{-25, 227}, \"rail\"},\n        {{-27, 227}, \"rail\"},\n\n        {{-12, 224}, \"pp\"},\n\n        {{-10, 242}, \"up\"},\n        {{-10, 241}, \"up\"},\n        {{-10, 240}, \"up\"},\n        {{-10, 239}, \"up\"},\n        {{-10, 238}, \"up\"},\n        {{-10, 237}, \"up\"},\n        {{-10, 236}, \"up\"},\n        {{-10, 235}, \"up\"},\n        {{-10, 234}, \"up\"},\n        {{-10, 233}, \"up\"},\n        {{-10, 232}, \"up\"},\n        {{-10, 231}, \"left\"},\n        {{-11, 231}, \"left\"},\n        {{-12, 231}, \"left\"},\n        {{-13, 231}, \"up\"},\n        {{-13, 230}, \"up\"},\n        {{-13, 229}, \"up\"},\n        {{-13, 228}, \"inserter\"},\n\n        {{-30, 239}, \"up\"},\n        {{-30, 238}, \"up\"},\n        {{-30, 237}, \"up\"},\n        {{-30, 236}, \"up\"},\n        {{-30, 235}, \"up\"},\n        {{-30, 234}, \"up\"},\n        {{-30, 233}, \"up\"},\n        {{-30, 232}, \"up\"},\n        {{-30, 231}, \"up\"},\n        {{-30, 230}, \"right\"},\n        {{-29, 230}, \"right\"},\n        {{-28, 230}, \"right\"},\n        {{-27, 230}, \"right\"},\n        {{-26, 230}, \"right\"},\n        {{-25, 230}, \"right\"},\n        {{-24, 230}, \"right\"},\n        {{-23, 230}, \"right\"},\n        {{-22, 230}, \"up\"},\n        {{-22, 229}, \"up\"},\n        {{-22, 228}, \"inserter\"},\n\n        {{-23, 236}, \"subpp\"},\n        {{-8, 232}, \"subpp\"},\n\n        {{-6.5, 242.5}, \"miner_l\"},\n        {{-6.5, 235.5}, \"miner_l\"},\n        {{-12.5, 235.5}, \"miner_r\"},\n        {{-12.5, 241.5}, \"miner_r\"},\n\n        {{-26.5, 239.5}, \"miner_l\"},\n        {{-26.5, 234.5}, \"miner_l\"},\n        {{-32.5, 233.5}, \"miner_r\"},\n        {{-32.5, 239.5}, \"miner_r\"},\n      }\n    local build_list_len = #build_list\n\n    local build_thing_until = function(until_thing)\n      if build_id > build_list_len then\n        return end\n      if (until_thing == build_list[build_id][2]) then\n        return end\n      local build_position = build_list[build_id][1]\n      stack.import_stack(bp_dictionary[ build_list[build_id][2] ])\n      stack.build_blueprint{ surface = 'vulcanus', position = build_position, force = 'player', build_mode = defines.build_mode.forced }\n      build_id = build_id + 1\n    end\n\n    game.forces.player.create_ghost_on_entity_death = false\n    local loco = game.surfaces.vulcanus.find_entities_filtered{name = \"locomotive\", force = \"player\", limit = 1}[1]\n    local character = game.get_entity_by_tag(\"leberblume\")\n    loco.set_driver(character)\n    character.riding_state = { acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.straight }\n\n    local delay = 200\n    on_tick = function()\n      if tick==10 then\n        stack.import_stack(rail_turn_string)\n        stack.build_blueprint{ surface = 'vulcanus', position = {5, 217}, force = 'player', build_mode = defines.build_mode.forced }\n      end\n      if tick > 20 and tick < 35 then\n        build_thing_until(\"pp\")\n      end\n      if tick == 60 then\n        build_thing_until()\n      end\n      if tick > 75 + delay and tick < 110 + delay then\n        build_thing_until(\"inserter\")\n      end\n      if tick == 120 + delay then\n        build_thing_until()\n      end\n      if tick > 135 + delay and tick < 180 + delay then\n        build_thing_until(\"inserter\")\n      end\n      if tick == 190 + delay then\n        build_thing_until()\n      end\n      if tick == 210 + delay or tick == 245 + delay then\n        build_thing_until()\n      end\n      if tick%30 == 0 and tick > 255 + delay and tick < 505 + delay then\n        build_thing_until()\n      end\n\n      if tick == 250 and character.valid  then\n        character.riding_state = { acceleration = defines.riding.acceleration.nothing, direction = defines.riding.direction.straight }\n      end\n      if tick == 315 and loco.valid  then\n        loco.set_driver(nil)\n      end\n      if tick == 950 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.southwest}\n      end\n      if tick == 980 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.north}\n      end\n      if tick == 984 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.northeast}\n      end\n      if tick == 992 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.north}\n      end\n      if tick == 1010 and loco.valid and character.valid then\n        loco.set_driver(character)\n        character.riding_state = { acceleration = defines.riding.acceleration.reversing, direction = defines.riding.direction.straight }\n        character.walking_state = {walking = true, direction = defines.direction.west}\n      end\n      if tick == 1250 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.southwest}\n      end\n      if tick == 1290 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.southeast}\n      end\n      if tick == 1410 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.east}\n      end\n    end\n  ",
+      init = "      local sim_planet = game.surfaces[\"vulcanus\"]\n      local logo = sim_planet.find_entities_filtered{name = \"factorio-logo-11tiles\", limit = 1}[1]\n      logo.destructible = false\n      local center = {logo.position.x, logo.position.y+9.75}\n      game.simulation.camera_surface_index = sim_planet.index\n      game.simulation.camera_position = center\n      game.simulation.camera_zoom = 1\n      game.tick_paused = false\n        local tick = 0\n    local on_tick = function() end\n    script.on_nth_tick(1,\n      function()\n        tick = tick + 1\n        on_tick()\n      end)\n      local rail_turn_string = \"0eNqd09tqhDAQANB/mecI3jV+RR/2rZQSddgGNEpMpIvk3xsvpd01u+36FHKZMwOTmaBsNPaSCwXFBLzqxADF6wQDPwvWzGeCtQgFSMYbT7K2B0OAixo/oQgMufPy16PQvBFAobjiuNrL5vIudFuitAr5jsQGR6aw9gZlkfOH8haLQN8NNrwTc5Y5LyVwsbKfmbmCGy887lGXFx32gsDlxce9yOUle6/ScrTL0jP2wEttm2ousVovA9/Bp+TqCwy67zupHGi+ofQGdZjZ45JLh56tehj8o+T8eT7a+OSajx06JfuZ2IFeuIHZ32DgP93B/J5uZ40rbC31M9gEGlaiHVF40eKkpbAnI8phCUnSkMaUJlGe+34aG/MFO3BZFQ==\"\n    local rail_piece_string = \"0eNpFjt0KgzAMRt8l1x2oU6d9lTFG1eACNUpbx0T67kuVsbv8fOckO3R2xcURB9A7UD+zB33fwdPIxqYZmwlBgzNkISogHvADOo8PBciBAuFJHM325HXq0ElA/UgfhB1f4XIoFCyzF2rmJBfTJZfoBroobqIfyGF/bst0ggJO4vh/qcCaDm36SOo3On+Eq7poy7atrk2TZXUZ4xd6rUbW\"\n    local powerpole_string = \"0eNp1jsEKgzAQRP9lzhE0VdH8SilF7VIW4kaSWCrivzex0FuPs8x7OztGu9LiWSLMDp6cBJjrjsBPGWy+yTATDEZ+FmRpip6nYnGWcCiwPOgNUx03BZLIkemLn2G7yzqP5FNB/dcoLC4k0kn+lmxFpRU2GK3rI4s50pzJ31CFF/lwAk2r+7rvm0vXlWWb+h9mUkUA\"\n    local substation_string = \"0eNptjs0KwjAQhN9lzhFq/0jyKiKS6CIL7bY0qVhK3t00Hrx42xnm+9gdflhpXlgi7A6+TxJgLzsCP8UNRyduJFiE1YfoIk+CpMDyoDfsOV0VSCJHpi9XwnaTdfS05IH6wyvMU+ByZn/WnLTCBls3dTqEHGnMxO8zhRctoey7vjatMV2jdVX1bUofg9RAXg==\"\n    local belt_up_string = \"0eNp9jkEOgjAQRe8y60IQKKG9ijGm6GgmgSlpByMhvbsFF+5czs9/788Gw7jgHIgF7AZ08xzBnjeI9GQ37hm7CcHCw0UpJDiOsw9SDDgKJAXEd3yDPaWLAmQhIfwKjmO98jINGHJB/RMpmH3MrOd9MfsKU2oFK9i66UuddjsJThn//avghSEejO5q0xqjm76vqq5N6QO2tUfL\"\n    local belt_left_string = \"0eNp9jt0KgzAMRt8l13VYf4b2VcYYVbMR0FTaOCbSd1/Vi93tLglfzvk26MYFZ08sYDag3nEAc9sg0IvtuN/YTggGnjZIJt5ymJ2XrMNRICogHvADRse7AmQhITwBx7I+eJk69Cmg/oEUzC6kX8e7MfEyrS+1ghVMUaYpiQby2J8JXew2EpwS7tdfwRt9OBL1tWirtq3LpsnzaxXjF11BTLs=\"\n    local belt_right_string = \"0eNp9jtsKgzAMQP8lz1WctjL7K2MML9kIaCptHBPpv6/qw972mHByTjboxgVnTyxgN6DecQB72yDQi9tx33E7IVh4tkEy8S2H2XnJOhwFogLiAT9gL/GuAFlICE/BMawPXqYOfQLUP5GC2YV063gvJl9W6twoWMGWVZGbFBrIY38Seo+R4JRsv/cVvNGHAzB12eimMdX1WhS1jvELF5BMjw==\"\n    local inserter_string = \"0eNptjssKgzAQRf9l1lE0NRLzK0WKj6EM1VGSWCqSf2+i0FWXc7n3nDmgnzZcLbEHcwANCzsw9wMcPbmbUsbdjGCg36ZXRuzQerQQBBCP+AFThlYAsidPeE3PY3/wNvexaUrxHyFgXVxcLZwskZTJMlcCdjBS6lxFxUgWh6uhk4Y8zonze1nAG607C6qWTdU06qZ1UdRVCF8iNEft\"\n    local miner_left = \"0eNp1jssKgzAQRf9l1lF8RTS/UkrxMchAMkoSS0Xy700UuutyLveeMyeMesfNEntQJ9C0sgP1OMHRwoNOGQ8GQcFIS2aIiZdstqQ1BAHEM35AleEpANmTJ7zX13G8eDcj2lgQfykCttXF4crJFWFZ1eZSwAGqqptcRstMFqe7UVZJRR5NYv0+F/BG666GbKu+6XtZd11RtE0IXwWUSdY=\"\n    local miner_right = \"0eNp1jssKgzAQRf9l1lGsMaL5lVKKj0EGkrEksVQk/95Eobsu53LvOXPAaDZ8OeIA+gCaVvag7wd4WngwOePBImgYaSksMfFSzI6MgSiAeMYP6Ft8CEAOFAiv9XnsT97siC4VxF+KgNfq03Dl7EqwQtalErCDrqUsVbLM5HC6Gk02UUCbUb/HBbzR+bOg2rpv+l7JrquqtonxC8CeSaM=\"\n\n    local bp_dictionary = {}\n    bp_dictionary[\"rail\"] = rail_piece_string\n    bp_dictionary[\"up\"] = belt_up_string\n    bp_dictionary[\"left\"] = belt_left_string\n    bp_dictionary[\"right\"] = belt_right_string\n    bp_dictionary[\"pp\"] = powerpole_string\n    bp_dictionary[\"subpp\"] = substation_string\n    bp_dictionary[\"inserter\"] = inserter_string\n    bp_dictionary[\"miner_l\"] = miner_left\n    bp_dictionary[\"miner_r\"] = miner_right\n\n    local inventory = game.create_inventory(1)\n    local stack = inventory[1]\n\n    local build_id = 1\n    local build_list =\n      {\n        {{-11, 227}, \"rail\"},\n        {{-13, 227}, \"rail\"},\n        {{-15, 227}, \"rail\"},\n        {{-17, 227}, \"rail\"},\n        {{-19, 227}, \"rail\"},\n        {{-21, 227}, \"rail\"},\n        {{-23, 227}, \"rail\"},\n        {{-25, 227}, \"rail\"},\n        {{-27, 227}, \"rail\"},\n\n        {{-12, 224}, \"pp\"},\n\n        {{-10, 242}, \"up\"},\n        {{-10, 241}, \"up\"},\n        {{-10, 240}, \"up\"},\n        {{-10, 239}, \"up\"},\n        {{-10, 238}, \"up\"},\n        {{-10, 237}, \"up\"},\n        {{-10, 236}, \"up\"},\n        {{-10, 235}, \"up\"},\n        {{-10, 234}, \"up\"},\n        {{-10, 233}, \"up\"},\n        {{-10, 232}, \"up\"},\n        {{-10, 231}, \"left\"},\n        {{-11, 231}, \"left\"},\n        {{-12, 231}, \"left\"},\n        {{-13, 231}, \"up\"},\n        {{-13, 230}, \"up\"},\n        {{-13, 229}, \"up\"},\n        {{-13, 228}, \"inserter\"},\n\n        {{-30, 239}, \"up\"},\n        {{-30, 238}, \"up\"},\n        {{-30, 237}, \"up\"},\n        {{-30, 236}, \"up\"},\n        {{-30, 235}, \"up\"},\n        {{-30, 234}, \"up\"},\n        {{-30, 233}, \"up\"},\n        {{-30, 232}, \"up\"},\n        {{-30, 231}, \"up\"},\n        {{-30, 230}, \"right\"},\n        {{-29, 230}, \"right\"},\n        {{-28, 230}, \"right\"},\n        {{-27, 230}, \"right\"},\n        {{-26, 230}, \"right\"},\n        {{-25, 230}, \"right\"},\n        {{-24, 230}, \"right\"},\n        {{-23, 230}, \"right\"},\n        {{-22, 230}, \"up\"},\n        {{-22, 229}, \"up\"},\n        {{-22, 228}, \"inserter\"},\n\n        {{-23, 236}, \"subpp\"},\n        {{-8, 232}, \"subpp\"},\n\n        {{-6.5, 242.5}, \"miner_l\"},\n        {{-6.5, 235.5}, \"miner_l\"},\n        {{-12.5, 235.5}, \"miner_r\"},\n        {{-12.5, 241.5}, \"miner_r\"},\n\n        {{-26.5, 239.5}, \"miner_l\"},\n        {{-26.5, 234.5}, \"miner_l\"},\n        {{-32.5, 233.5}, \"miner_r\"},\n        {{-32.5, 239.5}, \"miner_r\"},\n      }\n    local build_list_len = #build_list\n\n    local build_thing_until = function(until_thing)\n      if build_id > build_list_len then\n        return end\n      if (until_thing == build_list[build_id][2]) then\n        return end\n      local build_position = build_list[build_id][1]\n      stack.import_stack(bp_dictionary[ build_list[build_id][2] ])\n      stack.build_blueprint{ surface = 'vulcanus', position = build_position, force = 'player', build_mode = defines.build_mode.forced }\n      game.play_sound{ path = \"entity-build/entity-ghost\", position = build_position }\n      build_id = build_id + 1\n    end\n\n    game.forces.player.create_ghost_on_entity_death = false\n    local loco = game.surfaces.vulcanus.find_entities_filtered{name = \"locomotive\", force = \"player\", limit = 1}[1]\n    local character = game.get_entity_by_tag(\"leberblume\")\n    loco.set_driver(character)\n    character.riding_state = { acceleration = defines.riding.acceleration.accelerating, direction = defines.riding.direction.straight }\n\n    local delay = 200\n    on_tick = function()\n      if tick==10 then\n        stack.import_stack(rail_turn_string)\n        stack.build_blueprint{ surface = 'vulcanus', position = {5, 217}, force = 'player', build_mode = defines.build_mode.forced }\n        game.play_sound{ path = \"entity-build/entity-ghost\", position = {5, 217} }\n      end\n      if tick > 20 and tick < 35 then\n        build_thing_until(\"pp\")\n      end\n      if tick == 60 then\n        build_thing_until()\n      end\n      if tick > 75 + delay and tick < 110 + delay then\n        build_thing_until(\"inserter\")\n      end\n      if tick == 120 + delay then\n        build_thing_until()\n      end\n      if tick > 135 + delay and tick < 180 + delay then\n        build_thing_until(\"inserter\")\n      end\n      if tick == 190 + delay then\n        build_thing_until()\n      end\n      if tick == 210 + delay or tick == 245 + delay then\n        build_thing_until()\n      end\n      if tick%30 == 0 and tick > 255 + delay and tick < 505 + delay then\n        build_thing_until()\n      end\n\n      if tick == 250 and character.valid  then\n        character.riding_state = { acceleration = defines.riding.acceleration.nothing, direction = defines.riding.direction.straight }\n      end\n      if tick == 315 and loco.valid  then\n        loco.set_driver(nil)\n      end\n      if tick == 950 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.southwest}\n      end\n      if tick == 980 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.north}\n      end\n      if tick == 984 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.northeast}\n      end\n      if tick == 992 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.north}\n      end\n      if tick == 1010 and loco.valid and character.valid then\n        loco.set_driver(character)\n        character.riding_state = { acceleration = defines.riding.acceleration.reversing, direction = defines.riding.direction.straight }\n        character.walking_state = {walking = true, direction = defines.direction.west}\n      end\n      if tick == 1250 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.southwest}\n      end\n      if tick == 1290 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.southeast}\n      end\n      if tick == 1410 and character.valid then\n        character.walking_state = {walking = true, direction = defines.direction.east}\n      end\n    end\n  ",
       length = 1440,
       save = "__space-age__/menu-simulations/menu-simulation-vulcanus-punishment.zip"
     },
@@ -2728,25 +2848,12 @@ return {
     }
   },
   max_belt_stack_size = 4,
-  max_fluid_flow = 100,
   max_logistic_filter_count = 1000,
   max_terrain_building_size = 255,
   maximum_quality_jump = 255,
   maximum_recipe_overload_multiplier = 100,
   medium_area_size = 6.5,
   medium_blueprint_area_size = 200,
-  minimap_slot_clicked_tint = {
-    a = 0.7,
-    b = 0,
-    g = 0.4784313725490196,
-    r = 0.85882352941176467
-  },
-  minimap_slot_hovered_tint = {
-    a = 0.7,
-    b = 0,
-    g = 0.63529411764705879,
-    r = 1
-  },
   minimum_recipe_overload_multiplier = 2,
   missing_preview_sprite_location = "__core__/graphics/missing-preview.png",
   module_inventory_width = 10,
@@ -3002,7 +3109,6 @@ return {
   recipe_step_limit = 50000,
   remote_view_LPF_max_cutoff_frequency = 15000,
   remote_view_LPF_min_cutoff_frequency = 4000,
-  rocket_lift_weight = 1000000,
   script_command_console_chat_color = {
     0.75,
     0.75,
@@ -3031,9 +3137,10 @@ return {
   },
   small_area_size = 1.5,
   small_blueprint_area_size = 50,
+  sound_fade_ticks = 120,
   space_LPF_max_cutoff_frequency = 500,
   space_LPF_min_cutoff_frequency = 200,
-  space_platform_acceleration_expression = "(thrust / (1 + weight / 10000000) - ((1500 * speed * speed + 1500 * abs(speed)) * (width * 0.5) + 10000) * sign(speed)) / weight / 60",
+  space_platform_acceleration_expression = "(thrust / (1 + weight / 10000000) - ((90 * speed * speed) * ((weight / 200) ^ 0.80) + 10000) * sign(speed)) / weight / 60",
   space_platform_asteroid_chunk_trajectory_updates_per_tick = 1,
   space_platform_dump_cooldown = 1800,
   space_platform_manual_dump_cooldown = 120,
@@ -3073,6 +3180,18 @@ return {
     0.98000000000000007,
     0.66000000000000005,
     0.22000000000000002
+  },
+  tall_entity_smoke_tint = {
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  },
+  tall_entity_tint = {
+    0.2,
+    0.2,
+    0.1,
+    0.2
   },
   time_to_show_full_health_bar = 5,
   tooltip_monitor_edge_border = 10,
@@ -3188,25 +3307,5 @@ return {
     255,
     255,
     64
-  },
-  zoom_to_world_can_use_nightvision = false,
-  zoom_to_world_daytime_color_lookup = {
-    {
-      0.25,
-      "identity"
-    },
-    {
-      0.45,
-      "__core__/graphics/color_luts/night.png"
-    },
-    {
-      0.55,
-      "__core__/graphics/color_luts/night.png"
-    },
-    {
-      0.75,
-      "identity"
-    }
-  },
-  zoom_to_world_effect_strength = 1
+  }
 }

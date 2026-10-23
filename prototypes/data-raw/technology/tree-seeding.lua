@@ -1,7 +1,7 @@
 return {
   effects = {
     {
-      recipe = "wood-processing",
+      recipe = "tree-seed",
       type = "unlock-recipe"
     }
   },

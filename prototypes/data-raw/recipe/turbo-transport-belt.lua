@@ -1,5 +1,8 @@
 return {
-  category = "metallurgy",
+  auto_recycle = true,
+  categories = {
+    "metallurgy"
+  },
   enabled = false,
   ingredients = {
     {

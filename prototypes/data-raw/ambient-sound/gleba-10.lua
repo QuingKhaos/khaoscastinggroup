@@ -1,6 +1,8 @@
 return {
   name = "gleba-10",
-  planet = "gleba",
+  planets = {
+    "gleba"
+  },
   sound = {
     variations = {
       {
@@ -17,6 +19,7 @@ return {
       }
     }
   },
+  title = "Gleba 10 - Stingfrond Song",
   track_type = "main-track",
   type = "ambient-sound",
   weight = 12

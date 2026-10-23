@@ -7,7 +7,9 @@ return {
     },
     cursor_box_type = "copy",
     mode = {
-      "blueprint"
+      "blueprint",
+      "any-entity",
+      "any-tile"
     }
   },
   drop_sound = {
@@ -50,7 +52,9 @@ return {
     },
     cursor_box_type = "copy",
     mode = {
-      "blueprint"
+      "blueprint",
+      "any-entity",
+      "any-tile"
     }
   },
   stack_size = 1,

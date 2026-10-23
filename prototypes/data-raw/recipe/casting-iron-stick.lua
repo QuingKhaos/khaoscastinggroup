@@ -1,7 +1,10 @@
 return {
   allow_decomposition = false,
   allow_productivity = true,
-  category = "metallurgy",
+  auto_recycle = false,
+  categories = {
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 1,
   icon = "__space-age__/graphics/icons/casting-iron-stick.png",

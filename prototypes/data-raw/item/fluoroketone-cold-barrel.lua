@@ -12,8 +12,7 @@ return {
   icon_size = 64,
   icons = {
     {
-      icon = "__base__/graphics/icons/fluid/barreling/empty-barrel.png",
-      icon_size = 64
+      icon = "__base__/graphics/icons/fluid/barreling/empty-barrel.png"
     },
     {
       icon = "__base__/graphics/icons/fluid/barreling/barrel-side-mask.png",

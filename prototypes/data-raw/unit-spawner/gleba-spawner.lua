@@ -418,10 +418,9 @@ return {
   impact_category = "organic",
   loot = {
     {
-      count_max = 9,
-      count_min = 9,
-      item = "pentapod-egg",
-      probability = 1
+      amount = 9,
+      name = "pentapod-egg",
+      type = "item"
     }
   },
   max_count_of_owned_defensive_units = 1,

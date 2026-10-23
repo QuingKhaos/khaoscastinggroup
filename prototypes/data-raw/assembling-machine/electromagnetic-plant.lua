@@ -501,10 +501,7 @@ return {
   },
   corpse = "electromagnetic-plant-remnants",
   crafting_categories = {
-    "electromagnetics",
-    "electronics",
-    "electronics-with-fluid",
-    "electronics-or-assembling"
+    "electromagnetics"
   },
   crafting_speed = 2,
   damaged_trigger_effect = {
@@ -1620,7 +1617,6 @@ return {
     }
   },
   fluid_boxes_off_when_no_fluid_recipe = true,
-  forced_symmetry = "horizontal",
   graphics_set = {
     always_draw_idle_animation = true,
     animation_progress = 0.25,
@@ -2085,6 +2081,7 @@ return {
     }
   },
   type = "assembling-machine",
+  use_mirroring = true,
   water_reflection = {
     orientation_to_variation = false,
     pictures = {

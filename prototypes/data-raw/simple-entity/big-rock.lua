@@ -211,6 +211,42 @@ return {
       }
     }
   },
+  mining_sound = {
+    priority = 64,
+    switch_vibration_data = {
+      filename = "__core__/sound/axe-mining-stone.bnvib"
+    },
+    variations = {
+      {
+        filename = "__core__/sound/axe-mining-stone-1.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-2.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-3.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-4.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-5.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-6.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-7.ogg",
+        volume = 0.55
+      }
+    }
+  },
   name = "big-rock",
   order = "a[decorative]-l[rock]-a[nauvis]-b[big-rock]",
   pictures = {

@@ -15,6 +15,7 @@ return {
     },
     not_colliding_with_itself = true
   },
+  damage_per_hp = 12,
   dying_trigger_effect = {
     {
       entity_name = "oxide-asteroid-explosion-4",
@@ -236,7 +237,6 @@ return {
   localised_description = {
     "entity-description.oxide-asteroid"
   },
-  mass = 5000000,
   max_health = 2000,
   name = "big-oxide-asteroid",
   order = "c[oxide]-d[big]",

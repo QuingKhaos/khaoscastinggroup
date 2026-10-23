@@ -15,7 +15,9 @@ return {
       filename = "__core__/sound/blueprint-create.ogg"
     },
     mode = {
-      "blueprint"
+      "blueprint",
+      "any-entity",
+      "any-tile"
     },
     started_sound = {
       filename = "__core__/sound/blueprint-select.ogg"
@@ -33,7 +35,9 @@ return {
   },
   flags = {
     "not-stackable",
-    "spawnable"
+    "spawnable",
+    "always-show",
+    "excluded-from-character-lift-weight"
   },
   icon = "__base__/graphics/icons/blueprint.png",
   inventory_move_sound = {
@@ -71,7 +75,9 @@ return {
       filename = "__core__/sound/blueprint-create.ogg"
     },
     mode = {
-      "blueprint"
+      "blueprint",
+      "any-entity",
+      "any-tile"
     },
     started_sound = {
       filename = "__core__/sound/blueprint-select.ogg"

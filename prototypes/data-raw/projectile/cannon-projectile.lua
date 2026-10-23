@@ -43,7 +43,6 @@ return {
       1.1000000000000001
     }
   },
-  direction_only = true,
   final_action = {
     action_delivery = {
       target_effects = {

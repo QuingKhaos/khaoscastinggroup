@@ -1,6 +1,9 @@
 return {
   allow_productivity = true,
-  category = "organic-or-hand-crafting",
+  categories = {
+    "organic",
+    "crafting"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -30,8 +33,8 @@ return {
   results = {
     {
       amount = 1,
+      independent_probability = 0.02,
       name = "jellynut-seed",
-      probability = 0.02,
       type = "item"
     },
     {

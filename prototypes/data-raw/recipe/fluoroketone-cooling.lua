@@ -1,8 +1,9 @@
 return {
   allow_productivity = false,
-  always_show_products = true,
   auto_recycle = false,
-  category = "cryogenics",
+  categories = {
+    "cryogenics"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -54,7 +55,6 @@ return {
       type = "fluid"
     }
   },
-  show_amount_in_title = false,
   subgroup = "aquilo-processes",
   type = "recipe"
 }

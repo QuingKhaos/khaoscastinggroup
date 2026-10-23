@@ -1,4 +1,14 @@
 return {
+  effects = {
+    {
+      recipe = "biter-egg",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "nutrients-from-biter-egg",
+      type = "unlock-recipe"
+    }
+  },
   icon = "__space-age__/graphics/technology/biter-egg-handling.png",
   icon_size = 256,
   name = "biter-egg-handling",

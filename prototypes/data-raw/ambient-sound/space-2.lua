@@ -4,6 +4,7 @@ return {
     filename = "__space-age__/sound/ambient/space/space-2.ogg",
     volume = 0.7
   },
+  title = "Space 2 - Star Glider",
   track_type = "main-track",
   type = "ambient-sound",
   weight = 10

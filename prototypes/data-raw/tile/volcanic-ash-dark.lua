@@ -23,7 +23,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -33,6 +33,7 @@ return {
       volume = 0.8
     }
   },
+  factoriopedia_alternative = "volcanic-ash-light",
   landing_steps_sound = {
     advanced_volume_control = {
       fades = {
@@ -43,7 +44,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }
@@ -159,7 +160,9 @@ return {
         "wetland-jellynut",
         "gleba-deep-lake",
         "oil-ocean-shallow",
-        "oil-ocean-deep"
+        "oil-ocean-deep",
+        "oil-ocean-shallow-2",
+        "oil-ocean-deep-2"
       },
       transition_group = 1
     },
@@ -199,9 +202,9 @@ return {
         u_transition_y = 1728
       },
       lightmap_layout = {
-        spritesheet = "__space-age__/graphics/terrain/water-transitions/lava-stone-lightmap.png"
+        spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone-lightmap.png"
       },
-      spritesheet = "__space-age__/graphics/terrain/water-transitions/lava-stone.png",
+      spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone.png",
       to_tiles = {
         "lava-hot",
         "lava"
@@ -284,7 +287,7 @@ return {
       transition_group1 = 0,
       transition_group2 = 1,
       water_patch = {
-        filename = "__space-age__/graphics/terrain/water-transitions/lava-patch.png",
+        filename = "__space-age__/graphics/terrain/lava-transitions/lava-patch.png",
         height = 64,
         scale = 0.5,
         width = 64
@@ -359,11 +362,11 @@ return {
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
-      spritesheet = "__space-age__/graphics/terrain/water-transitions/lava-stone-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone-transition.png",
       transition_group1 = 0,
       transition_group2 = 3,
       water_patch = {
-        filename = "__space-age__/graphics/terrain/water-transitions/lava-patch.png",
+        filename = "__space-age__/graphics/terrain/lava-transitions/lava-patch.png",
         height = 64,
         scale = 0.5,
         width = 64
@@ -694,7 +697,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

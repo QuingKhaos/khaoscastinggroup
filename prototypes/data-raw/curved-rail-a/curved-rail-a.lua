@@ -1062,7 +1062,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

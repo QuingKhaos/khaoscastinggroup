@@ -2,14 +2,14 @@ return {
   animation = {
     direction_count = 4,
     filename = "__base__/graphics/entity/heat-exchanger/remnants/heat-exchanger-remnants.png",
-    height = 262,
+    height = 256,
     line_length = 1,
     scale = 0.5,
     shift = {
-      0.015625,
-      0.25
+      -0.015625,
+      0.140625
     },
-    width = 272
+    width = 280
   },
   expires = false,
   final_render_layer = "remnants",

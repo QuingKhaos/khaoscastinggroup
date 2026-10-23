@@ -644,6 +644,23 @@ return {
         }
       }
     },
+    water_reflection = {
+      orientation_to_variation = true,
+      pictures = {
+        filename = "__space-age__/graphics/entity/fusion-generator/fusion-generator-reflection.png",
+        height = 36,
+        priority = "extra-high",
+        repeat_count = 1,
+        scale = 5,
+        shift = {
+          0,
+          1.25
+        },
+        variation_count = 4,
+        width = 40
+      },
+      rotate = false
+    },
     west_graphics_set = {
       animation = {
         layers = {
@@ -849,7 +866,8 @@ return {
     pipe_connections = {
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-reactor",
+          "fusion-generator"
         },
         direction = 8,
         flow_direction = "input",
@@ -860,7 +878,8 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-reactor",
+          "fusion-generator"
         },
         direction = 8,
         flow_direction = "input",
@@ -871,7 +890,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-generator"
         },
         direction = 0,
         flow_direction = "output",
@@ -882,7 +901,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-generator"
         },
         direction = 12,
         flow_direction = "output",
@@ -893,7 +912,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-generator"
         },
         direction = 4,
         flow_direction = "output",
@@ -904,7 +923,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-generator"
         },
         direction = 12,
         flow_direction = "output",
@@ -915,7 +934,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-generator"
         },
         direction = 4,
         flow_direction = "output",

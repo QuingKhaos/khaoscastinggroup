@@ -1,4 +1,5 @@
 return {
+  ["cargo-pod-factoriopedia"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.cargo-pod-factoriopedia"),
   ["developer"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.developer"),
   ["infinity"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.infinity"),
   ["info"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.info"),
@@ -15,6 +16,7 @@ return {
   ["tooltip-category-crafting-surface-conditions"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-crafting-surface-conditions"),
   ["tooltip-category-debug"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-debug"),
   ["tooltip-category-effect"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-effect"),
+  ["tooltip-category-electric-network"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-electric-network"),
   ["tooltip-category-electricity"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-electricity"),
   ["tooltip-category-equipment-grid"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-equipment-grid"),
   ["tooltip-category-equipment-grid-electricity"] = require("___KHAOSDATA___.prototypes.data-raw.sprite.tooltip-category-equipment-grid-electricity"),

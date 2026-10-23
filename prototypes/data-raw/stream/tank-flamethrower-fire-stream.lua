@@ -44,7 +44,7 @@ return {
   particle_end_alpha = 1,
   particle_fade_out_threshold = 0.9,
   particle_horizontal_speed = 0.45,
-  particle_horizontal_speed_deviation = 0.0035000000000000004,
+  particle_horizontal_speed_deviation = 0.045,
   particle_loop_exit_threshold = 0.25,
   particle_loop_frame_count = 3,
   particle_spawn_interval = 2,

@@ -35,15 +35,15 @@ return {
                 type = "create-entity"
               },
               {
+                deliver_category = "bullet",
+                type = "activate-impact"
+              },
+              {
                 damage = {
                   amount = 5,
                   type = "physical"
                 },
                 type = "damage"
-              },
-              {
-                deliver_category = "bullet",
-                type = "activate-impact"
               }
             },
             type = "instant"

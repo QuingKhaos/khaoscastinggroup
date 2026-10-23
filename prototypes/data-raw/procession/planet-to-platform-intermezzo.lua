@@ -2,7 +2,17 @@ return {
   name = "planet-to-platform-intermezzo",
   procession_style = 11,
   timeline = {
-    audio_events = {},
+    audio_events = {
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 40,
+        type = "play-sound",
+        usage = "both"
+      }
+    },
     duration = 100,
     intermezzo_max_duration = 35,
     intermezzo_min_duration = 10,

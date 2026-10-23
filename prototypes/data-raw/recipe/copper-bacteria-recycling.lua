@@ -1,5 +1,7 @@
 return {
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -14,19 +16,19 @@ return {
       r = 1
     }
   },
-  enabled = true,
+  enabled = false,
   energy_required = 0.0625,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/copper-bacteria.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -48,8 +50,8 @@ return {
     {
       amount = 1,
       ignored_by_stats = 1,
+      independent_probability = 0.25,
       name = "copper-bacteria",
-      probability = 0.25,
       type = "item"
     }
   },

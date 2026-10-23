@@ -433,7 +433,17 @@ return {
       property = "pressure"
     }
   },
+  temperature_to_suppress_energy_icons = 800,
   type = "reactor",
+  water_reflection = {
+    pictures = {
+      filename = "__space-age__/graphics/entity/heating-tower/heating-tower-reflection.png",
+      height = 60,
+      scale = 5,
+      width = 60
+    },
+    rotate = false
+  },
   working_light_picture = {
     layers = {
       {

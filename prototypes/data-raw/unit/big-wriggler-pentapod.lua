@@ -137,7 +137,7 @@ return {
       },
       variations = {
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-1.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-1.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -146,7 +146,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-2.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-2.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -155,7 +155,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-3.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-3.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -164,7 +164,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-4.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-4.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -173,7 +173,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-5.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-5.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -182,7 +182,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-6.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-6.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -191,7 +191,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-7.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-7.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -200,7 +200,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-8.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-8.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -209,7 +209,7 @@ return {
           }
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-9.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-attack-big-9.ogg",
           max_volume = 0.7,
           min_volume = 0.25,
           modifiers = {
@@ -272,7 +272,7 @@ return {
     },
     variations = {
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-1.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-1.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -280,7 +280,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-2.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-2.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -288,7 +288,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-3.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-3.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -296,7 +296,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-4.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-4.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -304,7 +304,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-5.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-5.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -312,7 +312,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-6.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-6.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -320,7 +320,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-7.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-7.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -328,7 +328,7 @@ return {
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-8.ogg",
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-death-big-8.ogg",
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.5
@@ -542,8 +542,8 @@ return {
     },
     variations = {
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-1.ogg",
-        max_volume = 0.8,
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-big-1.ogg",
+        max_volume = 1,
         min_volume = 0.6,
         modifiers = {
           type = "main-menu",
@@ -551,8 +551,8 @@ return {
         }
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-2.ogg",
-        max_volume = 0.8,
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-big-2.ogg",
+        max_volume = 1,
         min_volume = 0.6,
         modifiers = {
           type = "main-menu",
@@ -560,8 +560,8 @@ return {
         }
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-3.ogg",
-        max_volume = 0.8,
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-big-3.ogg",
+        max_volume = 1,
         min_volume = 0.6,
         modifiers = {
           type = "main-menu",
@@ -569,8 +569,8 @@ return {
         }
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-4.ogg",
-        max_volume = 0.8,
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-big-4.ogg",
+        max_volume = 1,
         min_volume = 0.6,
         modifiers = {
           type = "main-menu",
@@ -578,8 +578,8 @@ return {
         }
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-5.ogg",
-        max_volume = 0.8,
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-big-5.ogg",
+        max_volume = 1,
         min_volume = 0.6,
         modifiers = {
           type = "main-menu",
@@ -587,8 +587,8 @@ return {
         }
       },
       {
-        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-6.ogg",
-        max_volume = 0.8,
+        filename = "__space-age__/sound/enemies/wriggler/wriggler-warcry-big-6.ogg",
+        max_volume = 1,
         min_volume = 0.6,
         modifiers = {
           type = "main-menu",
@@ -613,76 +613,76 @@ return {
       category = "enemy",
       variations = {
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-1.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-1.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-2.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-2.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-3.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-3.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-4.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-4.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-5.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-5.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-6.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-6.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-7.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-7.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-8.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-8.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         },
         {
-          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-9.ogg",
+          filename = "__space-age__/sound/enemies/wriggler/wriggler-idle-big-9.ogg",
           modifiers = {
             type = "main-menu",
             volume_multiplier = 1
           },
-          volume = 0.5
+          volume = 0.6
         }
       }
     }

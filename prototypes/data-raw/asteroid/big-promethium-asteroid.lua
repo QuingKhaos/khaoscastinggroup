@@ -15,6 +15,7 @@ return {
     },
     not_colliding_with_itself = true
   },
+  damage_per_hp = 24,
   dying_trigger_effect = {
     {
       entity_name = "promethium-asteroid-explosion-4",
@@ -224,7 +225,6 @@ return {
   localised_description = {
     "entity-description.promethium-asteroid"
   },
-  mass = 10000000,
   max_health = 4000,
   name = "big-promethium-asteroid",
   order = "d[promethium]-d[big]",

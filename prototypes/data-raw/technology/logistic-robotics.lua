@@ -23,6 +23,11 @@ return {
     {
       modifier = 30,
       type = "character-logistic-trash-slots"
+    },
+    {
+      hidden = true,
+      modifier = true,
+      type = "unlock-logistic-network"
     }
   },
   icon = "__base__/graphics/technology/logistic-robotics.png",

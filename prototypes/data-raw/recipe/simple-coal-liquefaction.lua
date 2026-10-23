@@ -1,7 +1,17 @@
 return {
   allow_decomposition = false,
   allow_productivity = true,
-  category = "oil-processing",
+  categories = {
+    "oil-processing"
+  },
+  crafting_machine_tint = {
+    primary = {
+      a = 1,
+      b = 0.26000000000000001,
+      g = 0.46100000000000003,
+      r = 0.46899999999999995
+    }
+  },
   enabled = false,
   energy_required = 5,
   icon = "__space-age__/graphics/icons/fluid/simple-coal-liquefaction.png",
@@ -27,11 +37,11 @@ return {
   results = {
     {
       amount = 50,
+      fluidbox_index = 1,
       name = "heavy-oil",
       type = "fluid"
     }
   },
-  show_amount_in_title = false,
   subgroup = "fluid-recipes",
   type = "recipe"
 }

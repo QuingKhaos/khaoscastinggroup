@@ -468,6 +468,62 @@ return {
   },
   name = "nuclear-reactor",
   neighbour_bonus = 1,
+  neighbour_connectable = {
+    connections = {
+      {
+        category = "nuclear-reactor",
+        location = {
+          direction = 0,
+          position = {
+            0,
+            -2.5
+          }
+        },
+        neighbour_category = {
+          "nuclear-reactor"
+        }
+      },
+      {
+        category = "nuclear-reactor",
+        location = {
+          direction = 4,
+          position = {
+            2.5,
+            0
+          }
+        },
+        neighbour_category = {
+          "nuclear-reactor"
+        }
+      },
+      {
+        category = "nuclear-reactor",
+        location = {
+          direction = 8,
+          position = {
+            0,
+            2.5
+          }
+        },
+        neighbour_category = {
+          "nuclear-reactor"
+        }
+      },
+      {
+        category = "nuclear-reactor",
+        location = {
+          direction = 12,
+          position = {
+            -2.5,
+            0
+          }
+        },
+        neighbour_category = {
+          "nuclear-reactor"
+        }
+      }
+    }
+  },
   open_sound = {
     filename = "__base__/sound/open-close/nuclear-open.ogg",
     volume = 0.8
@@ -507,7 +563,17 @@ return {
       2.5
     }
   },
+  temperature_to_suppress_energy_icons = 800,
   type = "reactor",
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/nuclear-reactor/nuclear-reactor-reflection.png",
+      height = 74,
+      scale = 5,
+      width = 74
+    },
+    rotate = false
+  },
   working_light_picture = {
     blend_mode = "additive",
     draw_as_glow = true,

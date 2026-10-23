@@ -4,7 +4,8 @@ return {
   },
   ai_settings = {
     allow_try_return_to_spawner = true,
-    destroy_when_commands_fail = true
+    destroy_when_commands_fail = true,
+    size_in_group = 3
   },
   attack_parameters = {
     ammo_category = "melee",
@@ -225,6 +226,13 @@ return {
       }
     },
     type = "projectile"
+  },
+  buildable_entities = {
+    "biter-spawner",
+    "spitter-spawner",
+    "big-worm-turret",
+    "big-worm-turret",
+    "behemoth-worm-turret"
   },
   collision_box = {
     {
@@ -472,6 +480,14 @@ return {
     }
   },
   spawning_time_modifier = 12,
+  steering = {
+    move = {
+      radius = 3
+    },
+    stay = {
+      radius = 4.5
+    }
+  },
   sticker_box = {
     {
       -0.6,

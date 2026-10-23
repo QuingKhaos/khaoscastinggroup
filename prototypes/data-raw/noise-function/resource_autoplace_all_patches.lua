@@ -4,6 +4,7 @@ return {
     basement_value = "-6 * max(regular_blob_amplitude_at(regular_blob_amplitude_maximum_distance), starting_blob_amplitude)",
     blobs0 = "basis_noise{x = x, y = y, seed0 = map_seed, seed1 = seed1, input_scale = 1/8, output_scale = 1} + basis_noise{x = x, y = y, seed0 = map_seed, seed1 = seed1, input_scale = 1/24, output_scale = 1}",
     double_density_distance = 1300,
+    origin_excluder = "distance > 40",
     regular_blob_amplitude_maximum_distance = "if(has_starting_area_placement == -1,double_density_distance,double_density_distance + regular_patch_fade_in_distance)",
     regular_patch_fade_in_distance = 300,
     regular_patches = "spot_noise{x = x,y = y,density_expression = regular_density_at(distance),spot_quantity_expression = regular_spot_quantity_expression,spot_radius_expression = min(32, regular_rq_factor * regular_spot_quantity_expression ^ (1/3)),spot_favorability_expression = 1,seed0 = map_seed,seed1 = seed1,region_size = 1024,candidate_spot_count = candidate_spot_count,suggested_minimum_candidate_point_spacing = 45.254833995939045,skip_span = regular_patch_set_count,skip_offset = regular_patch_set_index,hard_region_target_quantity = 0,basement_value = basement_value,maximum_spot_basement_radius = 128} + (blobs0 + basis_noise{x = x, y = y, seed0 = map_seed, seed1 = seed1, input_scale = 1/64, output_scale = 1.5} - 1/3) * regular_blob_amplitude_at(distance)",
@@ -12,9 +13,9 @@ return {
     starting_area_spot_quantity = "starting_amount / starting_patches_split / frequency_multiplier",
     starting_blob_amplitude = "starting_blob_amplitude_multiplier / (pi/3 * starting_rq_factor ^ 2) * starting_area_spot_quantity ^ (1/3)",
     starting_modulation = "starting_resource_placement_radius > distance",
-    starting_patches = "spot_noise{x = x,y = y,density_expression = starting_amount / (pi * starting_resource_placement_radius * starting_resource_placement_radius) * starting_modulation,spot_quantity_expression = starting_area_spot_quantity,spot_radius_expression = starting_rq_factor * starting_area_spot_quantity ^ (1/3),spot_favorability_expression = clamp((elevation_lakes - 1) / 10, 0, 1) * starting_modulation * 2 - distance / starting_resource_placement_radius + random_penalty_at(0.5, 1),seed0 = map_seed,seed1 = seed1 + 1,skip_span = starting_patch_set_count,skip_offset = starting_patch_set_index,region_size = starting_resource_placement_radius * 2,candidate_spot_count = 32,suggested_minimum_candidate_point_spacing = 32,hard_region_target_quantity = 1,basement_value = basement_value,maximum_spot_basement_radius = 128} + (blobs0 - 0.25) * starting_blob_amplitude",
+    starting_patches = "spot_noise{x = x,y = y,density_expression = starting_amount / (pi * starting_resource_placement_radius * starting_resource_placement_radius) * starting_modulation,spot_quantity_expression = starting_area_spot_quantity,spot_radius_expression = starting_rq_factor * starting_area_spot_quantity ^ (1/3),spot_favorability_expression = starting_resources_lake_mask * starting_modulation * origin_excluder * 2 - min(1, distance / starting_resource_placement_radius),seed0 = map_seed,seed1 = seed1 + 1,skip_span = starting_patch_set_count,skip_offset = starting_patch_set_index,region_size = starting_resource_placement_radius * 3,candidate_spot_count = 32,suggested_minimum_candidate_point_spacing = 48,hard_region_target_quantity = 1,basement_value = basement_value,maximum_spot_basement_radius = 2 * starting_rq_factor * starting_area_spot_quantity ^ (1/3)} + (blobs0 - 0.25) * starting_blob_amplitude",
     starting_patches_split = 0.5,
-    starting_resource_placement_radius = 120
+    starting_resource_placement_radius = 150
   },
   local_functions = {
     regular_blob_amplitude_at = {

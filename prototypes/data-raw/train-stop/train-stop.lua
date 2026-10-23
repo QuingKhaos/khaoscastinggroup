@@ -253,6 +253,7 @@ return {
           0.328125,
           -1.671875
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -400,6 +401,7 @@ return {
           -0.671875,
           -1.578125
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -547,6 +549,7 @@ return {
           -0.34375,
           -2.75
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -694,6 +697,7 @@ return {
           0.171875,
           -1.28125
         },
+        render_layer = "train-stop-top",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -1254,6 +1258,22 @@ return {
     }
   },
   type = "train-stop",
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/train-stop/train-stop-reflection.png",
+      height = 48,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0,
+        3
+      },
+      variation_count = 4,
+      width = 48
+    },
+    rotate = false
+  },
   working_sound = {
     audible_distance_modifier = 0.2,
     filename = "__base__/sound/train-stop.ogg",

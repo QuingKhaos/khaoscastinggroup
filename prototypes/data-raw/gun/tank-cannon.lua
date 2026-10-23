@@ -2,6 +2,7 @@ return {
   attack_parameters = {
     ammo_category = "cannon-shell",
     cooldown = 90,
+    min_range = 5,
     movement_slow_down_factor = 0,
     projectile_center = {
       -0.15625,

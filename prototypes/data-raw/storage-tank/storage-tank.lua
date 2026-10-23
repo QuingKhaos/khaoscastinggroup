@@ -514,6 +514,10 @@ return {
     },
     type = "create-entity"
   },
+  default_fluid_temperature_signal = {
+    name = "signal-T",
+    type = "virtual"
+  },
   dying_explosion = "storage-tank-explosion",
   fast_replaceable_group = "storage-tank",
   flags = {
@@ -522,10 +526,10 @@ return {
   },
   flow_length_in_ticks = 360,
   fluid_box = {
-    hide_connection_info = true,
     pipe_connections = {
       {
         direction = 0,
+        hide_connection_info = true,
         position = {
           -1,
           -1
@@ -533,6 +537,7 @@ return {
       },
       {
         direction = 4,
+        hide_connection_info = true,
         position = {
           1,
           1
@@ -540,6 +545,7 @@ return {
       },
       {
         direction = 8,
+        hide_connection_info = true,
         position = {
           1,
           1
@@ -547,6 +553,7 @@ return {
       },
       {
         direction = 12,
+        hide_connection_info = true,
         position = {
           -1,
           -1

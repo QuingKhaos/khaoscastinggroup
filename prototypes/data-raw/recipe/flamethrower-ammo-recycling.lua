@@ -1,5 +1,7 @@
 return {
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -26,19 +28,19 @@ return {
       r = 0.63700000000000001
     }
   },
-  enabled = true,
+  enabled = false,
   energy_required = 0.375,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__base__/graphics/icons/flamethrower-ammo.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -60,8 +62,8 @@ return {
     {
       amount = 1,
       ignored_by_stats = 1,
+      independent_probability = 0.25,
       name = "flamethrower-ammo",
-      probability = 0.25,
       type = "item"
     }
   },

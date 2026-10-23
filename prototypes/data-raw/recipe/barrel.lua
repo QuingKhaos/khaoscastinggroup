@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "crafting",
+  categories = {
+    "crafting"
+  },
   enabled = false,
   energy_required = 1,
   ingredients = {

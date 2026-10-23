@@ -13,6 +13,7 @@ return {
       2.3300000000000001
     }
   },
+  count_as_rock_for_filtered_deconstruction = true,
   damaged_trigger_effect = {
     damage_type_filters = "fire",
     entity_name = "rock-damaged-explosion",
@@ -223,6 +224,9 @@ return {
       }
     }
   },
+  mined_sound = {
+    filename = "__base__/sound/deconstruct-bricks.ogg"
+  },
   name = "fulgoran-ruin-huge",
   order = "b[decorative]-l[rock]-d[fulgora]-e[ruin]-b[decorative]-l[rock]-d[fulgora]-e[ruin]-f[huge]",
   pictures = {
@@ -401,6 +405,7 @@ return {
       2.5300000000000002
     }
   },
+  shuffled_variation_on_chunk_generated = true,
   subgroup = "grass",
   type = "simple-entity"
 }

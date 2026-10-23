@@ -1,9 +1,11 @@
 return {
   allow_decomposition = false,
   allow_productivity = false,
-  always_show_products = true,
   auto_recycle = false,
-  category = "chemistry-or-cryogenics",
+  categories = {
+    "chemistry",
+    "cryogenics"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -31,7 +33,7 @@ return {
     }
   },
   enabled = false,
-  energy_required = 5,
+  energy_required = 0.5,
   icon = "__space-age__/graphics/icons/fluid/acid-neutralisation.png",
   ingredients = {
     {
@@ -40,7 +42,7 @@ return {
       type = "item"
     },
     {
-      amount = 1000,
+      amount = 100,
       name = "sulfuric-acid",
       type = "fluid"
     }
@@ -49,13 +51,12 @@ return {
   order = "d[other-chemistry]-a[acid-neutralisation]",
   results = {
     {
-      amount = 10000,
+      amount = 1000,
       name = "steam",
       temperature = 500,
       type = "fluid"
     }
   },
-  show_amount_in_title = false,
   subgroup = "fluid-recipes",
   surface_conditions = {
     {

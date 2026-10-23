@@ -11,15 +11,21 @@ return {
           "__space-age__/graphics/entity/lavaslug/lavaslug-head-2.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-head-3.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-head-4.png",
-          "__space-age__/graphics/entity/lavaslug/lavaslug-head-5.png"
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-5.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-6.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-7.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-8.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-9.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-10.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-11.png"
         },
-        height = 582,
-        line_length = 4,
-        lines_per_file = 7,
+        height = 586,
+        line_length = 2,
+        lines_per_file = 6,
         scale = 0.375,
         shift = {
-          0,
-          -0.6328125
+          0.01171875,
+          -0.64453125
         },
         surface = "vulcanus",
         usage = "enemy",
@@ -33,19 +39,23 @@ return {
           "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-1.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-2.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-3.png",
-          "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-4.png"
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-4.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-5.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-6.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-7.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-head-shadow-8.png"
         },
         height = 462,
-        line_length = 4,
+        line_length = 2,
         lines_per_file = 8,
         scale = 0.375,
         shift = {
-          1.171875,
-          0.05859375
+          1.6875,
+          -0.17578125
         },
         surface = "vulcanus",
         usage = "enemy",
-        width = 806
+        width = 872
       }
     }
   },
@@ -67,6 +77,51 @@ return {
     {
       entity_name = "medium-demolisher-corpse",
       type = "create-entity"
+    },
+    {
+      sound = {
+        advanced_volume_control = {
+          attenuation = "exponential",
+          fades = {
+            fade_in = {
+              curve_type = "cosine",
+              from = {
+                control = 0.5,
+                volume_percentage = 50
+              },
+              to = {
+                1,
+                100
+              }
+            }
+          }
+        },
+        aggregation = {
+          count_already_playing = true,
+          max_count = 1,
+          priority = "oldest",
+          remove = true
+        },
+        variations = {
+          {
+            filename = "__space-age__/sound/explosions/demolisher-explosion-1.ogg",
+            modifiers = {
+              type = "main-menu",
+              volume_multiplier = 0.5
+            },
+            volume = 1
+          },
+          {
+            filename = "__space-age__/sound/explosions/demolisher-explosion-2.ogg",
+            modifiers = {
+              type = "main-menu",
+              volume_multiplier = 0.5
+            },
+            volume = 1
+          }
+        }
+      },
+      type = "play-sound"
     },
     {
       initial_height = 0.6,
@@ -394,7 +449,7 @@ return {
             volume_percentage = 50
           },
           to = {
-            2,
+            1.5,
             100
           }
         }
@@ -403,23 +458,23 @@ return {
     audible_distance_modifier = 6.25,
     variations = {
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-1.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-medium-1.ogg",
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-2.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-medium-2.ogg",
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-3.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-medium-3.ogg",
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-4.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-medium-4.ogg",
         volume = 1
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-5.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-hurt-roar-medium-5.ogg",
         volume = 1
       }
     }
@@ -441,7 +496,7 @@ return {
   overkill_fraction = 0.2,
   patrolling_speed = 0.02,
   patrolling_turn_radius = 15,
-  render_layer = "higher-object-under",
+  render_layer = "object",
   resistances = {
     {
       percent = 60,
@@ -560,43 +615,31 @@ return {
     category = "enemy",
     variations = {
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-1.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-1.ogg",
         volume = 0.8
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-2.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-2.ogg",
         volume = 0.8
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-3.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-3.ogg",
         volume = 0.8
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-4.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-4.ogg",
         volume = 0.8
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-5.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-5.ogg",
         volume = 0.8
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-6.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-6.ogg",
         volume = 0.8
       },
       {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-7.ogg",
-        volume = 0.8
-      },
-      {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-8.ogg",
-        volume = 0.8
-      },
-      {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-9.ogg",
-        volume = 0.8
-      },
-      {
-        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-10.ogg",
+        filename = "__space-age__/sound/enemies/demolisher/demolisher-roar-medium-7.ogg",
         volume = 0.8
       }
     }
@@ -1697,12 +1740,12 @@ return {
   },
   vision_distance = 48,
   working_sound = {
-    match_volume_to_activity = true,
     max_sounds_per_prototype = 1,
     sound = {
-      audible_distance_modifier = 0.8,
-      filename = "__space-age__/sound/world/semi-persistent/distant-rumble-2.ogg",
-      volume = 1
+      audible_distance_modifier = 0.5,
+      category = "enemy",
+      filename = "__space-age__/sound/enemies/demolisher/demolisher-head-moves.ogg",
+      volume = 0.7
     }
   }
 }

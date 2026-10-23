@@ -26,7 +26,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -39,7 +39,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -52,7 +52,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -65,7 +65,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -78,7 +78,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -91,7 +91,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -104,7 +104,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -117,176 +117,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 896,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1024,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1152,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1280,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1408,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1536,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1664,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1792,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 1920,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 2048,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 2176,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 2304,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
-      scale = 0.3,
-      shift = {
-        0,
-        0
-      },
-      width = 128,
-      x = 2432,
-      y = 0
-    },
-    {
-      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
-      height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -299,7 +130,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -312,7 +143,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -325,7 +156,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -338,7 +169,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -351,7 +182,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -364,7 +195,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
@@ -377,106 +208,275 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 896,
-      y = 128
+      x = 0,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1024,
-      y = 128
+      x = 128,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1152,
-      y = 128
+      x = 256,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1280,
-      y = 128
+      x = 384,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1408,
-      y = 128
+      x = 512,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1536,
-      y = 128
+      x = 640,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1664,
-      y = 128
+      x = 768,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
       height = 128,
-      line_length = 20,
+      line_length = 7,
       scale = 0.3,
       shift = {
         0,
         0
       },
       width = 128,
-      x = 1792,
-      y = 128
+      x = 0,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 128,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 256,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 384,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 512,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 640,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 768,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 0,
+      y = 512
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 128,
+      y = 512
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 256,
+      y = 512
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 384,
+      y = 512
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 512,
+      y = 512
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 640,
+      y = 512
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-tiny.png",
+      height = 128,
+      line_length = 7,
+      scale = 0.3,
+      shift = {
+        0,
+        0
+      },
+      width = 128,
+      x = 768,
+      y = 512
     }
   },
   type = "optimized-decorative",
@@ -490,7 +490,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

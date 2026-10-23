@@ -1,5 +1,7 @@
 return {
-  category = "crafting",
+  categories = {
+    "crafting"
+  },
   enabled = false,
   energy_required = 0.25,
   ingredients = {
@@ -10,6 +12,7 @@ return {
     }
   },
   name = "refined-hazard-concrete",
+  recycle_to_ingredients_of = "refined-concrete",
   results = {
     {
       amount = 10,

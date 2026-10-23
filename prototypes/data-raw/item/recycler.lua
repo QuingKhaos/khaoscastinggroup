@@ -8,7 +8,7 @@ return {
     filename = "__base__/sound/item/metal-large-inventory-move.ogg",
     volume = 0.7
   },
-  icon = "__quality__/graphics/icons/recycler.png",
+  icon = "__recycler__/graphics/icons/recycler.png",
   inventory_move_sound = {
     aggregation = {
       max_count = 1,

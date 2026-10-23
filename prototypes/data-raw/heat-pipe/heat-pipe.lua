@@ -1,4 +1,2051 @@
 return {
+  circuit_connector = {
+    {
+      points = {
+        shadow = {
+          green = {
+            0.5,
+            0.09375
+          },
+          red = {
+            0.5,
+            -0.078125
+          }
+        },
+        wire = {
+          green = {
+            0.328125,
+            -0.109375
+          },
+          red = {
+            0.328125,
+            -0.28125
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 0,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 0,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 0,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 0
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 0
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 0
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 0
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.5,
+            0
+          },
+          red = {
+            0.5,
+            -0.15625
+          }
+        },
+        wire = {
+          green = {
+            0.328125,
+            -0.203125
+          },
+          red = {
+            0.328125,
+            -0.375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 64,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 66,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 38,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 1
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 1
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 1
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 1
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 1
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.1875,
+            0.265625
+          },
+          red = {
+            0.453125,
+            0.265625
+          }
+        },
+        wire = {
+          green = {
+            0,
+            0.09375
+          },
+          red = {
+            0.25,
+            0.09375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 128,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 132,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 76,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 2
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 2
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 2
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 2
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 2
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.15625,
+            0
+          },
+          red = {
+            0.203125,
+            0.0625
+          }
+        },
+        wire = {
+          green = {
+            -0.1875,
+            -0.25
+          },
+          red = {
+            0.015625,
+            -0.09375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 192,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 198,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 114,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 3
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 3
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 3
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 3
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 3
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.5,
+            0.390625
+          },
+          red = {
+            0.5,
+            0.234375
+          }
+        },
+        wire = {
+          green = {
+            0.328125,
+            0.234375
+          },
+          red = {
+            0.328125,
+            0.046875
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 256,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 264,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 152,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 4
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 4
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 4
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 4
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 4
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.5,
+            0.171875
+          },
+          red = {
+            0.5,
+            0
+          }
+        },
+        wire = {
+          green = {
+            0.34375,
+            -0.015625
+          },
+          red = {
+            0.34375,
+            -0.1875
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 320,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 330,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 190,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 5
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 5
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 5
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 5
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 5
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.21875,
+            0.078125
+          },
+          red = {
+            0.03125,
+            0.234375
+          }
+        },
+        wire = {
+          green = {
+            0.03125,
+            -0.171875
+          },
+          red = {
+            -0.15625,
+            0.015625
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 384,
+          y = 0
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 396,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 228,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 6
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 6
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 6
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 6
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 6
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            -0.140625,
+            0
+          },
+          red = {
+            -0.125,
+            0.1875
+          }
+        },
+        wire = {
+          green = {
+            -0.328125,
+            -0.21875
+          },
+          red = {
+            -0.3125,
+            -0.03125
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 448,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 266,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 7
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 7
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 7
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 7
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            -0.109375,
+            0.265625
+          },
+          red = {
+            0.15625,
+            0.265625
+          }
+        },
+        wire = {
+          green = {
+            -0.296875,
+            0.09375
+          },
+          red = {
+            -0.03125,
+            0.09375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 0,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 0,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 0,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 8
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 8
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 8
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 8
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 8
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.15625,
+            0.09375
+          },
+          red = {
+            0.34375,
+            -0.03125
+          }
+        },
+        wire = {
+          green = {
+            -0.03125,
+            -0.078125
+          },
+          red = {
+            0.15625,
+            -0.203125
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 64,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 66,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 38,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 9
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 9
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 9
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 9
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 9
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.09375,
+            0.28125
+          },
+          red = {
+            0.328125,
+            0.28125
+          }
+        },
+        wire = {
+          green = {
+            -0.109375,
+            0.109375
+          },
+          red = {
+            0.125,
+            0.109375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 128,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 132,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 76,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 10
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 10
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 10
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 10
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 10
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.09375,
+            0.28125
+          },
+          red = {
+            0.328125,
+            0.28125
+          }
+        },
+        wire = {
+          green = {
+            -0.109375,
+            0.109375
+          },
+          red = {
+            0.125,
+            0.109375
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 192,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 198,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 114,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 11
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 11
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 11
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 11
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 11
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.296875,
+            0.171875
+          },
+          red = {
+            0.140625,
+            0.03125
+          }
+        },
+        wire = {
+          green = {
+            0.140625,
+            -0.046875
+          },
+          red = {
+            -0.046875,
+            -0.1875
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 256,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 264,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 152,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 12
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 12
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 12
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 12
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 12
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.5,
+            0.125
+          },
+          red = {
+            0.5,
+            -0.03125
+          }
+        },
+        wire = {
+          green = {
+            0.34375,
+            -0.0625
+          },
+          red = {
+            0.3125,
+            -0.25
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 320,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 330,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 190,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 13
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 13
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 13
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 13
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 13
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.28125,
+            -0.171875
+          },
+          red = {
+            0.03125,
+            -0.171875
+          }
+        },
+        wire = {
+          green = {
+            0.09375,
+            -0.390625
+          },
+          red = {
+            -0.15625,
+            -0.390625
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 384,
+          y = 62
+        },
+        connector_shadow = {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-shadow.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.0625,
+            0.0625
+          },
+          width = 66,
+          x = 396,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 228,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 14
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 14
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 14
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 14
+        },
+        wire_pins_shadow = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 14
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.5,
+            0.125
+          },
+          red = {
+            0.5,
+            -0.03125
+          }
+        },
+        wire = {
+          green = {
+            0.328125,
+            -0.046875
+          },
+          red = {
+            0.3125,
+            -0.25
+          }
+        }
+      },
+      sprites = {
+        connector_main = {
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection.png",
+          height = 62,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.015625
+          },
+          width = 64,
+          x = 448,
+          y = 62
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/heat-pipe/heat-pipe-circuit-connection-blue-led.png",
+          height = 42,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.171875
+          },
+          width = 38,
+          x = 266,
+          y = 42
+        },
+        led_blue_off = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 15
+        },
+        led_green = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 15
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 15
+        },
+        wire_pins = {
+          filename = "__core__/graphics/empty.png",
+          height = 1,
+          priority = "extra-high",
+          shift = {
+            0,
+            0
+          },
+          width = 1,
+          x = 0,
+          y = 15
+        }
+      }
+    }
+  },
+  circuit_wire_max_distance = 9,
   collision_box = {
     {
       -0.3,
@@ -386,6 +2433,10 @@ return {
       }
     },
     type = "create-entity"
+  },
+  default_temperature_signal = {
+    name = "signal-T",
+    type = "virtual"
   },
   dying_explosion = "heat-pipe-explosion",
   fast_replaceable_group = "heat-pipe",

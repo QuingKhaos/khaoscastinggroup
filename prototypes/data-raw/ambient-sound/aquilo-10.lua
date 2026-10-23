@@ -1,6 +1,9 @@
 return {
   name = "aquilo-10",
-  planet = "aquilo",
+  planets = {
+    "aquilo"
+  },
+  title = "Aquilo 10 - Endless Ocean",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {
@@ -39,80 +42,82 @@ return {
         name = "A",
         variants = {
           {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-1.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-2.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-3.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-4.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-5.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-6.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-7.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-8.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-9.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-10.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-11.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-12.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-13.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-14.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-1.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-2.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-3.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-4.ogg",
-            volume = 1.3999999999999999
-          },
-          {
-            filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-5.ogg",
-            volume = 1.3999999999999999
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-1.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-2.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-3.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-4.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-5.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-6.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-7.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-8.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-9.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-10.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-11.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-12.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-13.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-14.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-1.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-2.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-3.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-4.ogg",
+              volume = 1.3999999999999999
+            },
+            {
+              filename = "__space-age__/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-5.ogg",
+              volume = 1.3999999999999999
+            }
           }
         }
       },

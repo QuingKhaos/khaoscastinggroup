@@ -16,7 +16,15 @@ return {
     "planet-discovery-vulcanus"
   },
   research_trigger = {
-    entity = "big-volcanic-rock",
+    entities = {
+      "big-volcanic-rock",
+      "big-volcanic-rock-hot",
+      "huge-volcanic-rock",
+      "huge-volcanic-rock-hot",
+      "small-demolisher-corpse",
+      "medium-demolisher-corpse",
+      "big-demolisher-corpse"
+    },
     type = "mine-entity"
   },
   type = "technology"

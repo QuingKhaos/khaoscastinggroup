@@ -57,13 +57,6 @@ return {
   },
   connection_distance = 3,
   corpse = "cargo-wagon-remnants",
-  crash_trigger = {
-    sound = {
-      filename = "__base__/sound/car-crash.ogg",
-      volume = 0
-    },
-    type = "play-sound"
-  },
   damaged_trigger_effect = {
     damage_type_filters = "fire",
     entity_name = "spark-explosion",
@@ -300,7 +293,6 @@ return {
   inventory_size = 40,
   joint_distance = 4,
   max_health = 600,
-  max_speed = 1.5,
   minable = {
     mining_time = 0.1,
     result = "infinity-cargo-wagon"

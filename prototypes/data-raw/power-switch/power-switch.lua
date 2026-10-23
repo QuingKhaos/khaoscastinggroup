@@ -211,6 +211,22 @@ return {
     }
   },
   type = "power-switch",
+  water_reflection = {
+    orientation_to_variation = false,
+    pictures = {
+      filename = "__base__/graphics/entity/power-switch/power-switch-reflection.png",
+      height = 24,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0.15625,
+        1.25
+      },
+      variation_count = 1,
+      width = 24
+    },
+    rotate = false
+  },
   wire_max_distance = 10,
   working_sound = {
     activate_sound = {

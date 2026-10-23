@@ -1,7 +1,9 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "metallurgy",
+  categories = {
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 16,
   icon = "__space-age__/graphics/icons/fluid/molten-copper-from-lava.png",

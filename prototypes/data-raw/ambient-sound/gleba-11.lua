@@ -1,6 +1,9 @@
 return {
   name = "gleba-11",
-  planet = "gleba",
+  planets = {
+    "gleba"
+  },
+  title = "Gleba 11 - Sporangia",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

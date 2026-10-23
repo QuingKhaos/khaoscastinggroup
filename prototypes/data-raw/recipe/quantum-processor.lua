@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "electromagnetics",
+  categories = {
+    "electromagnetics"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

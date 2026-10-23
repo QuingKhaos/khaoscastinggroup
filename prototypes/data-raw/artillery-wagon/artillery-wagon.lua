@@ -452,13 +452,6 @@ return {
   },
   connection_distance = 3,
   corpse = "artillery-wagon-remnants",
-  crash_trigger = {
-    sound = {
-      filename = "__base__/sound/car-crash.ogg",
-      volume = 0
-    },
-    type = "play-sound"
-  },
   damaged_trigger_effect = {
     damage_type_filters = "fire",
     entity_name = "spark-explosion",
@@ -598,7 +591,6 @@ return {
   joint_distance = 4,
   manual_range_modifier = 2.5,
   max_health = 600,
-  max_speed = 1.5,
   minable = {
     mining_time = 0.5,
     result = "artillery-wagon"
@@ -775,11 +767,22 @@ return {
   },
   rotating_sound = {
     sound = {
+      aggregation = {
+        count_already_playing = true,
+        max_count = 3,
+        remove = true
+      },
       filename = "__base__/sound/fight/artillery-rotation-loop.ogg",
       volume = 0.2
     },
     stopped_sound = {
-      filename = "__base__/sound/fight/artillery-rotation-stop.ogg"
+      aggregation = {
+        count_already_playing = true,
+        max_count = 3,
+        remove = true
+      },
+      filename = "__base__/sound/fight/artillery-rotation-stop.ogg",
+      volume = 0.35
     }
   },
   selected_minimap_representation = {

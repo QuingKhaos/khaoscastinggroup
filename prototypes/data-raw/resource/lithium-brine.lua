@@ -59,10 +59,8 @@ return {
     mining_time = 1,
     results = {
       {
-        amount_max = 1,
-        amount_min = 1,
+        amount = 1,
         name = "lithium-brine",
-        probability = 1,
         type = "fluid"
       }
     }
@@ -211,7 +209,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }
@@ -246,6 +244,29 @@ return {
         filename = "__base__/sound/walking/resources/oil-7.ogg",
         volume = 0.7
       }
+    }
+  },
+  working_sound = {
+    max_sounds_per_prototype = 2,
+    sound = {
+      advanced_volume_control = {
+        fades = {
+          fade_in = {
+            curve_type = "S-curve",
+            from = {
+              control = 0.5,
+              volume_percentage = 0
+            },
+            to = {
+              1.5,
+              100
+            }
+          }
+        }
+      },
+      category = "world-ambient",
+      filename = "__space-age__/sound/world/resources/lithium-brine-1.ogg",
+      volume = 0.3
     }
   }
 }

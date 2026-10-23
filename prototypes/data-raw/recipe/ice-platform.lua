@@ -1,6 +1,8 @@
 return {
   always_show_made_in = true,
-  category = "crafting-with-fluid",
+  categories = {
+    "crafting-with-fluid"
+  },
   enabled = false,
   energy_required = 30,
   ingredients = {

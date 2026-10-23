@@ -10,19 +10,25 @@ return {
           "__space-age__/graphics/entity/lavaslug/lavaslug-segment-2.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-segment-3.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-segment-4.png",
-          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-5.png"
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-5.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-6.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-7.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-8.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-9.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-10.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-11.png"
         },
-        height = 550,
-        line_length = 4,
-        lines_per_file = 7,
+        height = 586,
+        line_length = 2,
+        lines_per_file = 6,
         scale = 0.34000000000000004,
         shift = {
           0,
-          -0.72250000000000005
+          -0.79687500000000009
         },
         surface = "vulcanus",
         usage = "enemy",
-        width = 558
+        width = 606
       },
       {
         dice = 0,
@@ -32,19 +38,25 @@ return {
           "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-1.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-2.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-3.png",
-          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-4.png"
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-4.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-5.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-6.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-7.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-8.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-9.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-segment-shadow-10.png"
         },
-        height = 394,
-        line_length = 4,
-        lines_per_file = 8,
+        height = 560,
+        line_length = 2,
+        lines_per_file = 7,
         scale = 0.34000000000000004,
         shift = {
-          1.2006250000000001,
-          0.12749999999999999
+          2.4543750000000002,
+          0.425
         },
         surface = "vulcanus",
         usage = "enemy",
-        width = 774
+        width = 1072
       }
     }
   },
@@ -388,7 +400,7 @@ return {
   max_health = 30000,
   name = "small-demolisher-segment-x0_68",
   overkill_fraction = 0.2,
-  render_layer = "higher-object-under",
+  render_layer = "object",
   resistances = {
     {
       percent = 99,
@@ -582,7 +594,7 @@ return {
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
-    max_sounds_per_prototype = 4,
+    max_sounds_per_prototype = 3,
     sound = {
       advanced_volume_control = {
         attenuation = "exponential"

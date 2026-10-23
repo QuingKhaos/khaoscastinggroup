@@ -481,6 +481,20 @@ return {
       2.5
     }
   },
+  spawn_blocked_trigger = {
+    {
+      action_delivery = {
+        target_effects = {
+          entity_name = "acid-cloud",
+          initial_height = 0,
+          show_in_tooltip = true,
+          type = "create-smoke"
+        },
+        type = "instant"
+      },
+      type = "direct"
+    }
+  },
   spawn_decoration = {
     {
       decorative = "light-mud-decal",
@@ -545,8 +559,8 @@ return {
     360,
     150
   },
-  spawning_radius = 10,
-  spawning_spacing = 3,
+  spawning_radius = 2,
+  spawning_spacing = 1,
   subgroup = "enemies",
   time_to_capture = 1200,
   type = "unit-spawner",

@@ -96,6 +96,7 @@ return {
     68,
     25
   },
+  factoriopedia_alternative = "water",
   fluid = "water",
   layer = 3,
   layer_group = "water",

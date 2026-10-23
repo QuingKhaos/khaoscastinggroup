@@ -2,9 +2,11 @@ return {
   allow_decomposition = false,
   allow_productivity = true,
   always_show_made_in = true,
-  always_show_products = true,
   auto_recycle = false,
-  category = "chemistry-or-cryogenics",
+  categories = {
+    "chemistry",
+    "cryogenics"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

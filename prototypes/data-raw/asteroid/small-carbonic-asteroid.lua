@@ -15,6 +15,7 @@ return {
     },
     not_colliding_with_itself = true
   },
+  damage_per_hp = 3,
   dying_trigger_effect = {
     {
       entity_name = "carbonic-asteroid-explosion-2",
@@ -243,7 +244,6 @@ return {
   localised_description = {
     "entity-description.carbonic-asteroid"
   },
-  mass = 200000,
   max_health = 100,
   name = "small-carbonic-asteroid",
   order = "b[carbonic]-b[small]",

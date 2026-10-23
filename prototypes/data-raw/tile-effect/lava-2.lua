@@ -19,13 +19,28 @@ return {
       5
     },
     foam_color_multiplier = 1,
+    image_textures = {
+      {
+        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/coastal-lava.png"
+      }
+    },
     near_zoom = 0.0625,
+    noise_textures = {
+      {
+        color_channels = 2,
+        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/lava-noise-1.png",
+        size = 512
+      },
+      {
+        color_channels = 1,
+        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/lava-noise-2.png",
+        size = 512
+      }
+    },
     reflection_threshold = {
       1,
       1
     },
-    secondary_texture_variations_columns = 4,
-    secondary_texture_variations_rows = 2,
     shader_variation = "lava",
     specular_lightness = {
       30,
@@ -35,20 +50,6 @@ return {
     specular_threshold = {
       0.88900000000000006,
       0.29099999999999998
-    },
-    texture_variations_columns = 1,
-    texture_variations_rows = 1,
-    textures = {
-      {
-        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/lava-noise-texture.png",
-        height = 512,
-        width = 512
-      },
-      {
-        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/coastal-lava.png",
-        height = 1024,
-        width = 2048
-      }
     },
     tick_scale = 1
   }

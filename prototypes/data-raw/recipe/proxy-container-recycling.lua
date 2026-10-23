@@ -1,5 +1,7 @@
 return {
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.125,
@@ -26,12 +28,12 @@ return {
       0.125
     }
   },
-  enabled = true,
+  enabled = false,
   energy_required = 0.03125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__base__/graphics/icons/linked-chest-icon.png",
@@ -43,7 +45,7 @@ return {
       }
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -65,8 +67,8 @@ return {
     {
       amount = 1,
       ignored_by_stats = 1,
+      independent_probability = 0.25,
       name = "proxy-container",
-      probability = 0.25,
       type = "item"
     }
   },

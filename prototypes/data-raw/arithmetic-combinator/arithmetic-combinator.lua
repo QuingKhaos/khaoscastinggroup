@@ -1019,6 +1019,23 @@ return {
     }
   },
   type = "arithmetic-combinator",
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/combinator/combinators-reflection.png",
+      height = 16,
+      priority = "extra-high",
+      repeat_count = 2,
+      scale = 5,
+      shift = {
+        0,
+        0.78125
+      },
+      variation_count = 2,
+      width = 16
+    },
+    rotate = false
+  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,

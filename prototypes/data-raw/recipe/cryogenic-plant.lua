@@ -1,5 +1,8 @@
 return {
-  category = "cryogenics-or-assembling",
+  categories = {
+    "cryogenics",
+    "advanced-crafting"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

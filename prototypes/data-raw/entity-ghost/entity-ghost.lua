@@ -8,6 +8,11 @@ return {
     filename = "__core__/sound/build-ghost-small.ogg",
     volume = 0.6
   },
+  close_sound = {
+    category = "gui-effect",
+    filename = "__base__/sound/open-close/ghost-entity-close.ogg",
+    volume = 0.7
+  },
   factoriopedia_simulation = {
     init = "    game.surfaces[1].create_entity{name = 'entity-ghost', inner_name = 'stone-furnace', position = {0, 0}}\n  "
   },
@@ -49,5 +54,10 @@ return {
     volume = 0.4
   },
   name = "entity-ghost",
+  open_sound = {
+    category = "gui-effect",
+    filename = "__base__/sound/open-close/ghost-entity-open.ogg",
+    volume = 0.7
+  },
   type = "entity-ghost"
 }

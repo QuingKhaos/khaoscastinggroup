@@ -1,10 +1,6 @@
 return {
   effects = {
     {
-      space_location = "solar-system-edge",
-      type = "unlock-space-location"
-    },
-    {
       space_location = "shattered-planet",
       type = "unlock-space-location"
     },
@@ -19,11 +15,11 @@ return {
   name = "promethium-science-pack",
   prerequisites = {
     "biter-egg-handling",
-    "fusion-reactor"
+    "stellar-discovery-solar-system-edge"
   },
   type = "technology",
   unit = {
-    count = 2000,
+    count = 1000,
     ingredients = {
       {
         "automation-science-pack",

@@ -1,5 +1,8 @@
 return {
-  category = "electronics-or-assembling",
+  categories = {
+    "electromagnetics",
+    "advanced-crafting"
+  },
   enabled = false,
   energy_required = 10,
   ingredients = {

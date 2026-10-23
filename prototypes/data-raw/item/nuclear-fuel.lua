@@ -8,7 +8,9 @@ return {
     volume = 0.6
   },
   fuel_acceleration_multiplier = 2.5,
-  fuel_category = "chemical",
+  fuel_categories = {
+    "chemical"
+  },
   fuel_top_speed_multiplier = 1.1499999999999999,
   fuel_value = "1.21GJ",
   icon = "__base__/graphics/icons/nuclear-fuel.png",

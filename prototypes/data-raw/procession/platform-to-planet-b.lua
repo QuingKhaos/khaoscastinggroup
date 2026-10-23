@@ -3,10 +3,10 @@ return {
     audio_events = {
       {
         audio = {
-          catalogue_id = 201,
+          catalogue_id = 205,
           type = "pod-catalogue"
         },
-        timestamp = 20,
+        timestamp = 26,
         type = "play-sound",
         usage = "both"
       },
@@ -21,16 +21,16 @@ return {
       },
       {
         audio = {
-          catalogue_id = 204,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
-        timestamp = 220,
+        timestamp = 225,
         type = "play-sound",
         usage = "both"
       },
       {
         audio = {
-          catalogue_id = 203,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
         timestamp = 320,
@@ -39,10 +39,37 @@ return {
       },
       {
         audio = {
-          catalogue_id = 202,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
         timestamp = 430,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 18,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 390,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 102,
+          type = "pod-catalogue"
+        },
+        timestamp = 599,
         type = "play-sound",
         usage = "both"
       }
@@ -164,23 +191,28 @@ return {
             timestamp = 600
           },
           {
-            offset_rate = -0.42000000000000002,
-            offset_rate_t = 0.42000000000000002,
+            offset_rate = 0,
+            offset_rate_t = 0,
             timestamp = 0
           },
           {
-            offset_rate = 0.46999999999999993,
-            offset_rate_t = -0.42000000000000002,
-            timestamp = 25
+            offset_rate = 0.67610000000000001,
+            offset_rate_t = -0.093500000000000014,
+            timestamp = 237
           },
           {
-            offset_rate = 1.04,
-            offset_rate_t = -0.06,
-            timestamp = 507
+            offset_rate = 0.92460000000000004,
+            offset_rate_t = -0.0219,
+            timestamp = 419
           },
           {
-            offset_rate = 0.95999999999999996,
-            offset_rate_t = 0.04,
+            offset_rate = 0.99019999999999992,
+            offset_rate_t = -0.010600000000000001,
+            timestamp = 512
+          },
+          {
+            offset_rate = 1,
+            offset_rate_t = 0,
             timestamp = 600
           },
           {
@@ -189,14 +221,29 @@ return {
             timestamp = 0
           },
           {
-            tilt = 0.070000000000000009,
-            tilt_t = -0.02,
-            timestamp = 240
+            tilt = 0.079630000000000001,
+            tilt_t = -0.0070889999999999995,
+            timestamp = 120
           },
           {
-            tilt = 0,
-            tilt_t = 0,
-            timestamp = 360
+            tilt = 0.050419999999999998,
+            tilt_t = -0.0094699999999999989,
+            timestamp = 225
+          },
+          {
+            tilt = 0.00093000000000000007,
+            tilt_t = 0.01095,
+            timestamp = 300
+          },
+          {
+            tilt = -0.01818,
+            tilt_t = 0.010230000000000001,
+            timestamp = 381
+          },
+          {
+            tilt = 0.00054000000000000004,
+            tilt_t = -0.00521,
+            timestamp = 420
           },
           {
             tilt = 0,
@@ -611,6 +658,237 @@ return {
         secondary_draw_order = 1,
         shift_rotates_with_pod = true,
         start_time = 320,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 32,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 10
+          },
+          {
+            frame = 19,
+            timestamp = 32
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 10,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 139,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 120
+          },
+          {
+            frame = 19,
+            timestamp = 139
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 120,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 306,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 290
+          },
+          {
+            frame = 19,
+            timestamp = 306
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 290,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 323,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 304
+          },
+          {
+            frame = 19,
+            timestamp = 323
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 304,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 342,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 324
+          },
+          {
+            frame = 19,
+            timestamp = 342
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 324,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 392,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 370
+          },
+          {
+            frame = 19,
+            timestamp = 392
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 370,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 412,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 390
+          },
+          {
+            frame = 19,
+            timestamp = 412
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 390,
         type = "single-graphic"
       },
       {
@@ -781,14 +1059,14 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 390,
         frames = {
           {
             effect_scale_min = 0.34000000000000004,
             timestamp = 0
           },
           {
-            effect_scale_max = 0.70999999999999996,
+            effect_scale_max = 1.71,
             timestamp = 0
           },
           {
@@ -796,40 +1074,30 @@ return {
               0,
               -2.7000000000000002
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 85
           },
           {
             effect_shift = {
               0,
               2.7000000000000002
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 1,
-            timestamp = 0
+            timestamp = 390
           },
           {
             offset = {
               0,
               0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              1,
-              -4
+              -1.2288000000000001,
+              -3.9366000000000007
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -843,8 +1111,8 @@ return {
         },
         name = "main cloud",
         render_layer = "floor",
-        secondary_draw_order = -1,
-        start_time = 50,
+        secondary_draw_order = 3,
+        start_time = 85,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -861,55 +1129,45 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 380,
         frames = {
           {
-            effect_scale_min = 0.9,
+            effect_scale_min = 0.3,
             timestamp = 0
           },
           {
-            effect_scale_max = 2.1000000000000001,
+            effect_scale_max = 1.8,
             timestamp = 0
           },
           {
             effect_shift = {
               0,
-              -2.6000000000000001
+              -2.9
             },
-            timestamp = 50
-          },
-          {
-            effect_shift = {
-              0,
-              2.7999999999999998
-            },
-            timestamp = 450
-          },
-          {
             effect_shift_rate = 0,
-            timestamp = 50
+            timestamp = 85
           },
           {
+            effect_shift = {
+              0,
+              2.9
+            },
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0.4,
-            timestamp = 0
+            timestamp = 380
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -1.2288000000000001,
+              -3.9366000000000007
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -923,8 +1181,8 @@ return {
         },
         name = "stretch cloud",
         render_layer = "floor",
-        secondary_draw_order = 5,
-        start_time = 50,
+        secondary_draw_order = 4,
+        start_time = 85,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -941,7 +1199,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 460,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -954,54 +1212,32 @@ return {
           {
             effect_shift = {
               0,
-              -3.7000000000000002
+              -3.5
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 135
           },
           {
             effect_shift = {
               0,
               3.5
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 460
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -3,
+              -6
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -1014,9 +1250,9 @@ return {
           type = "location-catalogue"
         },
         name = "top cloud 1",
-        render_layer = "floor",
-        secondary_draw_order = -1,
-        start_time = 50,
+        render_layer = "collision-selection-box",
+        secondary_draw_order = -2,
+        start_time = 135,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -1033,7 +1269,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 455,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -1046,54 +1282,32 @@ return {
           {
             effect_shift = {
               0,
-              -3.6499999999999999
+              -3.6000000000000001
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 125
           },
           {
             effect_shift = {
               0,
-              3.85
+              3.6000000000000001
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 455
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -2.4000000000000004,
+              -5.4000000000000004
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -1107,8 +1321,8 @@ return {
         },
         name = "top cloud 2",
         render_layer = "floor",
-        secondary_draw_order = 0,
-        start_time = 50,
+        secondary_draw_order = -1,
+        start_time = 125,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -1125,7 +1339,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 440,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -1140,52 +1354,30 @@ return {
               0,
               -3.6000000000000001
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 105
           },
           {
             effect_shift = {
               0,
-              3.7999999999999998
+              3.6000000000000001
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 440
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -1.9200000000000003,
+              -4.8600000000000003
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -1200,7 +1392,7 @@ return {
         name = "top cloud 3",
         render_layer = "floor",
         secondary_draw_order = 1,
-        start_time = 50,
+        start_time = 105,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -1217,7 +1409,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 425,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -1230,54 +1422,32 @@ return {
           {
             effect_shift = {
               0,
-              -3.6499999999999999
+              -3.6000000000000001
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 95
           },
           {
             effect_shift = {
               0,
-              3.85
+              3.6000000000000001
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 425
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -1.5360000000000005,
+              -4.3740000000000006
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -1290,9 +1460,9 @@ return {
           type = "location-catalogue"
         },
         name = "top cloud 4",
-        render_layer = "collision-selection-box",
+        render_layer = "floor",
         secondary_draw_order = 2,
-        start_time = 50,
+        start_time = 95,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -1301,19 +1471,19 @@ return {
         }
       },
       {
-        end_time = 350,
+        end_time = 400,
         frames = {
           {
             opacity = 0.4,
-            timestamp = 200
+            timestamp = 180
           },
           {
             opacity = 0.2,
-            timestamp = 300
+            timestamp = 260
           },
           {
             opacity = 0,
-            timestamp = 350
+            timestamp = 420
           }
         },
         graphic = {
@@ -1323,7 +1493,7 @@ return {
         name = "haze",
         render_layer = "floor",
         secondary_draw_order = -21,
-        start_time = 200,
+        start_time = 150,
         type = "cover-graphic",
         world_size = {
           512,
@@ -1338,10 +1508,10 @@ return {
     audio_events = {
       {
         audio = {
-          catalogue_id = 201,
+          catalogue_id = 205,
           type = "pod-catalogue"
         },
-        timestamp = 20,
+        timestamp = 26,
         type = "play-sound",
         usage = "both"
       },
@@ -1356,16 +1526,16 @@ return {
       },
       {
         audio = {
-          catalogue_id = 204,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
-        timestamp = 220,
+        timestamp = 225,
         type = "play-sound",
         usage = "both"
       },
       {
         audio = {
-          catalogue_id = 203,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
         timestamp = 320,
@@ -1374,10 +1544,37 @@ return {
       },
       {
         audio = {
-          catalogue_id = 202,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
         timestamp = 430,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 18,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 390,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 301,
+          type = "pod-catalogue"
+        },
+        timestamp = 464,
         type = "play-sound",
         usage = "both"
       }
@@ -1499,23 +1696,28 @@ return {
             timestamp = 600
           },
           {
-            offset_rate = -0.42000000000000002,
-            offset_rate_t = 0.42000000000000002,
+            offset_rate = 0,
+            offset_rate_t = 0,
             timestamp = 0
           },
           {
-            offset_rate = 0.46999999999999993,
-            offset_rate_t = -0.42000000000000002,
-            timestamp = 25
+            offset_rate = 0.67610000000000001,
+            offset_rate_t = -0.093500000000000014,
+            timestamp = 237
           },
           {
-            offset_rate = 1.04,
-            offset_rate_t = -0.06,
-            timestamp = 507
+            offset_rate = 0.92460000000000004,
+            offset_rate_t = -0.0219,
+            timestamp = 419
           },
           {
-            offset_rate = 0.95999999999999996,
-            offset_rate_t = 0.04,
+            offset_rate = 0.99019999999999992,
+            offset_rate_t = -0.010600000000000001,
+            timestamp = 512
+          },
+          {
+            offset_rate = 1,
+            offset_rate_t = 0,
             timestamp = 600
           },
           {
@@ -1524,14 +1726,29 @@ return {
             timestamp = 0
           },
           {
-            tilt = 0.070000000000000009,
-            tilt_t = -0.02,
-            timestamp = 240
+            tilt = 0.079630000000000001,
+            tilt_t = -0.0070889999999999995,
+            timestamp = 120
           },
           {
-            tilt = 0,
-            tilt_t = 0,
-            timestamp = 360
+            tilt = 0.050419999999999998,
+            tilt_t = -0.0094699999999999989,
+            timestamp = 225
+          },
+          {
+            tilt = 0.00093000000000000007,
+            tilt_t = 0.01095,
+            timestamp = 300
+          },
+          {
+            tilt = -0.01818,
+            tilt_t = 0.010230000000000001,
+            timestamp = 381
+          },
+          {
+            tilt = 0.00054000000000000004,
+            tilt_t = -0.00521,
+            timestamp = 420
           },
           {
             tilt = 0,
@@ -1946,6 +2163,237 @@ return {
         secondary_draw_order = 1,
         shift_rotates_with_pod = true,
         start_time = 320,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 32,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 10
+          },
+          {
+            frame = 19,
+            timestamp = 32
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 10,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 139,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 120
+          },
+          {
+            frame = 19,
+            timestamp = 139
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 120,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 306,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 290
+          },
+          {
+            frame = 19,
+            timestamp = 306
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 290,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 323,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 304
+          },
+          {
+            frame = 19,
+            timestamp = 323
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 304,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 342,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 324
+          },
+          {
+            frame = 19,
+            timestamp = 342
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 324,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 392,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 370
+          },
+          {
+            frame = 19,
+            timestamp = 392
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 370,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 412,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 390
+          },
+          {
+            frame = 19,
+            timestamp = 412
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 390,
         type = "single-graphic"
       },
       {
@@ -2141,14 +2589,14 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 390,
         frames = {
           {
             effect_scale_min = 0.34000000000000004,
             timestamp = 0
           },
           {
-            effect_scale_max = 0.70999999999999996,
+            effect_scale_max = 1.71,
             timestamp = 0
           },
           {
@@ -2156,40 +2604,30 @@ return {
               0,
               -2.7000000000000002
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 85
           },
           {
             effect_shift = {
               0,
               2.7000000000000002
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 1,
-            timestamp = 0
+            timestamp = 390
           },
           {
             offset = {
               0,
               0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              1,
-              -4
+              -1.2288000000000001,
+              -3.9366000000000007
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -2203,8 +2641,8 @@ return {
         },
         name = "main cloud",
         render_layer = "floor",
-        secondary_draw_order = -1,
-        start_time = 50,
+        secondary_draw_order = 3,
+        start_time = 85,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -2221,55 +2659,45 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 380,
         frames = {
           {
-            effect_scale_min = 0.9,
+            effect_scale_min = 0.3,
             timestamp = 0
           },
           {
-            effect_scale_max = 2.1000000000000001,
+            effect_scale_max = 1.8,
             timestamp = 0
           },
           {
             effect_shift = {
               0,
-              -2.6000000000000001
+              -2.9
             },
-            timestamp = 50
-          },
-          {
-            effect_shift = {
-              0,
-              2.7999999999999998
-            },
-            timestamp = 450
-          },
-          {
             effect_shift_rate = 0,
-            timestamp = 50
+            timestamp = 85
           },
           {
+            effect_shift = {
+              0,
+              2.9
+            },
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0.4,
-            timestamp = 0
+            timestamp = 380
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -1.2288000000000001,
+              -3.9366000000000007
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -2283,8 +2711,8 @@ return {
         },
         name = "stretch cloud",
         render_layer = "floor",
-        secondary_draw_order = 5,
-        start_time = 50,
+        secondary_draw_order = 4,
+        start_time = 85,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -2301,7 +2729,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 460,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -2314,54 +2742,32 @@ return {
           {
             effect_shift = {
               0,
-              -3.7000000000000002
+              -3.5
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 135
           },
           {
             effect_shift = {
               0,
               3.5
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 460
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -3,
+              -6
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -2374,9 +2780,9 @@ return {
           type = "location-catalogue"
         },
         name = "top cloud 1",
-        render_layer = "floor",
-        secondary_draw_order = -1,
-        start_time = 50,
+        render_layer = "collision-selection-box",
+        secondary_draw_order = -2,
+        start_time = 135,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -2393,7 +2799,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 455,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -2406,54 +2812,32 @@ return {
           {
             effect_shift = {
               0,
-              -3.6499999999999999
+              -3.6000000000000001
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 125
           },
           {
             effect_shift = {
               0,
-              3.85
+              3.6000000000000001
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 455
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -2.4000000000000004,
+              -5.4000000000000004
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -2467,8 +2851,8 @@ return {
         },
         name = "top cloud 2",
         render_layer = "floor",
-        secondary_draw_order = 0,
-        start_time = 50,
+        secondary_draw_order = -1,
+        start_time = 125,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -2485,7 +2869,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 440,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -2500,52 +2884,30 @@ return {
               0,
               -3.6000000000000001
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 105
           },
           {
             effect_shift = {
               0,
-              3.7999999999999998
+              3.6000000000000001
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 440
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -1.9200000000000003,
+              -4.8600000000000003
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -2560,7 +2922,7 @@ return {
         name = "top cloud 3",
         render_layer = "floor",
         secondary_draw_order = 1,
-        start_time = 50,
+        start_time = 105,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -2577,7 +2939,7 @@ return {
           relative_to = "pod",
           style = "horizontal-stripe"
         },
-        end_time = 450,
+        end_time = 425,
         frames = {
           {
             effect_scale_min = 1.1000000000000001,
@@ -2590,54 +2952,32 @@ return {
           {
             effect_shift = {
               0,
-              -3.6499999999999999
+              -3.6000000000000001
             },
-            timestamp = 50
+            effect_shift_rate = 0,
+            timestamp = 95
           },
           {
             effect_shift = {
               0,
-              3.85
+              3.6000000000000001
             },
-            timestamp = 450
-          },
-          {
-            effect_shift_rate = 0,
-            timestamp = 50
-          },
-          {
             effect_shift_rate = 1,
-            timestamp = 450
-          },
-          {
-            opacity = 0,
-            timestamp = 50
-          },
-          {
-            opacity = 0.9,
-            timestamp = 200
-          },
-          {
-            opacity = 0.8,
-            timestamp = 300
-          },
-          {
-            opacity = 0,
-            timestamp = 450
+            timestamp = 425
           },
           {
             offset = {
-              2,
-              1
+              0,
+              0
             },
-            timestamp = 0
+            timestamp = 40
           },
           {
             offset = {
-              4,
-              -3
+              -1.5360000000000005,
+              -4.3740000000000006
             },
-            timestamp = 550
+            timestamp = 460
           }
         },
         graphic = {
@@ -2650,9 +2990,9 @@ return {
           type = "location-catalogue"
         },
         name = "top cloud 4",
-        render_layer = "collision-selection-box",
+        render_layer = "floor",
         secondary_draw_order = 2,
-        start_time = 50,
+        start_time = 95,
         texture_relative_to = "ground-origin",
         type = "cover-graphic",
         world_size = {
@@ -2661,19 +3001,19 @@ return {
         }
       },
       {
-        end_time = 350,
+        end_time = 400,
         frames = {
           {
             opacity = 0.4,
-            timestamp = 200
+            timestamp = 180
           },
           {
             opacity = 0.2,
-            timestamp = 300
+            timestamp = 260
           },
           {
             opacity = 0,
-            timestamp = 350
+            timestamp = 420
           }
         },
         graphic = {
@@ -2683,7 +3023,7 @@ return {
         name = "haze",
         render_layer = "floor",
         secondary_draw_order = -21,
-        start_time = 200,
+        start_time = 150,
         type = "cover-graphic",
         world_size = {
           512,

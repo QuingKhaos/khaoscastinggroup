@@ -41,7 +41,6 @@ return {
     protected = true,
     type = "create-entity"
   },
-  enable_logistic_control_behavior = false,
   energy_source = {
     burner_usage = "food",
     effectivity = 1,
@@ -77,7 +76,8 @@ return {
     "placeable-player",
     "player-creation",
     "not-repairable",
-    "not-deconstructable"
+    "not-deconstructable",
+    "no-logistic-connection"
   },
   graphics_set = {
     animation = {

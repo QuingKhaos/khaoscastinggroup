@@ -1,4 +1,6 @@
 return {
+  ["acid-cloud"] = require("___KHAOSDATA___.prototypes.data-raw.smoke-with-trigger.acid-cloud"),
+  ["acid-cloud-visual-dummy"] = require("___KHAOSDATA___.prototypes.data-raw.smoke-with-trigger.acid-cloud-visual-dummy"),
   ["big-demolisher-ash-cloud"] = require("___KHAOSDATA___.prototypes.data-raw.smoke-with-trigger.big-demolisher-ash-cloud"),
   ["big-demolisher-ash-cloud-trail"] = require("___KHAOSDATA___.prototypes.data-raw.smoke-with-trigger.big-demolisher-ash-cloud-trail"),
   ["big-demolisher-expanding-ash-cloud-1"] = require("___KHAOSDATA___.prototypes.data-raw.smoke-with-trigger.big-demolisher-expanding-ash-cloud-1"),

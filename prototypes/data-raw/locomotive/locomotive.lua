@@ -40,10 +40,6 @@ return {
     }
   },
   braking_force = 10,
-  close_sound = {
-    filename = "__base__/sound/train-door-close.ogg",
-    volume = 0.4
-  },
   collision_box = {
     {
       -0.6,
@@ -499,10 +495,6 @@ return {
     }
   },
   name = "locomotive",
-  open_sound = {
-    filename = "__base__/sound/train-door-open.ogg",
-    volume = 0.5
-  },
   pictures = {
     rotated = {
       layers = {
@@ -685,6 +677,7 @@ return {
       }
     }
   },
+  quality_affects_max_speed = true,
   resistances = {
     {
       decrease = 15,

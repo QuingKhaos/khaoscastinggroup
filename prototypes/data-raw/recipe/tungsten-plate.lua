@@ -1,6 +1,9 @@
 return {
   allow_productivity = true,
-  category = "metallurgy",
+  auto_recycle = false,
+  categories = {
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 10,
   ingredients = {

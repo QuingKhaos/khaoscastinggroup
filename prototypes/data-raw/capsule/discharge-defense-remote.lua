@@ -15,7 +15,8 @@ return {
   flags = {
     "only-in-cursor",
     "not-stackable",
-    "spawnable"
+    "spawnable",
+    "always-show"
   },
   icon = "__base__/graphics/icons/discharge-defense-equipment-controller.png",
   inventory_move_sound = {

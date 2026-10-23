@@ -1,18 +1,14 @@
 return {
   animation = {
-    {
-      direction_count = 1,
-      filename = "__base__/graphics/entity/oil-refinery/remnants/refinery-remnants.png",
-      height = 415,
-      line_length = 1,
-      scale = 0.5,
-      shift = {
-        -0.0078125,
-        -0.0078125
-      },
-      width = 467,
-      y = 0
-    }
+    filename = "__base__/graphics/entity/oil-refinery/oil-refinery-remnants.png",
+    height = 458,
+    line_length = 1,
+    scale = 0.5,
+    shift = {
+      -0.046875,
+      0.140625
+    },
+    width = 494
   },
   expires = false,
   final_render_layer = "remnants",

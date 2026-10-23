@@ -9,30 +9,58 @@ return {
       variations = {
         {
           filename = "__base__/sound/robot-charging-1.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         },
         {
           filename = "__base__/sound/robot-charging-2.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         },
         {
           filename = "__base__/sound/robot-charging-3.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         },
         {
           filename = "__base__/sound/robot-charging-4.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         },
         {
           filename = "__base__/sound/robot-charging-5.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         },
         {
           filename = "__base__/sound/robot-charging-6.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         },
         {
           filename = "__base__/sound/robot-charging-7.ogg",
+          modifiers = {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          },
           volume = 1
         }
       }
@@ -435,6 +463,7 @@ return {
   },
   speed = 0.06,
   speed_multiplier_when_out_of_energy = 0.2,
+  tall = true,
   type = "construction-robot",
   water_reflection = {
     orientation_to_variation = false,
@@ -476,112 +505,196 @@ return {
       {
         filename = "__base__/sound/construction-robot-1.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-2.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-3.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-4.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-5.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-6.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-7.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-8.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/construction-robot-9.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.46999999999999993
       },
       {
         filename = "__base__/sound/flying-robot-1.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.42999999999999998
       },
       {
         filename = "__base__/sound/flying-robot-2.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.42999999999999998
       },
       {
         filename = "__base__/sound/flying-robot-3.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.42999999999999998
       },
       {
         filename = "__base__/sound/flying-robot-4.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.42999999999999998
       },
       {
         filename = "__base__/sound/flying-robot-5.ogg",
         modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.3
+          {
+            type = "main-menu",
+            volume_multiplier = 1.3
+          },
+          {
+            type = "tall-entities-hidden",
+            volume_multiplier = 0.2
+          }
         },
         volume = 0.42999999999999998
       }

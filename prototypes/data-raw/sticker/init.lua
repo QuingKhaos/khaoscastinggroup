@@ -12,6 +12,7 @@ return {
   ["jellynut-speed-sticker"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.jellynut-speed-sticker"),
   ["jellynut-speed-sticker-behind"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.jellynut-speed-sticker-behind"),
   ["medium-acid-sticker-stomper"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.medium-acid-sticker-stomper"),
+  ["shotgun-impact-sticker"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.shotgun-impact-sticker"),
   ["slowdown-sticker"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.slowdown-sticker"),
   ["small-acid-sticker-stomper"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.small-acid-sticker-stomper"),
   ["strafer-sticker"] = require("___KHAOSDATA___.prototypes.data-raw.sticker.strafer-sticker"),

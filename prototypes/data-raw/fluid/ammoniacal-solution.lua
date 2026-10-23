@@ -11,9 +11,7 @@ return {
     0.35,
     0.7
   },
-  heat_capacity = "0.2kJ",
   icon = "__space-age__/graphics/icons/fluid/ammoniacal-solution.png",
-  max_temperature = 100,
   name = "ammoniacal-solution",
   order = "b[new-fluid]-e[aquilo]-a[ammoniacal-solution]",
   subgroup = "fluid",

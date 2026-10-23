@@ -192,52 +192,47 @@ return {
       max_count = 3,
       remove = true
     },
-    audible_distance_modifier = 0.5,
-    switch_vibration_data = {
-      filename = "__base__/sound/fight/medium-explosion.bnvib",
-      gain = 0.4
-    },
     variations = {
       {
-        filename = "__base__/sound/fight/medium-explosion-1.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/small-explosion-1.ogg",
+        max_volume = 0.5,
+        min_volume = 0.25,
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.2
         }
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-2.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/small-explosion-2.ogg",
+        max_volume = 0.5,
+        min_volume = 0.25,
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.2
         }
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-3.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/small-explosion-3.ogg",
+        max_volume = 0.5,
+        min_volume = 0.25,
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.2
         }
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-4.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/small-explosion-4.ogg",
+        max_volume = 0.5,
+        min_volume = 0.25,
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.2
         }
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-5.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/small-explosion-5.ogg",
+        max_volume = 0.5,
+        min_volume = 0.25,
         modifiers = {
           type = "main-menu",
           volume_multiplier = 1.2

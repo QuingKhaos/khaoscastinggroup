@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,18 +29,19 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 3.75,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/mech-armor.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -57,7 +60,7 @@ return {
   name = "mech-armor-recycling",
   results = {
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "power-armor-mk2",
       type = "item"
@@ -75,13 +78,13 @@ return {
       type = "item"
     },
     {
-      amount = 12.5,
+      amount = 12,
       extra_count_fraction = 0.5,
       name = "superconductor",
       type = "item"
     },
     {
-      amount = 12.5,
+      amount = 12,
       extra_count_fraction = 0.5,
       name = "supercapacitor",
       type = "item"

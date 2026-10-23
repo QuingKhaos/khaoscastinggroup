@@ -1,5 +1,8 @@
 return {
-  category = "organic-or-assembling",
+  categories = {
+    "organic",
+    "crafting"
+  },
   enabled = false,
   energy_required = 20,
   ingredients = {

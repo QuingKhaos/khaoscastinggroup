@@ -1,5 +1,7 @@
 return {
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -14,19 +16,19 @@ return {
       r = 0.8
     }
   },
-  enabled = true,
-  energy_required = 0.375,
+  enabled = false,
+  energy_required = 0.09375,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/bioflux.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -48,8 +50,8 @@ return {
     {
       amount = 1,
       ignored_by_stats = 1,
+      independent_probability = 0.25,
       name = "bioflux",
-      probability = 0.25,
       type = "item"
     }
   },

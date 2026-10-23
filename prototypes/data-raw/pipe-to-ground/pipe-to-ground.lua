@@ -1,4 +1,483 @@
 return {
+  circuit_connector = {
+    {
+      points = {
+        shadow = {
+          green = {
+            0.46875,
+            -0.35546875
+          },
+          red = {
+            0.375,
+            -0.54296875
+          }
+        },
+        wire = {
+          green = {
+            0.3125,
+            -0.48046875
+          },
+          red = {
+            0.25,
+            -0.63671875
+          }
+        }
+      },
+      sprites = {
+        blue_led_light_offset = {
+          0,
+          -0.54296875
+        },
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.51171875
+          },
+          width = 52,
+          x = 104,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
+          height = 60,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.54296875
+          },
+          width = 60,
+          x = 120,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
+          height = 44,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.54296875
+          },
+          width = 46,
+          x = 92,
+          y = 0
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.54296875
+          },
+          width = 48,
+          x = 96,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.54296875
+          },
+          width = 48,
+          x = 96,
+          y = 0
+        },
+        red_green_led_light_offset = {
+          0,
+          -0.63671875
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
+          height = 58,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            -0.51171875
+          },
+          width = 62,
+          x = 124,
+          y = 0
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.0625,
+            0.15625
+          },
+          red = {
+            0.34375,
+            0.125
+          }
+        },
+        wire = {
+          green = {
+            -0.0625,
+            0.03125
+          },
+          red = {
+            0.125,
+            -0.03125
+          }
+        }
+      },
+      sprites = {
+        blue_led_light_offset = {
+          -0.0625,
+          -0.1875
+        },
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.21875,
+            -0.15625
+          },
+          width = 52,
+          x = 0,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
+          height = 60,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.21875,
+            -0.1875
+          },
+          width = 60,
+          x = 0,
+          y = 60
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
+          height = 44,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.21875,
+            -0.1875
+          },
+          width = 46,
+          x = 0,
+          y = 44
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.21875,
+            -0.1875
+          },
+          width = 48,
+          x = 0,
+          y = 46
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.21875,
+            -0.1875
+          },
+          width = 48,
+          x = 0,
+          y = 46
+        },
+        red_green_led_light_offset = {
+          0.0625,
+          -0.25
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
+          height = 58,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0.21875,
+            -0.15625
+          },
+          width = 62,
+          x = 0,
+          y = 58
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            -0.09375,
+            -0.0703125
+          },
+          red = {
+            -0.21875,
+            0.0859375
+          }
+        },
+        wire = {
+          green = {
+            -0.25,
+            -0.1953125
+          },
+          red = {
+            -0.3125,
+            0.0234375
+          }
+        }
+      },
+      sprites = {
+        blue_led_light_offset = {
+          0,
+          -0.1640625
+        },
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            0.1484375
+          },
+          width = 52,
+          x = 312,
+          y = 0
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
+          height = 60,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            0.1171875
+          },
+          width = 60,
+          x = 360,
+          y = 0
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
+          height = 44,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            0.1171875
+          },
+          width = 46,
+          x = 276,
+          y = 0
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            0.1171875
+          },
+          width = 48,
+          x = 288,
+          y = 0
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            0.1171875
+          },
+          width = 48,
+          x = 288,
+          y = 0
+        },
+        red_green_led_light_offset = {
+          0,
+          -0.0703125
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
+          height = 58,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            0,
+            0.1484375
+          },
+          width = 62,
+          x = 372,
+          y = 0
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.21875,
+            -0.28125
+          },
+          red = {
+            0.09375,
+            -0.28125
+          }
+        },
+        wire = {
+          green = {
+            0.0625,
+            -0.375
+          },
+          red = {
+            -0.15625,
+            -0.46875
+          }
+        }
+      },
+      sprites = {
+        blue_led_light_offset = {
+          0.0625,
+          -0.21875
+        },
+        connector_main = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
+          height = 50,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            -0.21875,
+            -0.15625
+          },
+          width = 52,
+          x = 208,
+          y = 50
+        },
+        led_blue = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
+          height = 60,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            -0.21875,
+            -0.1875
+          },
+          width = 60,
+          x = 240,
+          y = 60
+        },
+        led_blue_off = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
+          height = 44,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            -0.21875,
+            -0.1875
+          },
+          width = 46,
+          x = 184,
+          y = 44
+        },
+        led_green = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            -0.21875,
+            -0.1875
+          },
+          width = 48,
+          x = 192,
+          y = 46
+        },
+        led_light = {
+          intensity = 0,
+          size = 0.9
+        },
+        led_red = {
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
+          height = 46,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            -0.21875,
+            -0.1875
+          },
+          width = 48,
+          x = 192,
+          y = 46
+        },
+        red_green_led_light_offset = {
+          -0.0625,
+          -0.28125
+        },
+        wire_pins = {
+          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
+          height = 58,
+          priority = "low",
+          scale = 0.5,
+          shift = {
+            -0.21875,
+            -0.15625
+          },
+          width = 62,
+          x = 248,
+          y = 58
+        }
+      }
+    }
+  },
+  circuit_wire_max_distance = 9,
   close_sound = {
     filename = "__base__/sound/open-close/metal-small-close.ogg",
     volume = 0.8
@@ -34,6 +513,10 @@ return {
       }
     },
     type = "create-entity"
+  },
+  default_fluid_temperature_signal = {
+    name = "signal-T",
+    type = "virtual"
   },
   disabled_visualization = {
     east = {
@@ -87,10 +570,10 @@ return {
     "player-creation"
   },
   fluid_box = {
-    hide_connection_info = true,
     pipe_connections = {
       {
         direction = 0,
+        hide_connection_info = true,
         position = {
           0,
           0
@@ -99,6 +582,7 @@ return {
       {
         connection_type = "underground",
         direction = 8,
+        hide_connection_info = true,
         max_underground_distance = 10,
         position = {
           0,

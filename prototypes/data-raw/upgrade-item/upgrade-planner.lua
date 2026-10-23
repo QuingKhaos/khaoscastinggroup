@@ -10,7 +10,8 @@ return {
       filename = "__core__/sound/upgrade-cancel-end.ogg"
     },
     mode = {
-      "cancel-upgrade"
+      "cancel-upgrade",
+      "any-entity"
     },
     started_sound = {
       filename = "__core__/sound/upgrade-cancel-start.ogg"
@@ -26,7 +27,9 @@ return {
     volume = 0.7
   },
   flags = {
-    "spawnable"
+    "spawnable",
+    "always-show",
+    "excluded-from-character-lift-weight"
   },
   icon = "__base__/graphics/icons/upgrade-planner.png",
   inventory_move_sound = {
@@ -59,7 +62,8 @@ return {
       filename = "__core__/sound/upgrade-select-end.ogg"
     },
     mode = {
-      "downgrade"
+      "downgrade",
+      "any-entity"
     },
     started_sound = {
       filename = "__core__/sound/upgrade-select-start.ogg"
@@ -76,7 +80,8 @@ return {
       filename = "__core__/sound/upgrade-select-end.ogg"
     },
     mode = {
-      "upgrade"
+      "upgrade",
+      "any-entity"
     },
     started_sound = {
       filename = "__core__/sound/upgrade-select-start.ogg"

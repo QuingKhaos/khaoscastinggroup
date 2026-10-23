@@ -211,10 +211,134 @@ return {
   },
   platform_procession_set = {
     arrival = {
-      "planet-to-platform-b"
+      "planet-to-platform-b",
+      "platform-to-platform-b"
     },
     departure = {
-      "platform-to-planet-a"
+      "platform-to-planet-a",
+      "platform-to-platform-a"
+    }
+  },
+  platform_surface_render_parameters = {
+    platform_backdrop = {
+      atmosphere_color = {
+        0.075,
+        0.065,
+        0.13300000000000001,
+        0.1
+      },
+      atmosphere_ray_light_color_1 = {
+        0.2,
+        0.25665,
+        0.3,
+        1
+      },
+      atmosphere_ray_light_color_2 = {
+        0.1,
+        0.084309999999999992,
+        0.050590000000000002,
+        1
+      },
+      cloud_flow_intensity = 0.8,
+      cloud_panning_rate = 0.2,
+      cloud_vertical_offset = 0.01,
+      cloudiness = 0.32000000000000002,
+      emission_scales_with_shadow = false,
+      global_cloud = {
+        filename = "__space-age__/graphics/space/aquilo-cloud.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_flow = {
+        filename = "__space-age__/graphics/space/aquilo-cloud-flow.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_normal = {
+        filename = "__space-age__/graphics/space/aquilo-cloud-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      light_direction = {
+        -0.42000000000000002,
+        0.23000000000000003,
+        0.67000000000000002
+      },
+      light_intensity_contrast = 0.3,
+      light_radius = 5.3399999999999999,
+      parallax_strength = {
+        0.95,
+        0.95
+      },
+      planet_axis = {
+        3,
+        13
+      },
+      planet_axis_deviation_amplitude = {
+        10,
+        10
+      },
+      planet_axis_deviation_seconds = {
+        1978.8888888888889,
+        1674.8888888888889
+      },
+      planet_reflectivity = {
+        filename = "__space-age__/graphics/space/aquilo-reflectivity.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_surface = {
+        filename = "__space-age__/graphics/space/aquilo.png",
+        height = 1024,
+        width = 2048
+      },
+      position = {
+        -680,
+        601
+      },
+      radius = 750,
+      rotation_seconds = -1466.6666666666667,
+      specular_color = {
+        0.55,
+        0.42999999999999998,
+        0.62000000000000002,
+        1
+      },
+      specular_intensity = 1,
+      surface_vertical_offset = 0.08
+    },
+    shadow_opacity = 0.5,
+    space_dust_background = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    },
+    space_dust_foreground = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
     }
   },
   player_effects = {
@@ -254,12 +378,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/aquilo-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -269,12 +391,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -284,12 +404,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/aquilo-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -299,12 +417,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -314,12 +430,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/aquilo-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -329,12 +443,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -344,12 +456,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/aquilo-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -359,12 +469,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -374,12 +482,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/aquilo-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -389,12 +495,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -404,12 +508,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/space-rear-star.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1024,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1024
       },
       type = "sprite"
@@ -419,12 +521,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/aquilo-sky-tint.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 16,
-        priority = "no-atlas",
+        priority = "medium",
         width = 16
       },
       type = "sprite"
@@ -609,6 +709,7 @@ return {
     gravity = 15,
     ["magnetic-field"] = 10,
     pressure = 300,
+    ["robot-energy-usage"] = 5,
     ["solar-power"] = 1
   },
   ticks_between_player_effects = 2,

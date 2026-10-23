@@ -218,7 +218,7 @@ return {
       }
     },
     damage_modifier = 1,
-    lead_target_for_projectile_speed = 0.3375,
+    lead_target_for_projectile_speed = 0.35,
     min_attack_distance = 4.7999999999999998,
     projectile_creation_parameters = {
       {
@@ -340,6 +340,10 @@ return {
     use_shooter_direction = true,
     warmup = 30
   },
+  buildable_entities = {
+    "gleba-spawner-small",
+    "gleba-spawner"
+  },
   collision_box = {
     {
       -1.7999999999999998,
@@ -380,7 +384,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-1.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -388,7 +392,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-2.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -396,7 +400,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-3.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -404,7 +408,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-4.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -412,7 +416,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-5.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -420,7 +424,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-6.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -428,7 +432,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-7.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -436,7 +440,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-8.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -444,7 +448,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-9.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     },
@@ -452,7 +456,7 @@ return {
       filename = "__space-age__/sound/enemies/stomper/stomper-death-10.ogg",
       modifiers = {
         type = "main-menu",
-        volume_multiplier = 1.21
+        volume_multiplier = 5
       },
       volume = 0.7
     }
@@ -1232,6 +1236,16 @@ return {
       }
     },
     walking_group_overlap = 0.6
+  },
+  steering = {
+    move = {
+      radius = 3.5999999999999996,
+      separation_force = 0.1
+    },
+    stay = {
+      radius = 4.7999999999999998,
+      separation_force = 0.1
+    }
   },
   sticker_box = {
     {

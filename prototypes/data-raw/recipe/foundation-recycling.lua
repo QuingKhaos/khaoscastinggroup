@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -25,18 +27,19 @@ return {
       0.7
     }
   },
+  enabled = false,
   energy_required = 1.875,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/foundation.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {

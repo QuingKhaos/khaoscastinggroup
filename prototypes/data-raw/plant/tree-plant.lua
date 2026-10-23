@@ -13,7 +13,6 @@ return {
       r = 0.56100000000000003
     }
   },
-  ambient_sounds_group = "tree-01",
   autoplace = {
     probability_expression = 0,
     tile_restriction = {
@@ -32,88 +31,60 @@ return {
       "red-desert-0",
       "red-desert-1",
       "red-desert-2",
-      "red-desert-3"
+      "red-desert-3",
+      "sand-1",
+      "sand-2",
+      "sand-3"
     }
   },
   collision_box = {
     {
-      -0.4,
-      -0.4
+      -0.8,
+      -0.8
     },
     {
-      0.4,
-      0.4
+      0.8,
+      0.8
     }
   },
   colors = {
     {
-      b = 83,
+      b = 255,
       g = 255,
-      r = 231
+      r = 255
     },
     {
-      b = 58,
+      b = 255,
       g = 255,
-      r = 209
+      r = 220
     },
     {
-      b = 4,
-      g = 159,
-      r = 165
+      b = 255,
+      g = 220,
+      r = 255
     },
     {
-      b = 73,
-      g = 231,
-      r = 194
+      b = 220,
+      g = 255,
+      r = 255
     },
     {
-      b = 44,
-      g = 242,
-      r = 245
+      b = 255,
+      g = 220,
+      r = 220
     },
     {
-      b = 102,
-      g = 242,
-      r = 248
+      b = 220,
+      g = 220,
+      r = 255
     },
     {
-      b = 118,
-      g = 238,
-      r = 208
+      b = 220,
+      g = 255,
+      r = 220
     }
   },
-  corpse = "tree-08-stump",
-  damaged_trigger_effect = {
-    {
-      damage_type_filters = "fire",
-      sound = {
-        {
-          filename = "__base__/sound/particles/tree-leaves-1.ogg",
-          volume = 0.35
-        },
-        {
-          filename = "__base__/sound/particles/tree-leaves-2.ogg",
-          volume = 0.35
-        },
-        {
-          filename = "__base__/sound/particles/tree-leaves-3.ogg",
-          volume = 0.35
-        },
-        {
-          filename = "__base__/sound/particles/tree-leaves-4.ogg",
-          volume = 0.35
-        },
-        {
-          filename = "__base__/sound/particles/tree-leaves-5.ogg",
-          volume = 0.35
-        }
-      },
-      type = "play-sound"
-    }
-  },
-  darkness_of_burnt_tree = 0.5,
-  deconstruction_alternative = "tree-01",
-  drawing_box_vertical_extension = 1.8,
+  drawing_box_vertical_extension = 0.8,
   emissions_per_second = {
     pollution = -0.001
   },
@@ -122,9 +93,828 @@ return {
     "placeable-off-grid",
     "breaths-air"
   },
+  growth_mounds = {
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    }
+  },
   growth_ticks = 36000,
-  hidden_in_factoriopedia = false,
-  icon = "__base__/graphics/icons/tree-08.png",
+  growth_variations = {
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      }
+    }
+  },
+  icon = "__space-age__/graphics/icons/planted-tree.png",
   impact_category = "tree",
   localised_name = {
     "entity-name.tree"
@@ -134,16 +924,6 @@ return {
     0.39000000000000004,
     0.19,
     0.4
-  },
-  map_generator_bounding_box = {
-    {
-      -0.8,
-      -0.8
-    },
-    {
-      0.8,
-      0.8
-    }
   },
   max_health = 50,
   minable = {
@@ -180,16 +960,15 @@ return {
     }
   },
   name = "tree-plant",
-  order = "a[tree]-a[nauvis]-a[regular]-j[tree-08]",
-  remains_when_mined = "tree-08-stump",
+  order = "a[tree]-c[nauvis]-a[seedable]-a[tree-plant]",
   selection_box = {
     {
-      -0.9,
-      -2.2000000000000002
+      -1,
+      -3
     },
     {
-      0.9,
-      0.6
+      1,
+      0.8
     }
   },
   subgroup = "trees",
@@ -201,1519 +980,1221 @@ return {
     }
   },
   type = "plant",
-  variation_weights = {
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0.3,
-    0.3,
-    0,
-    0
-  },
   variations = {
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-a-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 282,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          -0.1875,
-          -2.40625
+          2.1875,
+          -1.25
         },
-        width = 262
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 0
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-a-normal.png",
-        frame_count = 3,
-        height = 222,
-        scale = 0.5,
-        shift = {
-          -0.15625,
-          -2.84375
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 260
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 0
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-a-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 222,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          2.21875,
-          0.0625
+          2.1875,
+          -1.25
         },
-        width = 310
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 0
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-a-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 286,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          -0.15625,
-          -1.8125
+          2.1875,
+          -1.25
         },
-        width = 210
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
+          surface = "nauvis",
+          width = 640,
+          x = 0,
           y = 0
-        },
-        rotate = false
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-b-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 306,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          -0.09375,
-          -2.1875
+          2.1875,
+          -1.25
         },
-        width = 322
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 0
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-b-normal.png",
-        frame_count = 3,
-        height = 206,
-        scale = 0.5,
-        shift = {
-          -0.0625,
-          -2.96875
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 322
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 0
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-b-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 178,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          2.40625,
-          -0.15625
+          2.1875,
+          -1.25
         },
-        width = 322
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 0
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-b-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 276,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          -0.09375,
-          -1.71875
+          2.1875,
+          -1.25
         },
-        width = 238
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 40
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 640,
+          y = 0
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-c-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 294,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          0.1875,
-          -2.59375
+          2.1875,
+          -1.25
         },
-        width = 252
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 0
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-c-normal.png",
-        frame_count = 3,
-        height = 260,
-        scale = 0.5,
-        shift = {
-          0.203125,
-          -2.8125
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 254
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 0
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-c-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 228,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          2.25,
-          -0.0625
+          2.1875,
+          -1.25
         },
-        width = 326
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 0
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-c-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 300,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          0.09375,
-          -1.96875
+          2.1875,
+          -1.25
         },
-        width = 210
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 80
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 1280,
+          y = 0
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-d-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 220,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          0,
-          -2.28125
+          2.1875,
+          -1.25
         },
-        width = 214
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 0
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-d-normal.png",
-        frame_count = 3,
-        height = 182,
-        scale = 0.5,
-        shift = {
-          0.015625,
-          -2.5625
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 216
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 0
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-d-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 170,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          2.21875,
-          0.21875
+          2.1875,
+          -1.25
         },
-        width = 274
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 0
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-d-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 228,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          0.03125,
-          -1.40625
+          2.1875,
+          -1.25
         },
-        width = 166
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 120
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 1920,
+          y = 0
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-e-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 210,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          0.0625,
-          -2.21875
+          2.1875,
+          -1.25
         },
-        width = 228
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 560
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-e-normal.png",
-        frame_count = 3,
-        height = 166,
-        scale = 0.5,
-        shift = {
-          0.078125,
-          -2.484375
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 228
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 560
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-e-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 150,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          2.03125,
-          0.15625
+          2.1875,
+          -1.25
         },
-        width = 296
+        surface = "nauvis",
+        width = 640,
+        x = 0,
+        y = 560
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-e-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 242,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          -0.21875,
-          -1.53125
+          2.1875,
+          -1.25
         },
-        width = 172
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 160
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 0,
+          y = 560
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-f-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 294,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          -0.0625,
-          -2.09375
+          2.1875,
+          -1.25
         },
-        width = 218
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 560
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-f-normal.png",
-        frame_count = 3,
-        height = 200,
-        scale = 0.5,
-        shift = {
-          -0.03125,
-          -2.828125
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 216
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 560
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-f-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 170,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          1.96875,
-          -0.21875
+          2.1875,
+          -1.25
         },
-        width = 274
+        surface = "nauvis",
+        width = 640,
+        x = 640,
+        y = 560
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-f-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 272,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          -0.09375,
-          -1.71875
+          2.1875,
+          -1.25
         },
-        width = 166
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 200
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 640,
+          y = 560
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-g-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 192,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          0.375,
-          -2.21875
+          2.1875,
+          -1.25
         },
-        width = 190
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 560
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-g-normal.png",
-        frame_count = 3,
-        height = 164,
-        scale = 0.5,
-        shift = {
-          0.390625,
-          -2.40625
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 192
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 560
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-g-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 138,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          2,
-          -0.25
+          2.1875,
+          -1.25
         },
-        width = 272
+        surface = "nauvis",
+        width = 640,
+        x = 1280,
+        y = 560
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-g-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 222,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          0.4375,
-          -1.34375
+          2.1875,
+          -1.25
         },
-        width = 146
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 240
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 1280,
+          y = 560
+        }
       }
     },
     {
       branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
+        initial_height = 1.7,
+        initial_height_deviation = 1.5,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -0.8,
+            -1.3999999999999999
           },
           {
-            0.5,
-            0.5
+            0.8,
+            1.3999999999999999
           }
         },
         only_when_visible = true,
         particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.035000000000000004,
+        speed_from_center_deviation = 0.02,
         type = "create-particle"
       },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
+      branches_when_damaged = 40,
+      branches_when_destroyed = 50,
+      branches_when_mined_automatically = 20,
+      branches_when_mined_manually = 40,
       leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
+        initial_height = 2.5,
+        initial_height_deviation = 0.035000000000000004,
+        initial_vertical_speed = 0.025,
+        initial_vertical_speed_deviation = 0.15,
         offset_deviation = {
           {
-            -0.5,
-            -0.5
+            -1,
+            -1
           },
           {
-            0.5,
-            0.5
+            1,
+            1
           }
         },
         only_when_visible = true,
         particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
+        speed_from_center = 0.03,
+        speed_from_center_deviation = 0.045,
         type = "create-particle"
       },
       leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-h-leaves.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-3.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 3,
-        height = 174,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          -0.28125,
-          -1.6875
+          2.1875,
+          -1.25
         },
-        width = 218
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 560
       },
-      leaves_when_damaged = 200,
+      leaves_when_damaged = 25,
       leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
+      leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-h-normal.png",
-        frame_count = 3,
-        height = 152,
-        scale = 0.5,
-        shift = {
-          -0.265625,
-          -1.828125
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-normal-3.png"
         },
-        width = 218
+        frame_count = 3,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
+        shift = {
+          2.1875,
+          -1.25
+        },
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 560
       },
       shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-h-shadow.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-2.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-harvest-shadow-3.png",
+          "__space-age__/graphics/entity/plant/planted-tree/planted-tree-shadow.png"
+        },
         flags = {
           "mipmap",
           "shadow"
         },
         frame_count = 4,
-        height = 128,
-        scale = 0.5,
+        height = 560,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.42900000000000009,
         shift = {
-          1.65625,
-          0.21875
+          2.1875,
+          -1.25
         },
-        width = 224
+        surface = "nauvis",
+        width = 640,
+        x = 1920,
+        y = 560
       },
       trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-h-trunk.png",
+        filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-trunk.png",
         flags = {
           "mipmap"
         },
         frame_count = 1,
-        height = 190,
-        scale = 0.5,
+        height = 560,
+        scale = 0.42900000000000009,
         shift = {
-          -0.3125,
-          -1.0625
+          2.1875,
+          -1.25
         },
-        width = 160
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
       },
       water_reflection = {
-        orientation_to_variation = false,
         pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
+          filename = "__space-age__/graphics/entity/plant/planted-tree/planted-tree-effect-map.png",
+          height = 560,
+          scale = 0.42900000000000009,
           shift = {
-            0,
-            2.34375
+            1.5625,
+            0
           },
-          variation_count = 4,
-          width = 36,
-          y = 280
-        },
-        rotate = false
-      }
-    },
-    {
-      branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
-      leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-i-leaves.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 3,
-        height = 168,
-        scale = 0.5,
-        shift = {
-          0.09375,
-          -1.875
-        },
-        width = 130
-      },
-      leaves_when_damaged = 200,
-      leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
-      leaves_when_mined_manually = 40,
-      normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-i-normal.png",
-        frame_count = 3,
-        height = 154,
-        scale = 0.5,
-        shift = {
-          0.125,
-          -1.953125
-        },
-        width = 128
-      },
-      shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-i-shadow.png",
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 4,
-        height = 102,
-        scale = 0.5,
-        shift = {
-          1.40625,
-          -0.15625
-        },
-        width = 186
-      },
-      trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-i-trunk.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 1,
-        height = 176,
-        scale = 0.5,
-        shift = {
-          -0.0625,
-          -1.03125
-        },
-        width = 78
-      },
-      water_reflection = {
-        orientation_to_variation = false,
-        pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
-          shift = {
-            0,
-            2.34375
-          },
-          variation_count = 4,
-          width = 36,
-          y = 320
-        },
-        rotate = false
-      }
-    },
-    {
-      branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
-      leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-j-leaves.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 3,
-        height = 160,
-        scale = 0.5,
-        shift = {
-          0.09375,
-          -1.75
-        },
-        width = 162
-      },
-      leaves_when_damaged = 200,
-      leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
-      leaves_when_mined_manually = 40,
-      normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-j-normal.png",
-        frame_count = 3,
-        height = 148,
-        scale = 0.5,
-        shift = {
-          0.125,
-          -1.828125
-        },
-        width = 162
-      },
-      shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-j-shadow.png",
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 4,
-        height = 100,
-        scale = 0.5,
-        shift = {
-          1.4375,
-          -0.0625
-        },
-        width = 208
-      },
-      trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-j-trunk.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 1,
-        height = 180,
-        scale = 0.5,
-        shift = {
-          0.09375,
-          -1.03125
-        },
-        width = 88
-      },
-      water_reflection = {
-        orientation_to_variation = false,
-        pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
-          shift = {
-            0,
-            2.34375
-          },
-          variation_count = 4,
-          width = 36,
-          y = 360
-        },
-        rotate = false
-      }
-    },
-    {
-      branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
-      leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-k-leaves.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 3,
-        height = 240,
-        scale = 0.5,
-        shift = {
-          -1.0625,
-          -1.09375
-        },
-        width = 308
-      },
-      leaves_when_damaged = 200,
-      leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
-      leaves_when_mined_manually = 40,
-      normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-k-normal.png",
-        frame_count = 3,
-        height = 188,
-        scale = 0.5,
-        shift = {
-          -2.078125,
-          -1.453125
-        },
-        width = 180
-      },
-      shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-k-shadow.png",
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 4,
-        height = 180,
-        scale = 0.5,
-        shift = {
-          -0.5625,
-          -0.5
-        },
-        width = 320
-      },
-      trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-k-trunk.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 1,
-        height = 218,
-        scale = 0.5,
-        shift = {
-          -0.6875,
-          -0.75
-        },
-        width = 300
-      },
-      water_reflection = {
-        orientation_to_variation = false,
-        pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
-          shift = {
-            0,
-            2.34375
-          },
-          variation_count = 4,
-          width = 36,
-          y = 400
-        },
-        rotate = false
-      }
-    },
-    {
-      branch_generation = {
-        frame_speed = 0.4,
-        initial_height = 2,
-        initial_height_deviation = 2,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "branch-particle",
-        repeat_count = 15,
-        speed_from_center = 0.03,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      branches_when_damaged = 0,
-      branches_when_destroyed = 16,
-      branches_when_mined_automatically = 8,
-      branches_when_mined_manually = 15,
-      leaf_generation = {
-        initial_height = 2,
-        initial_height_deviation = 0.05,
-        initial_vertical_speed = 0.01,
-        offset_deviation = {
-          {
-            -0.5,
-            -0.5
-          },
-          {
-            0.5,
-            0.5
-          }
-        },
-        only_when_visible = true,
-        particle_name = "leaf-particle",
-        speed_from_center = 0.01,
-        speed_from_center_deviation = 0.01,
-        type = "create-particle"
-      },
-      leaves = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-l-leaves.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 3,
-        height = 198,
-        scale = 0.5,
-        shift = {
-          1.5,
-          0.28125
-        },
-        width = 246
-      },
-      leaves_when_damaged = 200,
-      leaves_when_destroyed = 35,
-      leaves_when_mined_automatically = 19,
-      leaves_when_mined_manually = 40,
-      normal = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-l-normal.png",
-        frame_count = 3,
-        height = 108,
-        scale = 0.5,
-        shift = {
-          1.875,
-          0.875
-        },
-        width = 200
-      },
-      shadow = {
-        disable_shadow_distortion_beginning_at_frame = 2,
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/tree/08/tree-08-l-shadow.png",
-        flags = {
-          "mipmap",
-          "shadow"
-        },
-        frame_count = 4,
-        height = 216,
-        scale = 0.5,
-        shift = {
-          1.3125,
-          0.75
-        },
-        width = 324
-      },
-      trunk = {
-        filename = "__base__/graphics/entity/tree/08/tree-08-l-trunk.png",
-        flags = {
-          "mipmap"
-        },
-        frame_count = 1,
-        height = 204,
-        scale = 0.5,
-        shift = {
-          0.78125,
-          0.3125
-        },
-        width = 274
-      },
-      water_reflection = {
-        orientation_to_variation = false,
-        pictures = {
-          filename = "__base__/graphics/entity/tree/08/tree-08-reflection.png",
-          height = 40,
-          priority = "extra-high",
-          scale = 5,
-          shift = {
-            0,
-            2.34375
-          },
-          variation_count = 4,
-          width = 36,
-          y = 440
-        },
-        rotate = false
+          surface = "nauvis",
+          width = 640,
+          x = 1920,
+          y = 560
+        }
       }
     }
   }

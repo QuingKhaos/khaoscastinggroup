@@ -114,6 +114,7 @@ return {
               },
               ignore_collision_condition = true,
               radius = 26.125,
+              require_origin_is_valid = true,
               target_enemies = true,
               type = "area"
             },

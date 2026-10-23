@@ -812,7 +812,7 @@ return {
     pipe_connections = {
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-reactor"
         },
         direction = 8,
         flow_direction = "input-output",
@@ -823,7 +823,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-reactor"
         },
         direction = 8,
         flow_direction = "input-output",
@@ -834,7 +834,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-reactor"
         },
         direction = 0,
         flow_direction = "input-output",
@@ -845,7 +845,7 @@ return {
       },
       {
         connection_category = {
-          "fusion-plasma"
+          "fusion-reactor"
         },
         direction = 0,
         flow_direction = "input-output",
@@ -881,6 +881,15 @@ return {
   },
   two_direction_only = true,
   type = "fusion-reactor",
+  water_reflection = {
+    pictures = {
+      filename = "__space-age__/graphics/entity/fusion-reactor/fusion-reactor-reflection.png",
+      height = 74,
+      scale = 5,
+      width = 74
+    },
+    rotate = false
+  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,

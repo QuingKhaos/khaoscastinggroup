@@ -1,5 +1,7 @@
 return {
-  category = "crafting",
+  categories = {
+    "crafting"
+  },
   enabled = false,
   energy_required = 10,
   ingredients = {

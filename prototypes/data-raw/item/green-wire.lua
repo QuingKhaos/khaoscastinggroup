@@ -14,7 +14,8 @@ return {
   flags = {
     "only-in-cursor",
     "not-stackable",
-    "spawnable"
+    "spawnable",
+    "always-show"
   },
   icon = "__base__/graphics/icons/shortcut-toolbar/mip/new-green-wire-x56.png",
   icon_size = 56,

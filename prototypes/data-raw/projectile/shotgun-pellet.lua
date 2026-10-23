@@ -3,11 +3,25 @@ return {
   action = {
     action_delivery = {
       target_effects = {
-        damage = {
-          amount = 8,
-          type = "physical"
+        {
+          deliver_category = "bullet",
+          type = "activate-impact"
         },
-        type = "damage"
+        {
+          damage = {
+            amount = 8,
+            type = "physical"
+          },
+          type = "damage"
+        },
+        {
+          entity_name = "small-explosion-hit",
+          type = "create-entity"
+        },
+        {
+          sticker = "shotgun-impact-sticker",
+          type = "create-sticker"
+        }
       },
       type = "instant"
     },
@@ -22,19 +36,19 @@ return {
   },
   collision_box = {
     {
-      -0.05,
+      -0.1,
       -0.25
     },
     {
-      0.05,
+      0.1,
       0.25
     }
   },
-  direction_only = true,
   flags = {
     "not-on-map"
   },
   hidden = true,
+  hit_at_collision_position = true,
   name = "shotgun-pellet",
   type = "projectile"
 }

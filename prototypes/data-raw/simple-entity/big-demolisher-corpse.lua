@@ -1,16 +1,16 @@
 return {
   autoplace = {
     order = "a[landscape]-c[rock]-a[huge]",
-    probability_expression = "vulcanus_rock_huge"
+    probability_expression = "0"
   },
   collision_box = {
     {
-      -3,
-      -3
+      -3.5,
+      -3.5
     },
     {
-      3,
-      3
+      3.5,
+      3.5
     }
   },
   count_as_rock_for_filtered_deconstruction = true,
@@ -193,7 +193,7 @@ return {
     results = {
       {
         amount_max = 33,
-        amount_min = 1,
+        amount_min = 10,
         name = "tungsten-ore",
         type = "item"
       }
@@ -202,248 +202,107 @@ return {
   mined_sound = {
     filename = "__base__/sound/deconstruct-bricks.ogg"
   },
+  mining_sound = {
+    priority = 64,
+    switch_vibration_data = {
+      filename = "__core__/sound/axe-mining-stone.bnvib"
+    },
+    variations = {
+      {
+        filename = "__core__/sound/axe-mining-stone-1.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-2.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-3.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-4.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-5.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-6.ogg",
+        volume = 0.55
+      },
+      {
+        filename = "__core__/sound/axe-mining-stone-7.ogg",
+        volume = 0.55
+      }
+    }
+  },
   name = "big-demolisher-corpse",
   order = "b[decorative]-l[rock]-a[vulcanus]-g[demolisher-corpse]-s-j",
   pictures = {
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-05.png",
-      height = 179,
-      scale = 1.2,
-      shift = {
-        0.25,
-        0.0625
+    layers = {
+      {
+        filenames = {
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-1.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-2.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-3.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-4.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-5.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-6.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-7.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-8.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-9.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-10.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-11.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-12.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-13.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-14.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-15.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-16.png"
+        },
+        height = 374,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 1,
+        shift = {
+          -0.4375,
+          0.296875
+        },
+        variation_count = 15,
+        width = 438
       },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 201
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-06.png",
-      height = 171,
-      scale = 1.2,
-      shift = {
-        0.42968799999999998,
-        0.046875
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 233
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-07.png",
-      height = 192,
-      scale = 1.2,
-      shift = {
-        0.39843800000000002,
-        0.03125
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 240
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-08.png",
-      height = 175,
-      scale = 1.2,
-      shift = {
-        0.14843799999999998,
-        0.13281200000000002
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 219
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-09.png",
-      height = 208,
-      scale = 1.2,
-      shift = {
-        0.3125,
-        0.0625
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 240
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-10.png",
-      height = 190,
-      scale = 1.2,
-      shift = {
-        0.1875,
-        0.046875
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 243
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-11.png",
-      height = 185,
-      scale = 1.2,
-      shift = {
-        0.39843800000000002,
-        0.0546875
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 249
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-12.png",
-      height = 163,
-      scale = 1.2,
-      shift = {
-        0.34375,
-        0.0390625
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 273
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-13.png",
-      height = 175,
-      scale = 1.2,
-      shift = {
-        0.27343800000000003,
-        0.0234375
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 275
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-14.png",
-      height = 215,
-      scale = 1.2,
-      shift = {
-        0.19531200000000002,
-        0.0390625
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 241
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-15.png",
-      height = 181,
-      scale = 1.2,
-      shift = {
-        0.52343799999999998,
-        0.03125
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 318
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-16.png",
-      height = 224,
-      scale = 1.2,
-      shift = {
-        0.0546875,
-        0.0234375
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 217
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-17.png",
-      height = 228,
-      scale = 1.2,
-      shift = {
-        0.22656200000000002,
-        0.046875
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 332
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-18.png",
-      height = 243,
-      scale = 1.2,
-      shift = {
-        0.19531200000000002,
-        0.0390625
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 290
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-19.png",
-      height = 225,
-      scale = 1.2,
-      shift = {
-        0.609375,
-        0.0234375
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 349
-    },
-    {
-      filename = "__space-age__/graphics/decorative/huge-volcanic-rock/huge-volcanic-rock-20.png",
-      height = 250,
-      scale = 1.2,
-      shift = {
-        0.13281200000000002,
-        0.03125
-      },
-      tint = {
-        0.7,
-        0.7,
-        0.7
-      },
-      width = 287
+      {
+        draw_as_shadow = true,
+        filenames = {
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-1.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-2.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-3.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-4.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-5.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-6.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-7.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-8.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-9.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-10.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-11.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-12.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-13.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-14.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-15.png",
+          "__space-age__/graphics/decorative/demolisher-corpse/demolisher-corpse-shadow-16.png"
+        },
+        height = 332,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 1,
+        shift = {
+          0.46875,
+          0.3125
+        },
+        variation_count = 15,
+        width = 484
+      }
     }
   },
   render_layer = "object",
@@ -455,12 +314,12 @@ return {
   },
   selection_box = {
     {
-      -3,
-      -3
+      -3.5,
+      -3.5
     },
     {
-      3,
-      3
+      3.5,
+      3.5
     }
   },
   subgroup = "grass",

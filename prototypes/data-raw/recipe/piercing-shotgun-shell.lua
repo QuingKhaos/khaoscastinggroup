@@ -8,12 +8,12 @@ return {
       type = "item"
     },
     {
-      amount = 5,
+      amount = 2,
       name = "copper-plate",
       type = "item"
     },
     {
-      amount = 2,
+      amount = 1,
       name = "steel-plate",
       type = "item"
     }
@@ -21,7 +21,7 @@ return {
   name = "piercing-shotgun-shell",
   results = {
     {
-      amount = 1,
+      amount = 2,
       name = "piercing-shotgun-shell",
       type = "item"
     }

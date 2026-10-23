@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,18 +29,19 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 0.625,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/toolbelt-equipment.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -57,13 +60,13 @@ return {
   name = "toolbelt-equipment-recycling",
   results = {
     {
-      amount = 0.75,
+      amount = 0,
       extra_count_fraction = 0.75,
       name = "advanced-circuit",
       type = "item"
     },
     {
-      amount = 2.5,
+      amount = 2,
       extra_count_fraction = 0.5,
       name = "carbon-fiber",
       type = "item"

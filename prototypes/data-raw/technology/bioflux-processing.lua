@@ -15,6 +15,10 @@ return {
     {
       recipe = "biolubricant",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "coal-synthesis",
+      type = "unlock-recipe"
     }
   },
   icon = "__space-age__/graphics/technology/bioflux-processing.png",

@@ -18,7 +18,7 @@ return {
     },
     cooldown = 4,
     damage_modifier = 36,
-    lead_target_for_projectile_speed = 0.3375,
+    lead_target_for_projectile_speed = 0.35,
     min_range = 0,
     projectile_creation_parameters = {
       {

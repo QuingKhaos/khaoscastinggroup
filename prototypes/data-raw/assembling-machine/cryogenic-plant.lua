@@ -501,9 +501,7 @@ return {
   },
   corpse = "cryogenic-plant-remnants",
   crafting_categories = {
-    "cryogenics",
-    "chemistry-or-cryogenics",
-    "cryogenics-or-assembling"
+    "cryogenics"
   },
   crafting_speed = 2,
   damaged_trigger_effect = {
@@ -2701,6 +2699,10 @@ return {
     filename = "__base__/sound/open-close/metal-large-open.ogg",
     volume = 0.8
   },
+  perceived_performance = {
+    maximum = 10,
+    minimum = 0.25
+  },
   selection_box = {
     {
       -2.5,
@@ -2712,17 +2714,13 @@ return {
     }
   },
   type = "assembling-machine",
+  use_mirroring = true,
   water_reflection = {
     pictures = {
-      filename = "__space-age__/graphics/entity/foundry/foundry-reflection.png",
-      height = 46,
-      line_length = 1,
+      filename = "__space-age__/graphics/entity/cryogenic-plant/cryogenic-plant-reflection.png",
+      height = 74,
       scale = 5,
-      shift = {
-        -0.015625,
-        2.203125
-      },
-      width = 38
+      width = 74
     },
     rotate = false
   },

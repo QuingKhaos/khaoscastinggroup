@@ -9,4 +9,7 @@ return {
   ["platform-to-planet-a"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-planet-a"),
   ["platform-to-planet-b"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-planet-b"),
   ["platform-to-planet-intermezzo"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-planet-intermezzo"),
+  ["platform-to-platform-a"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-platform-a"),
+  ["platform-to-platform-b"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-platform-b"),
+  ["platform-to-platform-intermezzo"] = require("___KHAOSDATA___.prototypes.data-raw.procession.platform-to-platform-intermezzo"),
 }

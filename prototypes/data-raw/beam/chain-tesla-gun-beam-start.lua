@@ -441,11 +441,11 @@ return {
   type = "beam",
   width = 0.5,
   working_sound = {
-    max_sounds_per_prototype = 4,
+    max_sounds_per_prototype = 2,
     sound = {
       category = "weapon",
       filename = "__space-age__/sound/entity/tesla-turret/tesla-turret-beam.ogg",
-      volume = 1
+      volume = 0.5
     }
   }
 }

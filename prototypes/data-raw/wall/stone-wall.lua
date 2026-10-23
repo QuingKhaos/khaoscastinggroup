@@ -697,5 +697,14 @@ return {
       -0.9375
     },
     size = 1
+  },
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/wall/wall-reflection.png",
+      height = 30,
+      scale = 5,
+      width = 13
+    },
+    rotate = false
   }
 }

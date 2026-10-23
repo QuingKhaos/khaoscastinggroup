@@ -1,7 +1,17 @@
 return {
   allow_decomposition = false,
   allow_productivity = true,
-  category = "oil-processing",
+  categories = {
+    "oil-processing"
+  },
+  crafting_machine_tint = {
+    primary = {
+      a = 1,
+      b = 0,
+      g = 0.095,
+      r = 0.40600000000000005
+    }
+  },
   enabled = false,
   energy_required = 5,
   icon = "__base__/graphics/icons/fluid/coal-liquefaction.png",

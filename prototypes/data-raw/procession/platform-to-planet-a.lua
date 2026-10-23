@@ -5,7 +5,7 @@ return {
     audio_events = {
       {
         audio = {
-          catalogue_id = 202,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
         timestamp = 0,
@@ -14,10 +14,19 @@ return {
       },
       {
         audio = {
-          catalogue_id = 101,
+          catalogue_id = 201,
           type = "pod-catalogue"
         },
-        timestamp = 107,
+        timestamp = 165,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 205,
+          type = "pod-catalogue"
+        },
+        timestamp = 200,
         type = "play-sound",
         usage = "both"
       },
@@ -26,16 +35,70 @@ return {
           catalogue_id = 201,
           type = "pod-catalogue"
         },
-        timestamp = 170,
+        timestamp = 320,
         type = "play-sound",
         usage = "both"
       },
       {
         audio = {
-          catalogue_id = 203,
+          catalogue_id = 101,
           type = "pod-catalogue"
         },
-        timestamp = 320,
+        timestamp = 127,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 157,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 207,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 215,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 337,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 363,
+        type = "play-sound",
+        usage = "both"
+      },
+      {
+        audio = {
+          catalogue_id = 251,
+          type = "pod-catalogue"
+        },
+        timestamp = 423,
         type = "play-sound",
         usage = "both"
       }
@@ -115,38 +178,51 @@ return {
           },
           {
             tilt = 0,
-            tilt_t = 0,
-            timestamp = 150
+            timestamp = 145
           },
           {
-            tilt = 0,
-            tilt_t = -0.03,
-            timestamp = 180
+            tilt = -0.0011599999999999999,
+            tilt_t = -0.013149999999999999,
+            timestamp = 170
           },
           {
-            tilt = -0.09,
-            tilt_t = 0.04,
-            timestamp = 200
+            tilt = -0.056399999999999997,
+            tilt_t = 0.01048,
+            timestamp = 199
           },
           {
-            tilt = -0.02,
-            tilt_t = -0.03,
-            timestamp = 263
+            tilt = -0.052080000000000002,
+            tilt_t = -0.0027200000000000002,
+            timestamp = 223
           },
           {
-            tilt = -0.02,
-            tilt_t = 0.02,
-            timestamp = 302
+            tilt = -0.058840000000000003,
+            tilt_t = 0.0038399999999999999,
+            timestamp = 250
           },
           {
-            tilt = 0.06,
-            tilt_t = -0.02,
-            timestamp = 336
+            tilt = -0.052620000000000005,
+            tilt_t = 0.0085400000000000009,
+            timestamp = 279
+          },
+          {
+            tilt = -0.0075199999999999996,
+            tilt_t = 0.0067999999999999989,
+            timestamp = 308
+          },
+          {
+            tilt = 0.053580000000000005,
+            tilt_t = -0.0060899999999999999,
+            timestamp = 333
           },
           {
             tilt = 0.08,
-            tilt_t = 0,
-            timestamp = 382
+            tilt_t = -0.0057699999999999996,
+            timestamp = 359
+          },
+          {
+            tilt = 0.08,
+            timestamp = 379
           }
         },
         type = "pod-movement"
@@ -577,6 +653,361 @@ return {
         secondary_draw_order = 1,
         shift_rotates_with_pod = true,
         start_time = 170,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 164,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 145
+          },
+          {
+            frame = 19,
+            timestamp = 164
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 145,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 188,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 165
+          },
+          {
+            frame = 19,
+            timestamp = 188
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 165,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 233,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 210
+          },
+          {
+            frame = 19,
+            timestamp = 233
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 210,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 261,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 238
+          },
+          {
+            frame = 19,
+            timestamp = 261
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 238,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 282,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 266
+          },
+          {
+            frame = 19,
+            timestamp = 282
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 266,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 297,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 280
+          },
+          {
+            frame = 19,
+            timestamp = 297
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 280,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 361,
+        frames = {
+          {
+            frame = 0,
+            rotation = 0.5,
+            shift = {
+              0,
+              -0.7
+            },
+            timestamp = 340
+          },
+          {
+            frame = 19,
+            timestamp = 361
+          }
+        },
+        graphic = {
+          catalogue_id = 210,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 340,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 344,
+        frames = {
+          {
+            rotation = 0.5,
+            timestamp = 0
+          },
+          {
+            shift = {
+              -0.28000000000000004,
+              -0.72999999999999998
+            },
+            shift_rate = 0,
+            timestamp = 329
+          },
+          {
+            shift = {
+              -0.28000000000000004,
+              -0.72999999999999998
+            },
+            timestamp = 330
+          },
+          {
+            shift = {
+              0.26000000000000001,
+              -0.72999999999999998
+            },
+            timestamp = 375
+          },
+          {
+            shift = {
+              0.26000000000000001,
+              -0.72999999999999998
+            },
+            shift_rate = 1,
+            timestamp = 376
+          },
+          {
+            frame = 0,
+            timestamp = 330
+          },
+          {
+            frame = 19,
+            timestamp = 344
+          }
+        },
+        graphic = {
+          catalogue_id = 211,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = 1,
+        shift_rotates_with_pod = true,
+        start_time = 330,
+        type = "single-graphic"
+      },
+      {
+        animation_driven_by_curve = true,
+        clip_with_hatches = true,
+        end_time = 343,
+        frames = {
+          {
+            rotation = 1,
+            timestamp = 0
+          },
+          {
+            shift = {
+              0.28000000000000004,
+              -0.72999999999999998
+            },
+            shift_rate = 0,
+            timestamp = 329
+          },
+          {
+            shift = {
+              0.28000000000000004,
+              -0.72999999999999998
+            },
+            timestamp = 330
+          },
+          {
+            shift = {
+              -0.26000000000000001,
+              -0.72999999999999998
+            },
+            timestamp = 375
+          },
+          {
+            shift = {
+              -0.26000000000000001,
+              -0.72999999999999998
+            },
+            shift_rate = 1,
+            timestamp = 376
+          },
+          {
+            frame = 0,
+            timestamp = 330
+          },
+          {
+            frame = 19,
+            timestamp = 343
+          }
+        },
+        graphic = {
+          catalogue_id = 211,
+          type = "pod-catalogue"
+        },
+        is_passenger_only = false,
+        name = "smoke_puff",
+        relative_to = "pod",
+        render_layer = "air-object",
+        rotates_with_pod = true,
+        secondary_draw_order = -1,
+        shift_rotates_with_pod = true,
+        start_time = 330,
         type = "single-graphic"
       }
     }

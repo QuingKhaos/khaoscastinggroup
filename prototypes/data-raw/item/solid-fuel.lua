@@ -8,7 +8,9 @@ return {
     volume = 0.7
   },
   fuel_acceleration_multiplier = 1.2,
-  fuel_category = "chemical",
+  fuel_categories = {
+    "chemical"
+  },
   fuel_top_speed_multiplier = 1.05,
   fuel_value = "12MJ",
   icon = "__base__/graphics/icons/solid-fuel.png",

@@ -288,55 +288,34 @@ return {
       max_count = 3,
       remove = true
     },
-    audible_distance_modifier = 0.5,
+    audible_distance_modifier = 3.7999999999999998,
+    game_controller_vibration_data = {
+      duration = 160,
+      low_frequency_vibration_intensity = 0.9,
+      play_for = "everything"
+    },
     switch_vibration_data = {
-      filename = "__base__/sound/fight/medium-explosion.bnvib",
-      gain = 0.4
+      filename = "__base__/sound/fight/large-explosion.bnvib",
+      gain = 0.6,
+      play_for = "everything"
     },
     variations = {
       {
-        filename = "__base__/sound/fight/medium-explosion-1.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/fight/large-explosion-1.ogg",
+        max_volume = 0.5,
+        min_volume = 0.5,
         modifiers = {
           type = "main-menu",
-          volume_multiplier = 1.2
+          volume_multiplier = 0.6
         }
       },
       {
-        filename = "__base__/sound/fight/medium-explosion-2.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
+        filename = "__base__/sound/fight/large-explosion-2.ogg",
+        max_volume = 0.5,
+        min_volume = 0.5,
         modifiers = {
           type = "main-menu",
-          volume_multiplier = 1.2
-        }
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-3.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-4.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        }
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-5.ogg",
-        max_volume = 0.4,
-        min_volume = 0.3,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
+          volume_multiplier = 0.6
         }
       }
     }

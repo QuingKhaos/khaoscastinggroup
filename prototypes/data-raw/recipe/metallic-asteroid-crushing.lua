@@ -2,13 +2,16 @@ return {
   allow_decomposition = false,
   allow_productivity = true,
   auto_recycle = false,
-  category = "crushing",
+  categories = {
+    "crushing"
+  },
   enabled = false,
   energy_required = 2,
   icon = "__space-age__/graphics/icons/metallic-asteroid-crushing.png",
   ingredients = {
     {
       amount = 1,
+      ignored_by_stats = 1,
       name = "metallic-asteroid-chunk",
       type = "item"
     }
@@ -23,8 +26,9 @@ return {
     },
     {
       amount = 1,
+      ignored_by_stats = 1,
+      independent_probability = 0.3,
       name = "metallic-asteroid-chunk",
-      probability = 0.2,
       type = "item"
     }
   },

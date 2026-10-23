@@ -11,19 +11,24 @@ return {
           "__space-age__/graphics/entity/lavaslug/lavaslug-tail-3.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-tail-4.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-tail-5.png",
-          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-6.png"
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-6.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-7.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-8.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-9.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-10.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-11.png"
         },
-        height = 594,
-        line_length = 4,
+        height = 616,
+        line_length = 2,
         lines_per_file = 6,
         scale = 0.32000000000000002,
         shift = {
-          0,
-          -0.13
+          0.01,
+          -0.1
         },
         surface = "vulcanus",
         usage = "enemy",
-        width = 780
+        width = 812
       },
       {
         dice = 0,
@@ -34,19 +39,24 @@ return {
           "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-2.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-3.png",
           "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-4.png",
-          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-5.png"
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-5.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-6.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-7.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-8.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-9.png",
+          "__space-age__/graphics/entity/lavaslug/lavaslug-tail-shadow-10.png"
         },
-        height = 550,
-        line_length = 4,
+        height = 570,
+        line_length = 2,
         lines_per_file = 7,
         scale = 0.32000000000000002,
         shift = {
-          0.34000000000000004,
-          0.11000000000000001
+          0.52000000000000002,
+          -0.06
         },
         surface = "vulcanus",
         usage = "enemy",
-        width = 838
+        width = 904
       }
     }
   },
@@ -81,7 +91,7 @@ return {
   max_health = 300000,
   name = "big-demolisher-tail-x0_64",
   overkill_fraction = 0.2,
-  render_layer = "higher-object-under",
+  render_layer = "object",
   resistances = {
     {
       percent = 99,
@@ -148,7 +158,7 @@ return {
       },
       category = "enemy",
       filename = "__space-age__/sound/enemies/demolisher/demolisher-tail-rumble.ogg",
-      volume = 0.3
+      volume = 0.6
     }
   }
 }

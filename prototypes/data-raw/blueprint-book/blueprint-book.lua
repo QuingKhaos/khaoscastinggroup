@@ -9,7 +9,9 @@ return {
     volume = 0.7
   },
   flags = {
-    "spawnable"
+    "spawnable",
+    "always-show",
+    "excluded-from-character-lift-weight"
   },
   icon = "__base__/graphics/icons/blueprint-book.png",
   inventory_move_sound = {

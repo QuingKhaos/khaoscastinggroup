@@ -2,7 +2,9 @@ return {
   allow_decomposition = false,
   allow_productivity = true,
   auto_recycle = false,
-  category = "chemistry",
+  categories = {
+    "chemistry"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -48,7 +50,6 @@ return {
       type = "fluid"
     }
   },
-  show_amount_in_title = false,
   subgroup = "fluid-recipes",
   type = "recipe"
 }

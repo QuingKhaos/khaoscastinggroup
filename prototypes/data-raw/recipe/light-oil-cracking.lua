@@ -1,7 +1,11 @@
 return {
   allow_productivity = true,
   allow_quality = false,
-  category = "organic-or-chemistry",
+  auto_recycle = false,
+  categories = {
+    "chemistry",
+    "organic"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

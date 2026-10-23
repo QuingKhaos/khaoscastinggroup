@@ -4,7 +4,8 @@ return {
   },
   ai_settings = {
     allow_try_return_to_spawner = true,
-    destroy_when_commands_fail = true
+    destroy_when_commands_fail = true,
+    size_in_group = 3
   },
   alternative_attacking_frame_sequence = {
     attacking_animation_speed = 0.025,
@@ -263,7 +264,7 @@ return {
       }
     },
     damage_modifier = 60,
-    lead_target_for_projectile_speed = 0.3375,
+    lead_target_for_projectile_speed = 0.35,
     min_attack_distance = 10,
     projectile_creation_parameters = {
       {
@@ -384,6 +385,13 @@ return {
     type = "stream",
     use_shooter_direction = true,
     warmup = 30
+  },
+  buildable_entities = {
+    "biter-spawner",
+    "spitter-spawner",
+    "big-worm-turret",
+    "big-worm-turret",
+    "behemoth-worm-turret"
   },
   collision_box = {
     {
@@ -636,6 +644,14 @@ return {
     }
   },
   spawning_time_modifier = 12,
+  steering = {
+    move = {
+      radius = 3
+    },
+    stay = {
+      radius = 4.5
+    }
+  },
   sticker_box = {
     {
       -0.3,

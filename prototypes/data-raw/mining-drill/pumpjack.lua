@@ -5,33 +5,6 @@ return {
     "productivity",
     "pollution"
   },
-  base_picture = {
-    sheets = {
-      {
-        filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
-        height = 273,
-        priority = "extra-high",
-        scale = 0.5,
-        shift = {
-          -0.0703125,
-          -0.1484375
-        },
-        width = 261
-      },
-      {
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
-        height = 220,
-        scale = 0.5,
-        shift = {
-          0.1875,
-          0.015625
-        },
-        width = 220
-      }
-    }
-  },
-  base_render_layer = "object",
   circuit_connector = {
     {
       points = {
@@ -682,13 +655,13 @@ return {
             animation_speed = 0.5,
             filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
             frame_count = 40,
-            height = 202,
+            height = 172,
             line_length = 8,
             priority = "high",
             scale = 0.5,
             shift = {
-              -0.125,
-              -0.75
+              -0.140625,
+              -0.90625
             },
             width = 206
           },
@@ -697,7 +670,7 @@ return {
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead-shadow.png",
             frame_count = 40,
-            height = 82,
+            height = 78,
             line_length = 8,
             priority = "high",
             scale = 0.5,
@@ -705,7 +678,7 @@ return {
               0.5546875,
               0.453125
             },
-            width = 309
+            width = 292
           }
         }
       }
@@ -713,17 +686,309 @@ return {
     frozen_patch = {
       sheet = {
         filename = "__space-age__/graphics/entity/frozen/pumpjack/pumpjack.png",
-        height = 256,
+        height = 273,
         priority = "extra-high",
         scale = 0.5,
-        width = 256
+        shift = {
+          -0.0703125,
+          -0.1484375
+        },
+        width = 261
       }
     },
-    reset_animation_when_frozen = true
+    reset_animation_when_frozen = true,
+    working_visualisations = {
+      {
+        always_draw = true,
+        east_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 261
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 261
+            }
+          }
+        },
+        north_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 0
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 0
+            }
+          }
+        },
+        secondary_draw_order = -1,
+        south_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 522
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 522
+            }
+          }
+        },
+        west_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 783
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 783
+            }
+          }
+        }
+      }
+    }
+  },
+  graphics_set_flipped = {
+    animation = {
+      north = {
+        layers = {
+          {
+            animation_speed = 0.5,
+            filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
+            frame_count = 40,
+            height = 172,
+            line_length = 8,
+            priority = "high",
+            scale = 0.5,
+            shift = {
+              -0.140625,
+              -0.90625
+            },
+            width = 206
+          },
+          {
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead-shadow.png",
+            frame_count = 40,
+            height = 78,
+            line_length = 8,
+            priority = "high",
+            scale = 0.5,
+            shift = {
+              0.5546875,
+              0.453125
+            },
+            width = 292
+          }
+        }
+      }
+    },
+    frozen_patch = {
+      sheet = {
+        filename = "__space-age__/graphics/entity/frozen/pumpjack/pumpjack-flipped.png",
+        height = 273,
+        priority = "extra-high",
+        scale = 0.5,
+        shift = {
+          -0.0703125,
+          -0.1484375
+        },
+        width = 261
+      }
+    },
+    reset_animation_when_frozen = true,
+    working_visualisations = {
+      {
+        always_draw = true,
+        east_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 261
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 261
+            }
+          }
+        },
+        north_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 0
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 0
+            }
+          }
+        },
+        secondary_draw_order = -1,
+        south_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 522
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 522
+            }
+          }
+        },
+        west_animation = {
+          layers = {
+            {
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped.png",
+              height = 273,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.0703125,
+                -0.1484375
+              },
+              width = 261,
+              x = 783
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/pumpjack/pumpjack-base-flipped-shadow.png",
+              height = 273,
+              scale = 0.5,
+              shift = {
+                -0.0625,
+                -0.15625
+              },
+              width = 261,
+              x = 783
+            }
+          }
+        }
+      }
+    }
   },
   heating_energy = "50kW",
   icon = "__base__/graphics/icons/pumpjack.png",
   max_health = 200,
+  migrate_horizontal_mirroring = true,
   minable = {
     mining_time = 0.5,
     result = "pumpjack"
@@ -752,15 +1017,15 @@ return {
           },
           {
             1,
+            1
+          },
+          {
+            -1,
+            1
+          },
+          {
+            -1,
             -1
-          },
-          {
-            -1,
-            1
-          },
-          {
-            -1,
-            1
           }
         }
       }
@@ -865,6 +1130,7 @@ return {
     }
   },
   type = "mining-drill",
+  use_mirroring = true,
   vector_to_place_result = {
     0,
     0

@@ -10,7 +10,6 @@ return {
     0.7,
     0.35
   },
-  heat_capacity = "1kJ",
   icon = "__space-age__/graphics/icons/fluid/fluoroketone-hot.png",
   name = "fluoroketone-hot",
   order = "b[new-fluid]-e[aquilo]-d[fluoroketone-hot]",

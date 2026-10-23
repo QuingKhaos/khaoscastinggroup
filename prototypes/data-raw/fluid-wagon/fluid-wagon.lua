@@ -34,6 +34,16 @@ return {
       size = 2
     }
   },
+  base_valve_xy_offset_when_horizontal = {
+    0,
+    0
+  },
+  base_valve_xy_offset_when_vertical = {
+    0,
+    0
+  },
+  base_valve_z_offset_projected_when_horizontal = -1.3999999999999999,
+  base_valve_z_offset_projected_when_vertical = -1.55,
   braking_force = 3,
   capacity = 50000,
   collision_box = {
@@ -54,13 +64,6 @@ return {
   },
   connection_distance = 3,
   corpse = "fluid-wagon-remnants",
-  crash_trigger = {
-    sound = {
-      filename = "__base__/sound/car-crash.ogg",
-      volume = 0
-    },
-    type = "play-sound"
-  },
   damaged_trigger_effect = {
     damage_type_filters = "fire",
     entity_name = "spark-explosion",
@@ -198,7 +201,6 @@ return {
   impact_category = "metal-large",
   joint_distance = 4,
   max_health = 600,
-  max_speed = 1.5,
   minable = {
     mining_time = 0.5,
     result = "fluid-wagon"
@@ -329,6 +331,7 @@ return {
       }
     }
   },
+  quality_affects_capacity = true,
   resistances = {
     {
       decrease = 15,
@@ -419,6 +422,14 @@ return {
   },
   tie_distance = 50,
   type = "fluid-wagon",
+  valve_to_valve_offset_when_horizontal = {
+    2,
+    0
+  },
+  valve_to_valve_offset_when_vertical = {
+    0,
+    1.7749999999999999
+  },
   vertical_selection_shift = -0.796875,
   water_reflection = {
     orientation_to_variation = false,

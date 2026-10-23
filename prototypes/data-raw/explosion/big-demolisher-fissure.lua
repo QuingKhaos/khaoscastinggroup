@@ -63,6 +63,40 @@ return {
   name = "big-demolisher-fissure",
   order = "s-j",
   render_layer = "ground-patch-higher2",
+  sound = {
+    aggregation = {
+      count_already_playing = true,
+      max_count = 1,
+      priority = "newest",
+      remove = true
+    },
+    variations = {
+      {
+        filename = "__space-age__/sound/explosions/fissure-damage-1.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 2
+        },
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/explosions/fissure-damage-2.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 2
+        },
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/explosions/fissure-damage-3.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 2
+        },
+        volume = 0.4
+      }
+    }
+  },
   subgroup = "explosions",
   type = "explosion"
 }

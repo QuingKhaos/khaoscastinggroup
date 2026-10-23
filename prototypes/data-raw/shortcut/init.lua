@@ -17,5 +17,6 @@ return {
   ["toggle-alt-mode"] = require("___KHAOSDATA___.prototypes.data-raw.shortcut.toggle-alt-mode"),
   ["toggle-equipment-movement-bonus"] = require("___KHAOSDATA___.prototypes.data-raw.shortcut.toggle-equipment-movement-bonus"),
   ["toggle-personal-roboport"] = require("___KHAOSDATA___.prototypes.data-raw.shortcut.toggle-personal-roboport"),
+  ["toggle-tall-entity-visibility"] = require("___KHAOSDATA___.prototypes.data-raw.shortcut.toggle-tall-entity-visibility"),
   ["undo"] = require("___KHAOSDATA___.prototypes.data-raw.shortcut.undo"),
 }

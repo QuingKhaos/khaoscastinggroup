@@ -557,85 +557,45 @@ return {
     idle_animation = {
       layers = {
         {
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-C.png",
+          filename = "__base__/graphics/entity/centrifuge/centrifuge-ABC-integration.png",
+          frame_count = 1,
+          height = 250,
+          line_length = 1,
+          priority = "high",
+          repeat_count = 64,
+          scale = 0.5,
+          shift = {
+            0.015625,
+            0.09375
+          },
+          width = 246
+        },
+        {
+          filename = "__base__/graphics/entity/centrifuge/centrifuge-ABC.png",
           frame_count = 64,
-          height = 214,
+          height = 248,
           line_length = 8,
           priority = "high",
           scale = 0.5,
           shift = {
-            -0.0078125,
-            -0.828125
+            -0.078125,
+            -0.5625
           },
-          width = 237
+          width = 194
         },
         {
           draw_as_shadow = true,
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-C-shadow.png",
+          filename = "__base__/graphics/entity/centrifuge/centrifuge-ABC-shadow.png",
           frame_count = 64,
-          height = 152,
+          height = 206,
           line_length = 8,
           priority = "high",
           scale = 0.5,
           shift = {
-            0.5234375,
-            -0.3125
-          },
-          width = 279
-        },
-        {
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-B.png",
-          frame_count = 64,
-          height = 234,
-          line_length = 8,
-          priority = "high",
-          scale = 0.5,
-          shift = {
-            0.71875,
-            0.203125
-          },
-          width = 156
-        },
-        {
-          draw_as_shadow = true,
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-B-shadow.png",
-          frame_count = 64,
-          height = 149,
-          line_length = 8,
-          priority = "high",
-          scale = 0.5,
-          shift = {
-            1.9765625,
-            0.4765625
-          },
-          width = 251
-        },
-        {
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-A.png",
-          frame_count = 64,
-          height = 246,
-          line_length = 8,
-          priority = "high",
-          scale = 0.5,
-          shift = {
-            -0.8203125,
+            1.140625,
             0.109375
           },
-          width = 139
-        },
-        {
-          draw_as_shadow = true,
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-A-shadow.png",
-          frame_count = 64,
-          height = 124,
-          line_length = 8,
-          priority = "high",
-          scale = 0.5,
-          shift = {
-            0.265625,
-            0.734375
-          },
-          width = 230
+          width = 358
         }
       }
     },
@@ -664,47 +624,17 @@ return {
             {
               blend_mode = "additive",
               draw_as_glow = true,
-              filename = "__base__/graphics/entity/centrifuge/centrifuge-C-light.png",
+              filename = "__base__/graphics/entity/centrifuge/centrifuge-ABC-light.png",
               frame_count = 64,
-              height = 207,
+              height = 262,
               line_length = 8,
               priority = "high",
               scale = 0.5,
               shift = {
-                0,
-                -0.8515625
+                -0.015625,
+                -0.421875
               },
-              width = 190
-            },
-            {
-              blend_mode = "additive",
-              draw_as_glow = true,
-              filename = "__base__/graphics/entity/centrifuge/centrifuge-B-light.png",
-              frame_count = 64,
-              height = 206,
-              line_length = 8,
-              priority = "high",
-              scale = 0.5,
-              shift = {
-                0.5234375,
-                0.015625
-              },
-              width = 131
-            },
-            {
-              blend_mode = "additive",
-              draw_as_glow = true,
-              filename = "__base__/graphics/entity/centrifuge/centrifuge-A-light.png",
-              frame_count = 64,
-              height = 197,
-              line_length = 8,
-              priority = "high",
-              scale = 0.5,
-              shift = {
-                -0.734375,
-                -0.0546875
-              },
-              width = 108
+              width = 200
             }
           }
         },

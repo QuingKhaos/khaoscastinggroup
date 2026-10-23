@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -25,18 +27,19 @@ return {
       0.65500000000000007
     }
   },
+  enabled = false,
   energy_required = 0.03125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__base__/graphics/icons/express-transport-belt.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -55,13 +58,13 @@ return {
   name = "express-transport-belt-recycling",
   results = {
     {
-      amount = 2.5,
+      amount = 2,
       extra_count_fraction = 0.5,
       name = "iron-gear-wheel",
       type = "item"
     },
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "fast-transport-belt",
       type = "item"

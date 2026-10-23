@@ -1,5 +1,8 @@
 return {
-  category = "pressing",
+  categories = {
+    "crafting",
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 2,
   ingredients = {

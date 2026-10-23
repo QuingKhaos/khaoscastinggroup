@@ -1,4 +1,5 @@
 return {
+  chain_probability = 0.1,
   color = {
     b = 178.5,
     g = 178.5,
@@ -10,7 +11,7 @@ return {
   level = 0,
   name = "normal",
   next = "uncommon",
-  next_probability = 0.1,
+  next_probability = 1,
   order = "a",
   subgroup = "qualities",
   type = "quality"

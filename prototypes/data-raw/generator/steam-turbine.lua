@@ -53,7 +53,6 @@ return {
   },
   fluid_box = {
     filter = "steam",
-    minimum_temperature = 100,
     pipe_connections = {
       {
         direction = 8,
@@ -155,47 +154,6 @@ return {
   },
   fluid_usage_per_tick = 1,
   heating_energy = "50kW",
-  horizontal_animation = {
-    layers = {
-      {
-        filename = "__base__/graphics/entity/steam-turbine/steam-turbine-H.png",
-        frame_count = 8,
-        height = 245,
-        line_length = 4,
-        run_mode = "backward",
-        scale = 0.5,
-        shift = {
-          0,
-          -0.0859375
-        },
-        width = 320
-      },
-      {
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/steam-turbine/steam-turbine-H-shadow.png",
-        height = 150,
-        line_length = 1,
-        repeat_count = 8,
-        run_mode = "backward",
-        scale = 0.5,
-        shift = {
-          0.890625,
-          0.5625
-        },
-        width = 435
-      }
-    }
-  },
-  horizontal_frozen_patch = {
-    filename = "__space-age__/graphics/entity/frozen/steam-turbine/steam-turbine-H.png",
-    height = 245,
-    scale = 0.5,
-    shift = {
-      0,
-      -0.0859375
-    },
-    width = 320
-  },
   icon = "__base__/graphics/icons/steam-turbine.png",
   impact_category = "metal-large",
   max_health = 300,
@@ -204,6 +162,7 @@ return {
     mining_time = 0.3,
     result = "steam-turbine"
   },
+  minimum_input_temperature = 100,
   name = "steam-turbine",
   open_sound = {
     filename = "__base__/sound/machine-open.ogg",
@@ -212,6 +171,94 @@ return {
   perceived_performance = {
     minimum = 0.25,
     performance_to_activity_rate = 2
+  },
+  pictures = {
+    east = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/steam-turbine/steam-turbine-H.png",
+            frame_count = 8,
+            height = 245,
+            line_length = 4,
+            run_mode = "backward",
+            scale = 0.5,
+            shift = {
+              0,
+              -0.0859375
+            },
+            width = 320
+          },
+          {
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/steam-turbine/steam-turbine-H-shadow.png",
+            height = 150,
+            line_length = 1,
+            repeat_count = 8,
+            run_mode = "backward",
+            scale = 0.5,
+            shift = {
+              0.890625,
+              0.5625
+            },
+            width = 435
+          }
+        }
+      },
+      frozen_patch = {
+        filename = "__space-age__/graphics/entity/frozen/steam-turbine/steam-turbine-H.png",
+        height = 245,
+        scale = 0.5,
+        shift = {
+          0,
+          -0.0859375
+        },
+        width = 320
+      }
+    },
+    north = {
+      animation = {
+        layers = {
+          {
+            filename = "__base__/graphics/entity/steam-turbine/steam-turbine-V.png",
+            frame_count = 8,
+            height = 374,
+            line_length = 4,
+            run_mode = "backward",
+            scale = 0.5,
+            shift = {
+              0.1484375,
+              0
+            },
+            width = 217
+          },
+          {
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/steam-turbine/steam-turbine-V-shadow.png",
+            height = 260,
+            line_length = 1,
+            repeat_count = 8,
+            run_mode = "backward",
+            scale = 0.5,
+            shift = {
+              1.234375,
+              0.765625
+            },
+            width = 302
+          }
+        }
+      },
+      frozen_patch = {
+        filename = "__space-age__/graphics/entity/frozen/steam-turbine/steam-turbine-V.png",
+        height = 347,
+        scale = 0.5,
+        shift = {
+          0.1484375,
+          0.2109375
+        },
+        width = 217
+      }
+    }
   },
   resistances = {
     {
@@ -245,48 +292,8 @@ return {
       starting_vertical_speed = 0.08
     }
   },
+  two_direction_only = true,
   type = "generator",
-  vertical_animation = {
-    layers = {
-      {
-        filename = "__base__/graphics/entity/steam-turbine/steam-turbine-V.png",
-        frame_count = 8,
-        height = 374,
-        line_length = 4,
-        run_mode = "backward",
-        scale = 0.5,
-        shift = {
-          0.1484375,
-          0
-        },
-        width = 217
-      },
-      {
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/steam-turbine/steam-turbine-V-shadow.png",
-        height = 260,
-        line_length = 1,
-        repeat_count = 8,
-        run_mode = "backward",
-        scale = 0.5,
-        shift = {
-          1.234375,
-          0.765625
-        },
-        width = 302
-      }
-    }
-  },
-  vertical_frozen_patch = {
-    filename = "__space-age__/graphics/entity/frozen/steam-turbine/steam-turbine-V.png",
-    height = 347,
-    scale = 0.5,
-    shift = {
-      0.1484375,
-      0.2109375
-    },
-    width = 217
-  },
   water_reflection = {
     orientation_to_variation = true,
     pictures = {

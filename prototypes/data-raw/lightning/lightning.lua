@@ -16,7 +16,10 @@ return {
     },
     type = "direct"
   },
-  damage = 100,
+  damage = {
+    amount = 100,
+    type = "electric"
+  },
   effect_duration = 36,
   energy = "1000MJ",
   factoriopedia_simulation = {

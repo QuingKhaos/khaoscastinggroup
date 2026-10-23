@@ -116,7 +116,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -126,7 +126,7 @@ return {
       volume = 0.8
     }
   },
-  layer = 14,
+  layer = 16,
   layer_group = "ground-artificial",
   map_color = {
     63,
@@ -171,7 +171,7 @@ return {
   subgroup = "aquilo-tiles",
   thawed_variant = "concrete",
   transition_merges_with_tile = "concrete",
-  transition_overlay_layer_offset = 2,
+  transition_overlay_layer_offset = 0,
   trigger_effect = {
     {
       affects_target = false,
@@ -318,27 +318,27 @@ return {
         inner_corner = {
           count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/hazard-concrete-inner-corner-mask.png"
+          spritesheet = "__space-age__/graphics/terrain/aquilo/frozen-concrete-inner-corner-mask.png"
         },
         o_transition = {
           count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/hazard-concrete-o-mask.png"
+          spritesheet = "__space-age__/graphics/terrain/aquilo/frozen-concrete-o-mask.png"
         },
         outer_corner = {
           count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/hazard-concrete-outer-corner-mask.png"
+          spritesheet = "__space-age__/graphics/terrain/aquilo/frozen-concrete-outer-corner-mask.png"
         },
         side = {
           count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/hazard-concrete-side-mask.png"
+          spritesheet = "__space-age__/graphics/terrain/aquilo/frozen-concrete-side-mask.png"
         },
         u_transition = {
           count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/hazard-concrete-u-mask.png"
+          spritesheet = "__space-age__/graphics/terrain/aquilo/frozen-concrete-u-mask.png"
         }
       }
     }
@@ -354,7 +354,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

@@ -24,7 +24,9 @@ return {
     "oil-gathering"
   },
   research_trigger = {
-    entity = "crude-oil",
+    entities = {
+      "crude-oil"
+    },
     type = "mine-entity"
   },
   type = "technology"

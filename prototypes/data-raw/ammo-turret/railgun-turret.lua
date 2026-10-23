@@ -5,7 +5,7 @@ return {
     ammo_category = "railgun",
     apply_projection_to_projectile_creation_position = false,
     cooldown = 170,
-    health_penalty = -1,
+    health_penalty = -10,
     min_range = 3.5,
     projectile_center = {
       0,
@@ -68,6 +68,7 @@ return {
         volume = 0.55
       }
     },
+    threatening_asteroid_penalty = -20,
     true_collinear_ejection = true,
     turn_range = 0.2,
     type = "projectile"
@@ -1849,7 +1850,7 @@ return {
     },
     type = "create-entity"
   },
-  dying_explosion = "gun-turret-explosion",
+  dying_explosion = "railgun-turret-explosion",
   ending_attack_animation = {
     east = {
       layers = {
@@ -2735,7 +2736,7 @@ return {
   ending_attack_speed = 0.05,
   energy_per_shot = "10MJ",
   energy_source = {
-    buffer_capacity = "10MJ",
+    buffer_capacity = "11MJ",
     input_flow_limit = "10MW",
     type = "electric",
     usage_priority = "primary-input"
@@ -4531,6 +4532,7 @@ return {
   heating_energy = "50kW",
   icon = "__space-age__/graphics/icons/railgun-turret.png",
   inventory_size = 1,
+  leave_attacking_if_shoot_fails = false,
   max_health = 4000,
   minable = {
     mining_time = 0.5,
@@ -7002,18 +7004,18 @@ return {
   turret_base_has_direction = true,
   type = "ammo-turret",
   water_reflection = {
-    orientation_to_variation = false,
+    orientation_to_variation = true,
     pictures = {
-      filename = "__base__/graphics/entity/gun-turret/gun-turret-reflection.png",
-      height = 32,
+      filename = "__space-age__/graphics/entity/railgun-turret/railgun-reflection.png",
+      height = 48,
       priority = "extra-high",
       scale = 5,
       shift = {
-        0,
-        1.25
+        0.15625,
+        2.96875
       },
-      variation_count = 1,
-      width = 20
+      variation_count = 8,
+      width = 40
     },
     rotate = false
   }

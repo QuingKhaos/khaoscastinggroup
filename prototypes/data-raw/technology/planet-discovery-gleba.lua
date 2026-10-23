@@ -4,6 +4,10 @@ return {
       space_location = "gleba",
       type = "unlock-space-location",
       use_icon_overlay_constant = true
+    },
+    {
+      modifier = true,
+      type = "unlock-travel-to-space-platforms"
     }
   },
   essential = true,

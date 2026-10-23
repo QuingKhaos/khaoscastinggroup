@@ -1,7 +1,9 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "organic",
+  categories = {
+    "organic"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -40,13 +42,13 @@ return {
   },
   name = "pentapod-egg",
   order = "d[organic-processing]-a[pentapod-egg]",
-  reset_freshness_on_craft = true,
   results = {
     {
       amount = 2,
       ignored_by_productivity = 1,
       ignored_by_stats = 1,
       name = "pentapod-egg",
+      reset_freshness_on_craft = true,
       type = "item"
     }
   },

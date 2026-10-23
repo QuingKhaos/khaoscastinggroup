@@ -6,6 +6,10 @@ return {
       use_icon_overlay_constant = true
     },
     {
+      modifier = true,
+      type = "unlock-travel-to-space-platforms"
+    },
+    {
       recipe = "lightning-rod",
       type = "unlock-recipe"
     }

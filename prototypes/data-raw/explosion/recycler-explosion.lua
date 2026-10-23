@@ -167,7 +167,7 @@ return {
   },
   height = 0,
   hidden = true,
-  icon = "__quality__/graphics/icons/recycler.png",
+  icon = "__recycler__/graphics/icons/recycler.png",
   name = "recycler-explosion",
   order = "e[recycler]",
   smoke = "smoke-fast",

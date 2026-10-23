@@ -3,7 +3,7 @@ return {
   attack_parameters = {
     ammo_category = "bullet",
     cooldown = 6,
-    health_penalty = 1,
+    health_penalty = 10,
     projectile_center = {
       0,
       -0.0875
@@ -27,7 +27,7 @@ return {
       aggregation = {
         count_already_playing = true,
         max_count = 8,
-        priority = "newest",
+        progress_threshold = 0.175,
         remove = true
       },
       variations = {
@@ -89,6 +89,7 @@ return {
         }
       }
     },
+    threatening_asteroid_penalty = -20,
     type = "projectile"
   },
   attacking_animation = {

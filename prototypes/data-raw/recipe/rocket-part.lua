@@ -1,7 +1,9 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "rocket-building",
+  categories = {
+    "rocket-building"
+  },
   enabled = false,
   energy_required = 3,
   hide_from_player_crafting = true,

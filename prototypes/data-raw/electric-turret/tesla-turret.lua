@@ -220,7 +220,8 @@ return {
     },
     type = "create-entity"
   },
-  dying_explosion = "laser-turret-explosion",
+  drawing_box_vertical_extension = 1,
+  dying_explosion = "tesla-turret-explosion",
   ending_attack_animation = {
     layers = {
       {
@@ -659,10 +660,26 @@ return {
           "ending-attack"
         }
       }
+    },
+    water_reflection = {
+      orientation_to_variation = false,
+      pictures = {
+        filename = "__space-age__/graphics/entity/tesla-turret/tesla-turret-reflection.png",
+        height = 34,
+        priority = "extra-high",
+        scale = 5,
+        shift = {
+          0.15625,
+          2.25
+        },
+        variation_count = 1,
+        width = 26
+      },
+      rotate = false
     }
   },
   icon = "__space-age__/graphics/icons/tesla-turret.png",
-  max_health = 1000,
+  max_health = 2000,
   minable = {
     mining_time = 0.5,
     result = "tesla-turret"
@@ -900,25 +917,10 @@ return {
   },
   start_attacking_only_when_can_shoot = true,
   type = "electric-turret",
-  water_reflection = {
-    orientation_to_variation = false,
-    pictures = {
-      filename = "__base__/graphics/entity/laser-turret/laser-turret-reflection.png",
-      height = 32,
-      priority = "extra-high",
-      scale = 5,
-      shift = {
-        0,
-        1.25
-      },
-      variation_count = 1,
-      width = 20
-    },
-    rotate = false
-  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
+    max_sounds_per_prototype = 3,
     sound = {
       filename = "__space-age__/sound/entity/tesla-turret/tesla-turret-base.ogg",
       volume = 0.3

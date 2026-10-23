@@ -63,6 +63,10 @@ return {
     type = "projectile",
     use_shooter_direction = true
   },
+  buildable_entities = {
+    "gleba-spawner-small",
+    "gleba-spawner"
+  },
   collision_box = {
     {
       -1.6000000000000001,
@@ -507,6 +511,16 @@ return {
       }
     },
     walking_group_overlap = 0.6
+  },
+  steering = {
+    move = {
+      radius = 4.8000000000000007,
+      separation_force = 0.1
+    },
+    stay = {
+      radius = 6.4000000000000004,
+      separation_force = 0.1
+    }
   },
   sticker_box = {
     {

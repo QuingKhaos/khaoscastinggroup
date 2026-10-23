@@ -33,7 +33,7 @@ return {
     0.9,
     1
   },
-  stack_size = 50,
+  stack_size = 10,
   subgroup = "production-machine",
   type = "item"
 }

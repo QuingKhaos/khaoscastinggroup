@@ -478,7 +478,16 @@ return {
     width = 64
   },
   cargo_bay_not_connected_icon = {
-    filename = "__core__/graphics/icons/alerts/danger-icon.png",
+    filename = "__core__/graphics/icons/alerts/broken-link-icon.png",
+    flags = {
+      "icon"
+    },
+    height = 64,
+    priority = "extra-high-no-scale",
+    width = 64
+  },
+  cargo_bay_too_far_from_source_icon = {
+    filename = "__core__/graphics/icons/alerts/out-of-range.png",
     flags = {
       "icon"
     },
@@ -4332,6 +4341,15 @@ return {
     priority = "extra-high-no-scale",
     width = 8
   },
+  expansion_base_built_icon = {
+    filename = "__core__/graphics/icons/alerts/biter-base-icon.png",
+    flags = {
+      "icon"
+    },
+    height = 64,
+    priority = "extra-high-no-scale",
+    width = 64
+  },
   explosion_chart_visualization = {
     blend_mode = "additive",
     filename = "__core__/graphics/artillery-impact-map-visualization.png",
@@ -4412,6 +4430,15 @@ return {
     scale = 0.5,
     width = 48
   },
+  fluid_mixing_icon = {
+    filename = "__core__/graphics/icons/alerts/fluid-icon-red.png",
+    flags = {
+      "icon"
+    },
+    height = 64,
+    priority = "extra-high-no-scale",
+    width = 64
+  },
   fluid_visualization_connection = {
     filename = "__core__/graphics/fluid-visualization/connection.png",
     flags = {
@@ -4441,17 +4468,6 @@ return {
     priority = "extra-high-no-scale",
     scale = 0.5,
     width = 64
-  },
-  fluid_visualization_extent_arrow = {
-    filename = "__core__/graphics/fluid-visualization/extent-arrow.png",
-    flags = {
-      "gui-icon"
-    },
-    scale = 0.5,
-    size = {
-      42,
-      55
-    }
   },
   follower_robot_lifetime_modifier_constant = {
     filename = "__core__/graphics/icons/technology/effect-constant/effect-constant-time-to-live.png",
@@ -5041,6 +5057,27 @@ return {
     priority = "extra-high-no-scale",
     scale = 0.5,
     size = 32
+  },
+  max_cargo_bay_unloading_distance_modifier_constant = {
+    filename = "__core__/graphics/icons/technology/effect-constant/effect-constant-range.png",
+    flags = {
+      "gui-icon"
+    },
+    generate_sdf = true,
+    height = 64,
+    mipmap_count = 2,
+    priority = "extra-high-no-scale",
+    width = 64
+  },
+  max_cargo_bay_unloading_distance_modifier_icon = {
+    filename = "__core__/graphics/bonus-icon.png",
+    flags = {
+      "icon"
+    },
+    generate_sdf = true,
+    height = 32,
+    priority = "extra-high-no-scale",
+    width = 32
   },
   max_distance_underground_remove_belts = {
     filename = "__core__/graphics/arrows/max-distance-underground-lines-remove.png",
@@ -5915,6 +5952,26 @@ return {
     priority = "extra-high-no-scale",
     size = 32
   },
+  recipe_ghost_arrow = {
+    filename = "__core__/graphics/icons/mip/recipe-ghost-arrow.png",
+    flags = {
+      "gui-icon"
+    },
+    load_in_minimal_mode = true,
+    mipmap_count = 2,
+    priority = "extra-high-no-scale",
+    size = 32
+  },
+  recipe_potential_arrow = {
+    filename = "__core__/graphics/icons/mip/recipe-potential-arrow.png",
+    flags = {
+      "gui-icon"
+    },
+    load_in_minimal_mode = true,
+    mipmap_count = 2,
+    priority = "extra-high-no-scale",
+    size = 32
+  },
   red_wire = {
     filename = "__core__/graphics/red-wire.png",
     flags = {
@@ -6255,6 +6312,16 @@ return {
     size = 64,
     y = 320
   },
+  side_menu_alerts_config_icon = {
+    filename = "__core__/graphics/side-menu-buttons.png",
+    flags = {
+      "gui-icon"
+    },
+    mipmap_count = 2,
+    priority = "high",
+    size = 64,
+    y = 832
+  },
   side_menu_blueprint_library_icon = {
     filename = "__core__/graphics/side-menu-buttons.png",
     flags = {
@@ -6304,6 +6371,26 @@ return {
     priority = "high",
     size = 64,
     y = 448
+  },
+  side_menu_master_mute_muted_icon = {
+    filename = "__core__/graphics/side-menu-buttons.png",
+    flags = {
+      "gui-icon"
+    },
+    mipmap_count = 2,
+    priority = "high",
+    size = 64,
+    y = 896
+  },
+  side_menu_master_mute_unmuted_icon = {
+    filename = "__core__/graphics/side-menu-buttons.png",
+    flags = {
+      "gui-icon"
+    },
+    mipmap_count = 2,
+    priority = "high",
+    size = 64,
+    y = 960
   },
   side_menu_menu_icon = {
     filename = "__core__/graphics/side-menu-buttons.png",
@@ -6989,6 +7076,16 @@ return {
     priority = "extra-high-no-scale",
     width = 64
   },
+  unlock_logistic_network_modifier_icon = {
+    filename = "__core__/graphics/bonus-icon.png",
+    flags = {
+      "icon"
+    },
+    generate_sdf = true,
+    height = 32,
+    priority = "extra-high-no-scale",
+    width = 32
+  },
   unlock_quality_modifier_icon = {
     filename = "__core__/graphics/bonus-icon.png",
     flags = {
@@ -7039,6 +7136,17 @@ return {
     height = 32,
     priority = "extra-high-no-scale",
     width = 32
+  },
+  unlock_travel_to_space_platforms_modifier_icon = {
+    filename = "__core__/graphics/icons/entity/character.png",
+    flags = {
+      "icon"
+    },
+    generate_sdf = true,
+    mipmap_count = 2,
+    priority = "extra-high-no-scale",
+    scale = 0.5,
+    size = 64
   },
   upgrade_blueprint = {
     filename = "__core__/graphics/icons/mip/upgrade-blueprint.png",

@@ -17,7 +17,7 @@ return {
     volume = 0.7
   },
   name = "cargo-landing-pad",
-  order = "c[cargo-landing-pad]",
+  order = "c-a[cargo-landing-pad]",
   pick_sound = {
     aggregation = {
       max_count = 1,

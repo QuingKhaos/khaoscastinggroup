@@ -16,7 +16,9 @@ return {
     "agriculture"
   },
   research_trigger = {
-    entity = "jellystem",
+    entities = {
+      "jellystem"
+    },
     type = "mine-entity"
   },
   type = "technology"

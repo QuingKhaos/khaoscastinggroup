@@ -310,12 +310,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -331,9 +335,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -390,8 +398,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -448,12 +456,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -469,9 +481,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -528,8 +544,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -586,12 +602,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -607,9 +627,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -666,8 +690,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -724,12 +748,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -745,9 +773,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -804,8 +836,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -862,12 +894,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -883,9 +919,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -942,8 +982,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1000,12 +1040,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1021,9 +1065,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1080,8 +1128,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1138,12 +1186,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1159,9 +1211,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1218,8 +1274,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1276,12 +1332,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1297,9 +1357,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1356,8 +1420,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1414,12 +1478,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1435,9 +1503,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1494,8 +1566,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1552,12 +1624,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1573,9 +1649,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1632,8 +1712,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1690,12 +1770,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1711,9 +1795,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1770,8 +1858,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1828,12 +1916,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1849,9 +1941,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1908,8 +2004,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -1966,12 +2062,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -1987,9 +2087,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -2046,8 +2150,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,
@@ -2104,12 +2208,16 @@ return {
         type = "create-particle"
       },
       leaves = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-harvest.png"
+        },
         flags = {
           "mipmap"
         },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -2125,9 +2233,13 @@ return {
       leaves_when_mined_automatically = 16,
       leaves_when_mined_manually = 40,
       normal = {
-        filename = "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png",
+        filenames = {
+          "__space-age__/graphics/entity/plant/boompuff/boompuff-normal.png"
+        },
         frame_count = 1,
         height = 560,
+        line_length = 1,
+        lines_per_file = 1,
         scale = 0.29700000000000006,
         shift = {
           1.53125,
@@ -2184,8 +2296,8 @@ return {
           height = 560,
           scale = 0.29700000000000006,
           shift = {
-            1.625,
-            2.5
+            1.53125,
+            1.25
           },
           surface = "gleba",
           width = 640,

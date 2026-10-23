@@ -2014,11 +2014,7 @@ return {
   },
   crafting_categories = {
     "crafting",
-    "electronics",
-    "pressing",
-    "recycling-or-hand-crafting",
-    "organic-or-hand-crafting",
-    "organic-or-assembling"
+    "hand-crafting"
   },
   damage_hit_tint = {
     0.12,

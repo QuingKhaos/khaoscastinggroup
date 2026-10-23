@@ -32,10 +32,8 @@ return {
     mining_time = 1,
     results = {
       {
-        amount_max = 10,
-        amount_min = 10,
+        amount = 10,
         name = "sulfuric-acid",
-        probability = 1,
         type = "fluid"
       }
     }
@@ -137,7 +135,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }
@@ -194,12 +192,8 @@ return {
       },
       audible_distance_modifier = 0.3,
       category = "world-ambient",
-      variations = {
-        {
-          filename = "__space-age__/sound/world/resources/sulfuric-acid-geyser-1.ogg",
-          volume = 0.3
-        }
-      }
+      filename = "__space-age__/sound/world/resources/sulfuric-acid-geyser-1.ogg",
+      volume = 0.3
     }
   }
 }

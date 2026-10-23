@@ -314,6 +314,7 @@ return {
           0.0625,
           -1.265625
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -433,6 +434,7 @@ return {
           0.578125,
           -0.78125
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -552,6 +554,7 @@ return {
           -0.0625,
           -0.46875
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -671,6 +674,7 @@ return {
           -0.59375,
           -0.890625
         },
+        render_layer = "higher-object-under",
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -778,17 +782,29 @@ return {
       east = {
         layers = {
           {
-            animation_speed = 3,
-            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-east.png",
-            frame_count = 16,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-east-base.png",
             height = 228,
-            line_length = 4,
+            line_length = 1,
+            repeat_count = 16,
             scale = 0.5,
             shift = {
               0.328125,
               0.0625
             },
             width = 280
+          },
+          {
+            animation_speed = 3,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-east-anim.png",
+            frame_count = 16,
+            height = 166,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.171875,
+              -0.265625
+            },
+            width = 144
           },
           {
             draw_as_shadow = true,
@@ -815,17 +831,29 @@ return {
       north = {
         layers = {
           {
-            animation_speed = 3,
-            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-north.png",
-            frame_count = 16,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-north-base.png",
             height = 266,
-            line_length = 4,
+            line_length = 1,
+            repeat_count = 16,
             scale = 0.5,
             shift = {
               0,
               -0.34375
             },
             width = 236
+          },
+          {
+            animation_speed = 3,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-north-anim.png",
+            frame_count = 16,
+            height = 142,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.078125,
+              -0.1875
+            },
+            width = 154
           },
           {
             draw_as_shadow = true,
@@ -852,17 +880,29 @@ return {
       south = {
         layers = {
           {
-            animation_speed = 3,
-            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-south.png",
-            frame_count = 16,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-south-base.png",
             height = 254,
-            line_length = 4,
+            line_length = 1,
+            repeat_count = 16,
             scale = 0.5,
             shift = {
               0.015625,
               0.1875
             },
             width = 238
+          },
+          {
+            animation_speed = 3,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-south-anim.png",
+            frame_count = 16,
+            height = 120,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.203125,
+              -0.515625
+            },
+            width = 110
           },
           {
             draw_as_shadow = true,
@@ -889,17 +929,29 @@ return {
       west = {
         layers = {
           {
-            animation_speed = 3,
-            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-west.png",
-            frame_count = 16,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-west-base.png",
             height = 256,
-            line_length = 4,
+            line_length = 1,
+            repeat_count = 16,
             scale = 0.5,
             shift = {
               -0.328125,
               -0.0625
             },
             width = 280
+          },
+          {
+            animation_speed = 3,
+            filename = "__space-age__/graphics/entity/asteroid-collector/asteroid-collector-top-west-anim.png",
+            frame_count = 16,
+            height = 164,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              0.171875,
+              -0.21875
+            },
+            width = 146
           },
           {
             draw_as_shadow = true,

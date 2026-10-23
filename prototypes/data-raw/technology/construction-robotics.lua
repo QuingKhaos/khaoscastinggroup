@@ -19,6 +19,11 @@ return {
     {
       modifier = true,
       type = "create-ghost-on-entity-death"
+    },
+    {
+      hidden = true,
+      modifier = true,
+      type = "unlock-logistic-network"
     }
   },
   icon = "__base__/graphics/technology/construction-robotics.png",

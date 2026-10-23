@@ -1,5 +1,7 @@
 return {
-  category = "electromagnetics",
+  categories = {
+    "electromagnetics"
+  },
   enabled = false,
   energy_required = 5,
   ingredients = {

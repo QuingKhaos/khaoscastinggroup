@@ -16,7 +16,9 @@ return {
     "agriculture"
   },
   research_trigger = {
-    entity = "yumako-tree",
+    entities = {
+      "yumako-tree"
+    },
     type = "mine-entity"
   },
   type = "technology"

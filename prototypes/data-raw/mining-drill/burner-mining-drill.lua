@@ -667,6 +667,7 @@ return {
       east = {
         layers = {
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-E.png",
             frame_count = 32,
@@ -679,9 +680,10 @@ return {
               0.0859375,
               0.03125
             },
-            width = 185
+            width = 186
           },
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-E-shadow.png",
@@ -702,6 +704,7 @@ return {
       north = {
         layers = {
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-N.png",
             frame_count = 32,
@@ -714,9 +717,10 @@ return {
               0.0859375,
               0.015625
             },
-            width = 173
+            width = 174
           },
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-N-shadow.png",
@@ -737,6 +741,7 @@ return {
       south = {
         layers = {
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-S.png",
             frame_count = 32,
@@ -752,6 +757,7 @@ return {
             width = 174
           },
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-S-shadow.png",
@@ -772,6 +778,7 @@ return {
       west = {
         layers = {
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-W.png",
             frame_count = 32,
@@ -787,6 +794,7 @@ return {
             width = 180
           },
           {
+            allow_reducing_frames = true,
             animation_speed = 0.5,
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-W-shadow.png",
@@ -801,6 +809,174 @@ return {
               0.03125
             },
             width = 176
+          }
+        }
+      }
+    },
+    water_reflection = {
+      orientation_to_variation = false,
+      pictures = {
+        filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-reflection.png",
+        height = 24,
+        priority = "extra-high",
+        scale = 5,
+        shift = {
+          0,
+          1.40625
+        },
+        variation_count = 1,
+        width = 20
+      },
+      rotate = false
+    }
+  },
+  graphics_set_flipped = {
+    animation = {
+      east = {
+        layers = {
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-E-flipped.png",
+            frame_count = 32,
+            height = 172,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.109375,
+              -0.03125
+            },
+            width = 178
+          },
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-E-flipped-shadow.png",
+            frame_count = 32,
+            height = 126,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.4375,
+              0.03125
+            },
+            width = 184
+          }
+        }
+      },
+      north = {
+        layers = {
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-N-flipped.png",
+            frame_count = 32,
+            height = 190,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.015625,
+              0
+            },
+            width = 176
+          },
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-N-flipped-shadow.png",
+            frame_count = 32,
+            height = 148,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.359375,
+              -0.03125
+            },
+            width = 174
+          }
+        }
+      },
+      south = {
+        layers = {
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-S-flipped.png",
+            frame_count = 32,
+            height = 180,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.09375,
+              0.03125
+            },
+            width = 170
+          },
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-S-flipped-shadow.png",
+            frame_count = 32,
+            height = 136,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.625,
+              0.09375
+            },
+            width = 200
+          }
+        }
+      },
+      west = {
+        layers = {
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-W-flipped.png",
+            frame_count = 32,
+            height = 174,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              -0.046875,
+              0.015625
+            },
+            width = 176
+          },
+          {
+            allow_reducing_frames = true,
+            animation_speed = 0.5,
+            draw_as_shadow = true,
+            filename = "__base__/graphics/entity/burner-mining-drill/burner-mining-drill-W-flipped-shadow.png",
+            frame_count = 32,
+            height = 128,
+            line_length = 4,
+            priority = "high",
+            run_mode = "forward-then-backward",
+            scale = 0.5,
+            shift = {
+              0.421875,
+              0.03125
+            },
+            width = 200
           }
         }
       }
@@ -845,8 +1021,9 @@ return {
     }
   },
   type = "mining-drill",
+  use_mirroring = true,
   vector_to_place_result = {
-    -0.5,
+    -0.35,
     -1.3
   },
   working_sound = {

@@ -333,6 +333,7 @@ return {
   ["snow_lumpy"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.snow_lumpy"),
   ["snow_patchy"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.snow_patchy"),
   ["starting_area_weight"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.starting_area_weight"),
+  ["starting_resources_lake_mask"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.starting_resources_lake_mask"),
   ["temperature"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.temperature"),
   ["temperature_basic"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.temperature_basic"),
   ["tier_from_start"] = require("___KHAOSDATA___.prototypes.data-raw.noise-expression.tier_from_start"),

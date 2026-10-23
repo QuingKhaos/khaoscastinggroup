@@ -48,8 +48,12 @@ return {
       "wetland-red-tentacle",
       "wetland-yumako",
       "wetland-jellynut",
+      "wetland-blue-slime",
+      "gleba-deep-lake",
       "oil-ocean-shallow",
+      "oil-ocean-shallow-2",
       "oil-ocean-deep",
+      "oil-ocean-deep-2",
       "lava",
       "lava-hot"
     }

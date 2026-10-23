@@ -1,12 +1,12 @@
 return {
   collision_box = {
     {
-      -1.3999999999999999,
-      -1.3999999999999999
+      -1.3500000000000001,
+      -1.3500000000000001
     },
     {
-      1.3999999999999999,
-      1.3999999999999999
+      1.3500000000000001,
+      1.3500000000000001
     }
   },
   corpse = "solar-panel-remnants",
@@ -102,5 +102,21 @@ return {
       1.5
     }
   },
-  type = "solar-panel"
+  type = "solar-panel",
+  water_reflection = {
+    orientation_to_variation = false,
+    pictures = {
+      filename = "__base__/graphics/entity/solar-panel/solar-panel-reflection.png",
+      height = 24,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0.15625,
+        1.25
+      },
+      variation_count = 1,
+      width = 24
+    },
+    rotate = false
+  }
 }

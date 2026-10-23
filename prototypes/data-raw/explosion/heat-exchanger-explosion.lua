@@ -68,7 +68,7 @@ return {
             }
           },
           particle_name = "heat-exchanger-metal-particle-medium",
-          repeat_count = 37,
+          repeat_count = 25,
           speed_from_center = 0.03,
           speed_from_center_deviation = 0.05,
           type = "create-particle"
@@ -89,7 +89,7 @@ return {
             }
           },
           particle_name = "heat-exchanger-metal-particle-small",
-          repeat_count = 34,
+          repeat_count = 23,
           speed_from_center = 0.03,
           speed_from_center_deviation = 0.05,
           type = "create-particle"
@@ -110,7 +110,91 @@ return {
             }
           },
           particle_name = "heat-exchanger-metal-particle-big",
-          repeat_count = 16,
+          repeat_count = 12,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          initial_height = 0.3,
+          initial_height_deviation = 0.44000000000000004,
+          initial_vertical_speed = 0.070000000000000009,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.88670000000000009,
+              -0.3867
+            },
+            {
+              0.88670000000000009,
+              0.3867
+            }
+          },
+          particle_name = "heat-exchanger-copper-particle-medium",
+          repeat_count = 20,
+          speed_from_center = 0.03,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          initial_height = 0.3,
+          initial_height_deviation = 0.44000000000000004,
+          initial_vertical_speed = 0.08,
+          initial_vertical_speed_deviation = 0.05,
+          offset_deviation = {
+            {
+              -0.39060000000000002,
+              -0.59770000000000003
+            },
+            {
+              0.39060000000000002,
+              0.59770000000000003
+            }
+          },
+          particle_name = "heat-exchanger-copper-particle-small",
+          repeat_count = 10,
+          speed_from_center = 0.03,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          initial_height = 0.3,
+          initial_height_deviation = 0.5,
+          initial_vertical_speed = 0.070000000000000009,
+          initial_vertical_speed_deviation = 0.049000000000000004,
+          offset_deviation = {
+            {
+              -0.58199999999999994,
+              -0.5859
+            },
+            {
+              0.58199999999999994,
+              0.5859
+            }
+          },
+          particle_name = "heat-exchanger-copper-particle-big",
+          repeat_count = 6,
+          speed_from_center = 0.04,
+          speed_from_center_deviation = 0.05,
+          type = "create-particle"
+        },
+        {
+          initial_height = 0.3,
+          initial_height_deviation = 0.5,
+          initial_vertical_speed = 0.070000000000000009,
+          initial_vertical_speed_deviation = 0.049000000000000004,
+          offset_deviation = {
+            {
+              -0.58199999999999994,
+              -0.5859
+            },
+            {
+              0.58199999999999994,
+              0.5859
+            }
+          },
+          particle_name = "heat-exchanger-copper-particle-long",
+          repeat_count = 8,
           speed_from_center = 0.04,
           speed_from_center_deviation = 0.05,
           type = "create-particle"

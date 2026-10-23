@@ -19,7 +19,7 @@ return {
                 volume_percentage = 0
               },
               to = {
-                control = 0.6,
+                control = 1,
                 volume_percentage = 100
               }
             }
@@ -84,7 +84,7 @@ return {
                 volume_percentage = 0
               },
               to = {
-                control = 0.6,
+                control = 1,
                 volume_percentage = 100
               }
             }
@@ -158,7 +158,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -190,7 +190,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }
@@ -276,6 +276,7 @@ return {
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
+      mask_enabled = true,
       mask_layout = {
         count = 1,
         double_side_count = 0,
@@ -295,7 +296,7 @@ return {
         "empty-space"
       },
       transition_group = 2,
-      waving_effect_time_scale = 0.005
+      waving_effect_time_scale = 0.013500000000000001
     }
   },
   trigger_effect = {

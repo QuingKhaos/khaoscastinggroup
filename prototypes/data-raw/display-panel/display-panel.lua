@@ -268,5 +268,14 @@ return {
     0,
     -0.75
   },
-  type = "display-panel"
+  type = "display-panel",
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/wooden-chest/chest-reflection.png",
+      height = 20,
+      scale = 5,
+      width = 13
+    },
+    rotate = false
+  }
 }

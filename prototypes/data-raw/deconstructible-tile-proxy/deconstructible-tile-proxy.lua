@@ -13,6 +13,7 @@ return {
     "not-on-map"
   },
   hidden = true,
+  icon = "__core__/graphics/cancel.png",
   name = "deconstructible-tile-proxy",
   selection_box = {
     {

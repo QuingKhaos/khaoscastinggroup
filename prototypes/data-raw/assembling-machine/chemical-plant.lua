@@ -613,9 +613,7 @@ return {
   },
   corpse = "chemical-plant-remnants",
   crafting_categories = {
-    "chemistry",
-    "chemistry-or-cryogenics",
-    "organic-or-chemistry"
+    "chemistry"
   },
   crafting_speed = 1,
   damaged_trigger_effect = {
@@ -1150,144 +1148,219 @@ return {
       east = {
         layers = {
           {
-            filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
-            frame_count = 24,
-            height = 292,
-            line_length = 12,
-            priority = "high",
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-east-base.png",
+            frame_count = 1,
+            height = 264,
+            line_length = 1,
+            repeat_count = 24,
             scale = 0.5,
             shift = {
-              0.015625,
-              -0.28125
+              0,
+              -0.328125
             },
-            tint_as_overlay = false,
-            width = 220,
-            x = 0,
-            y = 584
+            width = 208
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-east-anim-1.png",
+            frame_count = 24,
+            height = 104,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.328125,
+              -1.15625
+            },
+            width = 62
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-east-anim-2.png",
+            frame_count = 24,
+            height = 36,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.015625,
+              0.71875
+            },
+            width = 74
           },
           {
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
+            frame_count = 1,
             height = 222,
-            priority = "high",
             repeat_count = 24,
             scale = 0.5,
             shift = {
               0.84375,
               0.1875
             },
-            tint_as_overlay = false,
             width = 312,
-            x = 312,
-            y = 0
+            x = 312
           }
         }
       },
       north = {
         layers = {
           {
-            filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
-            frame_count = 24,
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-north-base.png",
+            frame_count = 1,
             height = 292,
-            line_length = 12,
-            priority = "high",
+            line_length = 1,
+            repeat_count = 24,
             scale = 0.5,
             shift = {
-              0.015625,
+              0.03125,
               -0.28125
             },
-            tint_as_overlay = false,
-            width = 220,
-            x = 0,
-            y = 0
+            width = 204
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-north-anim-1.png",
+            frame_count = 24,
+            height = 68,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.015625,
+              -1.125
+            },
+            width = 114
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-north-anim-2.png",
+            frame_count = 24,
+            height = 292,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              0.03125,
+              -0.28125
+            },
+            width = 204
           },
           {
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
+            frame_count = 1,
             height = 222,
-            priority = "high",
             repeat_count = 24,
             scale = 0.5,
             shift = {
               0.84375,
               0.1875
             },
-            tint_as_overlay = false,
             width = 312,
-            x = 0,
-            y = 0
+            x = 0
           }
         }
       },
       south = {
         layers = {
           {
-            filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
-            frame_count = 24,
-            height = 292,
-            line_length = 12,
-            priority = "high",
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-south-base.png",
+            frame_count = 1,
+            height = 266,
+            line_length = 1,
+            repeat_count = 24,
             scale = 0.5,
             shift = {
-              0.015625,
-              -0.28125
+              0.03125,
+              -0.078125
             },
-            tint_as_overlay = false,
-            width = 220,
-            x = 0,
-            y = 1168
+            width = 208
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-south-anim-1.png",
+            frame_count = 24,
+            height = 44,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              0,
+              0.578125
+            },
+            width = 66
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-south-anim-2.png",
+            frame_count = 24,
+            height = 90,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.453125,
+              -1.109375
+            },
+            width = 62
           },
           {
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
+            frame_count = 1,
             height = 222,
-            priority = "high",
             repeat_count = 24,
             scale = 0.5,
             shift = {
               0.84375,
               0.1875
             },
-            tint_as_overlay = false,
             width = 312,
-            x = 624,
-            y = 0
+            x = 624
           }
         }
       },
       west = {
         layers = {
           {
-            filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
-            frame_count = 24,
-            height = 292,
-            line_length = 12,
-            priority = "high",
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-west-base.png",
+            frame_count = 1,
+            height = 236,
+            line_length = 1,
+            repeat_count = 24,
             scale = 0.5,
             shift = {
               0.015625,
-              -0.28125
+              -0.234375
             },
-            tint_as_overlay = false,
-            width = 220,
-            x = 0,
-            y = 1752
+            width = 218
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-west-anim-1.png",
+            frame_count = 24,
+            height = 68,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              0.328125,
+              -1.234375
+            },
+            width = 90
+          },
+          {
+            filename = "__base__/graphics/entity/chemical-plant/chemical-plant-west-anim-2.png",
+            frame_count = 24,
+            height = 38,
+            line_length = 4,
+            scale = 0.5,
+            shift = {
+              -0.265625,
+              0.40625
+            },
+            width = 80
           },
           {
             draw_as_shadow = true,
             filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
             height = 222,
-            priority = "high",
             repeat_count = 24,
             scale = 0.5,
             shift = {
               0.84375,
               0.1875
             },
-            tint_as_overlay = false,
             width = 312,
-            x = 936,
-            y = 0
+            x = 936
           }
         }
       }
@@ -1547,6 +1620,7 @@ return {
     }
   },
   type = "assembling-machine",
+  use_mirroring = true,
   water_reflection = {
     orientation_to_variation = true,
     pictures = {

@@ -1,4 +1,5 @@
 return {
+  auto_recycle = false,
   enabled = false,
   energy_required = 5,
   hidden = true,

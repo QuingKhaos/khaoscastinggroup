@@ -1,6 +1,9 @@
 return {
   allow_productivity = true,
-  category = "crafting-with-fluid",
+  auto_recycle = false,
+  categories = {
+    "crafting-with-fluid"
+  },
   enabled = false,
   energy_required = 1,
   ingredients = {

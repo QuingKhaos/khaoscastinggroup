@@ -1091,18 +1091,32 @@ return {
     animation = {
       layers = {
         {
-          animation_speed = 0.25,
           filename = "__space-age__/graphics/entity/agricultural-tower/agricultural-tower-base.png",
+          frame_count = 1,
+          height = 330,
+          line_length = 1,
+          priority = "high",
+          repeat_count = 64,
+          scale = 0.5,
+          shift = {
+            -0.078125,
+            -0.546875
+          },
+          width = 228
+        },
+        {
+          animation_speed = 0.25,
+          filename = "__space-age__/graphics/entity/agricultural-tower/agricultural-tower-anim.png",
           frame_count = 64,
-          height = 336,
+          height = 168,
           line_length = 8,
           priority = "high",
           scale = 0.5,
           shift = {
-            0,
-            -0.5625
+            0.09375,
+            -0.59375
           },
-          width = 248
+          width = 192
         },
         {
           draw_as_shadow = true,
@@ -1157,14 +1171,14 @@ return {
         animation = {
           filename = "__space-age__/graphics/entity/agricultural-tower/agricultural-tower-base.png",
           frame_count = 1,
-          height = 336,
-          line_length = 8,
+          height = 330,
+          line_length = 1,
           scale = 0.5,
           shift = {
-            0,
-            -0.5625
+            -0.078125,
+            -0.546875
           },
-          width = 248
+          width = 228
         },
         fog_mask = {
           falloff = 1,
@@ -1186,16 +1200,16 @@ return {
           animation_speed = 0.25,
           filename = "__space-age__/graphics/entity/agricultural-tower/agricultural-tower-base-plant-mask.png",
           frame_count = 64,
-          height = 120,
+          height = 118,
           line_length = 8,
           priority = "high",
           scale = 0.5,
           shift = {
-            -0.40625,
+            -0.421875,
             -0.59375
           },
           tint_as_overlay = true,
-          width = 134
+          width = 132
         },
         apply_recipe_tint = "primary"
       },
@@ -1205,15 +1219,15 @@ return {
           blend_mode = "additive",
           filename = "__space-age__/graphics/entity/agricultural-tower/agricultural-tower-base-light.png",
           frame_count = 64,
-          height = 236,
+          height = 190,
           line_length = 8,
           priority = "high",
           scale = 0.5,
           shift = {
-            -0.15625,
-            -0.6875
+            -0.390625,
+            -0.546875
           },
-          width = 178
+          width = 138
         },
         apply_recipe_tint = "secondary",
         effect = "flicker",

@@ -24,7 +24,9 @@ return {
     "planet-discovery-gleba"
   },
   research_trigger = {
-    entity = "copper-stromatolite",
+    entities = {
+      "copper-stromatolite"
+    },
     type = "mine-entity"
   },
   type = "technology"

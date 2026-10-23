@@ -1,6 +1,9 @@
 return {
   allow_productivity = true,
-  category = "electronics",
+  categories = {
+    "crafting",
+    "electromagnetics"
+  },
   enabled = false,
   ingredients = {
     {

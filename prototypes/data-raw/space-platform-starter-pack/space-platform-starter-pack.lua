@@ -13,6 +13,8 @@ return {
     {
       amount = 10,
       name = "space-platform-foundation",
+      quality_max = "normal",
+      quality_min = "normal",
       type = "item"
     }
   },

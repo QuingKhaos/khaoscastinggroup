@@ -12,7 +12,7 @@ return {
     volume = 0.8
   },
   effect = {
-    quality = 0.2,
+    quality = 0.02,
     speed = -0.05
   },
   icon = "__quality__/graphics/icons/quality-module-2.png",

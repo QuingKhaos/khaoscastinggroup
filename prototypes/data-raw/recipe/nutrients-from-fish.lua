@@ -2,7 +2,10 @@ return {
   allow_productivity = false,
   allow_quality = false,
   auto_recycle = false,
-  category = "organic-or-assembling",
+  categories = {
+    "organic",
+    "crafting"
+  },
   crafting_machine_tint = {
     primary = {
       166,

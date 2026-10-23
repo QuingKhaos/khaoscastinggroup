@@ -62,45 +62,62 @@ return {
     volume = 0.3
   },
   moving_sound = {
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-1.ogg",
-      volume = 0.4
+    advanced_volume_control = {
+      fades = {
+        fade_in = {
+          curve_type = "cosine",
+          from = {
+            control = 0.3,
+            volume_percentage = 0
+          },
+          to = {
+            control = 1,
+            volume_percentage = 100
+          }
+        }
+      }
     },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-2.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-3.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-4.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-5.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-6.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-7.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-8.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-9.ogg",
-      volume = 0.4
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-10.ogg",
-      volume = 0.4
+    variations = {
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-1.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-2.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-3.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-4.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-5.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-6.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-7.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-8.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-9.ogg",
+        volume = 0.4
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-moves-10.ogg",
+        volume = 0.4
+      }
     }
   },
   name = "mech-armor",
@@ -142,25 +159,42 @@ return {
   },
   stack_size = 1,
   steps_sound = {
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-1.ogg",
-      volume = 0.2
+    advanced_volume_control = {
+      fades = {
+        fade_in = {
+          curve_type = "cosine",
+          from = {
+            control = 0.3,
+            volume_percentage = 0
+          },
+          to = {
+            control = 1,
+            volume_percentage = 100
+          }
+        }
+      }
     },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-2.ogg",
-      volume = 0.2
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-3.ogg",
-      volume = 0.2
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-4.ogg",
-      volume = 0.2
-    },
-    {
-      filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-5.ogg",
-      volume = 0.2
+    variations = {
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-1.ogg",
+        volume = 0.2
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-2.ogg",
+        volume = 0.2
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-3.ogg",
+        volume = 0.2
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-4.ogg",
+        volume = 0.2
+      },
+      {
+        filename = "__space-age__/sound/entity/mech-armor/mech-armor-steps-metallic-5.ogg",
+        volume = 0.2
+      }
     }
   },
   subgroup = "armor",

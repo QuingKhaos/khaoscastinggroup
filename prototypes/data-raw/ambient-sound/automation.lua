@@ -1,6 +1,8 @@
 return {
   name = "automation",
-  planet = "nauvis",
+  planets = {
+    "nauvis"
+  },
   sound = "__base__/sound/ambient/automation.ogg",
   track_type = "main-track",
   type = "ambient-sound"

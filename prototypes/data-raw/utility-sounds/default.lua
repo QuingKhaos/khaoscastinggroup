@@ -3,12 +3,28 @@ return {
     filename = "__core__/sound/achievement-unlocked.ogg",
     volume = 0.65
   },
+  adjust_blueprint_snapping = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/gui-snapping.ogg",
+    volume = 0.7
+  },
   alert_destroyed = {
     aggregation = {
       max_count = 3,
       remove = true
     },
     filename = "__core__/sound/alert-destroyed.ogg",
+    volume = 0.5
+  },
+  alert_expansion_base_built = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/alert-expansion-base-built.ogg",
     volume = 0.5
   },
   armor_insert = {
@@ -145,6 +161,22 @@ return {
       }
     }
   },
+  blueprint_preview_build = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/blueprint-preview-build.ogg",
+    volume = 0.6
+  },
+  blueprint_preview_mine = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/blueprint-preview-mine.ogg",
+    volume = 0.7
+  },
   build_animated_huge = {
     aggregation = {
       count_already_playing = true,
@@ -237,14 +269,37 @@ return {
       }
     }
   },
+  build_behemoth = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/build-behemoth.ogg",
+    modifiers = {
+      {
+        type = "main-menu",
+        volume_multiplier = 0.64000000000000004
+      },
+      {
+        type = "tips-and-tricks",
+        volume_multiplier = 0.8
+      }
+    },
+    priority = 64,
+    switch_vibration_data = {
+      filename = "__core__/sound/build-behemoth.bnvib",
+      gain = 0.45
+    },
+    volume = 1
+  },
   build_blueprint_huge = {
     aggregation = {
       max_count = 3,
       remove = true
     },
-    filename = "__core__/sound/build-blueprint-large.ogg",
+    filename = "__core__/sound/build-blueprint-huge.ogg",
     priority = 64,
-    volume = 0.7
+    volume = 0.9
   },
   build_blueprint_large = {
     aggregation = {
@@ -312,7 +367,11 @@ return {
       }
     },
     priority = 64,
-    volume = 0.7
+    switch_vibration_data = {
+      filename = "__core__/sound/build-large.bnvib",
+      gain = 0.4
+    },
+    volume = 1
   },
   build_large = {
     aggregation = {
@@ -390,6 +449,13 @@ return {
     },
     filename = "__core__/sound/cannot-build.ogg"
   },
+  change_quality = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/gui-cycling.ogg"
+  },
   clear_cursor = {
     aggregation = {
       max_count = 3,
@@ -411,12 +477,98 @@ return {
     },
     filename = "__core__/sound/console-message.ogg"
   },
+  console_platform_created = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-platform-created.ogg"
+  },
+  console_platform_destroyed = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-platform-destroyed.ogg"
+  },
+  console_player_changed_logistic_group = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-changed-logistic-group.ogg"
+  },
+  console_player_died = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-died.ogg"
+  },
+  console_player_joined = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-joined.ogg"
+  },
+  console_player_left = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-left.ogg"
+  },
+  console_player_paused_game = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-paused-game.ogg"
+  },
+  console_player_research = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-research.ogg"
+  },
+  console_player_respawned = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-joined.ogg"
+  },
+  console_player_resumed_game = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/console-player-resumed-game.ogg"
+  },
   crafting_finished = {
     aggregation = {
       max_count = 3,
       remove = true
     },
     filename = "__core__/sound/crafting-finished.ogg"
+  },
+  cycle_blueprint_book = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/gui-cycling.ogg"
+  },
+  deconstruct_behemoth = {
+    filename = "__core__/sound/deconstruct-behemoth.ogg",
+    priority = 64,
+    switch_vibration_data = {
+      filename = "__core__/sound/deconstruct-behemoth.bnvib",
+      gain = 0.4
+    },
+    volume = 0.8
   },
   deconstruct_huge = {
     filename = "__core__/sound/deconstruct-large.ogg",
@@ -580,6 +732,43 @@ return {
     filename = "__core__/sound/gui-switch.ogg",
     volume = 0.7
   },
+  gui_tab = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/gui-tab.ogg"
+  },
+  gui_toggle = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/gui-toggle.ogg",
+    volume = 0.3
+  },
+  heat_pipe_walking_sound = {
+    {
+      filename = "__core__/sound/walking/heat-pipe-1.ogg",
+      volume = 0.7
+    },
+    {
+      filename = "__core__/sound/walking/heat-pipe-2.ogg",
+      volume = 0.7
+    },
+    {
+      filename = "__core__/sound/walking/heat-pipe-3.ogg",
+      volume = 0.7
+    },
+    {
+      filename = "__core__/sound/walking/heat-pipe-4.ogg",
+      volume = 0.7
+    },
+    {
+      filename = "__core__/sound/walking/heat-pipe-5.ogg",
+      volume = 0.7
+    }
+  },
   inventory_click = {
     aggregation = {
       max_count = 1,
@@ -615,6 +804,14 @@ return {
       remove = true
     },
     filename = "__core__/sound/list-box-click.ogg"
+  },
+  machine_gui_close = {
+    filename = "__core__/sound/machine-gui-close.ogg",
+    volume = 0.29
+  },
+  machine_gui_open = {
+    filename = "__core__/sound/machine-gui-open.ogg",
+    volume = 0.5
   },
   metal_walking_sound = {
     {
@@ -823,6 +1020,14 @@ return {
       remove = true
     },
     filename = "__core__/sound/switch-gun.ogg"
+  },
+  toggle_show_entity_info = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/gui-toggle.ogg",
+    volume = 0.3
   },
   tutorial_notice = {
     aggregation = {

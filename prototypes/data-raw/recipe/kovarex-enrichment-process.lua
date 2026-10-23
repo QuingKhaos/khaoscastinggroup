@@ -3,7 +3,9 @@ return {
   allow_productivity = true,
   allow_quality = false,
   auto_recycle = false,
-  category = "centrifuging",
+  categories = {
+    "centrifuging"
+  },
   enabled = false,
   energy_required = 60,
   icon = "__base__/graphics/icons/kovarex-enrichment-process.png",

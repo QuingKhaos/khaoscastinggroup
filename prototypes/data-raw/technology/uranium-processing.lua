@@ -16,7 +16,9 @@ return {
     "uranium-mining"
   },
   research_trigger = {
-    entity = "uranium-ore",
+    entities = {
+      "uranium-ore"
+    },
     type = "mine-entity"
   },
   type = "technology"

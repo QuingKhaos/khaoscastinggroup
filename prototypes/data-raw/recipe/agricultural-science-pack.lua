@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "organic",
+  categories = {
+    "organic"
+  },
   crafting_machine_tint = {
     primary = {
       0.95,

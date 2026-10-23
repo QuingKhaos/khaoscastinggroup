@@ -1,44 +1,34 @@
 return {
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
-    },
-    quaternary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
+      a = 1,
+      b = 0.09,
+      g = 0.20499999999999998,
+      r = 0.44199999999999999
     },
     secondary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
-    },
-    tertiary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
+      a = 1,
+      b = 0,
+      g = 0.5,
+      r = 1
     }
   },
-  enabled = true,
-  energy_required = 0.03125,
+  enabled = false,
+  energy_required = 0.125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/tree-seed.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -60,8 +50,8 @@ return {
     {
       amount = 1,
       ignored_by_stats = 1,
+      independent_probability = 0.25,
       name = "tree-seed",
-      probability = 0.25,
       type = "item"
     }
   },

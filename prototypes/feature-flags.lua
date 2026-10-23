@@ -1,5 +1,6 @@
 --- @type data.FeatureFlags
 return {
+  expansion = true,
   expansion_shaders = true,
   freezing = true,
   quality = true,

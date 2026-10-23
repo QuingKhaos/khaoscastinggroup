@@ -64,7 +64,8 @@ return {
   },
   enable_drawing_with_mask = true,
   flags = {
-    "not-on-map"
+    "not-on-map",
+    "not-in-bonus-gui"
   },
   hidden = true,
   name = "capture-robot-rocket",

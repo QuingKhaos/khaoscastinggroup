@@ -37,40 +37,61 @@ return {
     type = "create-particle"
   },
   life_time = 600,
+  movement_modifier_when_on_ground = 0.25,
   name = "shell-particle",
   pictures = {
     {
       filename = "__base__/graphics/particle/shell-particle/shell-particle-1.png",
       frame_count = 5,
-      height = 6,
+      height = 10,
       priority = "extra-high",
-      width = 6
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      },
+      width = 10
     },
     {
       filename = "__base__/graphics/particle/shell-particle/shell-particle-2.png",
       frame_count = 5,
-      height = 7,
+      height = 10,
       priority = "extra-high",
-      width = 5
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      },
+      width = 10
     }
   },
   regular_trigger_effect_frequency = 2,
   render_layer = "projectile",
-  render_layer_when_on_ground = "corpse",
+  render_layer_when_on_ground = "lower-object-above-shadow",
   shadows = {
     {
-      filename = "__base__/graphics/particle/shell-particle/shell-particle-shadow-1.png",
+      filename = "__base__/graphics/particle/shell-particle/shell-particle-1.png",
       frame_count = 5,
-      height = 7,
+      height = 10,
       priority = "extra-high",
-      width = 9
+      scale = 0.5,
+      shift = {
+        0.0625,
+        -0.0046875
+      },
+      width = 10
     },
     {
-      filename = "__base__/graphics/particle/shell-particle/shell-particle-shadow-2.png",
+      filename = "__base__/graphics/particle/shell-particle/shell-particle-2.png",
       frame_count = 5,
-      height = 8,
+      height = 10,
       priority = "extra-high",
-      width = 7
+      scale = 0.5,
+      shift = {
+        0.0625,
+        -0.0046875
+      },
+      width = 10
     }
   },
   type = "optimized-particle"

@@ -1,7 +1,10 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "crafting-with-fluid-or-metallurgy",
+  categories = {
+    "crafting-with-fluid",
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 1,
   ingredients = {

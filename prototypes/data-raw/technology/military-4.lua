@@ -1,11 +1,11 @@
 return {
   effects = {
     {
-      recipe = "piercing-shotgun-shell",
+      recipe = "cluster-grenade",
       type = "unlock-recipe"
     },
     {
-      recipe = "cluster-grenade",
+      recipe = "combat-shotgun",
       type = "unlock-recipe"
     }
   },

@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,18 +29,19 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 1.875,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/fusion-reactor-equipment.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -57,19 +60,19 @@ return {
   name = "fusion-reactor-equipment-recycling",
   results = {
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "fission-reactor-equipment",
       type = "item"
     },
     {
-      amount = 2.5,
+      amount = 2,
       extra_count_fraction = 0.5,
       name = "fusion-power-cell",
       type = "item"
     },
     {
-      amount = 62.5,
+      amount = 62,
       extra_count_fraction = 0.5,
       name = "tungsten-plate",
       type = "item"
@@ -81,13 +84,13 @@ return {
       type = "item"
     },
     {
-      amount = 6.25,
+      amount = 6,
       extra_count_fraction = 0.25,
       name = "supercapacitor",
       type = "item"
     },
     {
-      amount = 62.5,
+      amount = 62,
       extra_count_fraction = 0.5,
       name = "quantum-processor",
       type = "item"

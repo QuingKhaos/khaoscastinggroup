@@ -1,6 +1,8 @@
 return {
   auto_recycle = false,
-  category = "captive-spawner-process",
+  categories = {
+    "captive-spawner-process"
+  },
   enabled = false,
   energy_required = 10,
   hide_from_player_crafting = true,

@@ -3,7 +3,7 @@ return {
     pollution = 3e-05
   },
   autoplace = {
-    probability_expression = "50 * fulgora_oil_mask * water_base(fulgora_coastline, 1000)"
+    probability_expression = "50 * fulgora_oil_mask * water_base(fulgora_coastline, 1000) * max(-(fulgora_scrap_medium + fulgora_dunes),0)"
   },
   collision_mask = {
     layers = {
@@ -24,7 +24,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -57,7 +57,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }
@@ -196,7 +196,7 @@ return {
       },
       masked_background_layer_offset = 1,
       offset_background_layer_by_tile_layer = false,
-      spritesheet = "__space-age__/graphics/terrain/water-transitions/fulgora-oil-sand-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/water-transitions/fulgora-oil-sand.png",
       to_tiles = {
         "water",
         "deepwater",
@@ -233,9 +233,94 @@ return {
         "wetland-jellynut",
         "gleba-deep-lake",
         "oil-ocean-shallow",
-        "oil-ocean-deep"
+        "oil-ocean-deep",
+        "oil-ocean-shallow-2",
+        "oil-ocean-deep-2"
       },
       transition_group = 1
+    },
+    {
+      background_layer_group = "zero",
+      background_layer_offset = 1,
+      layout = {
+        background = {
+          x_offset = 1088
+        },
+        inner_corner_count = 4,
+        inner_corner_tile_height = 2,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2176
+        },
+        o_transition_count = 1,
+        o_transition_y = 2304,
+        outer_corner_count = 4,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 576,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 8,
+        side_tile_height = 2,
+        side_y = 1152,
+        u_transition_count = 1,
+        u_transition_tile_height = 2,
+        u_transition_y = 1728
+      },
+      offset_background_layer_by_tile_layer = true,
+      overlay_enabled = false,
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/oil-out-of-map-transition.png",
+      to_tiles = {
+        "out-of-map",
+        "empty-space"
+      },
+      transition_group = 2
+    },
+    {
+      effect_map_layout = {
+        inner_corner_count = 8,
+        o_transition_count = 1,
+        outer_corner_count = 8,
+        side_count = 8,
+        spritesheet = "__space-age__/graphics/terrain/effect-maps/lava-dirt-mask.png",
+        u_transition_count = 2
+      },
+      layout = {
+        background = {
+          x_offset = 1088
+        },
+        inner_corner_count = 16,
+        inner_corner_tile_height = 2,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2176
+        },
+        o_transition_count = 4,
+        o_transition_y = 2304,
+        outer_corner_count = 16,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 576,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 16,
+        side_tile_height = 2,
+        side_y = 1152,
+        u_transition_count = 4,
+        u_transition_tile_height = 2,
+        u_transition_y = 1728
+      },
+      lightmap_layout = {
+        spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone-lightmap.png"
+      },
+      spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone.png",
+      to_tiles = {
+        "lava-hot",
+        "lava"
+      },
+      transition_group = 3
     }
   },
   transitions_between_transitions = {
@@ -271,7 +356,7 @@ return {
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
-      spritesheet = "__space-age__/graphics/terrain/water-transitions/fulgora-sand-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/water-transitions/fulgora-oil-sand-transition.png",
       transition_group1 = 0,
       transition_group2 = 1
     },
@@ -306,20 +391,13 @@ return {
       },
       offset_background_layer_by_tile_layer = true,
       overlay_enabled = false,
-      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/fulgora-sand-out-of-map-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/fulgora-out-of-map-transition.png",
       transition_group1 = 0,
       transition_group2 = 2
     },
     {
       background_layer_group = "water",
       background_layer_offset = -5,
-      background_mask_layout = {
-        count = 1,
-        scale = 32,
-        spritesheet = "__core__/graphics/white-square.png",
-        x = 0,
-        y = 0
-      },
       effect_map_layout = {
         o_transition_count = 0,
         spritesheet = "__space-age__/graphics/terrain/effect-maps/water-fulgora-sand-to-out-of-map-mask.png"
@@ -352,8 +430,81 @@ return {
       },
       masked_background_layer_offset = 1,
       offset_background_layer_by_tile_layer = false,
-      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/fulgora-sand-shore-out-of-map-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/oil-out-of-map-transition.png",
       transition_group1 = 1,
+      transition_group2 = 2
+    },
+    {
+      effect_map_layout = {
+        o_transition_count = 0,
+        spritesheet = "__space-age__/graphics/terrain/effect-maps/lava-dirt-to-land-mask.png"
+      },
+      layout = {
+        background = {
+          x_offset = 1088
+        },
+        inner_corner_count = 3,
+        inner_corner_tile_height = 2,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2176
+        },
+        o_transition_count = 0,
+        o_transition_y = 2304,
+        outer_corner_count = 3,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 576,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 3,
+        side_tile_height = 2,
+        side_y = 1152,
+        u_transition_count = 1,
+        u_transition_tile_height = 2,
+        u_transition_y = 1728
+      },
+      spritesheet = "__space-age__/graphics/terrain/lava-transitions/lava-stone-transition.png",
+      transition_group1 = 0,
+      transition_group2 = 3
+    },
+    {
+      background_layer_group = "zero",
+      background_layer_offset = 1,
+      effect_map_layout = {
+        o_transition_count = 0,
+        spritesheet = "__space-age__/graphics/terrain/effect-maps/lava-dirt-to-out-of-map-mask.png"
+      },
+      layout = {
+        background = {
+          x_offset = 1088
+        },
+        inner_corner_count = 3,
+        inner_corner_tile_height = 2,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2176
+        },
+        o_transition_count = 0,
+        o_transition_y = 2304,
+        outer_corner_count = 3,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 576,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 3,
+        side_tile_height = 2,
+        side_y = 1152,
+        u_transition_count = 1,
+        u_transition_tile_height = 2,
+        u_transition_y = 1728
+      },
+      offset_background_layer_by_tile_layer = true,
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/lava-stone-shore-out-of-map-transition.png",
+      transition_group1 = 3,
       transition_group2 = 2
     }
   },
@@ -493,6 +644,7 @@ return {
   },
   type = "tile",
   variants = {
+    empty_transitions = true,
     material_background = {
       count = 16,
       line_length = 8,
@@ -500,32 +652,7 @@ return {
       scale = 0.5
     },
     material_texture_height_in_tiles = 8,
-    material_texture_width_in_tiles = 8,
-    transition = {
-      mask_layout = {
-        inner_corner = {
-          count = 8
-        },
-        o_transition = {
-          count = 1,
-          x = 2304
-        },
-        outer_corner = {
-          count = 8,
-          x = 576
-        },
-        scale = 0.5,
-        side = {
-          count = 8,
-          x = 1152
-        },
-        u_transition = {
-          count = 1,
-          x = 1728
-        }
-      },
-      mask_spritesheet = "__base__/graphics/terrain/masks/transition-1.png"
-    }
+    material_texture_width_in_tiles = 8
   },
   vehicle_friction_modifier = 4,
   walking_sound = {
@@ -538,7 +665,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

@@ -165,7 +165,7 @@ return {
       }
     }
   },
-  braking_power = "200kW",
+  braking_force = 3333.3333333333335,
   close_sound = {
     filename = "__base__/sound/car-door-close.ogg",
     volume = 0.4
@@ -182,13 +182,6 @@ return {
   },
   consumption = "150kW",
   corpse = "car-remnants",
-  crash_trigger = {
-    sound = {
-      filename = "__base__/sound/car-crash.ogg",
-      volume = 0
-    },
-    type = "play-sound"
-  },
   damaged_trigger_effect = {
     damage_type_filters = "fire",
     entity_name = "spark-explosion",
@@ -244,7 +237,7 @@ return {
     "placeable-off-grid",
     "not-flammable"
   },
-  friction = 0.002,
+  friction_force = 0.002,
   guns = {
     "vehicle-machine-gun"
   },

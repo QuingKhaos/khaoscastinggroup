@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "centrifuging",
+  categories = {
+    "centrifuging"
+  },
   enabled = false,
   energy_required = 90,
   ingredients = {

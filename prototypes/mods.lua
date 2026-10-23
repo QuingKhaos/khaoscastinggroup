@@ -1,9 +1,10 @@
 --- @type data.Mods
 return {
-  base = "2.0.77",
-  ["elevated-rails"] = "2.0.77",
-  ["khaosdata-extractor"] = "12026.1003.449",
-  khaoslib = "1.19.0",
-  quality = "2.0.77",
-  ["space-age"] = "2.0.77"
+  base = "2.1.23",
+  ["elevated-rails"] = "2.1.23",
+  ["khaosdata-extractor"] = "22026.803.1427",
+  khaoslib = "2.2.0",
+  quality = "2.1.23",
+  recycler = "2.1.23",
+  ["space-age"] = "2.1.23"
 }

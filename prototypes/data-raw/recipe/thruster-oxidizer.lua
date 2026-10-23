@@ -1,8 +1,9 @@
 return {
   allow_productivity = true,
-  always_show_products = true,
   auto_recycle = false,
-  category = "chemistry",
+  categories = {
+    "chemistry"
+  },
   crafting_machine_tint = {
     primary = {
       a = 0.50199999999999996,
@@ -52,7 +53,6 @@ return {
       type = "fluid"
     }
   },
-  show_amount_in_title = false,
   subgroup = "space-processing",
   surface_conditions = {
     {

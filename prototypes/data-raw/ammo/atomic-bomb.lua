@@ -3,6 +3,7 @@ return {
   ammo_type = {
     action = {
       action_delivery = {
+        inherit_speed = true,
         projectile = "atomic-rocket",
         source_effects = {
           entity_name = "explosion-hit",

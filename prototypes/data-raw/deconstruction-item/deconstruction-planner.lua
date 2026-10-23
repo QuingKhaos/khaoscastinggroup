@@ -15,7 +15,8 @@ return {
       filename = "__core__/sound/deconstruct-cancel-end.ogg"
     },
     mode = {
-      "cancel-deconstruct"
+      "cancel-deconstruct",
+      "any-entity"
     },
     started_sound = {
       filename = "__core__/sound/deconstruct-cancel-start.ogg"
@@ -30,9 +31,10 @@ return {
     filename = "__base__/sound/item/planner-inventory-move.ogg",
     volume = 0.7
   },
-  entity_filter_count = 30,
   flags = {
-    "spawnable"
+    "spawnable",
+    "always-show",
+    "excluded-from-character-lift-weight"
   },
   icon = "__base__/graphics/icons/deconstruction-planner.png",
   inventory_move_sound = {
@@ -70,7 +72,9 @@ return {
       filename = "__core__/sound/deconstruct-select-end.ogg"
     },
     mode = {
-      "deconstruct"
+      "deconstruct",
+      "any-entity",
+      "any-tile"
     },
     started_sound = {
       filename = "__core__/sound/deconstruct-select-start.ogg"
@@ -95,12 +99,13 @@ return {
       filename = "__core__/sound/deconstruct-select-end.ogg"
     },
     mode = {
-      "deconstruct"
+      "deconstruct",
+      "any-entity",
+      "any-tile"
     },
     started_sound = {
       filename = "__core__/sound/deconstruct-select-start.ogg"
     }
   },
-  tile_filter_count = 30,
   type = "deconstruction-item"
 }

@@ -271,10 +271,10 @@ return {
   impact_category = "organic",
   loot = {
     {
-      count_max = 3,
-      count_min = 1,
-      item = "pentapod-egg",
-      probability = 1
+      amount_max = 3,
+      amount_min = 1,
+      name = "pentapod-egg",
+      type = "item"
     }
   },
   map_generator_bounding_box = {

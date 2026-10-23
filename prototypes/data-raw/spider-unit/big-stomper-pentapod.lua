@@ -218,7 +218,7 @@ return {
       }
     },
     damage_modifier = 1.6000000000000001,
-    lead_target_for_projectile_speed = 0.3375,
+    lead_target_for_projectile_speed = 0.35,
     min_attack_distance = 6.4000000000000004,
     projectile_creation_parameters = {
       {
@@ -339,6 +339,10 @@ return {
     type = "stream",
     use_shooter_direction = true,
     warmup = 30
+  },
+  buildable_entities = {
+    "gleba-spawner-small",
+    "gleba-spawner"
   },
   collision_box = {
     {
@@ -1237,6 +1241,16 @@ return {
       }
     },
     walking_group_overlap = 0.6
+  },
+  steering = {
+    move = {
+      radius = 4.8000000000000007,
+      separation_force = 0.1
+    },
+    stay = {
+      radius = 6.4000000000000004,
+      separation_force = 0.1
+    }
   },
   sticker_box = {
     {

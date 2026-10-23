@@ -3,14 +3,6 @@ return {
     {
       recipe = "capture-robot-rocket",
       type = "unlock-recipe"
-    },
-    {
-      recipe = "biter-egg",
-      type = "unlock-recipe"
-    },
-    {
-      recipe = "nutrients-from-biter-egg",
-      type = "unlock-recipe"
     }
   },
   icon = "__space-age__/graphics/technology/captivity.png",

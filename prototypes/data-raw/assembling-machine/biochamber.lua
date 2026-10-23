@@ -501,10 +501,7 @@ return {
   },
   corpse = "biochamber-remnants",
   crafting_categories = {
-    "organic",
-    "organic-or-hand-crafting",
-    "organic-or-assembling",
-    "organic-or-chemistry"
+    "organic"
   },
   crafting_speed = 2,
   damaged_trigger_effect = {
@@ -2135,19 +2132,20 @@ return {
     }
   },
   type = "assembling-machine",
+  use_mirroring = true,
   water_reflection = {
-    orientation_to_variation = true,
+    orientation_to_variation = false,
     pictures = {
-      filename = "__base__/graphics/entity/chemical-plant/chemical-plant-reflection.png",
-      height = 36,
+      filename = "__space-age__/graphics/entity/biochamber/biochamber-reflection.png",
+      height = 24,
       priority = "extra-high",
       scale = 5,
       shift = {
         0.15625,
         1.875
       },
-      variation_count = 4,
-      width = 28
+      variation_count = 1,
+      width = 24
     },
     rotate = false
   },

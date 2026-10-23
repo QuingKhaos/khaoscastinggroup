@@ -104,6 +104,7 @@ return {
           -1.3125,
           -1.4375
         },
+        secondary_draw_order = 14,
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -223,6 +224,7 @@ return {
           1.0625,
           0.84375
         },
+        secondary_draw_order = 48,
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -342,6 +344,7 @@ return {
           -1.15625,
           0.625
         },
+        secondary_draw_order = 48,
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -461,6 +464,7 @@ return {
           -1.0625,
           0.96875
         },
+        secondary_draw_order = 48,
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
@@ -706,13 +710,6 @@ return {
       }
     },
     animation_progress = 1,
-    circuit_connector_layer = "object",
-    circuit_connector_secondary_draw_order = {
-      east = 30,
-      north = 14,
-      south = 30,
-      west = 30
-    },
     drilling_vertical_movement_duration = 25,
     shift_animation_transition_duration = 75,
     shift_animation_waypoint_stop_duration = 487.5,
@@ -3598,9 +3595,26 @@ return {
     }
   },
   type = "mining-drill",
+  use_mirroring = true,
   vector_to_place_result = {
     0,
     -1.85
+  },
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-reflection.png",
+      height = 36,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0.15625,
+        1.875
+      },
+      variation_count = 4,
+      width = 28
+    },
+    rotate = false
   },
   wet_mining_graphics_set = {
     animation = {
@@ -3780,13 +3794,6 @@ return {
       }
     },
     animation_progress = 1,
-    circuit_connector_layer = "object",
-    circuit_connector_secondary_draw_order = {
-      east = 48,
-      north = 14,
-      south = 48,
-      west = 48
-    },
     drilling_vertical_movement_duration = 25,
     shift_animation_transition_duration = 75,
     shift_animation_waypoint_stop_duration = 487.5,

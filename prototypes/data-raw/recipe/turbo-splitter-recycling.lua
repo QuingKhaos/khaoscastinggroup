@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -25,18 +27,19 @@ return {
       0.65500000000000007
     }
   },
+  enabled = false,
   energy_required = 0.125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/turbo-splitter.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -55,19 +58,19 @@ return {
   name = "turbo-splitter-recycling",
   results = {
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "express-splitter",
       type = "item"
     },
     {
-      amount = 3.75,
+      amount = 3,
       extra_count_fraction = 0.75,
       name = "tungsten-plate",
       type = "item"
     },
     {
-      amount = 0.5,
+      amount = 0,
       extra_count_fraction = 0.5,
       name = "processing-unit",
       type = "item"

@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,18 +29,19 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 0.03125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__base__/graphics/icons/train-stop.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -57,25 +60,25 @@ return {
   name = "train-stop-recycling",
   results = {
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "electronic-circuit",
       type = "item"
     },
     {
-      amount = 1.5,
+      amount = 1,
       extra_count_fraction = 0.5,
       name = "iron-plate",
       type = "item"
     },
     {
-      amount = 1.5,
+      amount = 1,
       extra_count_fraction = 0.5,
       name = "iron-stick",
       type = "item"
     },
     {
-      amount = 0.75,
+      amount = 0,
       extra_count_fraction = 0.75,
       name = "steel-plate",
       type = "item"

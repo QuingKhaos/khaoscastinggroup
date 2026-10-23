@@ -1,5 +1,8 @@
 return {
-  category = "cryogenics",
+  auto_recycle = true,
+  categories = {
+    "cryogenics"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

@@ -1,6 +1,7 @@
 return {
   animations = {
     allow_forced_downscale = true,
+    allow_reducing_frames = true,
     animation_speed = 0.5,
     draw_as_glow = true,
     frame_count = 57,

@@ -22,7 +22,9 @@ return {
   flags = {
     "not-stackable",
     "only-in-cursor",
-    "spawnable"
+    "spawnable",
+    "always-show",
+    "excluded-from-character-lift-weight"
   },
   icon = "__base__/graphics/icons/spidertron-remote.png",
   icon_color_indicator_mask = "__base__/graphics/icons/spidertron-remote-mask.png",

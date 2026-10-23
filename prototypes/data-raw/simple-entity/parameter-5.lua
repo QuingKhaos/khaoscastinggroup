@@ -1,4 +1,7 @@
 return {
+  flags = {
+    "always-show"
+  },
   icon = "__base__/graphics/icons/parameter/parameter-5.png",
   localised_description = {
     "entity-description.parameter-x"

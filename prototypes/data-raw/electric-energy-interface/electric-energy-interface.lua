@@ -41,7 +41,7 @@ return {
   energy_source = {
     buffer_capacity = "10GJ",
     type = "electric",
-    usage_priority = "tertiary"
+    usage_priority = "dynamic"
   },
   energy_usage = "0kW",
   flags = {

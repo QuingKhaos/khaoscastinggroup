@@ -12,7 +12,6 @@ return {
     0.4
   },
   gas_temperature = 15,
-  heat_capacity = "0.1kJ",
   icon = "__space-age__/graphics/icons/fluid/fluorine.png",
   name = "fluorine",
   order = "b[new-fluid]-e[aquilo]-c[fluorine]",

@@ -30,11 +30,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -43,11 +43,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -56,11 +56,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -69,11 +69,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -82,11 +82,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -95,11 +95,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -108,11 +108,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -121,15 +121,16 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     }
   },
-  render_layer = "decorative",
+  render_layer = "decals",
+  tile_layer = 256,
   type = "optimized-decorative",
   walking_sound = {
     advanced_volume_control = {
@@ -141,7 +142,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

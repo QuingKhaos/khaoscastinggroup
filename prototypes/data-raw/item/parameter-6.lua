@@ -1,4 +1,7 @@
 return {
+  flags = {
+    "always-show"
+  },
   icon = "__base__/graphics/icons/parameter/parameter-6.png",
   localised_name = {
     "parameter-x",

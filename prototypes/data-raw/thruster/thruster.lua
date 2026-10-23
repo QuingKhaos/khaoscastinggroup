@@ -45,6 +45,10 @@ return {
     type = "create-entity"
   },
   dying_explosion = "thruster-explosion",
+  factoriopedia_simulation = {
+    hide_factoriopedia_gradient = true,
+    init = "    game.simulation.camera_zoom = 1.1\n    game.simulation.camera_position = {0, 2}\n    for x = -12, 11, 1 do\n      for y = -3, 6 do\n        game.surfaces[1].set_tiles{{position = {x, y}, name = \"empty-space\"}}\n      end\n    end\n    game.surfaces[1].create_entities_from_blueprint_string\n    {\n      string = \"0eNql1bFuwyAQxvF3uRlLPiCOzatEHUhMGiQbLMBVK4t3j5NU6tIh0rdy/G/4LbfReVrdknwoZDbylxgymdNG2X8GOz3egp0dGSq3tObiElVBPozumwzXD0HFT+6VLDH74mN4RPu0YRb0Q6bdg98debEX1yyTLdeY5uYa1zDaZ1LFP32L9QOW91h+xPIOtHvZM2jPmD1j9ozZM2bPoL0E7SVmLzF7idlLzF6C9gq0V5i9wuwVZq8wewXaa9BeY/Yas9eYvcbs38v3q+uLm/dPf8db0JdL+bnw0MlBD8Oh161sdV/rHYnoqQA=\",\n      position = {0, 0}\n    }\n    game.surfaces[1].create_entity{name = \"thruster\", position = {0, 0}, direction = defines.direction.north}\n  "
+  },
   fast_replaceable_group = "thruster",
   flags = {
     "placeable-neutral",
@@ -101,6 +105,7 @@ return {
       width = 264
     },
     flame_effect = {
+      color_channels = 3,
       filename = "__space-age__/graphics/entity/thruster/thruster-flame.png",
       height = 832,
       width = 384

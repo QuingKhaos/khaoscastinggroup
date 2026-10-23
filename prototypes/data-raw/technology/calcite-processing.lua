@@ -20,7 +20,9 @@ return {
     "planet-discovery-vulcanus"
   },
   research_trigger = {
-    entity = "calcite",
+    entities = {
+      "calcite"
+    },
     type = "mine-entity"
   },
   type = "technology"

@@ -3091,25 +3091,7 @@ return {
       },
       maximal_height = 400,
       scroll_pane_style = {
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
+        parent = "dropdown_list_box_scroll_pane",
         type = "scroll_pane_style"
       },
       type = "list_box_style"
@@ -4990,6 +4972,34 @@ return {
     parent = "decider_combinator_condition_frame",
     type = "frame_style"
   },
+  decider_combinator_fulfilled_frame = {
+    graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          412,
+          86
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    parent = "decider_combinator_frame",
+    type = "frame_style"
+  },
   decider_combinator_fulfilled_signal_select_button = {
     clicked_graphical_set = {
       base = {
@@ -5252,6 +5262,11 @@ return {
   deep_frame_in_shallow_frame_for_description_with_fixed_width = {
     parent = "deep_frame_in_shallow_frame_for_description",
     type = "frame_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 4,
+      width = 484
+    },
     width = 500
   },
   deep_frame_in_tabbed_pane = {
@@ -6679,26 +6694,7 @@ return {
     list_box_style = {
       maximal_height = 400,
       scroll_pane_style = {
-        always_draw_borders = true,
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
+        parent = "dropdown_list_box_scroll_pane",
         type = "scroll_pane_style"
       },
       type = "list_box_style"
@@ -6719,6 +6715,33 @@ return {
     left_click_sound = "__core__/sound/gui-click.ogg",
     padding = 0,
     type = "button_style"
+  },
+  dropdown_list_box_scroll_pane = {
+    always_draw_borders = true,
+    extra_padding_when_activated = 0,
+    graphical_set = {
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    padding = 0,
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      parent = "packed_vertical_flow",
+      type = "vertical_flow_style"
+    }
   },
   edit_blueprint_description_textbox = {
     height = 120,
@@ -8015,7 +8038,7 @@ return {
     type = "tabbed_pane_style"
   },
   finished_game_label = {
-    maximal_width = 420,
+    maximal_width = 484,
     parent = "label",
     single_line = false,
     type = "label_style"
@@ -9571,25 +9594,7 @@ return {
       },
       maximal_height = 400,
       scroll_pane_style = {
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
+        parent = "dropdown_list_box_scroll_pane",
         type = "scroll_pane_style"
       },
       type = "list_box_style"
@@ -10348,6 +10353,26 @@ return {
     size = 68,
     type = "button_style"
   },
+  ime_composition_textfield = {
+    active_background = {
+      position = {
+        203,
+        80
+      },
+      size = 1
+    },
+    default_background = {
+      position = {
+        203,
+        80
+      },
+      size = 1
+    },
+    minimal_height = 20,
+    padding = 0,
+    type = "textbox_style",
+    width = 0
+  },
   info_label = {
     font = "default",
     font_color = {
@@ -10956,31 +10981,89 @@ return {
     parent = "lab_progress_and_slot_divider",
     type = "line_style"
   },
-  lab_technology_frame = {
-    bottom_margin = 4,
-    horizontal_flow_style = {
-      horizontal_spacing = 12,
-      type = "horizontal_flow_style",
-      vertical_align = "center"
+  lab_research_info_button = {
+    clicked_graphical_set = {
+      base = {
+        corner_size = 19,
+        draw_type = "inner",
+        position = {
+          242,
+          584
+        },
+        scale = 1
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
     },
-    left_padding = 12,
-    parent = "shallow_frame_in_shallow_frame",
-    top_margin = 4,
-    type = "frame_style",
-    vertically_stretchable = "off"
-  },
-  lab_technology_frame_empty = {
-    bottom_margin = 4,
-    horizontal_flow_style = {
-      horizontal_spacing = 12,
-      type = "horizontal_flow_style",
-      vertical_align = "center"
+    default_graphical_set = {
+      base = {
+        corner_size = 19,
+        draw_type = "inner",
+        position = {
+          162,
+          584
+        },
+        scale = 1
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
     },
-    left_padding = 12,
-    parent = "deep_frame_in_shallow_frame",
-    top_margin = 4,
-    type = "frame_style",
-    vertically_stretchable = "off"
+    hovered_graphical_set = {
+      base = {
+        corner_size = 19,
+        draw_type = "inner",
+        position = {
+          202,
+          584
+        },
+        scale = 1
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = -8,
+    type = "button_style",
+    vertically_stretchable = "off",
+    width = 400
   },
   label = {
     disabled_font_color = {
@@ -11525,7 +11608,11 @@ return {
     },
     never_hide_by_search = true,
     padding = 0,
-    type = "scroll_pane_style"
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      parent = "packed_vertical_flow",
+      type = "vertical_flow_style"
+    }
   },
   list_box_under_subheader = {
     scroll_pane_style = {
@@ -11573,41 +11660,6 @@ return {
     parent = "list_box_scroll_pane",
     type = "scroll_pane_style"
   },
-  locale_dropdown = {
-    list_box_style = {
-      item_style = {
-        font = "locale-pick",
-        parent = "button",
-        type = "button_style"
-      },
-      maximal_height = 400,
-      scroll_pane_style = {
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
-        type = "scroll_pane_style"
-      },
-      type = "list_box_style"
-    },
-    parent = "dropdown",
-    type = "dropdown_style"
-  },
   locomotive_minimap_button = {
     clicked_graphical_set = {
       base = {
@@ -11635,12 +11687,11 @@ return {
           183,
           128
         },
-        scale = 0.5,
+        scale = 1,
         tint = {
-          0,
-          0,
-          0,
-          1
+          b = 0,
+          g = 122,
+          r = 219
         }
       }
     },
@@ -11740,12 +11791,11 @@ return {
           183,
           128
         },
-        scale = 0.5,
+        scale = 1,
         tint = {
-          0,
-          0,
-          0,
-          1
+          b = 0,
+          g = 162,
+          r = 255
         }
       }
     },
@@ -12312,6 +12362,255 @@ return {
     size = 240,
     type = "frame_style"
   },
+  minimap_slot = {
+    clicked_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 1,
+        tint = {
+          b = 0,
+          g = 122,
+          r = 219
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 1,
+        tint = {
+          b = 0,
+          g = 162,
+          r = 255
+        }
+      }
+    },
+    padding = 0,
+    parent = "button",
+    selected_clicked_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    size = 240,
+    type = "button_style"
+  },
   minimap_widget_under_subheader = {
     graphical_set = {
       shadow = {
@@ -12530,7 +12829,11 @@ return {
     parent = "list_box",
     scroll_pane_style = {
       parent = "naked_scroll_pane",
-      type = "scroll_pane_style"
+      type = "scroll_pane_style",
+      vertical_flow_style = {
+        parent = "packed_vertical_flow",
+        type = "vertical_flow_style"
+      }
     },
     type = "list_box_style"
   },
@@ -13582,6 +13885,15 @@ return {
     parent = "crafting_queue_slot",
     type = "button_style"
   },
+  purple_label = {
+    font = "default",
+    font_color = {
+      0.82099999999999991,
+      0.44000000000000004,
+      0.99800000000000004
+    },
+    type = "label_style"
+  },
   quick_bar_inner_panel = {
     graphical_set = {
       base = {
@@ -14029,6 +14341,16 @@ return {
   recipe_count_line_label = {
     parent = "count_label",
     top_padding = 16,
+    type = "label_style"
+  },
+  recipe_ghost_count_line_label = {
+    font_color = {
+      170,
+      222,
+      255,
+      200
+    },
+    parent = "recipe_count_line_label",
     type = "label_style"
   },
   recipe_tooltip_horizontal_image = {
@@ -16488,12 +16810,15 @@ return {
         }
       }
     },
+    horizontal_flow_style = {
+      type = "horizontal_flow_style",
+      vertical_align = "center"
+    },
     left_padding = 4,
     padding = 0,
     right_margin = 4,
     right_padding = 4,
-    type = "frame_style",
-    vertical_align = "center"
+    type = "frame_style"
   },
   search_popup_textfield = {
     type = "textbox_style",
@@ -17632,12 +17957,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17654,12 +17979,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17676,12 +18001,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17698,12 +18023,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17722,12 +18047,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17744,12 +18069,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -17766,12 +18091,12 @@ return {
       },
       shadow = {
         bottom_outer_border_shift = -4,
-        corner_size = 16,
+        corner_size = 8,
         draw_type = "outer",
         left_outer_border_shift = 4,
         position = {
-          345,
-          103
+          353,
+          111
         },
         right_outer_border_shift = -4,
         top_outer_border_shift = 4
@@ -22491,6 +22816,9 @@ return {
     scrollbars_go_outside = true,
     top_margin = 4,
     type = "scroll_pane_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style"
+    },
     vertically_stretchable = "on",
     width = 400
   },
@@ -23376,11 +23704,6 @@ return {
     parent = "transparent_slot",
     size = 16,
     type = "button_style"
-  },
-  universe_widget = {
-    horizontally_stretchable = "on",
-    type = "empty_widget_style",
-    vertically_stretchable = "on"
   },
   vehicle_health_progressbar = {
     color = {

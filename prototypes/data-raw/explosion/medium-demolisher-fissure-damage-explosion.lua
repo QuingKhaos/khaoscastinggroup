@@ -90,59 +90,6 @@ return {
   },
   name = "medium-demolisher-fissure-damage-explosion",
   order = "s-i",
-  sound = {
-    aggregation = {
-      max_count = 1,
-      remove = true
-    },
-    audible_distance_modifier = 0.5,
-    switch_vibration_data = {
-      filename = "__base__/sound/fight/medium-explosion.bnvib",
-      gain = 1
-    },
-    variations = {
-      {
-        filename = "__base__/sound/fight/medium-explosion-1.ogg",
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        },
-        volume = 1
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-2.ogg",
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        },
-        volume = 1
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-3.ogg",
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        },
-        volume = 1
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-4.ogg",
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        },
-        volume = 1
-      },
-      {
-        filename = "__base__/sound/fight/medium-explosion-5.ogg",
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 1.2
-        },
-        volume = 1
-      }
-    }
-  },
   subgroup = "explosions",
   type = "explosion"
 }

@@ -1,5 +1,8 @@
 return {
-  category = "pressing",
+  categories = {
+    "crafting",
+    "metallurgy"
+  },
   ingredients = {
     {
       amount = 1,

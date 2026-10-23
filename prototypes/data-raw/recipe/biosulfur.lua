@@ -1,7 +1,9 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "organic",
+  categories = {
+    "organic"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

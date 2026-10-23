@@ -5,6 +5,9 @@ return {
         pollution_factor = 1.2e-06,
         time_factor = 2e-05
       },
+      enemy_expansion = {
+        build_base_unit_dispatch_cooldown = 600
+      },
       pollution = {
         ageing = 0.5,
         enemy_attack_pollution_consumption_modifier = 0.5
@@ -30,6 +33,9 @@ return {
       enemy_evolution = {
         pollution_factor = 1e-06,
         time_factor = 1.5e-05
+      },
+      enemy_expansion = {
+        build_base_unit_dispatch_cooldown = 600
       },
       pollution = {
         ageing = 0.5,

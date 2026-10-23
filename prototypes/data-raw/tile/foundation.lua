@@ -103,6 +103,7 @@ return {
     }
   },
   decorative_removal_probability = 0.25,
+  frozen_variant = "frozen-foundation",
   is_foundation = true,
   layer = 9,
   layer_group = "ground-artificial",
@@ -142,27 +143,26 @@ return {
     r = 0.329
   },
   subgroup = "artificial-tiles",
-  transition_overlay_layer_offset = 2,
   transitions = {
     {
-      background_enabled = false,
+      background_enabled = true,
       effect_map_layout = {
         inner_corner_count = 1,
         o_transition_count = 1,
         outer_corner_count = 1,
         side_count = 1,
-        spritesheet = "__base__/graphics/terrain/effect-maps/water-stone-mask.png",
+        spritesheet = "__base__/graphics/terrain/effect-maps/concrete-mask.png",
         u_transition_count = 1
       },
       layout = {
         background = {
-          x_offset = 1088
+          x_offset = 1024
         },
-        inner_corner_count = 8,
+        inner_corner_count = 16,
         inner_corner_tile_height = 2,
         inner_corner_y = 0,
         mask = {
-          x_offset = 2176
+          x_offset = 2048
         },
         o_transition_count = 4,
         o_transition_y = 2304,
@@ -173,7 +173,7 @@ return {
           x_offset = 0
         },
         scale = 0.5,
-        side_count = 8,
+        side_count = 16,
         side_tile_height = 2,
         side_y = 1152,
         u_transition_count = 4,
@@ -217,41 +217,89 @@ return {
         "wetland-jellynut",
         "gleba-deep-lake",
         "oil-ocean-shallow",
-        "oil-ocean-deep"
+        "oil-ocean-deep",
+        "oil-ocean-shallow-2",
+        "oil-ocean-deep-2"
       },
       transition_group = 1
     },
     {
-      background_layer_group = "zero",
-      background_layer_offset = 1,
+      background_enabled = false,
+      effect_map_layout = {
+        inner_corner_count = 1,
+        o_transition_count = 1,
+        outer_corner_count = 1,
+        side_count = 1,
+        spritesheet = "__base__/graphics/terrain/effect-maps/concrete-mask.png",
+        u_transition_count = 1
+      },
       layout = {
         background = {
-          x_offset = 1088
+          x_offset = 1024
         },
-        inner_corner_count = 4,
+        inner_corner_count = 16,
         inner_corner_tile_height = 2,
         inner_corner_y = 0,
         mask = {
-          x_offset = 2176
+          x_offset = 2048
         },
-        o_transition_count = 1,
+        o_transition_count = 4,
         o_transition_y = 2304,
-        outer_corner_count = 4,
+        outer_corner_count = 8,
         outer_corner_tile_height = 2,
         outer_corner_y = 576,
         overlay = {
           x_offset = 0
         },
         scale = 0.5,
-        side_count = 8,
+        side_count = 16,
         side_tile_height = 2,
         side_y = 1152,
-        u_transition_count = 1,
+        u_transition_count = 4,
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
+      lightmap_layout = {
+        spritesheet = "__space-age__/graphics/terrain/lava-transitions/foundation-lava-lightmap.png"
+      },
+      spritesheet = "__space-age__/graphics/terrain/lava-transitions/foundation-lava.png",
+      to_tiles = {
+        "lava-hot",
+        "lava"
+      },
+      transition_group = 3
+    },
+    {
+      background_layer_group = "zero",
+      background_layer_offset = 1,
+      layout = {
+        background = {
+          x_offset = 1024
+        },
+        inner_corner_count = 16,
+        inner_corner_tile_height = 3,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2048
+        },
+        o_transition_count = 4,
+        o_transition_y = 2304,
+        outer_corner_count = 8,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 768,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 16,
+        side_tile_height = 2,
+        side_y = 1280,
+        u_transition_count = 4,
+        u_transition_tile_height = 2,
+        u_transition_y = 1792
+      },
       offset_background_layer_by_tile_layer = true,
-      spritesheet = "__base__/graphics/terrain/out-of-map-transition/concrete-out-of-map-transition.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/foundation-out-of-map-transition.png",
       to_tiles = {
         "out-of-map",
         "empty-space"
@@ -261,20 +309,24 @@ return {
   },
   transitions_between_transitions = {
     {
-      background_enabled = false,
+      background_enabled = true,
       effect_map_layout = {
-        o_transition_count = 0,
-        spritesheet = "__base__/graphics/terrain/effect-maps/water-stone-to-land-mask.png"
+        inner_corner_count = 1,
+        o_transition_count = 1,
+        outer_corner_count = 1,
+        side_count = 1,
+        spritesheet = "__base__/graphics/terrain/effect-maps/concrete-mask.png",
+        u_transition_count = 1
       },
       layout = {
         background = {
-          x_offset = 1088
+          x_offset = 1024
         },
         inner_corner_count = 3,
         inner_corner_tile_height = 2,
         inner_corner_y = 0,
         mask = {
-          x_offset = 2176
+          x_offset = 2048
         },
         o_transition_count = 0,
         o_transition_y = 2304,
@@ -301,32 +353,32 @@ return {
       background_layer_offset = 1,
       layout = {
         background = {
-          x_offset = 1088
+          x_offset = 1024
         },
         inner_corner_count = 3,
-        inner_corner_tile_height = 2,
+        inner_corner_tile_height = 3,
         inner_corner_y = 0,
         mask = {
-          x_offset = 2176
+          x_offset = 2048
         },
         o_transition_count = 0,
         o_transition_y = 2304,
         outer_corner_count = 3,
         outer_corner_tile_height = 2,
-        outer_corner_y = 576,
+        outer_corner_y = 768,
         overlay = {
           x_offset = 0
         },
         scale = 0.5,
         side_count = 3,
         side_tile_height = 2,
-        side_y = 1152,
+        side_y = 1280,
         u_transition_count = 1,
         u_transition_tile_height = 2,
-        u_transition_y = 1728
+        u_transition_y = 1792
       },
       offset_background_layer_by_tile_layer = true,
-      spritesheet = "__base__/graphics/terrain/out-of-map-transition/concrete-out-of-map-transition-b.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/foundation-out-of-map-transition-b.png",
       transition_group1 = 0,
       transition_group2 = 2
     },
@@ -334,19 +386,63 @@ return {
       background_layer_group = "zero",
       background_layer_offset = 1,
       effect_map_layout = {
-        o_transition_count = 0,
-        spritesheet = "__base__/graphics/terrain/effect-maps/water-stone-to-out-of-map-mask.png",
-        u_transition_count = 0
+        inner_corner_count = 1,
+        o_transition_count = 1,
+        outer_corner_count = 1,
+        side_count = 1,
+        spritesheet = "__base__/graphics/terrain/effect-maps/concrete-out-of-map-mask.png",
+        u_transition_count = 1
       },
       layout = {
         background = {
-          x_offset = 1088
+          x_offset = 1024
+        },
+        inner_corner_count = 3,
+        inner_corner_tile_height = 3,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2048
+        },
+        o_transition_count = 0,
+        o_transition_y = 2304,
+        outer_corner_count = 3,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 768,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 3,
+        side_tile_height = 2,
+        side_y = 1280,
+        u_transition_count = 1,
+        u_transition_tile_height = 2,
+        u_transition_y = 1792
+      },
+      offset_background_layer_by_tile_layer = true,
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/foundation-shore-out-of-map-transition.png",
+      transition_group1 = 1,
+      transition_group2 = 2
+    },
+    {
+      background_enabled = false,
+      effect_map_layout = {
+        inner_corner_count = 1,
+        o_transition_count = 1,
+        outer_corner_count = 1,
+        side_count = 1,
+        spritesheet = "__base__/graphics/terrain/effect-maps/concrete-mask.png",
+        u_transition_count = 1
+      },
+      layout = {
+        background = {
+          x_offset = 1024
         },
         inner_corner_count = 3,
         inner_corner_tile_height = 2,
         inner_corner_y = 0,
         mask = {
-          x_offset = 2176
+          x_offset = 2048
         },
         o_transition_count = 0,
         o_transition_y = 2304,
@@ -364,9 +460,57 @@ return {
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
+      lightmap_layout = {
+        spritesheet = "__space-age__/graphics/terrain/lava-transitions/foundation-transitions-lightmap.png"
+      },
+      spritesheet = "__space-age__/graphics/terrain/lava-transitions/foundation-transitions-lava.png",
+      transition_group1 = 0,
+      transition_group2 = 3
+    },
+    {
+      background_enabled = true,
+      background_layer_group = "zero",
+      background_layer_offset = 1,
+      effect_map_layout = {
+        inner_corner_count = 1,
+        o_transition_count = 1,
+        outer_corner_count = 1,
+        side_count = 1,
+        spritesheet = "__base__/graphics/terrain/effect-maps/concrete-out-of-map-mask.png",
+        u_transition_count = 1
+      },
+      layout = {
+        background = {
+          x_offset = 1024
+        },
+        inner_corner_count = 3,
+        inner_corner_tile_height = 3,
+        inner_corner_y = 0,
+        mask = {
+          x_offset = 2048
+        },
+        o_transition_count = 0,
+        o_transition_y = 2304,
+        outer_corner_count = 3,
+        outer_corner_tile_height = 2,
+        outer_corner_y = 768,
+        overlay = {
+          x_offset = 0
+        },
+        scale = 0.5,
+        side_count = 3,
+        side_tile_height = 2,
+        side_y = 1280,
+        u_transition_count = 1,
+        u_transition_tile_height = 2,
+        u_transition_y = 1792
+      },
+      lightmap_layout = {
+        spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/foundation-lava-shore-out-of-map-lightmap.png"
+      },
       offset_background_layer_by_tile_layer = true,
-      spritesheet = "__base__/graphics/terrain/out-of-map-transition/concrete-shore-out-of-map-transition.png",
-      transition_group1 = 1,
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/foundation-lava-shore-out-of-map.png",
+      transition_group1 = 3,
       transition_group2 = 2
     }
   },
@@ -553,7 +697,7 @@ return {
           spritesheet = "__space-age__/graphics/terrain/foundation/foundation-side-mask.png"
         },
         u_transition = {
-          count = 8,
+          count = 4,
           scale = 0.5,
           spritesheet = "__space-age__/graphics/terrain/foundation/foundation-u-mask.png"
         }
@@ -580,7 +724,7 @@ return {
           spritesheet = "__space-age__/graphics/terrain/foundation/foundation-side.png"
         },
         u_transition = {
-          count = 8,
+          count = 4,
           scale = 0.5,
           spritesheet = "__space-age__/graphics/terrain/foundation/foundation-u.png"
         }
@@ -598,7 +742,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

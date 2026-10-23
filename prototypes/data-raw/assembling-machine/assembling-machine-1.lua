@@ -8,102 +8,90 @@ return {
     "consumption",
     "pollution"
   },
+  animation_random_start_frame = true,
   circuit_connector = {
     {
       points = {
         shadow = {
           green = {
-            1.5625,
-            1.3125
+            1.875,
+            0.90625
           },
           red = {
-            1.6875,
-            1.25
+            1.875,
+            0.9375
           }
         },
         wire = {
           green = {
-            1.0625,
-            1.03125
+            0.90625,
+            0.25
           },
           red = {
-            1,
-            0.8125
+            0.78125,
+            0.3125
           }
         }
       },
       sprites = {
         blue_led_light_offset = {
-          0.75,
-          1.03125
+          0,
+          0
         },
         connector_main = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
-          height = 50,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.8125
+            0.90625,
+            0.421875
           },
-          width = 52,
-          x = 104,
-          y = 100
+          width = 26,
+          x = 0,
+          y = 0
         },
         connector_shadow = {
           draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04b-base-shadow-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-shadow.png",
+          height = 18,
           priority = "low",
           scale = 0.5,
           shift = {
-            1.171875,
-            1.046875
+            1.59375,
+            0.9375
           },
-          width = 60,
-          x = 120,
-          y = 92
+          width = 34,
+          x = 0,
+          y = 0
         },
         led_blue = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
-          height = 60,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-blue.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 60,
-          x = 120,
-          y = 120
-        },
-        led_blue_off = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
-          height = 44,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.78125
-          },
-          width = 46,
-          x = 92,
-          y = 88
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_green = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-green.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_light = {
           intensity = 0,
@@ -111,48 +99,21 @@ return {
         },
         led_red = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-red.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         red_green_led_light_offset = {
-          0.75,
-          0.875
-        },
-        wire_pins = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
-          height = 58,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.8125
-          },
-          width = 62,
-          x = 124,
-          y = 116
-        },
-        wire_pins_shadow = {
-          draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04d-wire-shadow-sequence.png",
-          height = 54,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            1.25,
-            1.078125
-          },
-          width = 68,
-          x = 136,
-          y = 108
+          0,
+          0
         }
       }
     },
@@ -160,97 +121,84 @@ return {
       points = {
         shadow = {
           green = {
-            1.5625,
-            1.3125
+            1.875,
+            0.90625
           },
           red = {
-            1.6875,
-            1.25
+            1.875,
+            0.9375
           }
         },
         wire = {
           green = {
-            1.0625,
-            1.03125
+            0.90625,
+            0.25
           },
           red = {
-            1,
-            0.8125
+            0.78125,
+            0.3125
           }
         }
       },
       sprites = {
         blue_led_light_offset = {
-          0.75,
-          1.03125
+          0,
+          0
         },
         connector_main = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
-          height = 50,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.8125
+            0.90625,
+            0.421875
           },
-          width = 52,
-          x = 104,
-          y = 100
+          width = 26,
+          x = 0,
+          y = 0
         },
         connector_shadow = {
           draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04b-base-shadow-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-shadow.png",
+          height = 18,
           priority = "low",
           scale = 0.5,
           shift = {
-            1.171875,
-            1.046875
+            1.59375,
+            0.9375
           },
-          width = 60,
-          x = 120,
-          y = 92
+          width = 34,
+          x = 0,
+          y = 0
         },
         led_blue = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
-          height = 60,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-blue.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 60,
-          x = 120,
-          y = 120
-        },
-        led_blue_off = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
-          height = 44,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.78125
-          },
-          width = 46,
-          x = 92,
-          y = 88
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_green = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-green.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_light = {
           intensity = 0,
@@ -258,48 +206,21 @@ return {
         },
         led_red = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-red.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         red_green_led_light_offset = {
-          0.75,
-          0.875
-        },
-        wire_pins = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
-          height = 58,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.8125
-          },
-          width = 62,
-          x = 124,
-          y = 116
-        },
-        wire_pins_shadow = {
-          draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04d-wire-shadow-sequence.png",
-          height = 54,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            1.25,
-            1.078125
-          },
-          width = 68,
-          x = 136,
-          y = 108
+          0,
+          0
         }
       }
     },
@@ -307,97 +228,84 @@ return {
       points = {
         shadow = {
           green = {
-            1.5625,
-            1.3125
+            1.875,
+            0.90625
           },
           red = {
-            1.6875,
-            1.25
+            1.875,
+            0.9375
           }
         },
         wire = {
           green = {
-            1.0625,
-            1.03125
+            0.90625,
+            0.25
           },
           red = {
-            1,
-            0.8125
+            0.78125,
+            0.3125
           }
         }
       },
       sprites = {
         blue_led_light_offset = {
-          0.75,
-          1.03125
+          0,
+          0
         },
         connector_main = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
-          height = 50,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.8125
+            0.90625,
+            0.421875
           },
-          width = 52,
-          x = 104,
-          y = 100
+          width = 26,
+          x = 0,
+          y = 0
         },
         connector_shadow = {
           draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04b-base-shadow-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-shadow.png",
+          height = 18,
           priority = "low",
           scale = 0.5,
           shift = {
-            1.171875,
-            1.046875
+            1.59375,
+            0.9375
           },
-          width = 60,
-          x = 120,
-          y = 92
+          width = 34,
+          x = 0,
+          y = 0
         },
         led_blue = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
-          height = 60,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-blue.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 60,
-          x = 120,
-          y = 120
-        },
-        led_blue_off = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
-          height = 44,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.78125
-          },
-          width = 46,
-          x = 92,
-          y = 88
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_green = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-green.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_light = {
           intensity = 0,
@@ -405,48 +313,21 @@ return {
         },
         led_red = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-red.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         red_green_led_light_offset = {
-          0.75,
-          0.875
-        },
-        wire_pins = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
-          height = 58,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.8125
-          },
-          width = 62,
-          x = 124,
-          y = 116
-        },
-        wire_pins_shadow = {
-          draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04d-wire-shadow-sequence.png",
-          height = 54,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            1.25,
-            1.078125
-          },
-          width = 68,
-          x = 136,
-          y = 108
+          0,
+          0
         }
       }
     },
@@ -454,97 +335,84 @@ return {
       points = {
         shadow = {
           green = {
-            1.5625,
-            1.3125
+            1.875,
+            0.90625
           },
           red = {
-            1.6875,
-            1.25
+            1.875,
+            0.9375
           }
         },
         wire = {
           green = {
-            1.0625,
-            1.03125
+            0.90625,
+            0.25
           },
           red = {
-            1,
-            0.8125
+            0.78125,
+            0.3125
           }
         }
       },
       sprites = {
         blue_led_light_offset = {
-          0.75,
-          1.03125
+          0,
+          0
         },
         connector_main = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
-          height = 50,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.8125
+            0.90625,
+            0.421875
           },
-          width = 52,
-          x = 104,
-          y = 100
+          width = 26,
+          x = 0,
+          y = 0
         },
         connector_shadow = {
           draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04b-base-shadow-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-shadow.png",
+          height = 18,
           priority = "low",
           scale = 0.5,
           shift = {
-            1.171875,
-            1.046875
+            1.59375,
+            0.9375
           },
-          width = 60,
-          x = 120,
-          y = 92
+          width = 34,
+          x = 0,
+          y = 0
         },
         led_blue = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
-          height = 60,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-blue.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 60,
-          x = 120,
-          y = 120
-        },
-        led_blue_off = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
-          height = 44,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.78125
-          },
-          width = 46,
-          x = 92,
-          y = 88
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_green = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-green.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         led_light = {
           intensity = 0,
@@ -552,48 +420,21 @@ return {
         },
         led_red = {
           draw_as_glow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
-          height = 46,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-connection-lights-red.png",
+          height = 34,
           priority = "low",
           scale = 0.5,
           shift = {
-            0.75,
-            0.78125
+            0.921875,
+            0.46875
           },
-          width = 48,
-          x = 96,
-          y = 92
+          width = 24,
+          x = 0,
+          y = 0
         },
         red_green_led_light_offset = {
-          0.75,
-          0.875
-        },
-        wire_pins = {
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
-          height = 58,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            0.75,
-            0.8125
-          },
-          width = 62,
-          x = 124,
-          y = 116
-        },
-        wire_pins_shadow = {
-          draw_as_shadow = true,
-          filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04d-wire-shadow-sequence.png",
-          height = 54,
-          priority = "low",
-          scale = 0.5,
-          shift = {
-            1.25,
-            1.078125
-          },
-          width = 68,
-          x = 136,
-          y = 108
+          0,
+          0
         }
       }
     }
@@ -616,10 +457,7 @@ return {
   corpse = "assembling-machine-1-remnants",
   crafting_categories = {
     "crafting",
-    "basic-crafting",
-    "advanced-crafting",
-    "electronics",
-    "pressing"
+    "advanced-crafting"
   },
   crafting_speed = 0.5,
   damaged_trigger_effect = {
@@ -667,46 +505,81 @@ return {
     animation = {
       layers = {
         {
-          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-          frame_count = 32,
-          height = 226,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-base.png",
+          frame_count = 1,
+          height = 184,
+          line_length = 1,
+          priority = "high",
+          repeat_count = 64,
+          scale = 0.5,
+          shift = {
+            0,
+            0.125
+          },
+          width = 198
+        },
+        {
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-anim.png",
+          frame_count = 64,
+          height = 158,
           line_length = 8,
           priority = "high",
           scale = 0.5,
           shift = {
             0,
-            0.0625
+            -0.421875
           },
-          width = 214
+          width = 140
         },
         {
           draw_as_shadow = true,
           filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
-          height = 165,
+          frame_count = 1,
+          height = 166,
           line_length = 1,
           priority = "high",
-          repeat_count = 32,
+          repeat_count = 64,
           scale = 0.5,
           shift = {
-            0.265625,
-            0.15625
+            1.390625,
+            0.015625
           },
-          width = 190
+          width = 50
         }
       }
     },
     frozen_patch = {
       filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-1-frozen.png",
-      height = 226,
+      height = 178,
+      line_length = 1,
       priority = "high",
       scale = 0.5,
       shift = {
         0,
-        0.0625
+        0.078125
       },
-      width = 214
+      width = 178
     },
-    reset_animation_when_frozen = true
+    reset_animation_when_frozen = true,
+    working_visualisations = {
+      {
+        animation = {
+          blend_mode = "additive",
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-status-light.png",
+          height = 32,
+          line_length = 1,
+          priority = "high",
+          repeat_count = 64,
+          scale = 0.5,
+          shift = {
+            -1.03125,
+            0.25
+          },
+          width = 22
+        }
+      }
+    }
   },
   heating_energy = "100kW",
   icon = "__base__/graphics/icons/assembling-machine-1.png",
@@ -728,6 +601,10 @@ return {
     filename = "__base__/sound/machine-open.ogg",
     volume = 0.5
   },
+  perceived_performance = {
+    maximum = 2.5,
+    minimum = 0.125
+  },
   resistances = {
     {
       percent = 70,
@@ -745,13 +622,218 @@ return {
     }
   },
   type = "assembling-machine",
+  water_reflection = {
+    orientation_to_variation = false,
+    pictures = {
+      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-reflection.png",
+      height = 24,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0.15625,
+        1.25
+      },
+      variation_count = 1,
+      width = 24
+    },
+    rotate = false
+  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,
+    max_sounds_per_prototype = 7,
     sound = {
-      audible_distance_modifier = 0.5,
+      advanced_volume_control = {
+        fades = {
+          fade_in = {
+            curve_type = "cosine",
+            from = {
+              control = 0.3,
+              volume_percentage = 0
+            },
+            to = {
+              control = 1.5,
+              volume_percentage = 100
+            }
+          }
+        }
+      },
       filename = "__base__/sound/assembling-machine-t1-1.ogg",
-      volume = 0.5
+      volume = 0.7
+    },
+    sound_accents = {
+      {
+        frame = 4,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-1.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-2.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-3.ogg",
+              volume = 0.3
+            }
+          }
+        }
+      },
+      {
+        frame = 13,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
+              volume = 0.15
+            }
+          }
+        }
+      },
+      {
+        frame = 38,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-1.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-2.ogg",
+              volume = 0.3
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-t1-mech-movement-3.ogg",
+              volume = 0.3
+            }
+          }
+        }
+      },
+      {
+        frame = 43,
+        sound = {
+          advanced_volume_control = {
+            fades = {
+              fade_in = {
+                curve_type = "cosine",
+                from = {
+                  control = 0.3,
+                  volume_percentage = 0
+                },
+                to = {
+                  control = 1.5,
+                  volume_percentage = 100
+                }
+              }
+            }
+          },
+          audible_distance_modifier = 0.5,
+          variations = {
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-1.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-2.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-3.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-4.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-5.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-6.ogg",
+              volume = 0.15
+            },
+            {
+              filename = "__base__/sound/entity/assembling-machine/assembling-machine-mech-impact-7.ogg",
+              volume = 0.15
+            }
+          }
+        }
+      }
     }
   }
 }

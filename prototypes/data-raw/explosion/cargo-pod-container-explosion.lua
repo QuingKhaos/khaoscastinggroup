@@ -58,8 +58,25 @@ return {
   smoke_count = 2,
   smoke_slow_down_factor = 1,
   sound = {
-    filename = "__base__/sound/car-metal-impact-6.ogg",
-    volume = 0.6
+    aggregation = {
+      count_already_playing = true,
+      max_count = 3,
+      remove = true
+    },
+    variations = {
+      {
+        filename = "__base__/sound/procession/cargo-pod-ground-land-1.ogg",
+        volume = 0.6
+      },
+      {
+        filename = "__base__/sound/procession/cargo-pod-ground-land-2.ogg",
+        volume = 0.6
+      },
+      {
+        filename = "__base__/sound/procession/cargo-pod-ground-land-3.ogg",
+        volume = 0.6
+      }
+    }
   },
   subgroup = "storage-explosions",
   type = "explosion"

@@ -1,7 +1,9 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "centrifuging",
+  categories = {
+    "centrifuging"
+  },
   enabled = false,
   energy_required = 12,
   icon = "__base__/graphics/icons/uranium-processing.png",
@@ -18,13 +20,19 @@ return {
     {
       amount = 1,
       name = "uranium-235",
-      probability = 0.0070000000000000009,
+      shared_probability = {
+        max = 0.0070000000000000009,
+        min = 0
+      },
       type = "item"
     },
     {
       amount = 1,
       name = "uranium-238",
-      probability = 0.99299999999999997,
+      shared_probability = {
+        max = 1,
+        min = 0.0070000000000000009
+      },
       type = "item"
     }
   },

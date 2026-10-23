@@ -49,6 +49,8 @@ return {
   name = "solar-system-edge",
   order = "f[solar-system-edge]",
   orientation = 0.25,
+  starmap_icon = "__space-age__/graphics/icons/starmap-solar-system-edge.png",
+  starmap_icon_size = 512,
   subgroup = "planets",
   type = "space-location"
 }

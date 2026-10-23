@@ -9,7 +9,7 @@ return {
       type = "unlock-recipe"
     },
     {
-      recipe = "combat-shotgun",
+      recipe = "piercing-shotgun-shell",
       type = "unlock-recipe"
     }
   },

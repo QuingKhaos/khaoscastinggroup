@@ -30,11 +30,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -43,11 +43,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -56,11 +56,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -69,11 +69,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -82,11 +82,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -95,11 +95,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -108,11 +108,11 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     },
     {
@@ -121,15 +121,16 @@ return {
       priority = "extra-high",
       scale = 0.5,
       tint = {
-        0.25879999999999992,
-        0.25879999999999992,
-        0.25879999999999992
+        0.5,
+        0.5,
+        0.5
       },
-      tint_as_overlay = true,
+      tint_as_overlay = false,
       width = 128
     }
   },
-  render_layer = "decorative",
+  render_layer = "decals",
+  tile_layer = 256,
   type = "optimized-decorative",
   walking_sound = {
     advanced_volume_control = {
@@ -141,7 +142,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

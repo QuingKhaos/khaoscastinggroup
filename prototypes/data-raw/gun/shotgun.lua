@@ -1,11 +1,25 @@
 return {
   attack_parameters = {
     ammo_category = "shotgun-shell",
-    cooldown = 60,
-    min_range = 1,
-    movement_slow_down_factor = 0.6,
+    cooldown = 40,
+    movement_slow_down_factor = 0,
     projectile_creation_distance = 0.125,
     range = 15,
+    shell_particle = {
+      center = {
+        0,
+        0
+      },
+      creation_distance = 0.3875,
+      direction_deviation = 0.1,
+      name = "shotgun-shell-particle",
+      speed = 0.065,
+      speed_deviation = 0.03,
+      starting_frame_speed = 0.4,
+      starting_frame_speed_deviation = 0.1,
+      vertical_speed = 0.055,
+      vertical_speed_deviation = 0.01
+    },
     sound = {
       game_controller_vibration_data = {
         duration = 100,

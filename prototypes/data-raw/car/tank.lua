@@ -147,7 +147,7 @@ return {
       }
     }
   },
-  braking_power = "800kW",
+  braking_force = 13333.333333333334,
   close_sound = {
     filename = "__base__/sound/fight/tank-door-close.ogg",
     volume = 0.42999999999999998
@@ -221,13 +221,14 @@ return {
     "placeable-off-grid",
     "not-flammable"
   },
-  friction = 0.002,
+  friction_force = 0.002,
   guns = {
     "tank-cannon",
     "tank-machine-gun",
     "tank-flamethrower"
   },
   icon = "__base__/graphics/icons/tank.png",
+  immune_to_all_impacts = true,
   immune_to_rock_impacts = true,
   immune_to_tree_impacts = true,
   impact_category = "metal-large",

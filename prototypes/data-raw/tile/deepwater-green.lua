@@ -22,6 +22,7 @@ return {
     68,
     25
   },
+  factoriopedia_alternative = "water-green",
   fluid = "water",
   layer = 3,
   layer_group = "water",

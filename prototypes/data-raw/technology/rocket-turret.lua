@@ -3,10 +3,6 @@ return {
     {
       recipe = "rocket-turret",
       type = "unlock-recipe"
-    },
-    {
-      recipe = "coal-synthesis",
-      type = "unlock-recipe"
     }
   },
   icon = "__space-age__/graphics/technology/rocket-turret.png",

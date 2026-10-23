@@ -26,6 +26,7 @@ return {
       0,
       -0.85587225
     },
+    threatening_asteroid_penalty = -20,
     type = "beam"
   },
   call_for_help_radius = 40,

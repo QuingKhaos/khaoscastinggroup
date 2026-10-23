@@ -1,6 +1,9 @@
 return {
   allow_productivity = true,
-  category = "organic",
+  auto_recycle = false,
+  categories = {
+    "organic"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,
@@ -32,15 +35,14 @@ return {
   },
   name = "iron-bacteria-cultivation",
   order = "b[agriculture]-d[bacteria]-b[iron-bacteria-cultivation]",
-  reset_freshness_on_craft = true,
   results = {
     {
       amount = 4,
       name = "iron-bacteria",
+      reset_freshness_on_craft = true,
       type = "item"
     }
   },
-  show_amount_in_title = false,
   subgroup = "agriculture-processes",
   surface_conditions = {
     {

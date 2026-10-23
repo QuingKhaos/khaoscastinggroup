@@ -79,6 +79,7 @@ return {
       type = "create-particle"
     },
     {
+      probability = 0.03,
       sound = {
         {
           filename = "__base__/sound/particles/small-splash-1.ogg",

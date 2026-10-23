@@ -23,6 +23,9 @@ return {
     filename = "__base__/sound/item/robotic-inventory-move.ogg",
     volume = 0.8
   },
+  flags = {
+    "hide-from-bonus-gui"
+  },
   icon = "__space-age__/graphics/icons/capture-bot.png",
   inventory_move_sound = {
     aggregation = {

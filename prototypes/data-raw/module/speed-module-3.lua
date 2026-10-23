@@ -28,7 +28,7 @@ return {
   },
   effect = {
     consumption = 0.7,
-    quality = -0.25,
+    quality = -0.025,
     speed = 0.5
   },
   icon = "__base__/graphics/icons/speed-module-3.png",

@@ -52,6 +52,7 @@ return {
       {
         direction = 8,
         flow_direction = "input-output",
+        hide_connection_info = true,
         position = {
           0,
           0

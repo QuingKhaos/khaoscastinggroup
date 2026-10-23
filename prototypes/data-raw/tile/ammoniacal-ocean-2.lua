@@ -92,6 +92,7 @@ return {
     28,
     65
   },
+  factoriopedia_alternative = "ammoniacal-ocean",
   fluid = "ammoniacal-solution",
   layer = 3,
   layer_group = "water",

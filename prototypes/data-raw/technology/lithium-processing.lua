@@ -16,7 +16,10 @@ return {
     "planet-discovery-aquilo"
   },
   research_trigger = {
-    entity = "lithium-iceberg-big",
+    entities = {
+      "lithium-iceberg-big",
+      "lithium-iceberg-huge"
+    },
     type = "mine-entity"
   },
   type = "technology"

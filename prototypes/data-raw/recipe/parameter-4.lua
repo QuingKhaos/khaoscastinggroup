@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "parameters",
+  categories = {
+    "parameters"
+  },
   icon = "__base__/graphics/icons/parameter/parameter-4.png",
   localised_name = {
     "parameter-x",

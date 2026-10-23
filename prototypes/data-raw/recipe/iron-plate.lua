@@ -1,7 +1,9 @@
 return {
   allow_productivity = true,
   auto_recycle = false,
-  category = "smelting",
+  categories = {
+    "smelting"
+  },
   energy_required = 3.2000000000000002,
   ingredients = {
     {

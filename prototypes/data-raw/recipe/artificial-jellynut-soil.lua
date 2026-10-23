@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "crafting",
+  categories = {
+    "crafting"
+  },
   enabled = false,
   energy_required = 2,
   icon = "__space-age__/graphics/icons/artificial-jellynut-soil.png",

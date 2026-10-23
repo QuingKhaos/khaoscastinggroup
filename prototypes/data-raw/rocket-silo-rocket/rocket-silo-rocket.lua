@@ -31,15 +31,36 @@ return {
       count_already_playing = true,
       max_count = 3,
       priority = "oldest",
+      progress_threshold = 0.7,
       remove = true
     },
     audible_distance_modifier = 6,
-    filename = "__base__/sound/silo-rocket.ogg",
-    modifiers = {
-      type = "main-menu",
-      volume_multiplier = 0.6
-    },
-    volume = 1
+    variations = {
+      {
+        filename = "__base__/sound/entity/silo-rocket-takeoff/silo-rocket-1.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 0.6
+        },
+        volume = 1
+      },
+      {
+        filename = "__base__/sound/entity/silo-rocket-takeoff/silo-rocket-2.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 0.6
+        },
+        volume = 1
+      },
+      {
+        filename = "__base__/sound/entity/silo-rocket-takeoff/silo-rocket-3.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 0.6
+        },
+        volume = 1
+      }
+    }
   },
   flying_speed = 8.3333333333333339e-06,
   full_render_layer_switch_distance = 11,
@@ -98,7 +119,7 @@ return {
   },
   rocket_initial_offset = {
     0,
-    3
+    3.5
   },
   rocket_launch_offset = {
     0,

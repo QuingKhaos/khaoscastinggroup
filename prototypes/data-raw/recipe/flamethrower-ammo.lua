@@ -1,5 +1,8 @@
 return {
-  category = "chemistry",
+  auto_recycle = false,
+  categories = {
+    "chemistry"
+  },
   crafting_machine_tint = {
     primary = {
       a = 1,

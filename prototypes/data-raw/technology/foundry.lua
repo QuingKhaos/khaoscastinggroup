@@ -21,11 +21,11 @@ return {
       type = "unlock-recipe"
     },
     {
-      recipe = "molten-iron",
+      recipe = "iron-ore-melting",
       type = "unlock-recipe"
     },
     {
-      recipe = "molten-copper",
+      recipe = "copper-ore-melting",
       type = "unlock-recipe"
     },
     {

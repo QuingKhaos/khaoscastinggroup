@@ -1,4 +1,152 @@
 return {
+  circuit_connector = {
+    points = {
+      shadow = {
+        green = {
+          1.5625,
+          1.1875
+        },
+        red = {
+          1.6875,
+          1.125
+        }
+      },
+      wire = {
+        green = {
+          1.25,
+          0.84375
+        },
+        red = {
+          1.1875,
+          0.65625
+        }
+      }
+    },
+    sprites = {
+      blue_led_light_offset = {
+        1.0625,
+        0.96875
+      },
+      connector_main = {
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
+        height = 50,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          0.9375,
+          0.78125
+        },
+        width = 52,
+        x = 156,
+        y = 150
+      },
+      connector_shadow = {
+        draw_as_shadow = true,
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04b-base-shadow-sequence.png",
+        height = 46,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          1.171875,
+          1.078125
+        },
+        width = 60,
+        x = 180,
+        y = 138
+      },
+      led_blue = {
+        draw_as_glow = true,
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04e-blue-LED-on-sequence.png",
+        height = 60,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          0.9375,
+          0.75
+        },
+        width = 60,
+        x = 180,
+        y = 180
+      },
+      led_blue_off = {
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
+        height = 44,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          0.9375,
+          0.75
+        },
+        width = 46,
+        x = 138,
+        y = 132
+      },
+      led_green = {
+        draw_as_glow = true,
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04h-green-LED-sequence.png",
+        height = 46,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          0.9375,
+          0.75
+        },
+        width = 48,
+        x = 144,
+        y = 138
+      },
+      led_light = {
+        intensity = 0,
+        size = 0.9
+      },
+      led_red = {
+        draw_as_glow = true,
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04i-red-LED-sequence.png",
+        height = 46,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          0.9375,
+          0.75
+        },
+        width = 48,
+        x = 144,
+        y = 138
+      },
+      red_green_led_light_offset = {
+        1.09375,
+        0.875
+      },
+      wire_pins = {
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
+        height = 58,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          0.9375,
+          0.78125
+        },
+        width = 62,
+        x = 186,
+        y = 174
+      },
+      wire_pins_shadow = {
+        draw_as_shadow = true,
+        filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04d-wire-shadow-sequence.png",
+        height = 54,
+        priority = "low",
+        scale = 0.5,
+        shift = {
+          1.25,
+          1.109375
+        },
+        width = 68,
+        x = 204,
+        y = 162
+      }
+    }
+  },
+  circuit_wire_max_distance = 9,
   close_sound = {
     filename = "__base__/sound/open-close/lab-close.ogg",
     volume = 0.8
@@ -34,6 +182,10 @@ return {
       }
     },
     type = "create-entity"
+  },
+  default_technology_level_signal = {
+    name = "signal-L",
+    type = "virtual"
   },
   dying_explosion = "lab-explosion",
   energy_source = {
@@ -208,6 +360,22 @@ return {
     }
   },
   type = "lab",
+  water_reflection = {
+    orientation_to_variation = false,
+    pictures = {
+      filename = "__base__/graphics/entity/lab/lab-reflection.png",
+      height = 24,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0.15625,
+        1.25
+      },
+      variation_count = 1,
+      width = 24
+    },
+    rotate = false
+  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,

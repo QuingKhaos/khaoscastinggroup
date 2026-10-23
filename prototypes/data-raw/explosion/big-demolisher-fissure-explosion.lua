@@ -84,28 +84,50 @@ return {
   order = "s-j",
   sound = {
     aggregation = {
+      count_already_playing = true,
       max_count = 2,
+      priority = "newest",
       remove = true
     },
     variations = {
       {
         filename = "__space-age__/sound/explosions/fissure-explosion-1.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 3
+        },
         volume = 0.4
       },
       {
         filename = "__space-age__/sound/explosions/fissure-explosion-2.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 3
+        },
         volume = 0.4
       },
       {
         filename = "__space-age__/sound/explosions/fissure-explosion-3.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 3
+        },
         volume = 0.4
       },
       {
         filename = "__space-age__/sound/explosions/fissure-explosion-4.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 3
+        },
         volume = 0.4
       },
       {
         filename = "__space-age__/sound/explosions/fissure-explosion-5.ogg",
+        modifiers = {
+          type = "main-menu",
+          volume_multiplier = 3
+        },
         volume = 0.4
       }
     }

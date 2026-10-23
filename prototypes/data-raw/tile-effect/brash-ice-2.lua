@@ -19,13 +19,22 @@ return {
       2
     },
     foam_color_multiplier = 1,
+    image_textures = {
+      {
+        filename = "__space-age__/graphics/terrain/aquilo/brash-ice.png"
+      }
+    },
     near_zoom = 0.0625,
+    noise_textures = {
+      {
+        filename = "__space-age__/graphics/terrain/gleba/watercaustics.png",
+        size = 512
+      }
+    },
     reflection_threshold = {
       3,
       2
     },
-    secondary_texture_variations_columns = 4,
-    secondary_texture_variations_rows = 2,
     shader_variation = "wetland-water",
     specular_lightness = {
       4,
@@ -35,20 +44,6 @@ return {
     specular_threshold = {
       0,
       0
-    },
-    texture_variations_columns = 1,
-    texture_variations_rows = 1,
-    textures = {
-      {
-        filename = "__space-age__/graphics/terrain/gleba/watercaustics.png",
-        height = 512,
-        width = 512
-      },
-      {
-        filename = "__space-age__/graphics/terrain/aquilo/brash-ice.png",
-        height = 1024,
-        width = 2048
-      }
     },
     tick_scale = 6
   }

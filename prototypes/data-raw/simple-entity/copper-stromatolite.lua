@@ -233,165 +233,34 @@ return {
   name = "copper-stromatolite",
   order = "b[decorative]-l[rock]-c[gleba]-a[copper-stromatolite]",
   pictures = {
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-01.png",
-      height = 138,
-      scale = 0.4,
-      shift = {
-        0.30468800000000003,
-        -0.4
-      },
-      width = 209
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-02.png",
-      height = 129,
-      scale = 0.4,
-      shift = {
-        0,
-        0.0390625
-      },
-      width = 165
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-03.png",
-      height = 139,
-      scale = 0.4,
-      shift = {
-        0.151562,
-        0
-      },
-      width = 151
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-04.png",
-      height = 110,
-      scale = 0.4,
-      shift = {
-        0.390625,
-        0
-      },
-      width = 216
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-05.png",
-      height = 147,
-      scale = 0.4,
-      shift = {
-        0.328125,
-        0.0703125
-      },
-      width = 154
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-06.png",
-      height = 132,
-      scale = 0.4,
-      shift = {
-        0.16875,
-        -0.1
-      },
-      width = 154
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-07.png",
-      height = 130,
-      scale = 0.4,
-      shift = {
-        0.3,
-        -0.2
-      },
-      width = 193
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-08.png",
-      height = 117,
-      scale = 0.4,
-      shift = {
-        0,
-        0
-      },
-      width = 136
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-09.png",
-      height = 115,
-      scale = 0.4,
-      shift = {
-        0.1,
-        0
-      },
-      width = 157
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-10.png",
-      height = 153,
-      scale = 0.4,
-      shift = {
-        0.325,
-        -0.1
-      },
-      width = 198
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-11.png",
-      height = 115,
-      scale = 0.4,
-      shift = {
-        0.453125,
-        0
-      },
-      width = 190
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-12.png",
-      height = 126,
-      scale = 0.4,
-      shift = {
-        0.53906200000000002,
-        -0.015625
-      },
-      width = 229
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-13.png",
-      height = 125,
-      scale = 0.4,
-      shift = {
-        0.0703125,
-        0.17968799999999998
-      },
-      width = 151
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-14.png",
-      height = 117,
-      scale = 0.4,
-      shift = {
-        0.160938,
-        0
-      },
-      width = 137
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-15.png",
-      height = 141,
-      scale = 0.4,
-      shift = {
-        0.24218799999999998,
-        -0.19531200000000002
-      },
-      width = 201
-    },
-    {
-      filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-16.png",
-      height = 154,
-      scale = 0.4,
-      shift = {
-        0.35156199999999997,
-        -0.1
-      },
-      width = 209
+    layers = {
+      {
+        filenames = {
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-1.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-2.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-3.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-4.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-5.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-6.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-7.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-8.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-9.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-10.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-11.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-12.png",
+          "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-13.png"
+        },
+        height = 174,
+        line_length = 1,
+        lines_per_file = 1,
+        scale = 0.4,
+        shift = {
+          0.0859375,
+          0.0234375
+        },
+        variation_count = 10,
+        width = 246
+      }
     }
   },
   render_layer = "object",
@@ -415,165 +284,34 @@ return {
   type = "simple-entity",
   water_reflection = {
     pictures = {
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-01-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0.30468800000000003,
-          -0.3
-        },
-        width = 96
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-02-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0,
-          0.3
-        },
-        width = 78
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-03-effect-map.png",
-        height = 91,
-        scale = 0.8,
-        shift = {
-          0.151562,
-          0.1
-        },
-        width = 70
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-04-effect-map.png",
-        height = 94,
-        scale = 0.8,
-        shift = {
-          0.30625,
-          0.3
-        },
-        width = 88
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-05-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0.328125,
-          0.0703125
-        },
-        width = 77
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-06-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0.16875,
-          0.1
-        },
-        width = 77
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-07-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0.3,
-          0
-        },
-        width = 94
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-08-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0,
-          0.2
-        },
-        width = 63
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-09-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0.1,
-          0.2
-        },
-        width = 79
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-10-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0.325,
-          -0.1
-        },
-        width = 93
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-11-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0.453125,
-          0.2
-        },
-        width = 95
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-12-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0.3,
-          0.1
-        },
-        width = 92
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-13-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0.0703125,
-          0.3
-        },
-        width = 76
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-14-effect-map.png",
-        height = 93,
-        scale = 0.8,
-        shift = {
-          0.160938,
-          0.2
-        },
-        width = 63
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-15-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0.24218799999999998,
-          -0.1
-        },
-        width = 101
-      },
-      {
-        filename = "__space-age__/graphics/entity/stromatolite/copper/stromatolite-16-effect-map.png",
-        height = 92,
-        scale = 0.8,
-        shift = {
-          0.1,
-          -0.1
-        },
-        width = 88
+      layers = {
+        {
+          filenames = {
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-1.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-2.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-3.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-4.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-5.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-6.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-7.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-8.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-9.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-10.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-11.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-12.png",
+            "__space-age__/graphics/entity/stromatolite/copper/copper-stromatolite-effect-13.png"
+          },
+          height = 288,
+          line_length = 1,
+          lines_per_file = 1,
+          scale = 0.4,
+          shift = {
+            0,
+            0
+          },
+          variation_count = 10,
+          width = 288
+        }
       }
     }
   }

@@ -41,5 +41,6 @@ return {
   stack_size = 10,
   subgroup = "train-transport",
   support = "rail-support",
-  type = "rail-planner"
+  type = "rail-planner",
+  weight = 500000
 }

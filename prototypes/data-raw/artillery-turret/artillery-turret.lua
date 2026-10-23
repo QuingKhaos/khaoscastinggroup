@@ -532,10 +532,20 @@ return {
   },
   rotating_sound = {
     sound = {
+      aggregation = {
+        count_already_playing = true,
+        max_count = 3,
+        remove = true
+      },
       filename = "__base__/sound/fight/artillery-rotation-loop.ogg",
       volume = 0.6
     },
     stopped_sound = {
+      aggregation = {
+        count_already_playing = true,
+        max_count = 3,
+        remove = true
+      },
       filename = "__base__/sound/fight/artillery-rotation-stop.ogg"
     }
   },

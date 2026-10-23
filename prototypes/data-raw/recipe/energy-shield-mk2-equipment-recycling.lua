@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,18 +29,19 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 0.625,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__base__/graphics/icons/energy-shield-mk2-equipment.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -57,19 +60,19 @@ return {
   name = "energy-shield-mk2-equipment-recycling",
   results = {
     {
-      amount = 2.5,
+      amount = 2,
       extra_count_fraction = 0.5,
       name = "energy-shield-equipment",
       type = "item"
     },
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "processing-unit",
       type = "item"
     },
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "low-density-structure",
       type = "item"

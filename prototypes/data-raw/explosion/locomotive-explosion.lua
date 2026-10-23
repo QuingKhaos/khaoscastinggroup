@@ -159,40 +159,51 @@ return {
   smoke_count = 2,
   smoke_slow_down_factor = 1,
   sound = {
+    advanced_volume_control = {
+      fades = {
+        fade_in = {
+          curve_type = "S-curve",
+          from = {
+            control = 0.5,
+            volume_percentage = 20
+          },
+          to = {
+            1,
+            100
+          }
+        }
+      }
+    },
     aggregation = {
       count_already_playing = true,
-      max_count = 3,
+      max_count = 2,
       remove = true
-    },
-    audible_distance_modifier = 3.7999999999999998,
-    game_controller_vibration_data = {
-      duration = 160,
-      low_frequency_vibration_intensity = 0.9,
-      play_for = "everything"
-    },
-    switch_vibration_data = {
-      filename = "__base__/sound/fight/large-explosion.bnvib",
-      gain = 0.6,
-      play_for = "everything"
     },
     variations = {
       {
-        filename = "__base__/sound/fight/large-explosion-1.ogg",
-        max_volume = 0.8,
-        min_volume = 0.8,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 0.6
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-1.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       },
       {
-        filename = "__base__/sound/fight/large-explosion-2.ogg",
-        max_volume = 0.8,
-        min_volume = 0.8,
-        modifiers = {
-          type = "main-menu",
-          volume_multiplier = 0.6
-        }
+        filename = "__base__/sound/explosions/large-metal-explosion-2.ogg",
+        max_volume = 1,
+        min_volume = 0.7
+      },
+      {
+        filename = "__base__/sound/explosions/large-metal-explosion-3.ogg",
+        max_volume = 1,
+        min_volume = 0.7
+      },
+      {
+        filename = "__base__/sound/explosions/large-metal-explosion-4.ogg",
+        max_volume = 1,
+        min_volume = 0.7
+      },
+      {
+        filename = "__base__/sound/explosions/large-metal-explosion-5.ogg",
+        max_volume = 1,
+        min_volume = 0.7
       }
     }
   },

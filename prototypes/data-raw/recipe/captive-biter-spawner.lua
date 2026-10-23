@@ -1,5 +1,8 @@
 return {
-  category = "cryogenics",
+  auto_recycle = false,
+  categories = {
+    "cryogenics"
+  },
   enabled = false,
   energy_required = 10,
   ingredients = {
@@ -25,11 +28,11 @@ return {
     }
   },
   name = "captive-biter-spawner",
-  reset_freshness_on_craft = true,
   results = {
     {
       amount = 1,
       name = "captive-biter-spawner",
+      reset_freshness_on_craft = true,
       type = "item"
     }
   },

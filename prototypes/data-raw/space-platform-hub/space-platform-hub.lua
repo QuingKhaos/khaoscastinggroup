@@ -198,15 +198,15 @@ return {
             {
               filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-lower-hatch-front-r.png",
               frame_count = 20,
-              height = 138,
+              height = 124,
               line_length = 6,
               run_mode = "forward",
               scale = 0.5,
               shift = {
-                -1.125,
-                0.359375
+                -1.234375,
+                0.453125
               },
-              width = 190
+              width = 176
             },
             {
               blend_mode = "additive",
@@ -252,15 +252,15 @@ return {
             {
               filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-lower-hatch-front.png",
               frame_count = 20,
-              height = 112,
+              height = 110,
               line_length = 6,
               run_mode = "forward",
               scale = 0.5,
               shift = {
-                -1.71875,
-                1
+                -1.6875,
+                0.984375
               },
-              width = 174
+              width = 172
             }
           }
         },
@@ -291,7 +291,6 @@ return {
     },
     hatch_definitions = {
       {
-        cargo_unit_entity_to_spawn = "",
         illumination_graphic_index = 503,
         offset = {
           0.5,
@@ -309,7 +308,6 @@ return {
         travel_height = 3
       },
       {
-        cargo_unit_entity_to_spawn = "",
         illumination_graphic_index = 504,
         offset = {
           2,
@@ -327,7 +325,6 @@ return {
         travel_height = 3
       },
       {
-        cargo_unit_entity_to_spawn = "",
         illumination_graphic_index = 505,
         offset = {
           1.25,
@@ -439,11 +436,14 @@ return {
     name = "signal-D",
     type = "virtual"
   },
+  default_empty_slots_signal = {
+    name = "signal-E",
+    type = "virtual"
+  },
   default_speed_signal = {
     name = "signal-V",
     type = "virtual"
   },
-  dump_container = "crash-site-chest-1",
   flags = {
     "player-creation",
     "not-deconstructable"
@@ -6438,871 +6438,6 @@ return {
       }
     },
     connections = {
-      bottom_left_inner_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1332,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1320,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 888,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 912,
-                y = 492
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1554,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1540,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 1036,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 1064,
-                y = 492
-              },
-              {
-                blend_mode = "additive",
-                draw_as_glow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-emission.png",
-                height = 118,
-                scale = 0.5,
-                shift = {
-                  0.015625,
-                  -0.515625
-                },
-                width = 96,
-                x = 672,
-                y = 354
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      bottom_left_outer_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1332,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1320,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 888,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 912,
-                y = 328
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 1524,
-                y = 432
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1554,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1540,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 1036,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 1064,
-                y = 328
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 1778,
-                y = 432
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      bottom_right_inner_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 888,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 880,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 592,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 608,
-                y = 492
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 1016,
-                y = 648
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1110,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1100,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 740,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 760,
-                y = 492
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 1270,
-                y = 648
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      bottom_right_outer_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 888,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 880,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 592,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 608,
-                y = 328
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 1016,
-                y = 432
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1110,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1100,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 740,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 760,
-                y = 328
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 1270,
-                y = 432
-              },
-              {
-                blend_mode = "additive",
-                draw_as_glow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-emission.png",
-                height = 118,
-                scale = 0.5,
-                shift = {
-                  0.015625,
-                  -0.515625
-                },
-                width = 96,
-                x = 480,
-                y = 236
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      bottom_wall = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 0,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 0,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 0,
-            y = 198
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 0,
-                y = 164
-              },
-              {
-                blend_mode = "additive",
-                draw_as_glow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-emission.png",
-                height = 118,
-                scale = 0.5,
-                shift = {
-                  0.015625,
-                  -0.515625
-                },
-                width = 96,
-                x = 0,
-                y = 118
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 222,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 220,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 148,
-            y = 198
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 152,
-                y = 164
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 254,
-                y = 216
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 444,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 440,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 296,
-            y = 198
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 304,
-                y = 164
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 508,
-                y = 216
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 666,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 660,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 444,
-            y = 198
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 456,
-                y = 164
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 762,
-                y = 216
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
       bridge_crossing = {
         {
           {
@@ -7777,1283 +6912,2750 @@ return {
           }
         }
       },
-      left_wall = {
+      tileset = {
         {
           {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 888,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 880,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 592,
-            y = 198
-          },
-          {
-            layers = {
+            {
               {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
                 scale = 0.5,
                 shift = {
-                  -0.03125,
-                  -0.640625
+                  0.078125,
+                  -0.03125
                 },
-                width = 152,
-                x = 608,
-                y = 164
+                width = 222,
+                x = 888,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 880,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 592,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 608,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
               }
             },
-            render_layer = "object"
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1332,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1320,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 888,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 912,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          },
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1110,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1100,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 740,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 760,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1554,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1540,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 1036,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 1064,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
+              }
+            }
           }
         },
         {
           {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1110,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1100,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 740,
-            y = 198
-          },
-          {
-            layers = {
+            {
               {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
                 scale = 0.5,
                 shift = {
-                  -0.03125,
-                  -0.640625
+                  0.078125,
+                  -0.03125
                 },
-                width = 152,
-                x = 760,
-                y = 164
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1332,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1320,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 888,
-            y = 198
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 912,
-                y = 164
-              }
-            },
-            render_layer = "object"
-          }
-        },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1554,
-            y = 270
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1540,
-            y = 168
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 1036,
-            y = 198
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 1064,
-                y = 164
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      right_wall = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 0,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 0,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 0,
-            y = 0
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
+                width = 222,
                 x = 0,
                 y = 0
               },
               {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
                 scale = 0.5,
                 shift = {
-                  1.015625,
-                  0.28125
+                  0.015625,
+                  -0.75
                 },
-                width = 254,
+                width = 220,
                 x = 0,
                 y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 0,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 0,
+                    y = 0
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 0,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
               }
             },
-            render_layer = "object"
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 444,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 440,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 296,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 304,
+                    y = 0
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 508,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          },
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 222,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 220,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 148,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 152,
+                    y = 0
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 254,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 666,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 660,
+                y = 0
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 444,
+                y = 0
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 456,
+                    y = 0
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 762,
+                    y = 0
+                  }
+                },
+                render_layer = "object"
+              }
+            }
           }
         },
         {
           {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 222,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 220,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 148,
-            y = 0
-          },
-          {
-            layers = {
+            {
               {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
                 scale = 0.5,
                 shift = {
-                  -0.03125,
-                  -0.640625
+                  0.078125,
+                  -0.03125
                 },
-                width = 152,
-                x = 152,
-                y = 0
+                width = 222,
+                x = 0,
+                y = 270
               },
               {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
                 scale = 0.5,
                 shift = {
-                  1.015625,
-                  0.28125
+                  0.015625,
+                  -0.75
                 },
-                width = 254,
-                x = 254,
-                y = 0
+                width = 220,
+                x = 0,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 0,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 0,
+                    y = 164
+                  },
+                  {
+                    blend_mode = "additive",
+                    draw_as_glow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-emission.png",
+                    height = 118,
+                    scale = 0.5,
+                    shift = {
+                      0.015625,
+                      -0.515625
+                    },
+                    width = 96,
+                    x = 0,
+                    y = 118
+                  }
+                },
+                render_layer = "object"
               }
             },
-            render_layer = "object"
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 444,
+                y = 270
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 440,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 296,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 304,
+                    y = 164
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 508,
+                    y = 216
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          },
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 222,
+                y = 270
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 220,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 148,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 152,
+                    y = 164
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 254,
+                    y = 216
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 666,
+                y = 270
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 660,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 444,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 456,
+                    y = 164
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 762,
+                    y = 216
+                  }
+                },
+                render_layer = "object"
+              }
+            }
           }
         },
         {
           {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 444,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 440,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 296,
-            y = 0
-          },
-          {
-            layers = {
+            {
               {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
                 scale = 0.5,
                 shift = {
-                  -0.03125,
-                  -0.640625
+                  0.078125,
+                  -0.03125
                 },
-                width = 152,
-                x = 304,
-                y = 0
+                width = 222,
+                x = 888,
+                y = 270
               },
               {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
                 scale = 0.5,
                 shift = {
-                  1.015625,
-                  0.28125
+                  0.015625,
+                  -0.75
                 },
-                width = 254,
-                x = 508,
-                y = 0
+                width = 220,
+                x = 880,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 592,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 608,
+                    y = 164
+                  }
+                },
+                render_layer = "object"
               }
             },
-            render_layer = "object"
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1332,
+                y = 270
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1320,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 888,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 912,
+                    y = 164
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          },
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1110,
+                y = 270
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1100,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 740,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 760,
+                    y = 164
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1554,
+                y = 270
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1540,
+                y = 168
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 1036,
+                y = 198
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 1064,
+                    y = 164
+                  }
+                },
+                render_layer = "object"
+              }
+            }
           }
         },
         {
           {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 666,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 660,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 444,
-            y = 0
-          },
-          {
-            layers = {
+            {
               {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
                 scale = 0.5,
                 shift = {
-                  -0.03125,
-                  -0.640625
+                  0.078125,
+                  -0.03125
                 },
-                width = 152,
-                x = 456,
-                y = 0
+                width = 222,
+                x = 444,
+                y = 540
               },
               {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
                 scale = 0.5,
                 shift = {
-                  1.015625,
-                  0.28125
+                  0.015625,
+                  -0.75
                 },
-                width = 254,
-                x = 762,
-                y = 0
+                width = 220,
+                x = 440,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 296,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 304,
+                    y = 328
+                  }
+                },
+                render_layer = "object"
               }
             },
-            render_layer = "object"
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 666,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 660,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 444,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 456,
+                    y = 328
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 0,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 0,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 0,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 0,
+                    y = 328
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 0,
+                    y = 432
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 222,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 220,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 148,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 152,
+                    y = 328
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 254,
+                    y = 432
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1332,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1320,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 888,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 912,
+                    y = 328
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 1524,
+                    y = 432
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1554,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1540,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 1036,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 1064,
+                    y = 328
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 1778,
+                    y = 432
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 888,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 880,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 592,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 608,
+                    y = 328
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 1016,
+                    y = 432
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1110,
+                y = 540
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1100,
+                y = 336
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 740,
+                y = 396
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 760,
+                    y = 328
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 1270,
+                    y = 432
+                  },
+                  {
+                    blend_mode = "additive",
+                    draw_as_glow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-emission.png",
+                    height = 118,
+                    scale = 0.5,
+                    shift = {
+                      0.015625,
+                      -0.515625
+                    },
+                    width = 96,
+                    x = 480,
+                    y = 236
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 444,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 440,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 296,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 304,
+                    y = 492
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 666,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 660,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 444,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 456,
+                    y = 492
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 0,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 0,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 0,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 0,
+                    y = 492
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 0,
+                    y = 648
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 222,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 220,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 148,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 152,
+                    y = 492
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 254,
+                    y = 648
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1332,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1320,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 888,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 912,
+                    y = 492
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1554,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1540,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 1036,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 1064,
+                    y = 492
+                  },
+                  {
+                    blend_mode = "additive",
+                    draw_as_glow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-emission.png",
+                    height = 118,
+                    scale = 0.5,
+                    shift = {
+                      0.015625,
+                      -0.515625
+                    },
+                    width = 96,
+                    x = 672,
+                    y = 354
+                  }
+                },
+                render_layer = "object"
+              }
+            }
+          }
+        },
+        {
+          {
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 888,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 880,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 592,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 608,
+                    y = 492
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 1016,
+                    y = 648
+                  }
+                },
+                render_layer = "object"
+              }
+            },
+            {
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
+                height = 270,
+                render_layer = "lower-object-above-shadow",
+                scale = 0.5,
+                shift = {
+                  0.078125,
+                  -0.03125
+                },
+                width = 222,
+                x = 1110,
+                y = 810
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
+                height = 168,
+                render_layer = "lower-object-overlay",
+                scale = 0.5,
+                shift = {
+                  0.015625,
+                  -0.75
+                },
+                width = 220,
+                x = 1100,
+                y = 504
+              },
+              {
+                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
+                height = 198,
+                render_layer = "object-under",
+                scale = 0.5,
+                shift = {
+                  -0.078125,
+                  -0.1875
+                },
+                width = 148,
+                x = 740,
+                y = 594
+              },
+              {
+                layers = {
+                  {
+                    filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
+                    height = 164,
+                    scale = 0.5,
+                    shift = {
+                      -0.03125,
+                      -0.640625
+                    },
+                    width = 152,
+                    x = 760,
+                    y = 492
+                  },
+                  {
+                    draw_as_shadow = true,
+                    filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
+                    height = 216,
+                    scale = 0.5,
+                    shift = {
+                      1.015625,
+                      0.28125
+                    },
+                    width = 254,
+                    x = 1270,
+                    y = 648
+                  }
+                },
+                render_layer = "object"
+              }
+            }
           }
         }
       },
-      top_left_inner_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 444,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 440,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 296,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 304,
-                y = 492
-              }
-            },
-            render_layer = "object"
-          }
+      tileset_mapping = {
+        [10] = {
+          7,
+          10
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 666,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 660,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 444,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 456,
-                y = 492
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      top_left_outer_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 444,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 440,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 296,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 304,
-                y = 328
-              }
-            },
-            render_layer = "object"
-          }
+        [11] = {
+          7,
+          10
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 666,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 660,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 444,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 456,
-                y = 328
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      top_right_inner_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 0,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 0,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 0,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 0,
-                y = 492
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 0,
-                y = 648
-              }
-            },
-            render_layer = "object"
-          }
+        [14] = 7,
+        [15] = 7,
+        [26] = {
+          7,
+          10
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 222,
-            y = 810
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 220,
-            y = 504
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 148,
-            y = 594
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 152,
-                y = 492
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 254,
-                y = 648
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      top_right_outer_corner = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 0,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 0,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 0,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 0,
-                y = 328
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 0,
-                y = 432
-              }
-            },
-            render_layer = "object"
-          }
+        [27] = {
+          7,
+          10
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 222,
-            y = 540
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 220,
-            y = 336
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 148,
-            y = 396
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 152,
-                y = 328
-              },
-              {
-                draw_as_shadow = true,
-                filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
-                height = 216,
-                scale = 0.5,
-                shift = {
-                  1.015625,
-                  0.28125
-                },
-                width = 254,
-                x = 254,
-                y = 432
-              }
-            },
-            render_layer = "object"
-          }
-        }
-      },
-      top_wall = {
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 888,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 880,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 592,
-            y = 0
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 608,
-                y = 0
-              }
-            },
-            render_layer = "object"
-          }
+        [30] = 7,
+        [31] = 7,
+        [34] = {
+          2,
+          4
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1110,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1100,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 740,
-            y = 0
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 760,
-                y = 0
-              }
-            },
-            render_layer = "object"
-          }
+        [35] = {
+          2,
+          4
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1332,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1320,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 888,
-            y = 0
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 912,
-                y = 0
-              }
-            },
-            render_layer = "object"
-          }
+        [38] = {
+          2,
+          4
         },
-        {
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-0.png",
-            height = 270,
-            render_layer = "lower-object-above-shadow",
-            scale = 0.5,
-            shift = {
-              0.078125,
-              -0.03125
-            },
-            width = 222,
-            x = 1554,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-1.png",
-            height = 168,
-            render_layer = "lower-object-overlay",
-            scale = 0.5,
-            shift = {
-              0.015625,
-              -0.75
-            },
-            width = 220,
-            x = 1540,
-            y = 0
-          },
-          {
-            filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-2.png",
-            height = 198,
-            render_layer = "object-under",
-            scale = 0.5,
-            shift = {
-              -0.078125,
-              -0.1875
-            },
-            width = 148,
-            x = 1036,
-            y = 0
-          },
-          {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/cargo-hubs/connections/platform-connections-3.png",
-                height = 164,
-                scale = 0.5,
-                shift = {
-                  -0.03125,
-                  -0.640625
-                },
-                width = 152,
-                x = 1064,
-                y = 0
-              }
-            },
-            render_layer = "object"
-          }
-        }
+        [39] = {
+          2,
+          4
+        },
+        [40] = {
+          5,
+          12
+        },
+        [41] = {
+          5,
+          12
+        },
+        [42] = {
+          4,
+          10,
+          12
+        },
+        [43] = {
+          4,
+          10,
+          12
+        },
+        [44] = {
+          5,
+          12
+        },
+        [45] = {
+          5,
+          12
+        },
+        [46] = {
+          4,
+          12
+        },
+        [47] = {
+          4,
+          12
+        },
+        [50] = {
+          2,
+          4
+        },
+        [51] = {
+          2,
+          4
+        },
+        [54] = {
+          2,
+          4
+        },
+        [55] = {
+          2,
+          4
+        },
+        [56] = 5,
+        [57] = 5,
+        [58] = {
+          4,
+          10
+        },
+        [59] = {
+          4,
+          10
+        },
+        [60] = 5,
+        [61] = 5,
+        [62] = 4,
+        [63] = 4,
+        [74] = {
+          7,
+          10
+        },
+        [75] = {
+          7,
+          10
+        },
+        [78] = 7,
+        [79] = 7,
+        [90] = {
+          7,
+          10
+        },
+        [91] = {
+          7,
+          10
+        },
+        [94] = 7,
+        [95] = 7,
+        [98] = {
+          2,
+          4
+        },
+        [99] = {
+          2,
+          4
+        },
+        [102] = {
+          2,
+          4
+        },
+        [103] = {
+          2,
+          4
+        },
+        [104] = {
+          5,
+          12
+        },
+        [105] = {
+          5,
+          12
+        },
+        [106] = {
+          4,
+          10,
+          12
+        },
+        [107] = {
+          4,
+          10,
+          12
+        },
+        [108] = {
+          5,
+          12
+        },
+        [109] = {
+          5,
+          12
+        },
+        [110] = {
+          4,
+          12
+        },
+        [111] = {
+          4,
+          12
+        },
+        [114] = {
+          2,
+          4
+        },
+        [115] = {
+          2,
+          4
+        },
+        [118] = {
+          2,
+          4
+        },
+        [119] = {
+          2,
+          4
+        },
+        [120] = 5,
+        [121] = 5,
+        [122] = {
+          4,
+          10
+        },
+        [123] = {
+          4,
+          10
+        },
+        [124] = 5,
+        [125] = 5,
+        [126] = 4,
+        [127] = 4,
+        [130] = {
+          8,
+          9
+        },
+        [131] = 8,
+        [134] = {
+          8,
+          9
+        },
+        [135] = 8,
+        [136] = {
+          1,
+          3
+        },
+        [137] = {
+          1,
+          3
+        },
+        [138] = {
+          3,
+          9,
+          10
+        },
+        [139] = {
+          3,
+          10
+        },
+        [140] = {
+          1,
+          3
+        },
+        [141] = {
+          1,
+          3
+        },
+        [142] = {
+          3,
+          9
+        },
+        [143] = 3,
+        [146] = {
+          8,
+          9
+        },
+        [147] = 8,
+        [150] = {
+          8,
+          9
+        },
+        [151] = 8,
+        [152] = {
+          1,
+          3
+        },
+        [153] = {
+          1,
+          3
+        },
+        [154] = {
+          3,
+          9,
+          10
+        },
+        [155] = {
+          3,
+          10
+        },
+        [156] = {
+          1,
+          3
+        },
+        [157] = {
+          1,
+          3
+        },
+        [158] = {
+          3,
+          9
+        },
+        [159] = 3,
+        [160] = {
+          6,
+          11
+        },
+        [161] = {
+          6,
+          11
+        },
+        [162] = {
+          2,
+          9,
+          11
+        },
+        [163] = {
+          2,
+          11
+        },
+        [164] = {
+          6,
+          11
+        },
+        [165] = {
+          6,
+          11
+        },
+        [166] = {
+          2,
+          9,
+          11
+        },
+        [167] = {
+          2,
+          11
+        },
+        [168] = {
+          1,
+          11,
+          12
+        },
+        [169] = {
+          1,
+          11,
+          12
+        },
+        [170] = {
+          9,
+          10,
+          11,
+          12
+        },
+        [171] = {
+          10,
+          11,
+          12
+        },
+        [172] = {
+          1,
+          11,
+          12
+        },
+        [173] = {
+          1,
+          11,
+          12
+        },
+        [174] = {
+          9,
+          11,
+          12
+        },
+        [175] = {
+          11,
+          12
+        },
+        [176] = {
+          6,
+          11
+        },
+        [177] = {
+          6,
+          11
+        },
+        [178] = {
+          2,
+          9,
+          11
+        },
+        [179] = {
+          2,
+          11
+        },
+        [180] = {
+          2,
+          11
+        },
+        [181] = {
+          2,
+          11
+        },
+        [182] = {
+          2,
+          9,
+          11
+        },
+        [183] = {
+          2,
+          11
+        },
+        [184] = {
+          1,
+          11
+        },
+        [185] = {
+          1,
+          11
+        },
+        [186] = {
+          9,
+          10,
+          11
+        },
+        [187] = {
+          10,
+          11
+        },
+        [188] = {
+          1,
+          11
+        },
+        [189] = {
+          1,
+          11
+        },
+        [190] = {
+          9,
+          11
+        },
+        [191] = 11,
+        [194] = {
+          8,
+          9
+        },
+        [195] = 8,
+        [198] = {
+          8,
+          9
+        },
+        [199] = 8,
+        [200] = {
+          1,
+          3
+        },
+        [201] = {
+          1,
+          3
+        },
+        [202] = {
+          3,
+          9,
+          10
+        },
+        [203] = {
+          3,
+          10
+        },
+        [204] = {
+          1,
+          3
+        },
+        [205] = {
+          1,
+          3
+        },
+        [206] = {
+          3,
+          9
+        },
+        [207] = 3,
+        [210] = {
+          8,
+          9
+        },
+        [211] = 8,
+        [214] = {
+          8,
+          9
+        },
+        [215] = 8,
+        [216] = {
+          1,
+          3
+        },
+        [217] = {
+          1,
+          3
+        },
+        [218] = {
+          3,
+          9,
+          10
+        },
+        [219] = {
+          3,
+          10
+        },
+        [220] = {
+          1,
+          3
+        },
+        [221] = {
+          1,
+          3
+        },
+        [222] = {
+          3,
+          9
+        },
+        [223] = 3,
+        [224] = 6,
+        [225] = 6,
+        [226] = {
+          2,
+          9
+        },
+        [227] = 2,
+        [228] = 6,
+        [229] = 6,
+        [230] = {
+          2,
+          9
+        },
+        [231] = 2,
+        [232] = {
+          1,
+          12
+        },
+        [233] = {
+          1,
+          12
+        },
+        [234] = {
+          9,
+          10,
+          12
+        },
+        [235] = {
+          10,
+          12
+        },
+        [236] = {
+          1,
+          12
+        },
+        [237] = {
+          1,
+          12
+        },
+        [238] = {
+          9,
+          12
+        },
+        [239] = 12,
+        [240] = 6,
+        [241] = 6,
+        [242] = {
+          2,
+          9
+        },
+        [243] = 2,
+        [244] = 6,
+        [245] = 6,
+        [246] = {
+          2,
+          9
+        },
+        [247] = 2,
+        [248] = 1,
+        [249] = 1,
+        [250] = {
+          9,
+          10
+        },
+        [251] = 10,
+        [252] = 1,
+        [253] = 1,
+        [254] = 9
       }
     },
     picture = {
@@ -9263,7 +9865,7 @@ return {
   },
   icon = "__space-age__/graphics/icons/space-platform-hub.png",
   inventory_size = 59,
-  max_health = 1000,
+  max_health = 5000,
   name = "space-platform-hub",
   open_sound = {
     filename = "__base__/sound/open-close/metal-large-open.ogg",
@@ -9296,6 +9898,12 @@ return {
     }
   },
   platform_repair_speed_modifier = 0.1,
+  resistances = {
+    {
+      percent = 50,
+      type = "impact"
+    }
+  },
   selection_box = {
     {
       -4,
@@ -9312,41 +9920,6 @@ return {
       max = 0,
       min = 0,
       property = "pressure"
-    }
-  },
-  surface_render_parameters = {
-    shadow_opacity = 0.5,
-    space_dust_background = {
-      animation_speed = 1,
-      asteroid_normal_texture = {
-        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
-        size = 1024
-      },
-      asteroid_texture = {
-        filename = "__space-age__/graphics/space/asteroidTexture.png",
-        size = 1024
-      },
-      noise_texture = {
-        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
-        premul_alpha = false,
-        size = 4096
-      }
-    },
-    space_dust_foreground = {
-      animation_speed = 1,
-      asteroid_normal_texture = {
-        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
-        size = 1024
-      },
-      asteroid_texture = {
-        filename = "__space-age__/graphics/space/asteroidTexture.png",
-        size = 1024
-      },
-      noise_texture = {
-        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
-        premul_alpha = false,
-        size = 4096
-      }
     }
   },
   type = "space-platform-hub",

@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -25,18 +27,19 @@ return {
       0.85
     }
   },
+  enabled = false,
   energy_required = 0.625,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -55,25 +58,25 @@ return {
   name = "overgrowth-jellynut-soil-recycling",
   results = {
     {
-      amount = 0.5,
+      amount = 0,
       extra_count_fraction = 0.5,
       name = "artificial-jellynut-soil",
       type = "item"
     },
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "jellynut-seed",
       type = "item"
     },
     {
-      amount = 2.5,
+      amount = 2,
       extra_count_fraction = 0.5,
       name = "biter-egg",
       type = "item"
     },
     {
-      amount = 12.5,
+      amount = 12,
       extra_count_fraction = 0.5,
       name = "spoilage",
       type = "item"

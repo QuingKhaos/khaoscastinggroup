@@ -1,5 +1,6 @@
 return {
   name = "space-3",
+  title = "Space 3 - Orbital Mechanics",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

@@ -49,16 +49,17 @@ return {
     },
     width = 126
   },
+  arms_speed_modifier_per_quality_level = 0.2,
   base_day_sprite = {
     dice_y = 3,
     filename = "__base__/graphics/entity/rocket-silo/06-rocket-silo.png",
-    height = 596,
+    height = 612,
     scale = 0.5,
     shift = {
-      0.09375,
-      -0.03125
+      0.0625,
+      0.109375
     },
-    width = 608
+    width = 628
   },
   base_engine_light = {
     intensity = 1,
@@ -83,10 +84,10 @@ return {
     height = 262,
     scale = 0.5,
     shift = {
-      -0.03125,
+      0.03125,
       2.4375
     },
-    width = 580
+    width = 586
   },
   base_frozen = {
     filename = "__space-age__/graphics/entity/frozen/rocket-silo/06-rocket-silo-frozen.png",
@@ -101,7 +102,6 @@ return {
   cargo_station_parameters = {
     hatch_definitions = {
       {
-        cargo_unit_entity_to_spawn = "",
         offset = {
           0,
           0
@@ -122,29 +122,29 @@ return {
       points = {
         shadow = {
           green = {
-            2.546875,
-            4.5
+            5.640625,
+            3.53125
           },
           red = {
-            2.796875,
-            4.46875
+            5.796875,
+            3.40625
           }
         },
         wire = {
           green = {
-            1.578125,
-            3.625
+            4.328125,
+            2.03125
           },
           red = {
-            1.640625,
-            3.4375
+            4.484375,
+            1.9375
           }
         }
       },
       sprites = {
         blue_led_light_offset = {
-          1.421875,
-          3.5
+          4.203125,
+          1.875
         },
         connector_main = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04a-base-sequence.png",
@@ -152,12 +152,12 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            1.515625,
-            3.28125
+            4.359375,
+            1.90625
           },
           width = 52,
           x = 52,
-          y = 150
+          y = 0
         },
         connector_shadow = {
           draw_as_shadow = true,
@@ -166,12 +166,12 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            2.4375,
-            4.109375
+            5.5625,
+            3.328125
           },
           width = 60,
           x = 60,
-          y = 138
+          y = 0
         },
         led_blue = {
           draw_as_glow = true,
@@ -180,12 +180,12 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            1.515625,
-            3.25
+            4.359375,
+            1.875
           },
           width = 60,
           x = 60,
-          y = 180
+          y = 0
         },
         led_blue_off = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04f-blue-LED-off-sequence.png",
@@ -193,12 +193,12 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            1.515625,
-            3.25
+            4.359375,
+            1.875
           },
           width = 46,
           x = 46,
-          y = 132
+          y = 0
         },
         led_green = {
           draw_as_glow = true,
@@ -207,12 +207,12 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            1.515625,
-            3.25
+            4.359375,
+            1.875
           },
           width = 48,
           x = 48,
-          y = 138
+          y = 0
         },
         led_light = {
           intensity = 0,
@@ -225,29 +225,30 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            1.515625,
-            3.25
+            4.359375,
+            1.875
           },
           width = 48,
           x = 48,
-          y = 138
+          y = 0
         },
         red_green_led_light_offset = {
-          1.390625,
-          3.40625
+          4.328125,
+          1.78125
         },
+        secondary_draw_order = 70,
         wire_pins = {
           filename = "__base__/graphics/entity/circuit-connector/ccm-universal-04c-wire-sequence.png",
           height = 58,
           priority = "low",
           scale = 0.5,
           shift = {
-            1.515625,
-            3.28125
+            4.359375,
+            1.90625
           },
           width = 62,
           x = 62,
-          y = 174
+          y = 0
         },
         wire_pins_shadow = {
           draw_as_shadow = true,
@@ -256,12 +257,12 @@ return {
           priority = "low",
           scale = 0.5,
           shift = {
-            2.515625,
-            4.140625
+            5.640625,
+            3.359375
           },
           width = 68,
           x = 68,
-          y = 162
+          y = 0
         }
       }
     },
@@ -766,6 +767,10 @@ return {
     },
     type = "create-entity"
   },
+  default_launched_signal = {
+    name = "signal-R",
+    type = "virtual"
+  },
   door_back_frozen = {
     filename = "__space-age__/graphics/entity/frozen/rocket-silo/04-door-back-frozen.png",
     height = 286,
@@ -836,6 +841,136 @@ return {
   flags = {
     "placeable-player",
     "player-creation"
+  },
+  graphics_set = {
+    working_visualisations = {
+      {
+        always_draw = true,
+        animation = {
+          animation_speed = 0.65,
+          filename = "__base__/graphics/entity/rocket-silo/crafting.png",
+          frame_count = 64,
+          height = 210,
+          line_length = 6,
+          scale = 0.5,
+          shift = {
+            2.59375,
+            2.5625
+          },
+          width = 208
+        },
+        name = "crafting",
+        render_layer = "object",
+        secondary_draw_order = 127
+      },
+      {
+        animation = {
+          animation_speed = 0.65,
+          blend_mode = "additive",
+          draw_as_glow = true,
+          filename = "__base__/graphics/entity/rocket-silo/crafting-light.png",
+          frame_count = 64,
+          height = 212,
+          line_length = 6,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            2.5,
+            2.5625
+          },
+          width = 208
+        },
+        fadeout = true,
+        render_layer = "object",
+        secondary_draw_order = 127
+      },
+      {
+        always_draw = true,
+        animation = {
+          animation_speed = 0.65,
+          filename = "__base__/graphics/entity/rocket-silo/engine.png",
+          frame_count = 32,
+          height = 152,
+          line_length = 6,
+          priority = "extra-high",
+          scale = 0.5,
+          shift = {
+            -2.78125,
+            -3.25
+          },
+          width = 206
+        },
+        render_layer = "object",
+        secondary_draw_order = 30
+      },
+      {
+        always_draw = true,
+        animation = {
+          animation_speed = 0.65,
+          filename = "__base__/graphics/entity/rocket-silo/filter.png",
+          frame_count = 32,
+          height = 78,
+          line_length = 6,
+          scale = 0.5,
+          shift = {
+            -2.890625,
+            -2.15625
+          },
+          width = 82
+        },
+        render_layer = "higher-object-above"
+      },
+      {
+        animation = {
+          allow_forced_downscale = true,
+          animation_speed = 0.3,
+          filename = "__base__/graphics/entity/rocket-silo/steam-1.png",
+          frame_count = 64,
+          height = 178,
+          line_length = 8,
+          scale = 0.5,
+          shift = {
+            0.09375,
+            2.90625
+          },
+          tint = {
+            0.7,
+            0.7,
+            0.7,
+            0.5
+          },
+          width = 136
+        },
+        constant_speed = true,
+        fadeout = true,
+        render_layer = "higher-object-above"
+      },
+      {
+        animation = {
+          allow_forced_downscale = true,
+          animation_speed = 0.3,
+          filename = "__base__/graphics/entity/rocket-silo/steam-2.png",
+          frame_count = 64,
+          height = 164,
+          line_length = 8,
+          scale = 0.5,
+          shift = {
+            4.5625,
+            2.21875
+          },
+          tint = {
+            0.7,
+            0.7,
+            0.7,
+            0.5
+          },
+          width = 118
+        },
+        constant_speed = true,
+        fadeout = true,
+        render_layer = "higher-object-above"
+      }
+    }
   },
   heating_energy = "300kW",
   hole_clipping_box = {
@@ -915,6 +1050,10 @@ return {
   open_sound = {
     filename = "__base__/sound/open-close/silo-open.ogg",
     volume = 0.7
+  },
+  perceived_performance = {
+    maximum = 2.2000000000000002,
+    minimum = 1
   },
   quick_alarm_sound = {
     aggregation = {
@@ -1072,6 +1211,54 @@ return {
       type = "impact"
     }
   },
+  robot_door = {
+    animation = {
+      filename = "__base__/graphics/entity/rocket-silo/roboport-door.png",
+      frame_count = 16,
+      height = 32,
+      line_length = 6,
+      scale = 0.5,
+      shift = {
+        3.734375,
+        -3.875
+      },
+      width = 42
+    },
+    animation_sound = {
+      aggregation = {
+        max_count = 1,
+        remove = true
+      },
+      variations = {
+        {
+          filename = "__base__/sound/passive-provider-chest-open-1.ogg",
+          volume = 0.3
+        },
+        {
+          filename = "__base__/sound/passive-provider-chest-open-2.ogg",
+          volume = 0.3
+        },
+        {
+          filename = "__base__/sound/passive-provider-chest-open-3.ogg",
+          volume = 0.3
+        },
+        {
+          filename = "__base__/sound/passive-provider-chest-open-4.ogg",
+          volume = 0.3
+        },
+        {
+          filename = "__base__/sound/passive-provider-chest-open-5.ogg",
+          volume = 0.3
+        }
+      }
+    },
+    location_offset = {
+      3.7999999999999998,
+      -3.6000000000000001
+    },
+    opened_duration = 7
+  },
+  rocket_engine_starting_speed_modifier_per_quality_level = 0.45,
   rocket_entity = "rocket-silo-rocket",
   rocket_glow_overlay_sprite = {
     blend_mode = "additive",
@@ -1086,6 +1273,7 @@ return {
   },
   rocket_parts_required = 50,
   rocket_quick_relaunch_start_offset = -0.625,
+  rocket_rising_speed_modifier_per_quality_level = 0.15,
   rocket_shadow_overlay_sprite = {
     filename = "__base__/graphics/entity/rocket-silo/03-rocket-over-shadow-over-rocket.png",
     height = 288,
@@ -1105,8 +1293,8 @@ return {
     priority = "medium",
     scale = 0.5,
     shift = {
-      -3.125,
-      3.46875
+      -3.109375,
+      3.484375
     },
     width = 54
   },
@@ -1124,14 +1312,14 @@ return {
     dice = 2,
     draw_as_shadow = true,
     filename = "__base__/graphics/entity/rocket-silo/00-rocket-silo-shadow.png",
-    height = 578,
+    height = 600,
     priority = "medium",
     scale = 0.5,
     shift = {
-      0.21875,
-      0.0625
+      0.625,
+      -0.125
     },
-    width = 612
+    width = 656
   },
   show_recipe_icon = false,
   silo_fade_out_end_distance = 15,
@@ -1143,7 +1331,6 @@ return {
     }
   },
   times_to_blink = 3,
-  to_be_inserted_to_rocket_inventory_size = 20,
   type = "rocket-silo",
   working_sound = {
     fade_in_ticks = 10,
@@ -1156,6 +1343,60 @@ return {
       },
       filename = "__base__/sound/rocket-silo-working-1.ogg",
       volume = 0.8
+    },
+    sound_accents = {
+      {
+        frame = 6,
+        play_for_working_visualisation = "crafting",
+        sound = {
+          aggregation = {
+            count_already_playing = true,
+            max_count = 1,
+            remove = true
+          },
+          filename = "__base__/sound/silo-accents/silo-metal-rotate.ogg",
+          volume = 0.2
+        }
+      },
+      {
+        frame = 9,
+        play_for_working_visualisation = "crafting",
+        sound = {
+          aggregation = {
+            count_already_playing = true,
+            max_count = 1,
+            remove = true
+          },
+          filename = "__base__/sound/silo-accents/silo-metal-stop.ogg",
+          volume = 0.2
+        }
+      },
+      {
+        frame = 12,
+        play_for_working_visualisation = "crafting",
+        sound = {
+          aggregation = {
+            count_already_playing = true,
+            max_count = 1,
+            remove = true
+          },
+          filename = "__base__/sound/silo-accents/silo-welder-start.ogg",
+          volume = 0.2
+        }
+      },
+      {
+        frame = 20,
+        play_for_working_visualisation = "crafting",
+        sound = {
+          aggregation = {
+            count_already_playing = true,
+            max_count = 1,
+            remove = true
+          },
+          filename = "__base__/sound/silo-accents/silo-welder.ogg",
+          volume = 0.2
+        }
+      }
     }
   }
 }

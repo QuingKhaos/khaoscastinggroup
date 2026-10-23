@@ -11,7 +11,6 @@ return {
     0.65,
     0.6
   },
-  heat_capacity = "0.1kJ",
   icon = "__space-age__/graphics/icons/fluid/lithium-brine.png",
   name = "lithium-brine",
   order = "b[new-fluid]-e[aquilo]-f[lithium-brine]",

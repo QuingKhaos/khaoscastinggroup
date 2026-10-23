@@ -1,6 +1,8 @@
 return {
   name = "gleba-interlude-1",
-  planet = "gleba",
+  planets = {
+    "gleba"
+  },
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

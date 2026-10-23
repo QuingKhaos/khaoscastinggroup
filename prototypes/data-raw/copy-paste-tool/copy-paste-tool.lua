@@ -10,7 +10,9 @@ return {
       filename = "__core__/sound/blueprint-create.ogg"
     },
     mode = {
-      "blueprint"
+      "blueprint",
+      "any-entity",
+      "any-tile"
     },
     started_sound = {
       filename = "__core__/sound/blueprint-select.ogg"
@@ -41,7 +43,9 @@ return {
     mode = {
       "blueprint",
       "avoid-rolling-stock",
-      "avoid-vehicle"
+      "avoid-vehicle",
+      "any-entity",
+      "any-tile"
     },
     started_sound = {
       filename = "__core__/sound/blueprint-select.ogg"

@@ -13,18 +13,21 @@ return {
     time_factor = 4e-06
   },
   enemy_expansion = {
-    building_coefficient = 0.1,
+    build_base_unit_dispatch_cooldown = 1800,
+    building_coefficient = 0.5,
     enabled = true,
-    enemy_building_influence_radius = 2,
-    friendly_base_influence_radius = 2,
-    max_colliding_tiles_coefficient = 0.9,
+    enemy_building_influence_radius = 3,
+    evolution_group_size_factor = 8,
+    friendly_base_influence_radius = 6,
+    max_colliding_tiles_coefficient = 0.8,
     max_expansion_cooldown = 216000,
-    max_expansion_distance = 7,
-    min_expansion_cooldown = 14400,
-    neighbouring_base_chunk_coefficient = 0.4,
+    max_expansion_distance = 5,
+    min_expansion_cooldown = 36000,
+    min_expansion_distance = 3,
+    neighbouring_base_chunk_coefficient = 0.5,
     neighbouring_chunk_coefficient = 0.5,
-    other_base_coefficient = 2,
-    settler_group_max_size = 20,
+    other_base_coefficient = 3,
+    settler_group_max_size = 10,
     settler_group_min_size = 5
   },
   max_failed_behavior_count = 3,
@@ -78,27 +81,12 @@ return {
     enabled = true,
     enemy_attack_pollution_consumption_modifier = 1,
     expected_max_per_chunk = 150,
-    max_pollution_to_restore_trees = 20,
     min_pollution_to_damage_trees = 60,
     min_to_diffuse = 15,
     min_to_show_per_chunk = 50,
     pollution_per_tree_damage = 50,
     pollution_restored_per_tree_damage = 10,
     pollution_with_max_forest_damage = 150
-  },
-  steering = {
-    default = {
-      force_unit_fuzzy_goto_behavior = false,
-      radius = 1.2,
-      separation_factor = 1.2,
-      separation_force = 0.005
-    },
-    moving = {
-      force_unit_fuzzy_goto_behavior = false,
-      radius = 3,
-      separation_factor = 3,
-      separation_force = 0.01
-    }
   },
   type = "map-settings",
   unit_group = {

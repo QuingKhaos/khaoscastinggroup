@@ -4,7 +4,8 @@ return {
   },
   ai_settings = {
     allow_try_return_to_spawner = true,
-    destroy_when_commands_fail = true
+    destroy_when_commands_fail = true,
+    size_in_group = 1
   },
   attack_parameters = {
     ammo_category = "melee",
@@ -201,6 +202,12 @@ return {
       }
     },
     type = "projectile"
+  },
+  buildable_entities = {
+    "biter-spawner",
+    "spitter-spawner",
+    "small-worm-turret",
+    "small-worm-turret"
   },
   collision_box = {
     {
@@ -434,6 +441,14 @@ return {
     {
       0.4,
       0.4
+    }
+  },
+  steering = {
+    move = {
+      radius = 1.5
+    },
+    stay = {
+      radius = 3
     }
   },
   subgroup = "enemies",

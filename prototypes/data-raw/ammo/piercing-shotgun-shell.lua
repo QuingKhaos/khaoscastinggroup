@@ -10,25 +10,28 @@ return {
               type = "create-explosion"
             }
           },
+          target_effects = {
+            action = {
+              action_delivery = {
+                inherit_speed = true,
+                projectile = "piercing-shotgun-pellet",
+                starting_speed = 1.2,
+                starting_speed_deviation = 0.1,
+                type = "projectile"
+              },
+              radius = 2.5,
+              repeat_count = 18,
+              target_entities = false,
+              type = "area"
+            },
+            type = "nested-result"
+          },
           type = "instant"
         },
         type = "direct"
-      },
-      {
-        action_delivery = {
-          direction_deviation = 0.3,
-          max_range = 15,
-          projectile = "piercing-shotgun-pellet",
-          range_deviation = 0.3,
-          starting_speed = 1,
-          starting_speed_deviation = 0.1,
-          type = "projectile"
-        },
-        repeat_count = 16,
-        type = "direct"
       }
     },
-    clamp_position = true,
+    force_clamp_to_max_range = true,
     target_type = "direction"
   },
   drop_sound = {

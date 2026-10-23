@@ -101,6 +101,7 @@ return {
         }
       }
     },
+    threatening_asteroid_penalty = -20,
     type = "projectile"
   },
   attacking_animation = {
@@ -347,7 +348,7 @@ return {
     },
     type = "create-entity"
   },
-  dying_explosion = "gun-turret-explosion",
+  dying_explosion = "rocket-turret-explosion",
   flags = {
     "placeable-player",
     "player-creation"
@@ -557,12 +558,28 @@ return {
           }
         }
       }
+    },
+    water_reflection = {
+      orientation_to_variation = false,
+      pictures = {
+        filename = "__base__/graphics/entity/lab/lab-reflection.png",
+        height = 24,
+        priority = "extra-high",
+        scale = 5,
+        shift = {
+          0.15625,
+          1.25
+        },
+        variation_count = 1,
+        width = 24
+      },
+      rotate = false
     }
   },
   heating_energy = "50kW",
   icon = "__space-age__/graphics/icons/rocket-turret.png",
   inventory_size = 1,
-  max_health = 400,
+  max_health = 1500,
   minable = {
     mining_time = 0.5,
     result = "rocket-turret"
@@ -779,21 +796,5 @@ return {
       1.5
     }
   },
-  type = "ammo-turret",
-  water_reflection = {
-    orientation_to_variation = false,
-    pictures = {
-      filename = "__base__/graphics/entity/gun-turret/gun-turret-reflection.png",
-      height = 32,
-      priority = "extra-high",
-      scale = 5,
-      shift = {
-        0,
-        1.25
-      },
-      variation_count = 1,
-      width = 20
-    },
-    rotate = false
-  }
+  type = "ammo-turret"
 }

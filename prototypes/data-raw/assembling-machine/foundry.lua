@@ -501,10 +501,7 @@ return {
   },
   corpse = "foundry-remnants",
   crafting_categories = {
-    "metallurgy",
-    "pressing",
-    "crafting-with-fluid-or-metallurgy",
-    "metallurgy-or-assembling"
+    "metallurgy"
   },
   crafting_speed = 4,
   damaged_trigger_effect = {
@@ -1056,32 +1053,40 @@ return {
       layers = {
         {
           animation_speed = 0.16000000000000001,
+          filename = "__space-age__/graphics/entity/foundry/foundry-base.png",
+          height = 384,
+          line_length = 1,
+          repeat_count = 128,
+          scale = 0.5,
+          shift = {
+            -0.015625,
+            -0.296875
+          },
+          width = 356
+        },
+        {
+          animation_speed = 0.16000000000000001,
           filenames = {
-            "__space-age__/graphics/entity/foundry/foundry-main-1.png",
-            "__space-age__/graphics/entity/foundry/foundry-main-2.png"
+            "__space-age__/graphics/entity/foundry/foundry-anim-1.png",
+            "__space-age__/graphics/entity/foundry/foundry-anim-2.png"
           },
           frame_count = 128,
-          height = 398,
+          height = 354,
           line_length = 8,
           lines_per_file = 8,
           scale = 0.5,
           shift = {
-            0,
-            -0.1875
+            -0.109375,
+            -0.25
           },
-          width = 376
+          width = 338
         },
         {
-          animation_speed = 0.16000000000000001,
           draw_as_shadow = true,
-          filenames = {
-            "__space-age__/graphics/entity/foundry/foundry-shadow-1.png",
-            "__space-age__/graphics/entity/foundry/foundry-shadow-2.png"
-          },
-          frame_count = 128,
+          filename = "__space-age__/graphics/entity/foundry/foundry-shadow.png",
           height = 214,
-          line_length = 6,
-          lines_per_file = 11,
+          line_length = 1,
+          repeat_count = 128,
           scale = 0.5,
           shift = {
             1.484375,
@@ -1217,20 +1222,48 @@ return {
       {
         animation = {
           animation_speed = 0.16000000000000001,
-          filenames = {
-            "__space-age__/graphics/entity/foundry/foundry-working-1.png",
-            "__space-age__/graphics/entity/foundry/foundry-working-2.png"
-          },
+          filename = "__space-age__/graphics/entity/foundry/foundry-smoke_1.png",
           frame_count = 128,
-          height = 290,
+          height = 168,
           line_length = 8,
-          lines_per_file = 8,
           scale = 0.5,
           shift = {
-            0.78125,
-            -0.296875
+            1.640625,
+            0.65625
           },
-          width = 314
+          width = 204
+        },
+        fadeout = true
+      },
+      {
+        animation = {
+          animation_speed = 0.16000000000000001,
+          filename = "__space-age__/graphics/entity/foundry/foundry-smoke_2.png",
+          frame_count = 128,
+          height = 160,
+          line_length = 8,
+          scale = 0.5,
+          shift = {
+            -0.890625,
+            0.171875
+          },
+          width = 98
+        },
+        fadeout = true
+      },
+      {
+        animation = {
+          animation_speed = 0.16000000000000001,
+          filename = "__space-age__/graphics/entity/foundry/foundry-smoke_3.png",
+          frame_count = 128,
+          height = 62,
+          line_length = 8,
+          scale = 0.5,
+          shift = {
+            0.453125,
+            -2.078125
+          },
+          width = 58
         },
         fadeout = true
       },
@@ -1244,15 +1277,15 @@ return {
             "__space-age__/graphics/entity/foundry/foundry-lights-2.png"
           },
           frame_count = 128,
-          height = 356,
+          height = 326,
           line_length = 8,
           lines_per_file = 8,
           scale = 0.5,
           shift = {
-            0.953125,
-            -0.234375
+            0.4375,
+            -0.015625
           },
-          width = 442
+          width = 380
         },
         effect = "flicker",
         fadeout = true
@@ -1343,6 +1376,7 @@ return {
     }
   },
   type = "assembling-machine",
+  use_mirroring = true,
   water_reflection = {
     pictures = {
       filename = "__space-age__/graphics/entity/foundry/foundry-reflection.png",

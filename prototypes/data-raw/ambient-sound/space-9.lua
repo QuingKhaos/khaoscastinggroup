@@ -1,5 +1,6 @@
 return {
   name = "space-9",
+  title = "Space 9 - Cold Sunrise",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

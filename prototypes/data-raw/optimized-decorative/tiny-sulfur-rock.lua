@@ -18,7 +18,7 @@ return {
   order = "b[decorative]-l[rock]-d[small]",
   pictures = {
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-01.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-01.png",
       height = 21,
       priority = "extra-high",
       scale = 0.5,
@@ -27,15 +27,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 29
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-02.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-02.png",
       height = 19,
       priority = "extra-high",
       scale = 0.5,
@@ -44,15 +44,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 30
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-03.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-03.png",
       height = 24,
       priority = "extra-high",
       scale = 0.5,
@@ -61,15 +61,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 29
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-04.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-04.png",
       height = 20,
       priority = "extra-high",
       scale = 0.5,
@@ -78,15 +78,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 32
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-05.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-05.png",
       height = 25,
       priority = "extra-high",
       scale = 0.5,
@@ -95,15 +95,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 29
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-06.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-06.png",
       height = 24,
       priority = "extra-high",
       scale = 0.5,
@@ -112,15 +112,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 36
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-07.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-07.png",
       height = 34,
       priority = "extra-high",
       scale = 0.5,
@@ -129,15 +129,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 78
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-08.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-08.png",
       height = 19,
       priority = "extra-high",
       scale = 0.5,
@@ -146,15 +146,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 35
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-09.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-09.png",
       height = 20,
       priority = "extra-high",
       scale = 0.5,
@@ -163,15 +163,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 28
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-10.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-10.png",
       height = 20,
       priority = "extra-high",
       scale = 0.5,
@@ -180,15 +180,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 29
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-11.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-11.png",
       height = 20,
       priority = "extra-high",
       scale = 0.5,
@@ -197,15 +197,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 29
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-12.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-12.png",
       height = 22,
       priority = "extra-high",
       scale = 0.5,
@@ -214,15 +214,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 29
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-13.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-13.png",
       height = 19,
       priority = "extra-high",
       scale = 0.5,
@@ -231,15 +231,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 27
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-14.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-14.png",
       height = 19,
       priority = "extra-high",
       scale = 0.5,
@@ -248,15 +248,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 27
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-15.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-15.png",
       height = 22,
       priority = "extra-high",
       scale = 0.5,
@@ -265,15 +265,15 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 26
     },
     {
-      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock/tiny-volcanic-rock-16.png",
+      filename = "__space-age__/graphics/decorative/tiny-volcanic-rock-copy/tiny-volcanic-rock-16.png",
       height = 20,
       priority = "extra-high",
       scale = 0.5,
@@ -282,15 +282,16 @@ return {
         0
       },
       tint = {
-        0.78800000000000008,
-        0.62699999999999996,
-        0.16700000000000001
+        0.9879999999999999,
+        0.92699999999999996,
+        0.46699999999999999
       },
       tint_as_overlay = true,
       width = 27
     }
   },
-  render_layer = "decorative",
+  render_layer = "decals",
+  tile_layer = 257,
   trigger_effect = {
     {
       affects_target = false,
@@ -370,7 +371,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

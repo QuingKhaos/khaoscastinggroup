@@ -3,11 +3,8 @@ return {
   ammo_type = {
     action = {
       action_delivery = {
-        direction_deviation = 0.1,
-        max_range = 30,
-        min_range = 5,
+        inherit_speed = true,
         projectile = "cannon-projectile",
-        range_deviation = 0.1,
         source_effects = {
           entity_name = "explosion-gunshot",
           type = "create-explosion"
@@ -17,8 +14,9 @@ return {
       },
       type = "direct"
     },
+    clamp_position = true,
     range_modifier = 1.25,
-    target_type = "direction"
+    target_type = "position"
   },
   drop_sound = {
     aggregation = {

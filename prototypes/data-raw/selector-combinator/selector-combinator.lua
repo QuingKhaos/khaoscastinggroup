@@ -164,6 +164,18 @@ return {
     },
     type = "create-entity"
   },
+  default_day_length_output_signal = {
+    name = "signal-L",
+    type = "virtual"
+  },
+  default_day_tick_output_signal = {
+    name = "signal-D",
+    type = "virtual"
+  },
+  default_game_tick_output_signal = {
+    name = "signal-T",
+    type = "virtual"
+  },
   dying_explosion = "selector-combinator-explosion",
   energy_source = {
     type = "electric",
@@ -896,7 +908,78 @@ return {
       y = 44
     }
   },
+  time_symbol_sprites = {
+    east = {
+      draw_as_glow = true,
+      filename = "__base__/graphics/entity/combinator/combinator-displays.png",
+      height = 22,
+      scale = 0.5,
+      shift = {
+        0,
+        -0.328125
+      },
+      width = 30,
+      x = 90,
+      y = 44
+    },
+    north = {
+      draw_as_glow = true,
+      filename = "__base__/graphics/entity/combinator/combinator-displays.png",
+      height = 22,
+      scale = 0.5,
+      shift = {
+        0,
+        -0.140625
+      },
+      width = 30,
+      x = 90,
+      y = 44
+    },
+    south = {
+      draw_as_glow = true,
+      filename = "__base__/graphics/entity/combinator/combinator-displays.png",
+      height = 22,
+      scale = 0.5,
+      shift = {
+        0,
+        -0.140625
+      },
+      width = 30,
+      x = 90,
+      y = 44
+    },
+    west = {
+      draw_as_glow = true,
+      filename = "__base__/graphics/entity/combinator/combinator-displays.png",
+      height = 22,
+      scale = 0.5,
+      shift = {
+        0,
+        -0.328125
+      },
+      width = 30,
+      x = 90,
+      y = 44
+    }
+  },
   type = "selector-combinator",
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/combinator/combinators-reflection.png",
+      height = 16,
+      priority = "extra-high",
+      repeat_count = 2,
+      scale = 5,
+      shift = {
+        0,
+        0.78125
+      },
+      variation_count = 2,
+      width = 16
+    },
+    rotate = false
+  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,

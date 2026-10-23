@@ -326,6 +326,7 @@ return {
     }
   },
   max_health = 60,
+  max_separation_force = 0.01,
   name = "destroyer",
   order = "f[destroyer]-a[robot]",
   range_from_player = 6,
@@ -350,6 +351,8 @@ return {
       -0.5
     }
   },
+  separation_force_factor = 0.01,
+  separation_range = 1.5,
   shadow_idle = {
     direction_count = 32,
     draw_as_shadow = true,

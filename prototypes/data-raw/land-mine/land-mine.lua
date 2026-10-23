@@ -51,7 +51,33 @@ return {
     },
     type = "direct"
   },
+  alert_when_damaged = false,
   ammo_category = "landmine",
+  circuit_connector = {
+    points = {
+      shadow = {
+        green = {
+          0.1,
+          0.3
+        },
+        red = {
+          -0.1,
+          0.3
+        }
+      },
+      wire = {
+        green = {
+          0.1,
+          0.3
+        },
+        red = {
+          -0.1,
+          0.3
+        }
+      }
+    }
+  },
+  circuit_wire_max_distance = 9,
   close_sound = {
     filename = "__base__/sound/machine-close.ogg",
     volume = 0.29

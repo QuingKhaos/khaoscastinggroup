@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "electromagnetics",
+  categories = {
+    "electromagnetics"
+  },
   enabled = false,
   energy_required = 10,
   ingredients = {

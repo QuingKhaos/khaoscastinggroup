@@ -2,7 +2,10 @@ return {
   allow_productivity = false,
   allow_quality = false,
   auto_recycle = false,
-  category = "organic-or-chemistry",
+  categories = {
+    "organic",
+    "chemistry"
+  },
   crafting_machine_tint = {
     primary = {
       0,
@@ -40,17 +43,16 @@ return {
   },
   name = "fish-breeding",
   order = "b[nauvis-agriculture]-b[fish-breeding]",
-  reset_freshness_on_craft = true,
   results = {
     {
       amount = 3,
       ignored_by_productivity = 2,
       ignored_by_stats = 2,
       name = "raw-fish",
+      reset_freshness_on_craft = true,
       type = "item"
     }
   },
-  show_amount_in_title = false,
   subgroup = "nauvis-agriculture",
   surface_conditions = {
     {

@@ -1,6 +1,8 @@
 return {
   auto_recycle = false,
-  category = "crafting",
+  categories = {
+    "crafting"
+  },
   enabled = false,
   energy_required = 0.5,
   ingredients = {

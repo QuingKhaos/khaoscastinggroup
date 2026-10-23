@@ -1,7 +1,9 @@
 return {
   allow_decomposition = false,
   allow_quality = false,
-  category = "crafting-with-fluid",
+  categories = {
+    "crafting-with-fluid"
+  },
   enabled = false,
   energy_required = 0.2,
   factoriopedia_alternative = "barrel",

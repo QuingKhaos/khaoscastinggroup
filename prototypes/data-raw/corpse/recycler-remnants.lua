@@ -2,7 +2,7 @@ return {
   animation = {
     {
       direction_count = 4,
-      filename = "__quality__/graphics/entity/recycler/recycler-remnants.png",
+      filename = "__recycler__/graphics/entity/recycler/recycler-remnants.png",
       height = 384,
       line_length = 4,
       scale = 0.5,
@@ -15,7 +15,7 @@ return {
     },
     {
       direction_count = 4,
-      filename = "__quality__/graphics/entity/recycler/recycler-remnants.png",
+      filename = "__recycler__/graphics/entity/recycler/recycler-remnants.png",
       height = 384,
       line_length = 4,
       scale = 0.5,
@@ -34,7 +34,7 @@ return {
     "not-on-map"
   },
   hidden_in_factoriopedia = true,
-  icon = "__quality__/graphics/icons/recycler.png",
+  icon = "__recycler__/graphics/icons/recycler.png",
   localised_name = {
     "remnant-name",
     {

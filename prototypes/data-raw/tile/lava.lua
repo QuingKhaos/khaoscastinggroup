@@ -21,7 +21,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -145,8 +145,7 @@ return {
   subgroup = "vulcanus-tiles",
   transitions = {
     {
-      apply_effect_color_to_overlay = true,
-      apply_waving_effect_on_masks = true,
+      apply_effect_color_to_overlay = false,
       background_enabled = false,
       background_layer_group = "zero",
       background_layer_offset = 1,
@@ -176,6 +175,9 @@ return {
         u_transition_tile_height = 2,
         u_transition_y = 1728
       },
+      lightmap_layout = {
+        spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/lava-out-of-map-transition.png"
+      },
       mask_layout = {
         count = 1,
         double_side_count = 0,
@@ -183,19 +185,18 @@ return {
         outer_corner_x = 64,
         scale = 0.5,
         side_x = 128,
-        spritesheet = "__base__/graphics/terrain/masks/water-edge-transition.png",
+        spritesheet = "__space-age__/graphics/terrain/masks/lava-edge-transition.png",
         u_transition_x = 192,
         y = 0
       },
       offset_background_layer_by_tile_layer = true,
       overlay_layer_group = "zero",
-      spritesheet = "__base__/graphics/terrain/out-of-map-transition/water-out-of-map-transition-tintable.png",
+      spritesheet = "__space-age__/graphics/terrain/out-of-map-transition/lava-out-of-map-transition.png",
       to_tiles = {
         "out-of-map",
         "empty-space"
       },
-      transition_group = 2,
-      waving_effect_time_scale = 0.005
+      transition_group = 2
     }
   },
   trigger_effect = {
