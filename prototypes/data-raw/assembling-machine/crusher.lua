@@ -583,9 +583,6 @@ return {
   },
   dying_explosion = "electric-furnace-explosion",
   energy_source = {
-    emissions_per_minute = {
-      pollution = 1
-    },
     type = "electric",
     usage_priority = "secondary-input"
   },
@@ -840,7 +837,6 @@ return {
       }
     }
   },
-  heating_energy = "200kW",
   icon = "__space-age__/graphics/icons/crusher.png",
   icon_draw_specification = {
     shift = {
