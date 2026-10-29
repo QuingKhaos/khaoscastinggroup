@@ -1,6 +1,7 @@
 return {
   absorptions_per_second = {
-    pollution = 0.0001
+    pollution = 0.0001,
+    spores = 0.0001
   },
   collision_mask = {
     layers = {
