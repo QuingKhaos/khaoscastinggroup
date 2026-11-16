@@ -22,6 +22,7 @@ return {
     results = {}
   },
   name = "item-request-proxy",
+  order = "c",
   selection_box = {
     {
       0,

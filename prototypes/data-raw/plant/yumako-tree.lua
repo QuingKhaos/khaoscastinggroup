@@ -74,6 +74,29 @@ return {
       "overgrowth-yumako-soil"
     }
   },
+  build_sound = {
+    aggregation = {
+      max_count = 3,
+      remove = true
+    },
+    filename = "__core__/sound/build-organic.ogg",
+    modifiers = {
+      {
+        type = "main-menu",
+        volume_multiplier = 0.64000000000000004
+      },
+      {
+        type = "tips-and-tricks",
+        volume_multiplier = 0.8
+      }
+    },
+    priority = 64,
+    switch_vibration_data = {
+      filename = "__core__/sound/build-small.bnvib",
+      gain = 0.2
+    },
+    volume = 0.7
+  },
   collision_box = {
     {
       -0.8,
@@ -2246,6 +2269,33 @@ return {
           y = 560
         }
       }
+    }
+  },
+  working_sound = {
+    activity_to_volume_modifiers = {
+      multiplier = 2
+    },
+    match_volume_to_activity = true,
+    max_sounds_per_prototype = 1,
+    sound = {
+      advanced_volume_control = {
+        fades = {
+          fade_in = {
+            curve_type = "cosine",
+            from = {
+              control = 0.5,
+              volume_percentage = 0
+            },
+            to = {
+              1.5,
+              100
+            }
+          }
+        }
+      },
+      audible_distance_modifier = 0.3,
+      filename = "__space-age__/sound/world/plants/yumako-growth-loop.ogg",
+      volume = 0.25
     }
   }
 }

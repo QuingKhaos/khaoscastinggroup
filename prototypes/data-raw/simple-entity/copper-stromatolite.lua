@@ -258,7 +258,7 @@ return {
           0.0859375,
           0.0234375
         },
-        variation_count = 10,
+        variation_count = 13,
         width = 246
       }
     }
@@ -309,7 +309,7 @@ return {
             0,
             0
           },
-          variation_count = 10,
+          variation_count = 13,
           width = 288
         }
       }

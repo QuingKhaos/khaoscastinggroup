@@ -622,52 +622,107 @@ return {
       },
       pipe_picture = {
         east = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E.png",
-          height = 74,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            -0.71875,
-            0.0625
-          },
-          width = 32
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E.png",
+              height = 74,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.71875,
+                0.0625
+              },
+              width = 32
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E-shadow.png",
+              height = 44,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.25,
+                0.171875
+              },
+              width = 48
+            }
+          }
         },
         north = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-N.png",
-          height = 20,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            0.015625,
-            0.34375
-          },
-          width = 52
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-N.png",
+              height = 20,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.015625,
+                0.34375
+              },
+              width = 52
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-N-shadow.png",
+              height = 8,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.234375,
+                0.703125
+              },
+              width = 70
+            }
+          }
         },
         south = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S.png",
-          height = 70,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            0,
-            -0.765625
-          },
-          width = 64
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S.png",
+              height = 70,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0,
+                -0.765625
+              },
+              width = 80
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S-shadow.png",
+              height = 38,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.21875,
+                -0.640625
+              },
+              width = 90
+            }
+          }
         },
         west = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-W.png",
-          height = 72,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            0.734375,
-            0.015625
-          },
-          width = 32
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-W.png",
+              height = 72,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.734375,
+                0.015625
+              },
+              width = 32
+            }
+          }
         }
       },
       pipe_picture_frozen = {
@@ -847,52 +902,107 @@ return {
       },
       pipe_picture = {
         east = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E.png",
-          height = 74,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            -0.71875,
-            0.0625
-          },
-          width = 32
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E.png",
+              height = 74,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.71875,
+                0.0625
+              },
+              width = 32
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E-shadow.png",
+              height = 44,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                -0.25,
+                0.171875
+              },
+              width = 48
+            }
+          }
         },
         north = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-N.png",
-          height = 20,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            0.015625,
-            0.34375
-          },
-          width = 52
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-N.png",
+              height = 20,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.015625,
+                0.34375
+              },
+              width = 52
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-N-shadow.png",
+              height = 8,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.234375,
+                0.703125
+              },
+              width = 70
+            }
+          }
         },
         south = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S.png",
-          height = 70,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            0,
-            -0.765625
-          },
-          width = 64
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S.png",
+              height = 70,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0,
+                -0.765625
+              },
+              width = 80
+            },
+            {
+              draw_as_shadow = true,
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S-shadow.png",
+              height = 38,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.21875,
+                -0.640625
+              },
+              width = 90
+            }
+          }
         },
         west = {
-          filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-W.png",
-          height = 72,
-          line_length = 1,
-          priority = "extra-high",
-          scale = 0.5,
-          shift = {
-            0.734375,
-            0.015625
-          },
-          width = 32
+          layers = {
+            {
+              filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-W.png",
+              height = 72,
+              line_length = 1,
+              priority = "extra-high",
+              scale = 0.5,
+              shift = {
+                0.734375,
+                0.015625
+              },
+              width = 32
+            }
+          }
         }
       },
       pipe_picture_frozen = {

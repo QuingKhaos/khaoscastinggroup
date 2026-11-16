@@ -1,4 +1,5 @@
 return {
+  ["depleted-mining-drill-proxy"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.depleted-mining-drill-proxy"),
   ["entity-ghost"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.entity-ghost"),
   ["entity-unknown"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.entity-unknown"),
   ["tile-proxy"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.tile-proxy"),

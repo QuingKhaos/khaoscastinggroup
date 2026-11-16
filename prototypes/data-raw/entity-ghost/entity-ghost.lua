@@ -59,5 +59,6 @@ return {
     filename = "__base__/sound/open-close/ghost-entity-open.ogg",
     volume = 0.7
   },
+  order = "a",
   type = "entity-ghost"
 }
