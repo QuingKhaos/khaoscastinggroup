@@ -708,7 +708,7 @@ return {
         {
           filename = "__space-age__/graphics/entity/frozen/storage-tank/storage-tank.png",
           frames = 2,
-          height = 215,
+          height = 245,
           priority = "extra-high",
           scale = 0.5,
           shift = {

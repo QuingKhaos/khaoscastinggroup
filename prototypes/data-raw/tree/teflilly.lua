@@ -341,7 +341,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -363,7 +363,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -386,7 +386,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -403,7 +403,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -417,7 +417,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -489,7 +489,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -511,7 +511,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -534,7 +534,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -551,7 +551,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -565,7 +565,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -637,7 +637,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -659,7 +659,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -682,7 +682,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -699,7 +699,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -713,7 +713,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -785,7 +785,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -807,7 +807,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -830,7 +830,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -847,7 +847,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -861,7 +861,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -933,7 +933,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -955,7 +955,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -978,7 +978,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -995,7 +995,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1009,7 +1009,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -1081,7 +1081,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1103,7 +1103,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1126,7 +1126,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1143,7 +1143,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1157,7 +1157,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -1229,7 +1229,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1251,7 +1251,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1274,7 +1274,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1291,7 +1291,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1305,7 +1305,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -1377,7 +1377,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1399,7 +1399,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1422,7 +1422,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1439,7 +1439,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1453,7 +1453,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -1525,7 +1525,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1547,7 +1547,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1570,7 +1570,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1587,7 +1587,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1601,7 +1601,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",
@@ -1673,7 +1673,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1695,7 +1695,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1718,7 +1718,7 @@ return {
         lines_per_file = 1,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1735,7 +1735,7 @@ return {
         height = 560,
         scale = 0.33000000000000003,
         shift = {
-          1.625,
+          0.96500000000000004,
           -1.875
         },
         surface = "gleba",
@@ -1749,7 +1749,7 @@ return {
           height = 560,
           scale = 0.33000000000000003,
           shift = {
-            1.625,
+            0.96500000000000004,
             1.875
           },
           surface = "gleba",

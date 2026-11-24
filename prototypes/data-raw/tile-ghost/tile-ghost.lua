@@ -28,6 +28,7 @@ return {
     volume = 0.7
   },
   name = "tile-ghost",
+  order = "d",
   selection_priority = 30,
   type = "tile-ghost"
 }

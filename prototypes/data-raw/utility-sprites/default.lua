@@ -5495,14 +5495,13 @@ return {
     width = 64
   },
   parametrise = {
-    filename = "__core__/graphics/icons/parametrise.png",
+    filename = "__core__/graphics/icons/mip/parametrise.png",
     flags = {
       "gui-icon"
     },
-    mipmap_count = 4,
+    mipmap_count = 2,
     priority = "extra-high-no-scale",
-    scale = 0.5,
-    size = 64,
+    size = 32,
     type = "sprite"
   },
   pause = {

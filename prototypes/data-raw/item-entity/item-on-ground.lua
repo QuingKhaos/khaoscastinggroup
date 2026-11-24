@@ -21,6 +21,7 @@ return {
     mining_time = 0.025
   },
   name = "item-on-ground",
+  order = "b",
   selection_box = {
     {
       -0.17000000000000002,

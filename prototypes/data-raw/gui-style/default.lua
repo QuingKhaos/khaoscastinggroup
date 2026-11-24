@@ -15478,6 +15478,76 @@ return {
     parent = "slot_button",
     type = "button_style"
   },
+  red_slot_button_in_shallow_frame = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        position = {
+          400,
+          656
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 8,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          353,
+          111
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    default_graphical_set = {
+      base = {
+        border = 4,
+        position = {
+          240,
+          656
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 8,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          353,
+          111
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        position = {
+          320,
+          656
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 8,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          353,
+          111
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button_in_shallow_frame",
+    type = "button_style"
+  },
   relative_gui_bottom_flow = {
     horizontal_spacing = 0,
     horizontally_stretchable = "on",
@@ -16973,7 +17043,7 @@ return {
         136
       }
     },
-    minimal_height = 80,
+    minimal_height = 40,
     parent = "shallow_scroll_pane",
     type = "scroll_pane_style"
   },
